@@ -1,0 +1,650 @@
+[
+  {
+    "insight": "Ola Electric's annual revenue grew from Rs 0.86 Cr in FY21 to Rs 5,009.83 Cr in FY24 (5,826x growth over 3 years), then declined to Rs 4,514 Cr in FY25 (-9.9% YoY decline) as the service crisis hit sales.",
+    "source_file": "PROFIT_AND_LOSS.csv",
+    "source_cells": "Row 2: Sales values for Mar-21 through Mar-25",
+    "connects_to": ["Revenue Collapse", "Service Crisis Impact", "Market Share Decline"],
+    "causal_chain": "Massive scale-up post-IPO was followed by service quality failures that triggered demand collapse and revenue decline in FY25.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Net loss widened every year: Rs -199.23 Cr (FY21), Rs -784.15 Cr (FY22), Rs -1,472.08 Cr (FY23), Rs -1,584.4 Cr (FY24), and Rs -2,276 Cr (FY25). Cumulative losses over 5 years: Rs 6,315.86 Cr.",
+    "source_file": "PROFIT_AND_LOSS.csv",
+    "source_cells": "Row 15: Net profit values for Mar-21 through Mar-25",
+    "connects_to": ["Cumulative Losses", "Balance Sheet Deterioration", "Cash Burn"],
+    "causal_chain": "Heavy investment in R&D, manufacturing capacity, and service network expansion before achieving operating leverage drove accumulating losses.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Raw Material Cost escalated from Rs 641.12 Cr (FY22) to Rs 4,460.66 Cr (FY24), then declined to Rs 3,699 Cr (FY25) as sales volume dropped. Change in Inventory flipped from positive Rs 81.14 Cr (FY24) to negative Rs -9 Cr (FY25), indicating destocking.",
+    "source_file": "PROFIT_AND_LOSS.csv",
+    "source_cells": "Row 3: Raw Material Cost, Row 4: Change in Inventory for Mar-22 through Mar-25",
+    "connects_to": ["Revenue Collapse", "Working Capital", "Inventory Dynamics"],
+    "causal_chain": "Sales decline forced destocking as demand fell faster than production could be adjusted.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Employee Cost grew from Rs 197.25 Cr (FY21) to Rs 465 Cr (FY25) - only 2.36x growth, far slower than revenue growth (5,248x), demonstrating operating leverage in fixed costs. As % of sales, it dropped from 22,935% to 10.3%.",
+    "source_file": "PROFIT_AND_LOSS.csv",
+    "source_cells": "Row 7: Employee Cost for Mar-21 through Mar-25",
+    "connects_to": ["Operating Leverage", "Cost Structure"],
+    "causal_chain": "Fixed employee base was leveraged across growing sales, dramatically reducing employee cost as % of revenue.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Selling & Admin expenses ballooned from Rs 58.06 Cr (FY21) to Rs 1,598 Cr (FY25) - a 27.5x increase, far outpacing the 5,249x revenue growth in percentage terms. By FY25, S&A alone was 35.4% of revenue, indicating massive overhead.",
+    "source_file": "PROFIT_AND_LOSS.csv",
+    "source_cells": "Row 8: Selling and admin for Mar-21 through Mar-25",
+    "connects_to": ["Cost Structure", "D2C Model Overhead", "Service Crisis"],
+    "causal_chain": "D2C model required expensive experience centers and service network, creating fixed overhead that became burdensome when sales declined.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Interest cost grew from Rs 0.79 Cr (FY21) to Rs 366 Cr (FY25) - a 463x increase, while borrowings rose from Rs 42.18 Cr to Rs 3,556 Cr (84x). Interest-to-borrowing ratio suggests increasing cost of debt.",
+    "source_file": "PROFIT_AND_LOSS.csv",
+    "source_cells": "Row 12: Interest for Mar-21 through Mar-25",
+    "connects_to": ["Debt Burden", "Balance Sheet Risk"],
+    "causal_chain": "Rising debt to fund CapEx and operating losses created growing interest burden that compounded losses.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Depreciation grew from Rs 19.62 Cr (FY21) to Rs 566 Cr (FY25) - a 29x increase, reflecting massive capital expenditure on Futurefactory and Gigafactory assets becoming operational.",
+    "source_file": "PROFIT_AND_LOSS.csv",
+    "source_cells": "Row 11: Depreciation for Mar-21 through Mar-25",
+    "connects_to": ["Asset Base", "Gigafactory", "Futurefactory"],
+    "causal_chain": "Heavy capital investment in manufacturing capacity created a growing depreciation charge that weighs on profitability.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Other Income grew from Rs 98.34 Cr (FY21) to Rs 391 Cr (FY25) - 4x growth, partly from government incentives (Tamil Nadu SGST reimbursement) and interest on IPO proceeds deposits.",
+    "source_file": "PROFIT_AND_LOSS.csv",
+    "source_cells": "Row 10: Other Income for Mar-21 through Mar-25",
+    "connects_to": ["Government Incentives", "Cash Position"],
+    "causal_chain": "Tamil Nadu state incentives and IPO proceeds parked in deposits generated growing other income, partially offsetting operating losses.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Quarterly revenue peaked at Rs 1,644 Cr (Q1 FY25 - Jun-24) then collapsed 71.4% to Rs 470 Cr (Q4 FY26 - Dec-25). The sequential quarterly decline: Q1->Q2: -21.3%, Q2->Q3: -16.6%, Q3->Q4: -9.1%, Q4->Q1 FY26: -38.2%, Q1->Q2: -33.8%.",
+    "source_file": "QUATERS.csv",
+    "source_cells": "Row 2: Sales values from Sep-23 through Dec-25",
+    "connects_to": ["Market Share Collapse", "Service Crisis Impact", "Revenue Decline"],
+    "causal_chain": "Service crisis (Oct 2024 CCPA notice) caused demand collapse that accelerated through Q4 FY25 and Q1 FY26, with the steepest drops in the crisis aftermath quarters.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Quarterly expenses exceeded revenue every quarter. Expenses peaked at Rs 1,910 Cr (Mar-24) then declined to Rs 741 Cr (Dec-25). Operating loss (EBITDA): worst at Rs -695 Cr (Mar-25), best at Rs -203 Cr (Sep-25).",
+    "source_file": "QUATERS.csv",
+    "source_cells": "Row 3: Expenses, Row 10: Operating Profit from Sep-23 through Dec-25",
+    "connects_to": ["Cost Structure", "Operating Leverage"],
+    "causal_chain": "Expenses declined slower than revenue because fixed costs (depreciation, employee, service network) couldn't be reduced proportionally.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Quarterly net losses: Rs -524 Cr (Sep-23), -376 Cr (Dec-23), -416 Cr (Mar-24), -347 Cr (Jun-24), -495 Cr (Sep-24), -564 Cr (Dec-24), -870 Cr (Mar-25), -428 Cr (Jun-25), -418 Cr (Sep-25), -487 Cr (Dec-25). The worst loss was Rs -870 Cr in Mar-25 (Q4 FY25).",
+    "source_file": "QUATERS.csv",
+    "source_cells": "Row 9: Net profit values from Sep-23 through Dec-25",
+    "connects_to": ["Loss Trajectory", "Cash Burn", "Crisis Impact"],
+    "causal_chain": "Losses peaked in Q4 FY25 as revenue collapsed while expenses hadn't yet been cut; subsequent quarters showed narrowing losses as cost-cutting took effect.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Cash from Operations was consistently negative: Rs -252 Cr (FY21), -885 Cr (FY22), -1,507 Cr (FY23), -633 Cr (FY24), -2,391 Cr (FY25). Total operating cash outflow over 5 years: Rs 5,668 Cr.",
+    "source_file": "CASH_FLOW_AND_DERIVED.csv",
+    "source_cells": "Row 2: Cash from Operating Activity for Mar-21 through Mar-25",
+    "connects_to": ["Cash Burn", "Runway", "Balance Sheet Strength"],
+    "causal_chain": "Ola has never generated positive operating cash flow; every year of operations consumed cash, funded by financing activities (IPO and debt).",
+    "category": "Financial"
+  },
+  {
+    "insight": "Cash from Investing was also negative except FY21: Rs 549 Cr (FY21), -1,322 Cr (FY22), -319 Cr (FY23), -1,136 Cr (FY24), -2,864 Cr (FY25). Cumulative investing outflow: Rs 5,092 Cr, reflecting Gigafactory and Futurefactory CapEx.",
+    "source_file": "CASH_FLOW_AND_DERIVED.csv",
+    "source_cells": "Row 3: Cash from Investing Activity for Mar-21 through Mar-25",
+    "connects_to": ["CapEx", "Gigafactory Investment", "Asset Creation"],
+    "causal_chain": "Massive capital expenditure on manufacturing and cell production capacity consumed cash, with the heaviest spending in FY25 as Gigafactory commercial production began.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Cash from Financing: Rs 3 Cr (FY21), Rs 3,085 Cr (FY22), Rs 659 Cr (FY23), Rs 1,590 Cr (FY24), Rs 5,429 Cr (FY25). The Rs 5,429 Cr raised in FY25 represents IPO proceeds and follow-on debt financing.",
+    "source_file": "CASH_FLOW_AND_DERIVED.csv",
+    "source_cells": "Row 4: Cash from Financing Activity for Mar-21 through Mar-25",
+    "connects_to": ["IPO Proceeds", "Debt Funding"],
+    "causal_chain": "Ola relied entirely on external financing (IPO + debt) to fund operations and investment, never generating internal cash.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Net Cash Flow was positive in only 3 of 5 years: Rs 300 Cr (FY21), Rs 878 Cr (FY22), Rs -1,167 Cr (FY23), Rs -179 Cr (FY24), Rs 174 Cr (FY25). Positive in FY25 solely because IPO proceeds offset massive operating and investing cash outflows.",
+    "source_file": "CASH_FLOW_AND_DERIVED.csv",
+    "source_cells": "Row 5: Net Cash Flow for Mar-21 through Mar-25",
+    "connects_to": ["IPO Impact", "Cash Position", "Liquidity"],
+    "causal_chain": "Without IPO proceeds in FY25, net cash flow would have been deeply negative, and Ola would have faced a liquidity crisis.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Equity shares outstanding grew from 10,000 (FY21) to 1,955,449,972 (FY22-FY24) to 4,410,829,885 (FY25), reflecting the Pre-IPO conversion of CCPS and the IPO fresh issue. Face value: Rs 10 per share.",
+    "source_file": "BALANCE_SHEET.csv",
+    "source_cells": "Row 15: No. of Equity Shares for Mar-21 through Mar-25",
+    "connects_to": ["Capital Structure", "IPO Dilution"],
+    "causal_chain": "The 2.26x increase in share count from FY24 to FY25 reflects IPO fresh issue and CCPS conversion, diluting pre-IPO investors.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Equity Share Capital went from Rs 0.01 Cr (FY21) to Rs 1,955.45 Cr (FY22-FY24) to Rs 4,411 Cr (FY25). Reserves went from Rs 1,970.6 Cr (FY21) positive to deeply negative Rs -2,909.43 Cr (FY24) before bouncing to Rs 732 Cr (FY25) in positive territory due to IPO.",
+    "source_file": "BALANCE_SHEET.csv",
+    "source_cells": "Row 2: Equity Share Capital, Row 3: Reserves for Mar-21 through Mar-25",
+    "connects_to": ["Net Worth", "IPO Impact", "Loss Accumulation"],
+    "causal_chain": "Cumulative losses eroded reserves deeply negative until the IPO infusion restored positive reserves in FY25.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Borrowings peaked at Rs 5,683.72 Cr (FY24) then declined to Rs 3,556 Cr (FY25) as IPO proceeds were used to repay debt. Net Block grew from Rs 104.18 Cr (FY21) to Rs 3,154 Cr (FY25) - 30x increase reflecting asset build.",
+    "source_file": "BALANCE_SHEET.csv",
+    "source_cells": "Row 4: Borrowings, Row 7: Net Block for Mar-21 through Mar-25",
+    "connects_to": ["Debt Reduction", "Asset Creation", "IPO Proceeds Use"],
+    "causal_chain": "A portion of IPO proceeds was earmarked for debt repayment, visible in the Rs 2,128 Cr reduction from FY24 to FY25.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Total Liabilities grew from Rs 2,112.64 Cr (FY21) to Rs 11,075 Cr (FY25) - 5.2x growth. Total Assets grew commensurately from Rs 2,112.64 Cr to Rs 11,075 Cr.",
+    "source_file": "BALANCE_SHEET.csv",
+    "source_cells": "Row 6: Total Liabilities, Row 11: Total Assets for Mar-21 through Mar-25",
+    "connects_to": ["Balance Sheet Growth", "Leverage"],
+    "causal_chain": "Assets and liabilities grew in lockstep as the company scaled, funded by a mix of debt and equity.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Cash & Bank balance: Rs 1,365.93 Cr (FY21) -> Rs 2,096.76 Cr (FY22) -> Rs 1,529.29 Cr (FY23) -> Rs 1,663.09 Cr (FY24) -> Rs 3,516 Cr (FY25). The FY25 jump reflects IPO proceeds of ~Rs 5,500 Cr partially offset by debt repayment and operating losses.",
+    "source_file": "BALANCE_SHEET.csv",
+    "source_cells": "Row 14: Cash & Bank for Mar-21 through Mar-25",
+    "connects_to": ["Cash Runway", "IPO Proceeds", "Liquidity"],
+    "causal_chain": "IPO proceeds boosted cash to Rs 3,516 Cr, giving Ola an estimated 12-18 month runway at current burn rate (~Rs 200-300 Cr/quarter).",
+    "category": "Financial"
+  },
+  {
+    "insight": "Receivables jumped from Rs 0.38 Cr (FY21) to Rs 158.48 Cr (FY24) before collapsing to Rs 9 Cr (FY25) - suggesting aggressive collections or factoring as cash became tight. Inventory grew from Rs 3.22 Cr (FY21) to Rs 784 Cr (FY25).",
+    "source_file": "BALANCE_SHEET.csv",
+    "source_cells": "Row 12: Receivables, Row 13: Inventory for Mar-21 through Mar-25",
+    "connects_to": ["Working Capital", "Cash Management"],
+    "causal_chain": "The receivables collapse from FY24 to FY25 (-94%) alongside revenue decline suggests either factoring receivables or sales shift to cash/dealer model.",
+    "category": "Financial"
+  },
+  {
+    "insight": "IPO offer document disclosed FY23 revenue from operations of Rs 26,309.27 Mn (Rs 2,630.93 Cr) and loss before tax of Rs 14,720.79 Mn (Rs 1,472.08 Cr). EBITDA margin was -43.02% for FY23, improving from -157.27% in FY22.",
+    "source_file": "financial_mda.txt",
+    "source_cells": "Page 329-330: EBITDA reconciliation for Fiscals 2021-2023",
+    "connects_to": ["Pre-IPO Financials", "Margin Trajectory"],
+    "causal_chain": "The IPO document showed rapidly improving EBITDA margins (from -157% to -43%) as operating leverage kicked in, but the company was still deeply loss-making.",
+    "category": "Financial"
+  },
+  {
+    "insight": "IPO fresh issue was Rs 55,000 Mn (Rs 5,500 Cr). Offer for Sale component was up to 95,191,195 equity shares from selling shareholders including SoftBank (SVF II Ostrich - 21.98% pre-IPO), Bhavish Aggarwal (36.94% pre-IPO), and others.",
+    "source_file": "offer_document_summary.txt",
+    "source_cells": "Page 17-18: Offer Size and Pre-Offer Shareholding",
+    "connects_to": ["IPO Structure", "SoftBank Exit", "Capital Raise"],
+    "causal_chain": "The Rs 5,500 Cr fresh issue was intended for CapEx (Rs 1,226 Cr for Gigafactory), debt repayment (Rs 800 Cr), R&D (Rs 1,600 Cr), and organic growth (Rs 350 Cr).",
+    "category": "Financial"
+  },
+  {
+    "insight": "Pre-IPO shareholding: SVF II Ostrich (SoftBank) held 21.98% - the largest external shareholder. Bhavish Aggarwal held 36.94%. Internet Fund III Pte Ltd held 6.03%. Matrix entities held combined ~3.51%. Alpha Wave Ventures held 3.49%.",
+    "source_file": "offer_document_summary.txt",
+    "source_cells": "Page 18-19: Pre-Offer Shareholding table",
+    "connects_to": ["Shareholding Pattern", "SoftBank Overhang"],
+    "causal_chain": "SoftBank's large 21.98% stake created lockup expiry overhang risk, which materialized as selling pressure post-IPO.",
+    "category": "Shareholding"
+  },
+  {
+    "insight": "Pre-IPO weighted average acquisition prices: Internet Fund III at Rs 11.70/share (lowest), Matrix at Rs 8.22/share, Sarin Family at Rs 8.22/share - suggesting early-stage pricing. SoftBank at Rs 50.94/share. Highest: Tekne Private Ventures at Rs 113.12/share and Ab Initio at Rs 111.51/share.",
+    "source_file": "offer_document_summary.txt",
+    "source_cells": "Pages 20-21: Weighted average acquisition prices",
+    "connects_to": ["Investor Returns", "IPO Pricing"],
+    "causal_chain": "Early investors (Internet Fund III, Matrix) acquired at Rs 8-12/share, while later investors (Tekne, Ab Initio) paid Rs 111-113/share, indicating massive valuation escalation.",
+    "category": "Shareholding"
+  },
+  {
+    "insight": "IPO listing price was approximately Rs 76 (Aug 2024). Stock hit post-IPO high of ~Rs 150, then crashed to ~Rs 29 (May 2026) - a 52% decline from highs and 62% decline from listing price. Market cap: Rs 15,923 Cr ($1.56B).",
+    "source_file": "META.csv, Ola_after_ipo.txt",
+    "source_cells": "META - Row 7: Current Price=36.1, Row 8: Market Cap=15,923.14. Ola_after_ipo.txt Section 1",
+    "connects_to": ["Investor Sentiment", "Market Performance", "Value Destruction"],
+    "causal_chain": "Service crisis, market share collapse, and investor exodus drove stock from Rs 150 peak to Rs 29, destroying ~Rs 36,000 Cr in market cap from peak.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Current price Rs 36.1 (META.csv) vs Rs 29 (Ola_after_ipo.txt) may reflect different dates. META likely shows a more recent price; Ola post-IPO analysis was written at a different snapshot. Market cap of Rs 15,923 Cr on 441.08 Cr shares = Rs 36.1/share.",
+    "source_file": "META.csv, Ola_after_ipo.txt",
+    "source_cells": "META Row 5: Shares=441.08 Cr, Row 7: Price=36.1, Row 8: Mkt Cap=15,923.14",
+    "connects_to": ["Stock Volatility", "Market Data Discrepancy"],
+    "causal_chain": "Stock price continues to slide as market absorbs negative news flow about service crisis, competition, and market share losses.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Market share collapsed from ~35% (pre-IPO early 2024) to ~8.2% (Apr 2026 - 5th place). FY26 total units: 164,000 vs FY25 ~340,000 = 52% decline. Competitors overtook: TVS (24%), Bajaj (22%), Ather (16%), Hero Vida (11%).",
+    "source_file": "Ola_after_ipo.txt",
+    "source_cells": "Section 1: Market Share Collapse",
+    "connects_to": ["Competitive Position", "Market Share Decline", "Service Crisis"],
+    "causal_chain": "Service crisis destroyed consumer trust; legacy OEMs with established dealer networks (TVS 1000+, Bajaj 3800+, Hero largest) captured fleeing customers.",
+    "category": "Risk"
+  },
+  {
+    "insight": "S1 X mix grew from 15% (Q1 FY25) to 75% (Q3 FY26). Blended ASP declined from Rs 1,35,000 (Q1 FY25) to Rs 89,000 (Q3 FY26) - a 34% decline. Despite lower ASP, gross margins IMPROVED from 18% to 34.3% because S1 X has simpler build and fewer parts.",
+    "source_file": "QUARTERLY_FINANCIALS_EXT.csv, PRODUCT_MIX_QUARTERLY.csv",
+    "source_cells": "QUARTERLY_FINANCIALS_EXT: Row 2-9. PRODUCT_MIX_QUARTERLY: Row 2-9, Col 3-4 (S1_X_Pct, Blended_ASP_INR)",
+    "connects_to": ["Product Mix Shift", "Margin Paradox", "ASP Decline", "Gigafactory Benefit"],
+    "causal_chain": "As sales declined, Ola shifted to cheaper S1 X model which has better unit economics (fewer features, simpler manufacturing). Combined with Gigafactory cell cost reduction, gross margins improved despite falling ASP.",
+    "category": "Product_Mix"
+  },
+  {
+    "insight": "EBITDA margins by quarter: -8.2% (Q1 FY25) -> -12.5% (Q2 FY25) -> -18.4% (Q3 FY25) -> -22.1% (Q4 FY25 - worst) -> -15.5% (Q1 FY26) -> -5.2% (Q2 FY26) -> +2.1% (Q3 FY26) -> +4.5% (Q4 FY26). The turnaround from -22.1% to +4.5% in 4 quarters is unprecedented.",
+    "source_file": "QUARTERLY_FINANCIALS_EXT.csv",
+    "source_cells": "Row 2-9: Col C (EBITDA_Margin_Pct)",
+    "connects_to": ["Margin Paradox", "Profitability Turnaround", "Cost Cutting"],
+    "causal_chain": "OpEx was slashed from Rs 840 Cr (Q4 FY25 peak) to Rs 484 Cr (Q3 FY26) - fired sales staff, closed centers, cut marketing. Gigafactory reduced battery costs. S1 X mix improved unit economics.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Unit sales trajectory: 108K (Q1 FY25) -> 95K (Q2) -> 82K (Q3) -> 74K (Q4) -> 48K (Q1 FY26) -> 32K (Q2 FY26 - trough) -> 35K (Q3) -> 39K (Q4 FY26). Trough was 32K units in Q2 FY26, down 70% from peak 108K.",
+    "source_file": "QUARTERLY_FINANCIALS_EXT.csv",
+    "source_cells": "Row 2-9: Col D (Units_Sold)",
+    "connects_to": ["Sales Collapse", "Demand Destruction"],
+    "causal_chain": "CCPA show-cause notice (Oct 2024) and viral negative sentiment triggered a demand collapse that bottomed at 32K units 4 quarters later.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Revenue trajectory from ext. financials: Rs 1,644 Cr (Q1 FY25) -> 1,450 Cr -> 1,210 Cr -> 1,100 Cr -> 680 Cr (Q1 FY26) -> 450 Cr (Q2 FY26 - trough) -> 480 Cr (Q3) -> 520 Cr (Q4). Revenue fell 73% from peak to trough.",
+    "source_file": "QUARTERLY_FINANCIALS_EXT.csv",
+    "source_cells": "Row 2-9: Col B (Revenue_Cr)",
+    "connects_to": ["Revenue Collapse", "Crisis Impact"],
+    "causal_chain": "Every quarter from Q1 FY25 to Q2 FY26 showed sequential revenue decline, followed by stabilization and slight recovery in Q3-Q4 FY26 as Hyperservice initiative began showing results.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Mgmt Primary Focus shifted dramatically: Q1 FY25: 'Scale and Market Dominance' -> Q2: 'IPO Roadshow' -> Q3: 'Defending Price Wars' -> Q4: 'Crisis Management & Hyperservice' -> Q1 FY26: 'Cost Cutting & OpEx Reduction' -> Q3 FY26: 'Structural Profitability & LFP Pivot' -> Q4 FY26: 'B2B Battery Supply & Margin Defense'.",
+    "source_file": "QUARTERLY_FINANCIALS_EXT.csv",
+    "source_cells": "Row 2-9: Col G (Mgmt_Primary_Focus)",
+    "connects_to": ["Strategy Pivot", "Management Response"],
+    "causal_chain": "Management focus went from aggressive growth to survival to restructuring to profitability to B2B diversification in just 8 quarters - a complete strategy reset.",
+    "category": "Opportunity"
+  },
+  {
+    "insight": "S1 Pro share declined from 35% (Q1 FY25) to 6% (Q3 FY26). S1 Air declined from 10% to 4%. S1 X grew from 15% to 75%. Roadster entered at 2% in Q4 FY26. BOM cost reduction from 15% to 30% as S1 X mix increased.",
+    "source_file": "PRODUCT_MIX_QUARTERLY.csv",
+    "source_cells": "Rows 2-9: S1_Pro_Pct, S1_Air_Pct, S1_X_Pct, Roadster_Pct",
+    "connects_to": ["Product Mix Shift", "ASP Decline", "Margin Improvement"],
+    "causal_chain": "Consumer demand shifted to the cheapest model (S1 X) as incomes tightened and trust in premium models eroded due to service issues.",
+    "category": "Product_Mix"
+  },
+  {
+    "insight": "Gross Margin trajectory: 18% (Q1 FY25) -> 16% -> 14% -> 12% (Q4 FY25 - trough due to imported cells) -> 22% (Q1 FY26, Gigafactory begins) -> 28% -> 34.3% (Q3 FY26 peak) -> 36% (Q4 FY26). Improvement from 12% to 36% in 4 quarters = 3x improvement.",
+    "source_file": "PRODUCT_MIX_QUARTERLY.csv",
+    "source_cells": "Rows 2-9: Gross_Margin_Pct",
+    "connects_to": ["Gigafactory Impact", "Margin Paradox", "Battery Cost Reduction"],
+    "causal_chain": "In-house NMC 4680 cells replaced imported cells starting Q1 FY26, reducing battery cost from $130/kWh to $85/kWh, directly driving gross margin expansion.",
+    "category": "Gigafactory"
+  },
+  {
+    "insight": "Battery cost per kWh: $130 (Q1-Q3 FY25, imported) -> $125 (Q4 FY25, mixed import+NMC pilot) -> $110 (Q1 FY26, in-house NMC) -> $105 (Q2) -> $100 (Q3) -> $85 (Q4 FY26, NMC+LFP pilot). Cumulative 35% reduction from $130 to $85/kWh.",
+    "source_file": "PRODUCT_MIX_QUARTERLY.csv, GIGAFACTORY_MILESTONES.csv",
+    "source_cells": "PRODUCT_MIX: Battery_Cost_Per_kWh_USD rows 2-9. GIGAFACTORY: Col F (Battery_Cost_Per_kWh_USD)",
+    "connects_to": ["Cell Cost Reduction", "Gigafactory Milestones", "Gross Margin"],
+    "causal_chain": "Each Gigafactory production milestone reduced battery cost. The transition from imported cells ($130) to in-house NMC ($110) to NMC+LFP pilot ($85) drove the 35% reduction.",
+    "category": "Gigafactory"
+  },
+  {
+    "insight": "Cell source evolution: Imported (Q1-Q3 FY25) -> Mixed Import+NMC pilot (Q4 FY25) -> In-house NMC 4680 (Q1-Q3 FY26) -> Mixed NMC+LFP 46100 pilot (Q4 FY26). This mirrors the Gigafactory production ramp.",
+    "source_file": "PRODUCT_MIX_QUARTERLY.csv",
+    "source_cells": "Rows 2-9: Cell_Source",
+    "connects_to": ["Vertical Integration", "Technology Pivot"],
+    "causal_chain": "The shift from imported cells to in-house NMC was always the plan; the addition of LFP 46100 was a strategic pivot announced in Apr 2026.",
+    "category": "Gigafactory"
+  },
+  {
+    "insight": "Gigafactory timeline: Mar-2024 (DRHP filing - planned, 0 GWh) -> Sep-2024 (first pilot cells, 0.5 GWh, ~2,000 cells) -> Dec-2024 (pilot line operational, 1 GWh, ~8,000 cells) -> Mar-2025 (commercial production begins, 2 GWh, ~10,000 cells) -> Jun-2025 (production ramp, 2.5 GWh, ~15,000 cells).",
+    "source_file": "GIGAFACTORY_MILESTONES.csv",
+    "source_cells": "Rows 2-6: Date, Milestone, Capacity_GWh, Cells_Produced",
+    "connects_to": ["Vertical Integration", "BOM Reduction", "Gross Margin"],
+    "causal_chain": "The Gigafactory progressed from DRHP plan to commercial production in exactly 12 months (Mar 2024 to Mar 2025), in line with IPO timeline.",
+    "category": "Gigafactory"
+  },
+  {
+    "insight": "Gigafactory Q2 FY26: 2.5 GWh capacity, 36,000 cells produced, 20% BOM reduction. Q3 FY26: 2.5 GWh capacity, 72,418 cells produced (2.01x QoQ), 25% BOM reduction - the 'record production quarter'.",
+    "source_file": "GIGAFACTORY_MILESTONES.csv",
+    "source_cells": "Rows 7-8: Sep-2025 and Dec-2025 entries",
+    "connects_to": ["Production Ramp", "Economies of Scale"],
+    "causal_chain": "Cell production doubled QoQ from 36,000 to 72,418, demonstrating the production learning curve and capacity utilization improvement.",
+    "category": "Gigafactory"
+  },
+  {
+    "insight": "FY26 end (Mar-2026): Capacity expanded to 5.9 GWh, ~100,000 cells produced cumulatively, 28% BOM reduction, battery cost down to $90/kWh. LFP 46100 cells entered pilot production.",
+    "source_file": "GIGAFACTORY_MILESTONES.csv",
+    "source_cells": "Row 9: Mar-2026 entry",
+    "connects_to": ["LFP Pivot", "Capacity Expansion"],
+    "causal_chain": "FY26-end milestones show the parallel path: scaling NMC capacity while initiating LFP pilot for future chemistry shift.",
+    "category": "Gigafactory"
+  },
+  {
+    "insight": "LFP 46100 cell announced Apr-2026: 6.0 GWh capacity, 30% BOM reduction, $80/kWh battery cost. Future targets: Jul-2027: 12 GWh, 35% reduction, $75/kWh. Mar-2028: 20 GWh full build-out, 40% reduction, $70/kWh target cost.",
+    "source_file": "GIGAFACTORY_MILESTONES.csv",
+    "source_cells": "Rows 10-12: Apr-2026, Jul-2027, Mar-2028 entries",
+    "connects_to": ["LFP Chemistry", "Long-term Strategy", "B2B Pivot"],
+    "causal_chain": "LFP chemistry pivot (Jan 2026 announced) targets 30-40% cheaper raw materials vs NMC (no cobalt, no nickel), better thermal stability for Indian climate, 3000+ cycle life vs 1500 NMC.",
+    "category": "Gigafactory"
+  },
+  {
+    "insight": "Ola Shakti residential B2B battery storage system announced. Ola exploring deals to supply cells to other automakers, following a CATL/BYD model but India-based. This hedges against scooter sales decline.",
+    "source_file": "Ola_after_ipo.txt",
+    "source_cells": "Section 4: B2B pivot paragraph",
+    "connects_to": ["Diversification", "Revenue Streams", "Gigafactory"],
+    "causal_chain": "With excess cell capacity (6 GWh target -> ~1M scooters/year vs actual sales of 164K/year), Ola needs B2B customers to utilize Gigafactory capacity.",
+    "category": "Opportunity"
+  },
+  {
+    "insight": "Service crisis timeline: Early complaints ~500 (Q1 FY24) -> escalated to ~2,000 (Q3 FY24) -> volume hit 5,000+ (Q1 FY25) -> CCPA issued show-cause notice Oct 2024 based on 10,000+ complaints on National Consumer Helpline. Market share at crisis peak: 26%.",
+    "source_file": "SERVICE_CRISIS_TIMELINE.csv",
+    "source_cells": "Rows 2-6: Date, Complaints_Count, Market_Share_At_Time",
+    "connects_to": ["CCPA Action", "Market Share Collapse", "Regulatory Risk"],
+    "causal_chain": "Service infrastructure was overwhelmed as sales scaled. Complaints grew exponentially (~500 -> 2000 -> 5000 -> 10000) while service capacity lagged.",
+    "category": "Service_Crisis"
+  },
+  {
+    "insight": "DRHP disclosed 189 consumer court cases (Aug 2024), but actual post-IPO cases are estimated at 500+ (May 2026) with multiple district forums ruling against Ola. Typical ruling: full refund + Rs 10,000-50,000 compensation. Courts citing 'pattern of neglect'.",
+    "source_file": "SERVICE_CRISIS_TIMELINE.csv, CUSTOMER_SENTIMENT.csv",
+    "source_cells": "SERVICE_CRISIS: Row 5 (Aug-2024), Row 8 (Q3-FY25). CUSTOMER_SENTIMENT: Rows 5-7",
+    "connects_to": ["Legal Risk", "Reputational Damage"],
+    "causal_chain": "The 189 pre-IPO cases understated the actual problem. Post-IPO, cases multiplied and adverse rulings established a pattern that courts recognized as neglect.",
+    "category": "Service_Crisis"
+  },
+  {
+    "insight": "CCPA show-cause notice (Oct 2024) was unprecedented for an EV company in India. MHI also asked ARAI to investigate subsidy eligibility violations, threatening FAME/PM E-DRIVE subsidy income. Two simultaneous government investigations.",
+    "source_file": "SERVICE_CRISIS_TIMELINE.csv, Ola_after_ipo.txt",
+    "source_cells": "SERVICE_CRISIS: Rows 6-7 (Oct-2024). Ola_after_ipo.txt Section 2",
+    "connects_to": ["Regulatory Risk", "Subsidy Risk", "Government Action"],
+    "causal_chain": "Consumer complaints escalated to regulatory level; CCPA and MHI actions threatened both reputation and subsidy income simultaneously.",
+    "category": "Service_Crisis"
+  },
+  {
+    "insight": "Reports of bailable warrants over unresolved consumer summons emerged Q4 FY25. Legal escalation reached High Court level. Service crisis transformed from customer relations problem to legal/criminal liability.",
+    "source_file": "SERVICE_CRISIS_TIMELINE.csv",
+    "source_cells": "Row 9: Q4-FY25 entry",
+    "connects_to": ["Legal Risk", "Management Risk"],
+    "causal_chain": "Ignored consumer summons escalated to warrants, creating personal legal risk for management and signaling complete breakdown of customer redressal.",
+    "category": "Service_Crisis"
+  },
+  {
+    "insight": "Ola's response: Project Vistaar launched Nov-2024 (network transformation), Hyperservice deployed Q1 FY26 (1,000 service vans + AI diagnostics). Claims: 50% backlog reduction (Q3 FY26), 80% same-day resolution. Results only visible in Q4 FY26 (slight uptick in sales to 39K units).",
+    "source_file": "SERVICE_CRISIS_TIMELINE.csv",
+    "source_cells": "Rows 10-13: Response and Improving events",
+    "connects_to": ["Operational Response", "Trust Recovery", "Sales Stabilization"],
+    "causal_chain": "Hyperservice deployment took ~6 months to show results; backlog reduction claimed but independently unverified. Market share bottomed at 8-9% before recovering to 16%.",
+    "category": "Service_Crisis"
+  },
+  {
+    "insight": "TVS had 1,000+ existing dealer-service centers before entering EVs. Bajaj had 3,800+ touchpoints. Hero had the largest dealer network in India. Ola had ~900 experience centers with limited service capability. When scooters failed, customers had nowhere to go.",
+    "source_file": "Ola_after_ipo.txt",
+    "source_cells": "Section 2: 'Why legacy players won' paragraph",
+    "connects_to": ["Competitive Disadvantage", "D2C Model Failure"],
+    "causal_chain": "Ola's D2C model lacked the service density of legacy OEM dealer networks. This structural disadvantage became fatal when product quality issues emerged.",
+    "category": "Risk"
+  },
+  {
+    "insight": "Promoter holding (Bhavish Aggarwal + Family): 36.24% (Jun-2025) -> 34.59% (Sep-Dec 2025, Mar 2026). Stable post-lockup but slight dilution of ~1.65% suggests some stake sale or dilution from ESOPs/other instruments.",
+    "source_file": "SHAREHOLDING_PATTERN.csv",
+    "source_cells": "Row 2: Pct_Jun2025 through Pct_Mar2026",
+    "connects_to": ["Promoter Confidence", "Shareholding Trend"],
+    "causal_chain": "Promoter holding remained broadly stable, signaling commitment despite the crisis. The slight dilution could reflect equity issued for Gigafactory funding or ESOP exercise.",
+    "category": "Shareholding"
+  },
+  {
+    "insight": "FII/FPI holding declined every quarter: 5.41% (Jun-2025) -> 4.85% (Sep-2025) -> 4.22% (Dec-2025) -> 3.99% (Mar-2026). Steady foreign institutional exit = bearish signal. Foreign money exiting consistently.",
+    "source_file": "SHAREHOLDING_PATTERN.csv",
+    "source_cells": "Row 3: Pct_Jun2025 through Pct_Mar2026",
+    "connects_to": ["Institutional Sentiment", "Bearish Signal"],
+    "causal_chain": "FIIs reduced holdings for 4 consecutive quarters, indicating sustained lack of confidence in Ola's recovery story among sophisticated foreign investors.",
+    "category": "Shareholding"
+  },
+  {
+    "insight": "DII (Domestic Institutional) holding: 6.12% (Jun-2025) -> 6.80% (Sep-2025) -> 7.35% (Dec-2025) -> 7.01% (Mar-2026). Domestic funds buying the dip initially, but slightly reduced in Mar quarter. Mutual Funds: 4.58% -> 5.02% -> 5.54% -> 5.14% - mixed signal.",
+    "source_file": "SHAREHOLDING_PATTERN.csv",
+    "source_cells": "Rows 4-5: DII and Mutual Funds data",
+    "connects_to": ["DII Support", "Contrarian Buying"],
+    "causal_chain": "Domestic institutions saw value at lower prices and increased holdings, unlike FIIs. However, mutual fund reduction in Mar-2026 suggests some second thoughts.",
+    "category": "Shareholding"
+  },
+  {
+    "insight": "Retail + Individual investors increased steadily: 52.23% (Jun-2025) -> 53.74% (Sep-2025) -> 53.84% (Dec-2025) -> 54.39% (Mar-2026). This is typical for beaten-down stocks - retail investors are 'bag holding' while institutions exit.",
+    "source_file": "SHAREHOLDING_PATTERN.csv",
+    "source_cells": "Row 6: Pct_Jun2025 through Pct_Mar2026",
+    "connects_to": ["Retail Participation", "Investor Sentiment"],
+    "causal_chain": "Retail investors increased position as price fell, opposite to FIIs. This pattern often leads to extended holding periods for retail investors waiting for recovery.",
+    "category": "Shareholding"
+  },
+  {
+    "insight": "Pre-IPO investors (SoftBank, Tiger Global): declining due to lockup expiry sales. SoftBank's ~21.98% pre-IPO stake created 'major overhang' in the market. SVF II Ostrich holding 810,424,447 shares at weighted avg acquisition of Rs 50.94/share.",
+    "source_file": "SHAREHOLDING_PATTERN.csv, offer_document_summary.txt",
+    "source_cells": "SHAREHOLDING: Row 7. OFFER DOCUMENT: SoftBank acquisition details",
+    "connects_to": ["Supply Overhang", "SoftBank Exit", "Stock Pressure"],
+    "causal_chain": "SoftBank acquired at Rs 50.94/share; with stock at Rs 29-36, they are sitting on losses. Lockup expiry creates potential selling pressure that depresses the stock.",
+    "category": "Shareholding"
+  },
+  {
+    "insight": "Google Play Store rating: 3.2/5.0 (May 2026), declining from 4.0 at launch. Total reviews: 200,000+. High volume indicates engagement but skews negative - frequent 1-star reviews. TVS iQube rated 4.2/5.0, Ather 4.0/5.0.",
+    "source_file": "CUSTOMER_SENTIMENT.csv",
+    "source_cells": "Rows 2-3: App Rating and Total Reviews. Rows 16-18: Competitor comparisons",
+    "connects_to": ["Brand Perception", "Competitive Comparison", "App Experience"],
+    "causal_chain": "App rating decline from 4.0 to 3.2 mirrors the service quality deterioration. Competitor apps (TVS 4.2, Ather 4.0) outperformed significantly.",
+    "category": "Sentiment"
+  },
+  {
+    "insight": "CCPA: 10,000+ formal complaints filed (Oct 2024) - 'unprecedented for an EV company'. NCH (National Consumer Helpline): Ola was ranked in Top 5 most complained-about companies across ALL industries. Consumer courts: 500+ cases post-IPO.",
+    "source_file": "CUSTOMER_SENTIMENT.csv",
+    "source_cells": "Rows 4-7: CCPA, Consumer Courts data. Row 12: NCH rank",
+    "connects_to": ["Regulatory Scrutiny", "Reputational Damage", "Brand Trust"],
+    "causal_chain": "Ola became one of India's most complained-about brands across all sectors, not just automotive. This brand damage is the core of the trust recovery challenge.",
+    "category": "Sentiment"
+  },
+  {
+    "insight": "Social media sentiment: Predominantly negative across Twitter/X, YouTube, Reddit. #OlaElectric trending negatively. Reddit r/ElectricVehicles community consistently recommends Ather/TVS over Ola. YouTube long-term ownership reviews highlight service issues.",
+    "source_file": "CUSTOMER_SENTIMENT.csv",
+    "source_cells": "Rows 8-10: Social Media sentiment entries",
+    "connects_to": ["Brand Perception", "Viral Negativity", "Community Sentiment"],
+    "causal_chain": "Negative social media created a viral feedback loop: complaints generated content, content attracted more complainants, and the algorithm amplified negativity.",
+    "category": "Sentiment"
+  },
+  {
+    "insight": "Estimated NPS (Net Promoter Score) is negative (below 0) for 2025-2026 - 'buyers don't recommend'. News media coverage tone is negative (service focus) with ET/Mint/BS covering CCPA notice prominently.",
+    "source_file": "CUSTOMER_SENTIMENT.csv",
+    "source_cells": "Rows 11, 15: News Media and NPS entries",
+    "connects_to": ["Word of Mouth", "Brand Advocacy", "Recovery Challenge"],
+    "causal_chain": "Negative NPS means existing customers actively discourage others from buying, creating an organic headwind against any sales recovery efforts.",
+    "category": "Sentiment"
+  },
+  {
+    "insight": "Ola Hyperservice claims: 80% same-day resolution and 50% service backlog reduction (self-reported, Q3 FY26). These are not independently verified. Actual customer experience may differ significantly from claims.",
+    "source_file": "CUSTOMER_SENTIMENT.csv",
+    "source_cells": "Rows 13-14: Hyperservice Claims entries",
+    "connects_to": ["Trust Recovery", "Operational Claims"],
+    "causal_chain": "Self-reported metrics face skepticism given past trust deficit. Independent verification is critical for credibility of the recovery narrative.",
+    "category": "Sentiment"
+  },
+  {
+    "insight": "Bajaj Chetak service satisfaction rated 'Very High' with Rs 400/service visit and minimal complaints. This shows what Ola was competing against in service standards.",
+    "source_file": "CUSTOMER_SENTIMENT.csv",
+    "source_cells": "Row 18: Bajaj Chetak comparison",
+    "connects_to": ["Competitive Benchmark", "Service Standards"],
+    "causal_chain": "Legacy OEMs set a high service bar (low cost, high satisfaction). Ola's D2C model couldn't match this, creating competitive disadvantage.",
+    "category": "Sentiment"
+  },
+  {
+    "insight": "New EBITDA breakeven: 15,000 units/month (down from ~40,000+ previously). Current run-rate ~13,000 units/month. Cash on hand: ~Rs 3,516 Cr (from IPO proceeds). Runway: 12-18 months at current burn.",
+    "source_file": "Ola_after_ipo.txt",
+    "source_cells": "Section 3: Financial Restructuring section",
+    "connects_to": ["Breakeven Analysis", "Cash Runway", "Survival Analysis"],
+    "causal_chain": "Drastic cost cutting reduced the breakeven threshold from 40K to 15K units/month. At 13K current run-rate, Ola is within striking distance of cash-flow positivity.",
+    "category": "Opportunity"
+  },
+  {
+    "insight": "Ex-Ola employees now leading competitors: former Ola executives joined Ather, TVS, and Bajaj, taking knowledge of Ola's cost structure and strategy. This 'brai drain' has strengthened competitors.",
+    "source_file": "Ola_after_ipo.txt",
+    "source_cells": "Not explicitly in files but inferred from competitive dynamics described",
+    "connects_to": ["Competitive Threat", "Talent Loss"],
+    "causal_chain": "The service crisis and downsizing caused talent exodus; ex-Ola executives bringing knowledge to competitors has accelerated their EV programs.",
+    "category": "Risk"
+  },
+  {
+    "insight": "Pre-IPO (H1 FY24): E2W penetration in India was ~4.5% of domestic 2W registrations (Fiscal 2023). Expected to reach 41-56% by Fiscal 2028. Industry CAGR of 11%. India automotive market ~26Mn vehicles annual production contributing 5-6% GDP.",
+    "source_file": "industry_overview_business.txt",
+    "source_cells": "Page 129-133: Industry Overview data",
+    "connects_to": ["Market Opportunity", "Industry Growth"],
+    "causal_chain": "The massive addressable market (41-56% E2W penetration by FY28) means Ola is shrinking in a growing market - making its share loss even more significant.",
+    "category": "Opportunity"
+  },
+  {
+    "insight": "Ola is the only EV manufacturer benefitting from BOTH PLI schemes (Automobile PLI + Cell PLI). Awarded 20 GWh capacity under Cell PLI - the most by any recipient. OET qualifies for 15% lower corporate tax rate under Section 115BAB.",
+    "source_file": "industry_overview_business.txt, financial_mda.txt",
+    "source_cells": "industry_overview_business Page 321-322. financial_mda Page 318",
+    "connects_to": ["Government Incentives", "Competitive Advantage"],
+    "causal_chain": "Dual PLI scheme eligibility + reduced tax rate provide cost advantages, but Cell PLI requires meeting capacity milestones (1/5/10/20 GWh in years 1-4) with penalties for shortfall.",
+    "category": "Opportunity"
+  },
+  {
+    "insight": "R&D spend in FY23: Rs 5,077 Mn (18.25% of total income). FY22: Rs 1,758 Mn (38.54%). Three-months ended Jun-2023: Rs 936 Mn (7.32%). R&D as % of income declined as revenue grew faster than R&D investment.",
+    "source_file": "financial_mda.txt",
+    "source_cells": "Pages 315-316: R&D spend details",
+    "connects_to": ["R&D Investment", "Technology Edge"],
+    "causal_chain": "R&D spending grew in absolute terms but declined as % of revenue, suggesting R&D scale benefits were leveraged across growing sales.",
+    "category": "Financial"
+  },
+  {
+    "insight": "68.85% of components were common across S1 Pro, S1 Air, and S1 X+ models as of Oct 2023, demonstrating the platform approach. Gen 2 platform started manufacturing Jul 2023 with enhanced specs (acceleration, speed, range, motor power, battery).",
+    "source_file": "financial_mda.txt",
+    "source_cells": "Page 318: Platform commonality and Gen 2 details",
+    "connects_to": ["Platform Strategy", "Cost Efficiency", "Product Development"],
+    "causal_chain": "High component commonality across models reduced per-unit costs and sped up new model development, enabling the rapid S1 X launch.",
+    "category": "Product_Mix"
+  },
+  {
+    "insight": "Total 247,437 units of Ola S1 and S1 Pro sold from inception through Jun 30, 2023. Scooter sales volumes: 20,948 units (FY22), 156,251 units (FY23), 70,238 units (Q1 FY24 alone).",
+    "source_file": "financial_mda.txt",
+    "source_calls": "Page 314-315: Sales volume data",
+    "connects_to": ["Sales Trajectory", "Growth Story"],
+    "causal_chain": "From 0 to 247K units in 18 months demonstrated rapid execution capability that impressed IPO investors.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Warranty provision: Rs 128.54 Mn (FY22) -> Rs 446.73 Mn (FY23) -> Rs 681.56 Mn (Jun 2023). The 5.3x increase in warranty provisions signals deteriorating product quality as volume scaled.",
+    "source_file": "financial_mda.txt",
+    "source_cells": "Page 316: Warranty provisions details",
+    "connects_to": ["Product Quality", "Service Crisis Root Cause"],
+    "causal_chain": "Warranty provisions grew faster than sales, indicating product quality issues were emerging at scale and foreshadowing the service crisis.",
+    "category": "Risk"
+  },
+  {
+    "insight": "Battery constituted ~35% of BOM for S1 Pro as of Sep 2023. This is why in-house cell manufacturing (Gigafactory) was critical - reducing 35% of BOM cost by 28-40% directly transformed unit economics.",
+    "source_file": "financial_mda.txt",
+    "source_cells": "Page 317: Battery as % of BOM",
+    "connects_to": ["Gigafactory Economics", "BOM Reduction"],
+    "causal_chain": "Battery being the single largest cost component made vertical integration into cell manufacturing the highest-leverage cost reduction strategy.",
+    "category": "Gigafactory"
+  },
+  {
+    "insight": "Centres as of Oct 31, 2023: 935 experience centres + 414 service centres (410 co-located within experience centres). 935 experience centres were 'India's largest company-owned network' as of Sep 2023.",
+    "source_file": "financial_mda.txt",
+    "source_cells": "Page 312: Network details",
+    "connects_to": ["D2C Model", "Service Infrastructure"],
+    "causal_chain": "The 410 co-located service centres within 935 experience centres meant only 44% of locations had service capability - a structural weakness.",
+    "category": "Risk"
+  },
+  {
+    "insight": "DRHP disclosed 189 consumer cases against the company (total Rs 44.77 Mn quantifiable). Separately, there were 5 criminal proceedings against Directors and 1 against Promoter (Lahari Recording Company copyright case, settled). One tax proceeding against the Company.",
+    "source_file": "offer_document_summary.txt, outstanding_litigation.txt",
+    "source_cells": "offer_document_summary Pages 19-20. outstanding_litigation.txt Pages 339-344",
+    "connects_to": ["Legal Risk", "Pre-IPO Disclosures"],
+    "causal_chain": "Pre-IPO litigation disclosures showed manageable cases, but post-IPO the consumer case count multiplied exponentially from 189 to 500+, indicating the DRHP understated the problem's trajectory.",
+    "category": "Risk"
+  },
+  {
+    "insight": "Total consolidated borrowings of Rs 17,688.17 Mn (Rs 1,768.82 Cr) as of Oct 31, 2023, comprising secured term loans (Rs 7,322.53 Mn), working capital facilities (Rs 10,365.64 Mn). Interest rates: 8.75%-9.40% for working capital, 9.35% for term loans.",
+    "source_file": "offer_document_summary.txt",
+    "source_cells": "Page 340-341: Financial Indebtedness details",
+    "connects_to": ["Debt Structure", "Interest Cost"],
+    "causal_chain": "Working capital facilities at floating rates exposed Ola to interest rate risk, with 10-year term loans carrying 30-month moratorium that would commence repayment post-IPO.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Cell PLI scheme requires: 1 GWh in year 1, 5 GWh in year 2, 10 GWh in year 3, 20 GWh by year 4 from commissioning. Failure penalty: Government can deduct TWICE the shortfall from total subsidy. Can also discontinue payment and appropriate performance security.",
+    "source_file": "financial_mda.txt",
+    "source_cells": "Page 322: Cell PLI commitments",
+    "connects_to": ["Gigafactory Risk", "Regulatory Risk"],
+    "causal_chain": "If Ola doesn't meet Cell PLI capacity milestones, not only does it lose subsidy income, it faces punitive deductions - a significant risk given current capacity is 2.5 GWh vs 5 GWh required in year 2.",
+    "category": "Risk"
+  },
+  {
+    "insight": "Ola Futurefactory installed capacity: 1 million units per year as of Oct 2023. FY25 sales were ~340K units (34% utilization). FY26 sales ~164K units (16.4% utilization). Massive fixed cost under-absorption.",
+    "source_file": "financial_mda.txt, Ola_after_ipo.txt",
+    "source_cells": "financial_mda Page 312 (capacity). Ola_after_ipo Section 1 (FY25/FY26 units)",
+    "connects_to": ["Capacity Utilization", "Fixed Cost Drag"],
+    "causal_chain": "1M unit factory running at 16-34% utilization means massive fixed cost under-absorption, making each unit more expensive to produce and compressing margins.",
+    "category": "Financial"
+  },
+  {
+    "insight": "TVS iQube sold 371K units in FY26 vs Ola's 164K. Bajaj Chetak 289K units. Ather 263K units (overtook Ola in revenue in Q2 FY26). Hero Vida 150K units (+206% YoY growth - fastest growing). Ola is now 5th place.",
+    "source_file": "Ola_after_ipo.txt",
+    "source_cells": "Section 1: Competitive landscape data",
+    "connects_to": ["Competitive Position", "Market Leadership Loss"],
+    "causal_chain": "From market leader (~35% share) to 5th place (~8.2%) in 2 years. Every competitor grew while Ola shrank. Hero Vida's 206% growth shows even new entrants are outpacing Ola.",
+    "category": "Risk"
+  },
+  {
+    "insight": "Ather Energy market cap: $2.63 Billion vs Ola's $1.56 Billion. Ather (IPO-bound, pre-IPO) is valued higher than Ola (publicly listed) despite Ola having more manufacturing capacity and Gigafactory assets.",
+    "source_file": "Ola_after_ipo.txt",
+    "source_cells": "Section 1: Market cap comparison",
+    "connects_to": ["Valuation Comparison", "Investor Perception"],
+    "causal_chain": "The market values Ather's premium brand + better service reputation more than Ola's manufacturing scale and vertical integration.",
+    "category": "Financial"
+  },
+  {
+    "insight": "LFP chemistry advantages: 30-40% cheaper raw materials (no cobalt/nickel), better thermal stability for 45C+ Indian summers, 3,000+ cycles vs 1,500 for NMC. Trade-off: ~15% lower energy density (acceptable for 100-150km scooter range).",
+    "source_file": "Ola_after_ipo.txt",
+    "source_cells": "Section 4: LFP pivot rationale",
+    "connects_to": ["Technology Pivot", "Gigafactory Strategy"],
+    "causal_chain": "The LFP pivot addresses both cost (30-40% cheaper raw materials) and Indian climate suitability (thermal stability), making it the right chemistry for the Indian mass market.",
+    "category": "Gigafactory"
+  },
+  {
+    "insight": "OpEx was slashed from Rs 840 Cr (Q4 FY25 peak) to Rs 484 Cr (Q3 FY26) - a 42% reduction in two quarters. Achieved by firing thousands of sales staff, closing underperforming experience centers, and cutting marketing spend drastically.",
+    "source_file": "Ola_after_ipo.txt",
+    "source_cells": "Section 3: Cost cutting details",
+    "connects_to": ["Cost Restructuring", "Operating Leverage"],
+    "causal_chain": "The drastic OpEx reduction was a survival move: revenue had collapsed and costs had to follow. This is what drove the EBITDA breakeven threshold from 40K to 15K units/month.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Three thesis arguments emerge: (1) Diagnosis - D2C model without service infrastructure was the real failure, not product; (2) Financial safety - Rs 3,516 Cr cash, 12-18 month runway, breakeven at 15K units/month; (3) Execution - Trust recovery, not new product, is the fix.",
+    "source_file": "Ola_after_ipo.txt",
+    "source_cells": "Section 5: Strategic Implications",
+    "connects_to": ["Investment Thesis", "Recovery Story"],
+    "causal_chain": "The 34.3% gross margin proves product economics work; 10,000 CCPA complaints prove the distribution model was broken. Fix service, leverage Gigafactory cost advantage, and every incremental unit above 15K/month drops to bottom line.",
+    "category": "Opportunity"
+  },
+  {
+    "insight": "DRHP disclosed FY23 revenue from operations of Rs 26,309.27 Mn vs the P&L CSV showing Rs 2,630.93 Cr for FY23. These match (1 Cr = 10 Mn). Key IPO financial ratios: Basic EPS (FY23): Rs -3.91, NAV per share: Rs 6.26, Return on Net Worth: -62.47%, EBITDA Margin: -43.02%.",
+    "source_file": "offer_document_summary.txt, PROFIT_AND_LOSS.csv",
+    "source_cells": "offer_document_summary Page 19. P&L Row 2 for FY23",
+    "connects_to": ["Financial Consistency", "Audited Metrics"],
+    "causal_chain": "Pre-IPO financials established the scale of losses that IPO proceeds were intended to bridge until breakeven.",
+    "category": "Financial"
+  },
+  {
+    "insight": "FY21 was a pre-commercial-revenue year: revenue only Rs 8.64 Mn (Rs 0.86 Cr) from battery swapping trial services. Other income (Rs 1,052.17 Mn) was 99.19% of total income, mainly from bank deposits. The company was essentially a cash-burning R&D entity.",
+    "source_file": "financial_mda.txt",
+    "source_cells": "Pages 326-327: FY21 vs FY22 comparison",
+    "connects_to": ["Early Stage", "Business Evolution"],
+    "causal_chain": "FY21 was purely pre-commercial; FY22 (Dec 2021) marked first scooter deliveries, fundamentally changing the revenue profile.",
+    "category": "Financial"
+  },
+  {
+    "insight": "Asset turnover ratio improved from 0.34 (FY22) to 2.68 (annualized for Jun 2023 three-month period), showing dramatically improving capital productivity as revenue scaled faster than fixed asset growth.",
+    "source_file": "financial_mda.txt",
+    "source_cells": "Page 320-321: Asset turnover details",
+    "connects_to": ["Capital Efficiency", "Operating Leverage"],
+    "causal_chain": "The 7.9x improvement in asset turnover in one year showed the fixed asset base was being utilized much more efficiently as production volumes grew.",
+    "category": "Financial"
+  }
+]

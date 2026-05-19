@@ -1,0 +1,11 @@
+Region,Country,E2W_Market_Size_2025_Units,E2W_CAGR_Pct,Primary_Use_Case,Key_Model_Need,BaaS_Demand,India_Competitor_Present,Barriers_To_Entry,Opportunity_For_Ola
+Africa,Kenya,150000,45,Ride-hailing + delivery,High-load durable motorcycle,Very High,Yes (Ampersand; Spiro),Import duties; BaaS infra needed,High — if they launch motorcycle + BaaS
+Africa,Nigeria,200000,40,Commercial delivery,Heavy-duty motorcycle,Very High,Yes (MAX; Spiro),Weak grid; FX volatility,High — largest addressable market
+Africa,Rwanda,30000,50,Moto-taxi (boda-boda),Swappable battery motorcycle,Very High,Yes (Ampersand),Small market; policy-friendly,Medium — good pilot market
+SE Asia,Vietnam,500000,25,Personal commute,Stylish scooter (Vespa-type),Medium,VinFast dominates,Strong local competitor,Low — VinFast has massive head start
+SE Asia,Indonesia,300000,35,Urban commute + delivery,Affordable scooter,High,Limited Indian presence,Import regulations; local content rules,Medium — needs local assembly
+SE Asia,Philippines,100000,30,Urban commute,Budget scooter,Medium,None significant,Fragmented market,Medium — first-mover advantage possible
+LATAM,Brazil,400000,20,Urban commute + delivery,Budget motorcycle,Medium,None significant,Import duties 35-60%,Medium — needs CKD/local assembly
+LATAM,Colombia,80000,25,Urban commute,Budget scooter,Low,None significant,Small market; weak charging infra,Low — small market size
+LATAM,Mexico,120000,22,Urban commute + delivery,Budget scooter/motorcycle,Medium,None significant,US-adjacent regulations,Medium — proximity to US market
+Total TAM,,1880000,,,,,,,"High potential if Ola can solve: (1) service in remote markets, (2) BaaS model, (3) local assembly. Estimated export TAM: $2-3 Billion by 2028"

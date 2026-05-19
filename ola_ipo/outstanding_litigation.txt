@@ -1,0 +1,295 @@
+--- Page 339 ---
+335
+CAPITALISATION STATEMENT
+The following table sets forth our Company’s capitalisation as at June 30, 2023, derived from our Restated Consolidated
+Financial Information, and as adjusted for the Offer. This table should be read in conjunction with “Risk Factors”,
+“Management’s Discussion and Analysis of Financial Condition and Results of Operations” and “Restated Consolidated
+Financial Information” beginning on pages 28, 308 and 232, respectively.
+(₹ in million, except ratios)
+Particulars
+Pre-Offer as at June
+30, 2023
+As adjusted for the
+proposed Offer(1)
+Borrowings
+Current borrowings (2)(A)
+9,148.37
+[●]
+Non-current borrowings (2) (B)
+7,017.36
+[●]
+Total Borrowings (A) + (B) = (C)
+16,165.73
+[●]
+Equity
+Equity share capital(2)
+19,554.50
+[●]
+Instruments entirely equity nature
+18,096.97
+[●]
+Other equity(2)
+(16,536.42)
+[●]
+Total Equity (D)
+21,115.05
+[●]
+Total Borrowings/ Total Equity (C/D)
+0.77
+[●]
+Non-current borrowings /Total Equity (B/D)
+0.33
+[●]
+1. The corresponding post Offer capitalization data is not determinable at this stage pending the completion of the book building process and hence have
+not been furnished. To be updated upon finalization of the Offer Price.
+2. These terms shall carry the meaning as per Schedule III of the Companies Act.
+3. As on December 19, 2023, there is no change in the balance of Equity Share capital since June 30,2023 and it remains at ₹19,554.50 million.
+4. The above ratios are not adjusted for issuance of CCPS post June 30, 2023.
+
+--- Page 340 ---
+336
+FINANCIAL INDEBTEDNESS
+Except for the outstanding borrowings of our Material Subsidiary and our Subsidiary OCT there are no outstanding
+borrowings of our Company or any of our Subsidiaries.
+As of October 31, 2023, our outstanding borrowings on a consolidated basis aggregated to ₹17,688.17 million.
+The following table sets forth the details of the aggregate consolidated outstanding borrowings of our Material Subsidiary and
+OCT as on October 31, 2023:
+(in ₹ million)
+Category of borrowing
+Sanctioned amount
+Outstanding amount as on
+October 31, 2023*
+Secured
+21,550.00
+17,688.17
+Term loans**
+7,500.00
+7,322.53
+Non-convertible debentures
+-
+-
+Working capital facilities
+14,050.00
+10,365.64
+- Fund based
+11,900.00
+8,602.94
+- Non-fund based
+2,150.00
+1,762.70
+Unsecured
+-
+-
+Total
+21,550.00
+17,688.17
+* As certified by B.B. & Associates, Independent Chartered Accountant, pursuant to their certificate dated December 22, 2023.
+** Includes non-fund based facilities of ₹3,400 million which is sub-limit and interchangeable with fund based facilities.
+Further, our Subsidiary, OCT has availed a rupee term loan facility amounting to ₹19,100.00 million, as on date of this Draft
+Red Herring Prospectus, such facility has been drawn down by OCT post October 31, 2023.
+Principal terms of the subsisting borrowings availed by OET and OCT:
+1.
+Purpose: The facilities were availed by OET to set up greenfield manufacturing facility for electric two wheelers at
+Krishnagiri, Tamil Nadu to purchase machineries and other capital goods for such greenfield facility, purchase raw
+materials and meet working capital requirements, while the facilities were availed by OCT to part finance the
+establishment of the 5 GWh Gigafactory for manufacturing advanced chemistry cell for electric vehicles at
+Krishnagiri, Tamil Nadu and procuring related equipment and services.
+2.
+Interest: Interest rate charged by the lenders for working capital loans availed by OET typically ranges from 8.75%
+per annum to 9.40% per annum and is based on external credit ratings of OET, whereas the interest rate charged on
+the term loans is 9.35% per annum and the same is primarily linked to the marginal cost lending rate. The interest
+rate charged by the lender for the term loan facility availed by OCT is linked to Marginal Cost of Funds based
+Lending Rate (currently 10.90%), whereas for non-revolving letter of credit facility commission is to be paid.
+3.
+Tenor: The tenor of working capital facilities availed by OET typically ranges from 1 month to 6 months and can be
+renewed by mutual agreement, whereas the tenor of term loans is 10 years with a moratorium of 30 months from the
+day of first disbursement under the facility. The tenor for the term loan facility availed by OCT is 11 years from zero
+date i.e., January 31, 2023, whereas the usance period for non-revolving letter of credit facility is 6 months.
+4.
+Security: In terms of the borrowings by OET and OCT where security needs to be created, security is created inter-
+alia by charge over current assets, movable and immovable assets, plants and machinery as well as corporate
+guarantee given by our Company, etc. Further, with respect to the facility availed by OET, by our Promoter has
+provided an undertaking to lenders confirming that our Promoter shall continue to be a director of our Company and
+will continue to hold minimum 26% shareholding with voting rights in our Company until the final settlement date
+of the facility availed by OET. For further details, see “Our Promoter and Promoter Group – Material guarantees
+given by our Promoter to third parties with respect to Equity Shares” on page 226.
+5.
+Pre-payment: Certain loans availed by OET have pre-payment provisions which allow for pre-payment of the
+outstanding loan by serving notice to the lender and subject to payment of such pre-payment penalties as may be
+prescribed. The lenders may charge a penal interest of up to 1% over and above the interest rate, however, such pre-
+payment charges will not apply in certain conditions including if prepayment is at instance of the lenders, prepayment
+is made out of cash flows of OET or by funds infused in OET by our Company. For OCT, term loan facility availed
+allows for prepayment with penalty of 2% of the amount prepaid, however, such pre-payment charges will not apply
+
+--- Page 341 ---
+337
+in certain conditions which inter alia include prepayment from proceeds raised by initial public offer of OCT,
+prepayment from internal accruals, etc.
+6.
+Re-payment: The re-payment period for the working capital facilities availed by OET typically ranges from 1 month
+to 6 months, and on demand whereas the repayment period for term loan availed by OET is 10 years, including a
+moratorium of 30 months from day of first disbursement. The re-payment period for facilities availed by OCT is 7
+years and 6 months, starting at the end of moratorium of 15 months post the construction period whereas the usance
+period for non-revolving letter of credit facility is 6 months.
+7.
+Events of Default: Borrowing arrangements entered into by OET and OCT contain standard events of default,
+including among others:
+a)
+Failure or inability to pay amount on due dates;
+b)
+Change in control;
+c)
+Failure to pay accrued interest;
+d)
+Any notice in relation to actual or threatened liquidation, dissolution, bankruptcy or insolvency of OET;
+e)
+Change of general nature or cessation of business;
+f)
+Incorrect or false information;
+g)
+Usage of the loan for purposes other than the purpose for which it was sanctioned by the lender;
+h)
+Cross defaults across other borrowings of OET;
+i)
+Breach of any terms and conditions, including financial covenants in the loan documents; and
+j)
+Any other event or circumstance that has a material adverse effect on the lender.
+This is an indicative list and there may be additional terms that may amount to an event of default under the various
+borrowing arrangements entered into by OET.
+8.
+Consequences of occurrence of events of default: In terms of our facility agreements and sanction letters, the
+following, among others, are the consequences of occurrence of events of default, whereby the lenders may:
+a)
+Terminate either whole or part of the facility;
+b)
+Declare any or all amounts under the facility, either whole or in part, as immediately due and payable to the
+lender;
+c)
+Recover entire dues payable;
+d)
+Enforce security;
+e)
+Cancel the undrawn commitment of the facility;
+f)
+Convert outstanding obligations under the facility into equity capital or other securities of OET; and
+g)
+Appoint a nominee director on the Board of Directors of OET/OCT.
+9.
+Restrictive Covenants: The loans availed by OET and OCT contain certain restrictive covenants, which require prior
+written consent of the lender, or prior intimation to be made to the lender for certain specified events or corporate
+actions, including:
+a)
+Change in the ownership, management or control;
+b)
+Change in the general nature of the business;
+c)
+Enter into any scheme of merger, de-merger, amalgamation, etc. or do a buyback;
+
+--- Page 342 ---
+338
+d)
+Winding up, liquidation or taking any steps for voluntary liquidation or dissolution;
+e)
+Creation of security interest on the assets of OET, except as permitted by the lender;
+f)
+Change in the constitutional documents; and
+g)
+Disposal of assets other than those permitted by the lender.
+This is an indicative list and there may be such other additional terms under the various borrowing arrangements entered into
+by OET and OCT.
+For the purpose of the Offer, our Company has made the required intimations to the lenders of OET under the relevant loan
+documents for undertaking activities relating to the Offer and consequent actions, such as change in the capital structure,
+changes in composition of the Board and amendments to the Articles of Association, of our Company.
+
+--- Page 343 ---
+339
+SECTION VI: LEGAL AND OTHER INFORMATION
+OUTSTANDING LITIGATION AND MATERIAL DEVELOPMENTS
+Except as disclosed in this section, there are no outstanding (i) criminal proceedings; (ii) actions taken by regulatory or
+statutory authorities; (iii) litigation involving claims related to direct and indirect taxes; and (iv) other pending litigation as
+determined to be material as per the materiality policy adopted pursuant to the Board resolution dated December 14, 2023,
+in each case involving our Company, its Subsidiaries, Promoter and Directors (“Relevant Parties”). Further, except as stated
+in this section, (a) there are no disciplinary actions including penalty imposed by the SEBI or stock exchanges against our
+Promoter in the last five Financial Years including any outstanding action; and (b) pending litigation involving our Group
+Companies which may have a material impact on our Company.
+For the purpose of identification of material litigation in (iv) above, our Board has considered and adopted the following
+policy on materiality with regard to outstanding litigation to be disclosed by our Company in this Draft Red Herring
+Prospectus pursuant to the Board resolution dated December 14, 2023 (“Materiality Policy”). Accordingly, disclosures of
+the following types of litigation involving the Relevant Parties have been included.
+All outstanding litigation, including any litigation involving the Relevant Parties, other than criminal proceedings, actions by
+regulatory authorities and statutory authorities, disciplinary actions including any penalty imposed by SEBI or stock
+exchanges against our Promoter in the last five Financial Years including any outstanding actions, and tax matters (direct or
+indirect), would be considered ‘material’ if:
+(i)
+the monetary amount of claim by or against the entity or person in any such pending proceeding is in excess of 1%
+of our Company’s consolidated Net Worth as on June 30, 2023, as per the latest Restated Consolidated Financial
+Information, being ₹211.15 million;
+(ii)
+where monetary liability is not quantifiable or where the monetary liability does not meet the materiality threshold
+set out above, where an adverse outcome would materially and adversely affect the business, operations, prospects,
+performance or financial position or reputation of our Company; or
+(iii)
+pending litigations where the decision in one litigation is likely to affect the decision in similar litigations, even
+though the amount involved in an individual litigation may not exceed the materiality threshold set out above.
+In addition to the above, outstanding proceedings initiated by the customers of our Company and/or its Subsidiaries, against
+our Company or its Subsidiaries, where the amount involved in an individual litigation does not exceed the materiality
+threshold disclosed above, have been disclosed on a consolidated basis.
+It is clarified that for the above purposes, pre-litigation notices received by Relevant Parties from third parties (excluding
+those notices issued by statutory or regulatory or governmental or taxation authorities), have not been considered as litigation
+until such time that the Relevant Parties are not impleaded as a defendant in the litigation proceedings before any judicial/
+quasi-judicial or arbitral forum, unless otherwise decided by our Board.
+Except as stated in this section, there are no outstanding material dues to creditors of our Company. For this purpose, our
+Board has pursuant to the Board resolution dated December 14, 2023, considered and adopted a policy of materiality for
+identification of material outstanding dues to creditors. In  terms of this materiality policy, outstanding dues to any creditor
+of our Company having a monetary value which exceeds 5% of the total trade payables of our Company as per the Restated
+Consolidated Financial Information of our Company as of June 30, 2023 disclosed in this Draft Red Herring Prospectus,
+shall be considered as ‘material’. Accordingly, as of June 30, 2023, any outstanding dues exceeding ₹520.34 million  have
+been considered as material outstanding dues for the purposes of disclosure in this section.
+For outstanding dues to any micro, small or medium enterprise, the disclosure shall be based on information available with
+our Company regarding the status of the creditor as defined under the Micro, Small and Medium Enterprises Development
+Act, 2006 as amended, read with the rules and notification thereunder.
+
+--- Page 344 ---
+340
+I.
+Litigation involving our Company
+Litigation against our Company
+Material Civil Litigation
+Nil
+Criminal Litigation
+Nil
+Actions taken by Regulatory or Statutory Authorities
+Nil
+Other Matters
+1. In the ordinary course of business, our Company and its Material Subsidiary, OET, have been made party to
+certain proceedings before various consumer dispute redressal commissions by its customers alleging inter alia
+(i) non-delivery of vehicle after payment of full consideration; (ii) cancellation of purchase order and loan
+application without consent of customer; (iii) delivery of vehicles that are defective or unable to meet the
+advertised standards; (iv) improper servicing of vehicles; and (v) display of erroneous charge levels and break
+down of scooters. As on date of this Draft Red Herring Prospectus, there are 189 such matters against us
+involving an aggregate amount of ₹44.77 million, to the extent quantifiable. These matters are presently pending
+at various stages of adjudication.
+In addition to the above-mentioned proceedings which have been instituted before various consumer dispute redressal
+commissions, we also receive and redress complaints, from our prospective and existing customers in relation to
+sales, fulfilment and service. For further details, including in relation to the mechanism adopted by us to monitor and
+resolve the same, please see “Our Business – Redressal of customer concerns and complaints” on page 182.
+Litigation by our Company
+Material Civil Litigation
+Nil
+Criminal Litigation
+Nil
+II.
+Litigation involving our Promoter
+Litigation against our Promoter
+Material Civil Litigation
+Nil
+Criminal Litigation
+1.
+Lahari Recording Company (“Complainant”) has filed a first information report (“FIR”) against our Promoter,
+ANI Technologies Private Limited and Ankit Bhati, with Jeevan Bhimanagar Police Station, Bengaluru alleging
+infringement of copyright on account of playing songs in the ‘Ola Play’ devices without a valid license. Pursuant
+to the settlement agreement dated August 20, 2022, entered into between the Complainant and our Promoter
+and ANI Technologies Private Limited, the parties have settled the matter. Our Promoter and ANI Technologies
+Private Limited have filed a petition under Section 482 of the Code of Criminal Procedure, 1973, along with a
+joint application with the Complainant, before the Karnataka High Court to quash the FIR. The matter is
+currently pending.

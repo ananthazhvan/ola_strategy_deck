@@ -1,0 +1,13 @@
+Policy_Name,Status,Start_Date,End_Date,Outlay_Cr,E2W_Subsidy_Per_Vehicle,Key_Conditions,Impact_On_Ola
+FAME-II,Expired,Apr-2019,Mar-2024,10000,Up to Rs 15000/kWh (max Rs 40000 for E2W),Min 40% localization; min range 80km,Drove initial E2W boom; Ola was top beneficiary
+EMPS-2024 (Interim),Expired,Apr-2024,Sep-2024,500,Rs 5000 per E2W,Bridge scheme between FAME-II and PM E-DRIVE,Short-lived; limited impact
+PM E-DRIVE,Active,Oct-2024,Jul-2026 (E2W),10900,Rs 5000 per E2W via e-voucher,Fund-limited; e-voucher mandatory; 50% DVA,Current subsidy regime; terminal date Jul 2026 for E2W
+ACC PLI (Batteries),Active,2021,2030,18100,Performance-linked incentive for cell mfg,Min 50 GWh capacity bid; DVA requirements,Ola has allocation; disbursement lagging
+Auto PLI,Active,2022,2027,25938,Based on incremental sales of AAT products,Min 50% DVA; investment threshold,Cumulative disbursement: Rs 2322 Cr by Dec 2025
+GST on EVs,Active,Jul-2017,Ongoing,N/A,N/A,5% GST on EVs vs 28%+cess on ICE,Critical price advantage for all EV makers
+GST on EV Batteries,Active,Jul-2017,Ongoing,N/A,N/A,18% GST on standalone/swappable batteries,Higher than vehicle rate; impacts BaaS model
+Karnataka Road Tax,Changed,Apr-2026,Ongoing,N/A,N/A,Ended 100% exemption; now 5-10% tiered LTT,Increases on-road price in key market (Bangalore)
+Maharashtra EV Policy,Active,2025,2030,N/A,Rs 10000 per E2W,100% road tax + registration exempt; toll waivers,Favorable for Mumbai/Pune market
+Delhi EV Policy,Active (Draft 2026),2026,2030,N/A,Up to Rs 30000 per E2W (Year 1 tapering),100% road tax waiver for EVs under Rs 30L,Strong incentive in capital market
+Tamil Nadu EV Policy,Active,2019,Dec-2027,N/A,Rs 10000-20000 per E2W,100% road tax + registration exempt,Home state advantage for Ola (Krishnagiri factory)
+Gujarat EV Policy,Partially Expired,2025,Mar-2026,N/A,Direct subsidy discontinued,1% motor vehicle tax; registration fee waiver,Reduced incentive in major market

@@ -1,0 +1,145 @@
+================================================================================
+ OLA ELECTRIC POST-IPO ANALYSIS (August 2024 – May 2026)
+ Compiled for Strategy Deck Knowledge Base
+================================================================================
+
+EXECUTIVE SUMMARY
+-----------------
+Ola Electric achieved massive manufacturing milestones and record gross margins
+post-IPO, but completely lost its market dominance due to service and quality
+failures. The company's market share collapsed from ~35% to ~8% while competitors
+TVS, Bajaj, and Ather captured the growth. The company is now pivoting from a
+"volume growth" story to a "structural profitability + B2B battery" story.
+
+
+SECTION 1: MARKET SHARE COLLAPSE
+---------------------------------
+Timeline of Ola's market share decline:
+  - Early 2024:  ~35% market share (pre-IPO peak)
+  - Q2 FY25:     ~28% (post-IPO, still leading)
+  - Q4 FY25:     ~20% (crisis begins, TVS overtakes)
+  - Q2 FY26:     ~10% (Bajaj also overtakes)
+  - Q4 FY26:     ~8.2% (single-digit territory)
+  - Apr 2026:    ~8.2% (5th place behind TVS, Bajaj, Ather, Hero)
+
+FY26 total units: 164,000 (vs. ~340,000 in FY25 = 52% decline)
+
+Who won:
+  - TVS Motor:   ~24% share, 371,000 units (iQube range)
+  - Bajaj Auto:  ~22% share, 289,000 units (Chetak, now EBITDA-positive)
+  - Ather Energy: ~16% share, 263,000 units (overtook Ola in revenue Q2 FY26)
+  - Hero Vida:   ~11% share, 150,000 units (fastest % growth: +206% YoY)
+
+Stock performance:
+  - IPO listing price: ~₹76 (Aug 2024)
+  - Post-IPO high: ~₹150
+  - Current (May 2026): ~₹29 (down 52% from highs)
+  - Market cap: $1.56 Billion (vs. Ather at $2.63 Billion)
+
+
+SECTION 2: THE SERVICE CENTER CRISIS (THE TRUST DEFICIT)
+--------------------------------------------------------
+The root cause of Ola's market share collapse was NOT product quality alone —
+it was the catastrophic failure of their D2C (Direct-to-Consumer) service model.
+
+Key events:
+  - Oct 2024: CCPA (Central Consumer Protection Authority) issued a show-cause
+    notice after receiving ~10,000 complaints on the National Consumer Helpline.
+    Complaints cited: repair delays, delivery failures, parts unavailability.
+  
+  - Oct-Nov 2024: Ministry of Heavy Industries (MHI) asked ARAI to investigate
+    whether Ola was violating warranty/service conditions required for
+    FAME/PM E-DRIVE subsidy eligibility. This threatened their subsidy income.
+  
+  - Q3 FY26: Ola launched "Hyperservice" initiative:
+    - Deployed 1,000 new service vans
+    - AI-enabled diagnostics for remote troubleshooting
+    - Claimed 50% reduction in service backlog
+    - 80% of tickets resolved same-day (their claim)
+
+Why legacy players won:
+  TVS had 1,000+ existing dealer-service centers before entering EVs.
+  Bajaj had 3,800+ touchpoints. Hero had the largest dealer network in India.
+  Ola had ~900 experience centers with limited service capability.
+  When Ola's scooters started failing, customers had nowhere to go.
+
+
+SECTION 3: FINANCIAL RESTRUCTURING & THE MARGIN PARADOX
+-------------------------------------------------------
+The counterintuitive story: Ola's financials actually IMPROVED as sales crashed.
+
+Quarterly progression:
+  Q1 FY25: Revenue ₹1,644 Cr | EBITDA: -8.2%  | 108K units | ASP: ₹1.35L
+  Q2 FY25: Revenue ₹1,450 Cr | EBITDA: -12.5% | 95K units  | ASP: ₹1.22L
+  Q3 FY25: Revenue ₹1,210 Cr | EBITDA: -18.4% | 82K units  | ASP: ₹1.10L
+  Q4 FY25: Revenue ₹1,100 Cr | EBITDA: -22.1% | 74K units  | ASP: ₹0.98L
+  Q1 FY26: Revenue ₹680 Cr   | EBITDA: -15.5% | 48K units  | ASP: ₹0.95L
+  Q2 FY26: Revenue ₹450 Cr   | EBITDA: -5.2%  | 32K units  | ASP: ₹0.92L
+  Q3 FY26: Revenue ₹480 Cr   | EBITDA: +2.1%  | 35K units  | ASP: ₹0.89L
+  Q4 FY26: Revenue ₹520 Cr   | EBITDA: +4.5%  | 39K units  | ASP: ₹0.90L
+
+The paradox explained:
+  - Gross margin hit 34.3% in Q3 FY26 (record high) because:
+    1. Gigafactory LFP cells reduced battery BOM cost by 28%
+    2. Gen 3 platform (S1 X) has cheaper manufacturing
+  - OpEx was slashed from ₹840 Cr (Q4 FY25 peak) to ₹484 Cr (Q3 FY26)
+    - Fired thousands of sales staff
+    - Closed underperforming experience centers
+    - Cut marketing spend drastically
+  - New EBITDA breakeven: 15,000 units/month (down from ~40,000+ previously)
+
+The S1 X cannibalization story:
+  - S1 X (cheapest model) grew from 15% of mix (Q1 FY25) to 75% (Q3 FY26)
+  - This dragged blended ASP from ₹1.35L down to ₹0.89L
+  - But S1 X has BETTER unit economics than S1 Pro (simpler build, fewer parts)
+  - So margins improved even as revenue per unit dropped
+
+
+SECTION 4: GIGAFACTORY & TECHNOLOGY PIVOT
+-----------------------------------------
+The Bharat Cell pivot:
+  - Original plan: 4680-format NMC (Nickel-Manganese-Cobalt) chemistry
+  - New plan (Jan 2026): 46100-format LFP (Lithium Iron Phosphate) chemistry
+
+Why LFP over NMC:
+  - 30-40% cheaper raw materials (no cobalt, no nickel)
+  - Better thermal stability for Indian climate (45°C+ summers)
+  - Longer cycle life (3,000+ cycles vs. 1,500 for NMC)
+  - Trade-off: ~15% lower energy density (heavier battery for same range)
+  - For scooters doing 100-150km range, this trade-off is acceptable
+
+Production milestones:
+  - Q2 FY26: 36,000 cells produced
+  - Q3 FY26: 72,418 cells produced (2x QoQ)
+  - Installed capacity: 2.5 GWh
+  - Target: 6 GWh (enough for ~1 million scooters/year)
+
+B2B pivot:
+  - "Ola Shakti" residential home battery storage system announced
+  - Exploring deals to supply cells to other automakers (domestic + global)
+  - This is the hedge: if scooter sales don't recover, they become a
+    battery supplier (like CATL/BYD model, but India-based)
+
+
+SECTION 5: STRATEGIC IMPLICATIONS FOR THE DECK
+-----------------------------------------------
+Three thesis arguments this data enables:
+
+1. THE DIAGNOSIS: Ola didn't lose because of product. They lost because they
+   scaled a D2C model without the service infrastructure. The 10,000 CCPA
+   complaints are mathematical proof. The 34.3% gross margin proves the
+   product economics work — the distribution model was broken.
+
+2. THE FINANCIAL SAFETY: Ola is not going bankrupt. With EBITDA breakeven at
+   15,000 units/month and current run-rate at ~13,000 units/month, they are
+   within striking distance of cash-flow positivity. Cash on hand: ~₹3,516 Cr
+   (from IPO proceeds). Runway: 12-18 months at current burn.
+
+3. THE EXECUTION STRATEGY: The fix is NOT a new product. It's purely a trust
+   recovery play. The Hyperservice initiative + Gigafactory cost advantage
+   means every incremental unit above 15,000/month drops to the bottom line.
+   The competition slide needs to show that TVS/Bajaj won on TRUST, not tech.
+
+================================================================================
+ END OF DOCUMENT
+================================================================================

@@ -1,0 +1,1234 @@
+--- Page 13 ---
+9
+Term
+Description
+a syndicate member, (ii) a stock broker registered with a recognized stock exchange (whose name is
+mentioned on the website of the stock exchange as eligible for such activity), (iii) a depository participant
+(whose name is mentioned on the website of the stock exchange as eligible for such activity), and (iv) a
+registrar to an issue and share transfer agent (whose name is mentioned on the website of the stock
+exchange as eligible for such activity)
+“UPI Circulars”
+SEBI circular number SEBI/HO/CFD/DIL2/CIR/P/2018/138 dated November 1, 2018, SEBI circular
+number SEBI/HO/CFD/DIL2/CIR/P/2019/50 dated April 3, 2019, SEBI circular number
+SEBI/HO/CFD/DIL2/CIR/P/2019/76
+dated
+June
+28,
+2019,
+SEBI
+circular
+number
+SEBI/HO/CFD/DIL2/CIR/P/2019/85
+dated
+July
+26,
+2019,
+SEBI
+circular
+number
+SEBI/HO/CFD/DCR2/CIR/P/2019/133
+dated
+November
+8,
+2019,
+SEBI
+circular
+number
+SEBI/HO/CFD/DIL2/CIR/P/2020/50
+dated
+March
+30,
+2020,
+SEBI
+circular
+number
+SEBI/HO/CFD/DIL-2/CIR/P/2021/2480/1/M dated March 16, 2021, SEBI circular number
+SEBI/HO/CFD/DIL2/P/CIR/2021/570
+dated
+June
+2,
+2021,
+SEBI
+circular
+number
+SEBI/HO/CFD/DIL2/CIR/P/2022/51 dated April 20, 2022 (to the extent these circulars are not rescinded
+by the SEBI RTA Master Circular), SEBI RTA Master Circular (to the extent it pertains to UPI), SEBI
+circular number SEBI/HO/CFD/DIL2/CIR/P/2022/45 dated April 5, 2022, SEBI circular number
+SEBI/HO/CFD/DIL2/P/CIR/2022/75
+dated
+May
+30,
+2022,
+SEBI
+circular
+no.
+SEBI/HO/CFD/TPD1/CIR/P/2023/140 dated August 9, 2023, along with the circular issued by the
+National Stock Exchange of India Limited having reference no. 25/2022 dated August 3, 2022 and the
+circular issued by BSE Limited having reference no. 20220803-40 dated August 3, 2022 and any
+subsequent circulars or notifications issued by SEBI and Stock Exchanges in this regard
+“UPI ID”
+ID created on the UPI for single-window mobile payment system developed by the NPCI
+“UPI Mandate Request”
+A request (intimating the UPI Bidders by way of a notification on the UPI linked mobile application as
+disclosed by SCSBs on the website of SEBI and by way of an SMS on directing the UPI Bidders to such
+UPI linked mobile application) to the UPI Bidders initiated by the Sponsor Bank(s) to authorise blocking
+of funds on the UPI application and subsequent debit of funds in case of Allotment
+“UPI Mechanism”
+The bidding mechanism that may be used by an UPI Bidders in accordance with the UPI Circulars to
+make an ASBA Bid in the Offer
+“UPI PIN”
+Password to authenticate UPI transaction
+“Wilful Defaulter” or “Fraudulent
+Borrower”
+Wilful defaulter or fraudulent borrower as defined under Regulation 2(1)(lll) of the SEBI ICDR
+Regulations
+“Working Day”
+All days on which commercial banks in Mumbai are open for business. In respect of announcement of
+Price Band and Bid/ Offer Period, Working Day shall mean all days, excluding Saturdays, Sundays and
+public holidays, on which commercial banks in Mumbai are open for business. In respect of the time
+period between the Bid/ Offer Closing Date and the listing of the Equity Shares on the Stock Exchanges,
+Working Day shall mean all trading days of the Stock Exchanges, excluding Sundays and bank holidays
+in India, as per circulars issued by SEBI, including the UPI Circulars
+Technical, Industry and Business-Related Terms or Abbreviations
+Term
+Description
+“2W”
+Two-wheel vehicles
+“4W”
+Four-wheel vehicles
+“AAT”
+Advanced automotive technology
+“ACC”
+Advanced chemistry cell
+“Adjusted Gross Margin”
+Total income minus the sum of cost of materials consumed, purchase of stock-in-trade and change in
+inventories of finished goods, stock-in-trade and work-in-progress
+“Adjusted Gross Margin%”
+Adjusted Gross Margin divided by total income
+“AI”
+Artificial intelligence
+“Automobile PLI Scheme”
+Government of India’s production-linked incentive scheme relating to the manufacturing of advanced
+automotive technology products
+“BCM”
+Body control module
+“BMS”
+Battery management system
+“BOM”
+Bill of materials
+“Cell PLI Scheme”
+Government of India’s production-linked incentive scheme relating to advanced cell chemistry batteries
+“D2C”
+Direct-to-customer
+“Delivery” or “Deliveries”
+The date on which the scooter is physically handed over to the customer
+“E2W”
+Electric two-wheel vehicles
+“E4W”
+Electric four-wheel vehicles
+“EBITDA”
+Earnings before tax expenses, interest costs and depreciation and amortisation expenses
+“EBITDA Margin %”
+EBITDA divided by total income
+“EVs”
+Electric vehicles
+“FAME subsidy”
+Government of India’s faster adoption and manufacturing of hybrid and electric vehicles subsidy
+provided to customers who purchase EVs in order to encourage faster adoption of electric mobility and
+the development of its manufacturing ecosystem in India
+“HMI”
+Human machine interactions
+
+--- Page 14 ---
+10
+Term
+Description
+“ICE”
+Internal combustion engine vehicle
+“IPM”
+Internal permanent magnet
+“MCU”
+Motor control unit
+“MoU”
+Memorandum of understanding
+“NEMMP”
+National Electric Mobility Mission Plan 2020
+“Net Asset Value per Equity
+Share”
+Net Worth at the end of the period/ year / weighted average number of equity shares outstanding at the
+end of the period/ year
+“Net Worth”
+Aggregate of equity share capital, instruments entirely equity in nature and other equity
+“OEM”
+Original equipment manufacturer
+“Omnichannel distribution
+network”
+Network of experience centres and service centres, and the Ola Electric website through which our
+Company showcases and sells its products and services
+“PMS”
+Production management stack
+“PLI Scheme”
+Production-linked incentive scheme launched by the Government of India across various sectors to boost
+domestic manufacturing, reduce import dependence, encourage exports and generate employment
+“R&D”
+Research and development
+“Return on Net Worth”
+Loss for the period/year divided by the Net Worth at the end of the respective year/period
+“Revenue from Operations”
+Revenue from operations includes revenue from sale of scooters and its associated spare parts and
+services
+“SIPCOT”
+State Industrial Promotion Corporation of Tamil Nadu
+“TCO”
+Total cost of ownership
+“VAHAN”
+VAHAN Portal of Ministry of Road Transport and Highways
+Conventional and General Terms or Abbreviations
+Term
+Description
+“₹” or “Rs.” Or “Rupees” or “INR” Indian Rupees
+“Bn” or “bn”
+Billion
+“BSE”
+BSE Limited
+“CAGR”
+Compound annual growth rate
+“Category I AIF”
+AIFs who are registered as “Category I Alternative Investment Funds” under the SEBI AIF Regulations
+“Category I FPIs”
+FPIs who are registered as “Category I foreign portfolio investors” under the SEBI FPI Regulations
+“Category II AIF”
+AIFs who are registered as “Category II Alternative Investment Funds” under the SEBI AIF
+Regulations
+“Category II FPIs”
+FPIs who are registered as “Category II foreign portfolio investors” under the SEBI FPI Regulations
+“Category III AIF”
+AIFs who are registered as “Category III Alternative Investment Funds” under the SEBI AIF
+Regulations
+“CDSL”
+Central Depository Services (India) Limited
+“CIN”
+Corporate Identity Number
+“Companies Act” or “Companies
+Act, 2013”
+Companies Act, 2013, as applicable, along with the relevant rules, regulations, clarifications and
+modifications made thereunder
+“Consolidated FDI Policy”
+Consolidated Foreign Direct Investment Policy notified by the DPIIT under DPIIT File Number
+5(2)/2020-FDI Policy dated October 15, 2020, effective from October 15, 2020
+“Depositories”
+Together, NSDL and CDSL
+“Depositories Act”
+Depositories Act, 1996
+“DIN”
+Director Identification Number
+“DP ID”
+Depository Participant’s Identification
+“DP” or “Depository Participant”
+A depository participant as defined under the Depositories Act
+“DPIIT”
+Department for Promotion of Industry and Internal Trade, Ministry of Commerce and Industry,
+Government of India
+“EGM”
+Extraordinary general meeting
+“EPS”
+Earnings per equity share
+“Factories Act”
+Factories Act, 1948
+“FDI”
+Foreign direct investment
+“FEMA”
+The Foreign Exchange Management Act, 1999, read with rules and regulations thereunder
+“FEMA Rules”
+Foreign Exchange Management (Non-debt Instruments) Rules, 2019
+“Financial Year” or “Fiscal” or
+“Fiscal Year” or “FY”
+Unless stated otherwise, the period of 12 months ending March 31 of that particular year
+“FPI”
+Foreign portfolio investors as defined under the SEBI FPI Regulations
+“FVCI”
+Foreign venture capital investors as defined and registered under the SEBI FVCI Regulations
+“GoI” or “Government” or “Central
+Government”
+Government of India
+“GST”
+Goods and services tax
+“HUF”
+Hindu undivided family
+“ICAI”
+The Institute of Chartered Accountants of India
+“IFRS”
+International Financial Reporting Standards
+“Income Tax Act”
+The Income-tax Act, 1961
+
+--- Page 15 ---
+11
+Term
+Description
+“Ind AS”
+Indian Accounting Standards notified under Section 133 of the Companies Act and referred to in the
+Companies (Indian Accounting Standards) Rules, 2015
+“India”
+Republic of India
+“Indian GAAP/IGAAP”
+Accounting Standards notified under Section 133 of the Companies Act and referred to in the
+Companies (Accounting Standards) Rules, 2014
+“IPO”
+Initial public offering
+“IRDAI”
+Insurance Regulatory and Development Authority of India
+“IST”
+Indian Standard Time
+“IT”
+Information Technology
+“IT Act”
+The Information Technology Act, 2000
+“LLP”
+Limited Liability Partnership
+“KYC”
+Know Your Customer
+“MCA”
+Ministry of Corporate Affairs, Government of India
+“Mn” or “mn”
+Million
+“NACH”
+National Automated Clearing House
+“National Investment Fund”
+National Investment Fund set up by resolution F. No. 2/3/2005-DD-II dated November 23, 2005 of the
+GoI, published in the Gazette of India
+“NAV”
+Net Asset Value
+“NBFC”
+Non-Banking Financial Companies
+“NEFT”
+National Electronic Fund Transfer
+“NPCI”
+National Payments Corporation of India
+“NRE”
+Non- Resident External
+“NRO”
+Non-Resident Ordinary
+“NSDL”
+National Securities Depository Limited
+“NSE”
+National Stock Exchange of India Limited
+“OCB” or “Overseas Corporate
+Body”
+A company, partnership, society or other corporate body owned directly or indirectly to the extent of
+at least 60% by NRIs including overseas trusts, in which not less than 60% of beneficial interest is
+irrevocably held by NRIs directly or indirectly and which was in existence on October 3, 2003 and
+immediately before such date had taken benefits under the general permission granted to OCBs under
+FEMA. OCBs are not allowed to invest in the Offer
+“p.a.”
+Per annum
+“P/E Ratio”
+Price to Earnings Ratio
+“PAN”
+Permanent Account Number
+“RBI”
+Reserve Bank of India
+“Regulation S”
+Regulation S under the U.S. Securities Act
+“RTGS”
+Real Time Gross Settlement
+“Rule 144A”
+Rule 144A under the U.S. Securities Act
+“SCRA”
+Securities Contracts (Regulation) Act, 1956
+“SCRR”
+Securities Contracts (Regulation) Rules, 1957
+“SEBI”
+Securities and Exchange Board of India constituted under the SEBI Act
+“SEBI Act”
+Securities and Exchange Board of India Act, 1992
+“SEBI AIF Regulations”
+Securities and Exchange Board of India (Alternative Investment Funds) Regulations, 2012
+“SEBI BTI Regulations”
+Securities and Exchange Board of India (Bankers to an Issue) Regulations, 1994
+“SEBI FUTP Regulations”
+Securities and Exchange Board of India (Fraudulent and Unfair Trade Practices relating to Securities
+Market) Regulations, 2003
+“SEBI FPI Regulations”
+Securities and Exchange Board of India (Foreign Portfolio Investors) Regulations, 2019
+“SEBI FVCI Regulations”
+Securities and Exchange Board of India (Foreign Venture Capital Investors) Regulations, 2000
+“SEBI ICDR Regulations”
+Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations,
+2018
+“SEBI ICDR Master Circular”
+SEBI master circular bearing number SEBI/HO/CFD/PoD- 2/P/CIR/2023/00094 dated June 21, 2023
+“SEBI Listing Regulations”
+Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements)
+Regulations, 2015
+“SEBI
+Merchant
+Bankers
+Regulations”
+Securities and Exchange Board of India (Merchant Bankers) Regulations, 1992
+“SEBI RTA Master Circular”
+SEBI master circular bearing number SEBI/HO/MIRSD/POD-1/P/CIR/2023/70 dated May 17, 2023
+“SEBI SBEB & SE Regulations”
+Securities and Exchange Board of India (Share Based Employee Benefits and Sweat Equity)
+Regulations, 2021
+“SEBI Takeover Regulations”
+Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)
+Regulations, 2011
+“SEBI VCF Regulations”
+Securities and Exchange Board of India (Venture Capital Fund) Regulations, 1996 as repealed pursuant
+to the SEBI AIF Regulations
+“State Government”
+The government of a state in India
+“Stock Exchanges”
+BSE and NSE
+“STT”
+Securities Transaction Tax
+“Systemically Important NBFC” or
+“NBFC-SI”
+Systemically important non-banking financial company as defined under Regulation 2(1)(iii) of the
+SEBI ICDR Regulations
+“TAN”
+Tax deduction account number
+“U.S. QIBs”
+“qualified institutional buyers”, as defined in Rule 144A
+“U.S. Securities Act”
+U.S. Securities Act of 1933, as amended
+
+--- Page 16 ---
+12
+Term
+Description
+“U.S.” or “USA” or “United
+States”
+United States of America including its territories and possessions, any State of the United States, and
+the District of Columbia
+“USD” or “US$”
+United States Dollars
+“VCFs”
+Venture capital funds as defined in and registered with the SEBI under the Securities and Exchange
+Board of India (Venture Capital Fund) Regulations, 1996 or the Securities and Exchange Board of
+India (Alternative Investment Funds) Regulations, 2012, as the case may be
+
+--- Page 17 ---
+13
+OFFER DOCUMENT SUMMARY
+The following is a general summary of certain disclosures and the terms of the Offer and is not exhaustive, nor does it purport
+to contain a summary of all the disclosures in this Draft Red Herring Prospectus or all details relevant to prospective investors.
+This summary should be read in conjunction with, and is qualified in its entirety by, the more detailed information appearing
+elsewhere in this Draft Red Herring Prospectus, including “Risk Factors”, “The Offer”, “Capital Structure”, “Objects of the
+Offer”, “Industry Overview”, “Our Business”, “Our Promoter and Promoter Group”, Restated Consolidated Financial
+Information”, “Outstanding Litigation and Material Developments”, “Offer Procedure” and “Description of Equity Shares
+and Terms of the Articles of Association” on pages 28, 64, 79, 97, 129, 153, 225, 232, 339, 385, and 405, respectively.
+Primary Business of our Company
+We are a pure EV player in India building vertically integrated technology and manufacturing capabilities for EVs and EV
+components. We manufacture EVs and certain core EV components at the Ola Futurefactory. We have delivered four products
+and additionally announced six new products. We are building our EV hub in Tamil Nadu, India, comprising our Ola
+Futurefactory for EV manufacturing, upcoming Ola Gigafactory for cell manufacturing, and co-located suppliers. We operate
+a direct-to-customer omnichannel distribution network across India, comprising 935 experience centres and 414 service centres,
+as of October 31, 2023, and our Ola Electric website.
+Industry in which our Company Operates
+According to the Redseer Report, E2Ws are at the forefront of the electrification of mobility in India due to their favourable
+total cost of ownership and the Indian government’s production-linked incentives and subsidies to promote domestic
+manufacturing and adoption of EVs. E2W penetration in India is expected to expand from approximately 4.5% of domestic 2W
+registrations in Fiscal 2023 to 41-56% of domestic 2W sales volume by Fiscal 2028, while the Indian E2W industry is expected
+to grow at a CAGR of 11% from US$35 billion (₹28.8 trillion) to US$45 billion (₹36.6 trillion) in Fiscal 2028. Further, markets
+like Africa, LATAM and SE Asia provide a significant export opportunity for Indian E2W OEMs.
+Our Promoter
+Our Promoter is Bhavish Aggarwal. For details, see “Our Promoter and Promoter Group” beginning on page 225
+Offer Size
+The following table summarizes the details of the Offer.
+Offer of Equity Shares(1)(2)(3)(4)
+Up to [●] Equity Shares for cash at price of ₹[●] per Equity Share (including a premium of [●] per Equity
+Share) aggregating up to ₹[●] million.
+Of which:
+(i) Fresh Issue(1)
+Up to [●] Equity Shares aggregating up to ₹55,000 million.
+(ii) Offer for Sale(2)
+Up to 95,191,195 Equity Shares aggregating up to ₹[●] million.
+The Offer comprises:
+Employee
+Reservation
+Portion(5)
+Up to [●] Equity Shares aggregating up to ₹[●] million.
+Net Offer
+Up to [●] Equity Shares aggregating up to ₹[●] million.
+(1) The Offer has been authorised by our Board pursuant to the resolutions passed at their meetings dated December 7, 2023 and December 22, 2023,
+respectively, and by our Shareholders pursuant to the special resolution passed at their extraordinary general meeting dated December 8, 2023.
+(2) Our Board has taken on record the approval for the Offer for Sale by each of the Selling Shareholders pursuant to its resolution dated December 22,
+2023. Each of the Selling Shareholders has severally and not jointly confirmed and approved its respective participation in the Offer for Sale and its
+respective eligibility to participate in the Offer for Sale in accordance with Regulation 8 of the SEBI ICDR Regulations. Each of the Selling Shareholders,
+severally and not jointly, confirms its compliance with the conditions specified in Regulation 8A of the SEBI ICDR Regulations, to the extent applicable
+to such Selling Shareholder, as on the date of this Draft Red Herring Prospectus. For further details, see “The Offer” and “Other Regulatory and
+Statutory Disclosures” on pages 64 and 349 respectively.
+(3) Prior to filing of the Red Herring Prospectus,  438,162,753 Series A CCPS will convert to a maximum of up to 386,742,203 Equity Shares; 142,544,269
+Series A1 CCPS will convert to a maximum of up to 136,039,634 Equity Shares; 847,075,656 Series B CCPS will convert to a maximum of up to
+772,424,072 Equity Shares; 45,044,769 Series C1 CCPS will convert to a maximum of up to 41,081,423 Equity Shares; 239,939,690 Series C CCPS will
+convert to a maximum of up to 217,355,781 Equity Shares; 96,928,809 Series D CCPS will convert to a maximum of up to 88,400,347 Equity Shares;
+and 1,163,624,001 Series E CCPS will convert to a maximum of up to 89,578,826 Equity Shares in terms of Regulation 5(2) of the SEBI ICDR Regulations.
+(4) Our Company, in consultation with the BRLMs, may consider a Pre-IPO Placement of [●] Equity Shares for cash consideration aggregating up to
+₹11,000 million at its discretion, prior to the filing of the Red Herring Prospectus with the RoC. The Pre-IPO Placement if undertaken will be at a price
+decided by our Company, in consultation with the BRLMs, and the Fresh Issue size will be reduced to the extent of such Pre-IPO Placement, subject to
+the Offer complying with Rule 19(2)(b) of the Securities Contracts (Regulation) Rules, 1957, as amended.
+(5) Eligible Employees bidding in the Employee Reservation Portion must ensure that the maximum Bid Amount does not exceed ₹500,000. However, the
+initial Allotment to an Eligible Employee in the Employee Reservation Portion shall not exceed ₹200,000. Only in the event of an under-subscription in
+the Employee Reservation Portion post the initial Allotment, such unsubscribed portion may be Allotted on a proportionate basis to Eligible Employees
+Bidding in the Employee Reservation Portion, for a value in excess of ₹200,000, subject to the total Allotment to an Eligible Employee not exceeding
+₹500,000. For further details, see “The Offer” beginning on page 64.
+The Offer and Net Offer shall constitute [●]% and [●]% of the post Offer paid up Equity Share capital of our Company,
+respectively. For further details, see “The Offer” and “Offer Structure” beginning on pages 64 and 381, respectively.
+
+--- Page 18 ---
+14
+Our Company, in consultation with the BRLMs, may consider the Pre-IPO Placement of [●] Equity Shares for an amount
+aggregating up to ₹11,000 million. If the Pre-IPO Placement is undertaken, the Fresh Issue size will be reduced to the extent of
+such Pre-IPO Placement, subject to the Offer complying with Rule 19(2)(b) of SCRR.
+Objects of the Offer
+Our Company proposes to utilise the Net Proceeds towards funding the following objects:
+(in ₹ million)
+Particulars
+Estimated
+amount*
+Capital expenditure to be incurred by our Subsidiary, OCT for the Project
+12,264.27
+Repayment or pre-payment, in full or part, of the indebtedness incurred by our Subsidiary, OET
+8,000.00
+Investment into research and product development
+16,000.00
+Expenditure to be incurred for organic growth initiatives
+3,500.00
+General corporate purposes
+[]#
+Total*
+[]
+*To be determined upon finalisation of the Offer Price and updated in the Prospectus prior to filing with the RoC. This includes the proceeds, if any, received
+pursuant to the Pre-IPO Placement. Details of the Pre-IPO Placement, if undertaken, shall be included in the Red Herring Prospectus.
+#The amount to be utilised for general corporate purposes shall not exceed 25% of the Net Proceeds.
+For further details, see “Objects of the Offer” beginning on page 97.
+Aggregate pre-Offer and post-Offer shareholding of the Promoter, Promoter Group and Selling Shareholders
+Category of Shareholders
+Pre-Offer
+Post-Offer*
+No. of Equity Shares#
+Percentage of pre-
+Offer paid-up
+Equity Share
+capital on a fully
+diluted basis (%)#
+No. of Equity
+Shares
+Percentage of post-
+Offer paid-up
+Equity Share
+capital on a fully
+diluted basis (%)
+Promoter (also the Promoter Selling Shareholder)
+Bhavish Aggarwal
+1,361,875,240
+36.94
+[●]
+[●]
+Promoter Group
+ANI Technologies Private Limited
+160,413,177
+4.35
+[●]
+[●]
+Indus Trust (also the Promoter Group
+Selling Shareholder)
+141,959,272
+3.85
+[●]
+[●]
+Naresh Kumar Aggarwal
+165,669
+Negligible
+[●]
+[●]
+Investor Selling Shareholders
+Ab Initio Capital, L.P.
+10,037,028
+0.27
+[●]
+[●]
+Alpha Wave Ventures II, LP
+128,503,423
+3.49
+[●]
+[●]
+Alpine Opportunity Fund VI, L.P.
+21,412,329
+0.58
+[●]
+[●]
+Ashna Advisors LLP
+601,828
+0.02
+[●]
+[●]
+Barry S. Sternlicht
+17,479,629
+0.47
+[●]
+[●]
+DIG Investment IV AB
+35,018,499
+0.95
+[●]
+[●]
+Internet Fund III Pte Ltd
+222,436,381
+6.03
+[●]
+[●]
+MacRitchie Investments Pte. Ltd.
+46,028,218
+1.25
+[●]
+[●]
+Matrix Partners India III AIF Trust
+3,023,308
+0.08
+[●]
+[●]
+Matrix Partners India Investments III, LLC
+126,623,262
+3.43
+[●]
+[●]
+Nuvama
+Private
+Investments
+Trust-
+Nuvama Crossover Opportunities Fund –
+Series III
+12,168,907
+0.33
+[●]
+[●]
+Nuvama
+Private
+Investments
+Trust-
+Nuvama Crossover Opportunities Fund –
+Series III A
+9,464,591
+0.26
+[●]
+[●]
+Nuvama
+Private
+Investments
+Trust-
+Nuvama Crossover Opportunities Fund –
+Series III B
+9,465,448
+0.26
+[●]
+[●]
+Sarin Family India LLC
+8,714,241
+0.24
+[●]
+[●]
+SVF II Ostrich (DE) LLC
+810,424,447
+21.98
+[●]
+[●]
+Tekne Private Ventures XV, Ltd.
+36,319,597
+0.99
+[●]
+[●]
+Total
+3,162,134,494
+85.77
+[●]
+[●]
+*
+Subject to completion of the Offer and finalization of the Allotment.
+#
+Assuming conversion of CCPS. For details of the CCPS, see “Capital Structure” beginning on page 79.
+For further details of the Offer, see “Capital Structure” beginning on page 79.
+
+--- Page 19 ---
+15
+Summary of Restated Consolidated Financial Information
+The following details are derived from the Restated Consolidated Financial Information as at June 30, 2023, March 31, 2023,
+March 31, 2022 and March 31, 2021.
+(in ₹ million, unless otherwise stated)
+Particulars
+As at and for the
+three-months
+period ended
+June 30, 2023
+As at and for the
+Financial Year
+ended March 31,
+2023
+As at and for the
+Financial Year
+ended March 31,
+2022
+As at and for the
+Financial Year
+ended March 31,
+2021
+Equity share capital
+19,554.50
+19,554.50
+19,554.50
+0.10
+Total income
+12,786.75
+27,826.97
+4,562.60
+1,060.81
+Loss for the period/year
+(2,671.56)
+(14,720.79)
+(7,841.50)
+(1,992.32)
+Basic earnings per equity share (in ₹)
+(0.71)
+(3.91)
+(2.23)
+(0.59)
+Diluted earnings per equity share (i.e., anti-
+dilutive) (in ₹)
+(0.71)
+(3.91)
+(2.23)
+(0.59)
+Total borrowings
+16,165.73
+16,457.53
+7,504.07
+388.72
+Net Worth
+21,115.05
+23,564.44
+36,614.52
+19,706.15
+Return on Net Worth (%)
+(12.65)
+(62.47)
+(21.42)
+(10.11)
+Net Asset Value per Equity Share (in ₹)
+5.61
+6.26
+10.43
+5.83
+Notes:
+A.
+Basic and Diluted EPS and Return on Net Worth numbers for the three-months period ended June 30, 2023 have not been annualised.
+B.
+The ratios have been computed as follows:
+i.
+Basic EPS is calculated as restated loss for the year/period attributable to owners of our Company divided by the weighted average number of
+Equity Shares outstanding during the year/ period.
+ii.
+Diluted EPS is calculated as restated loss for the year/period attributable to owners of our Company divided by the weighted average number of
+Equity Shares outstanding during the year/ period and the weighted average number of Equity Shares that could have been issued upon conversion
+of all dilutive potential Equity Shares.
+iii.
+Net Asset Value per Equity Share (in ₹) is computed as Net Worth at the end of the period/ year / weighted average number of equity shares
+outstanding at the end of the period/ year.
+iv.
+Return on Net Worth (%) is calculated as loss for the year/period divided by the Net Worth at the end of the respective year/period.
+C.
+Accounting and other ratios are derived from the Restated Consolidated Financial Information.
+D.
+Net worth means aggregate of equity share capital, instruments entirely equity in nature and other equity.
+E.
+Weighted average number of equity shares is the number of equity shares outstanding at the beginning of the period/ year adjusted by the number of
+equity shares issued during the period/ year multiplied by the time weighting factor. The time weighting factor is the number of days for which the specific
+shares are outstanding as a proportion of total number of days during the period/ year.
+F.
+Earnings per share calculations are in accordance with Ind AS 33.
+G.
+Total borrowings represent sum of current and non-current borrowings.
+H.
+For reconciliation of Non-GAAP measures, please see “Other Financial Information – Reconciliation of Non-GAAP Measures” on page 305.
+Qualifications of the Statutory Auditors which have not been given effect to in the Restated Consolidated Financial
+Information
+There are no qualifications included by the Statutory Auditors in their audit reports and hence no effect is required to be given
+in the Restated Consolidated Financial Information.
+Summary of Outstanding Litigation
+A summary of outstanding litigation proceedings as on the date of this Draft Red Herring Prospectus as disclosed in the section
+titled “Outstanding Litigation and Other Material Developments” beginning on page 339 in terms of the SEBI ICDR
+Regulations is provided below:
+Name of entity
+Criminal
+proceedings
+Tax
+proceedings
+Statutory or
+regulatory
+proceedings
+Disciplinary
+actions by the
+SEBI or Stock
+Exchanges against
+our Promoter
+Material civil
+litigations
+Aggregate amount
+involved
+(in ₹ million)^
+Company
+By our Company
+Nil
+-
+-
+-
+Nil
+Nil
+Against our Company
+Nil
+1
+Nil
+-
+Nil*
+Nil
+Directors
+By our Directors$
+Nil
+-
+-
+-
+Nil
+Nil
+Against our Directors$
+5
+1
+Nil
+-
+Nil
+30.61
+Promoter
+By our Promoter
+1
+-
+-
+-
+Nil
+Nil
+Against our Promoter
+1
+Nil
+1
+Nil
+Nil
+Nil
+Subsidiaries
+By Subsidiaries
+Nil
+-
+-
+-
+Nil
+Nil
+Against Subsidiaries
+Nil
+Nil
+Nil
+-
+Nil*
+Nil
+^
+to the extent quantifiable.
+*
+This does not include the consolidated disclosure for consumer cases disclosed in “Outstanding Litigation and Material Developments – Litigation
+involving our Company – Litigation against our Company – Other Matters” on page 340, since these are not material civil litigation.
+$
+Excludes litigations involving our Promoter.
+
+--- Page 20 ---
+16
+As on date of this Draft Red Herring Prospectus, there are no outstanding litigations involving the Group Companies, which
+may have a material impact on our Company.
+For further details of the outstanding litigation proceedings, see “Outstanding Litigation and Material Developments” beginning
+on page 339.
+Risk Factors
+For details of the risks applicable to us, see “Risk Factors” beginning on page 28. Investors are advised to read the risk factors
+carefully before making an investment decision in the Offer.
+Summary of Contingent Liabilities
+Our Company has no contingent liabilities as per Ind AS 37 as at June 30, 2023.
+Summary of Related Party Transactions
+A summary of related party transactions as per the requirements under Ind AS 24 – Related Party Disclosures read with the
+SEBI ICDR Regulations entered into by our Company with related parties as at and for the three-months period ended June 30,
+2023 and for the Financial Years ended March 31, 2023, March 31, 2022 and March 31, 2021 derived from our Restated
+Consolidated Financial Information are as follows:
+(In ₹ million)
+Name of related party
+Nature of transactions
+As at and for the period/ year ended
+June 30,
+2023
+March 31,
+2023
+March 31,
+2022
+March 31,
+2021
+ANI
+Technologies
+Private
+Limited
+Expenses incurred on behalf of
+16.58
+103.54
+65.62
+-
+Expenses reimbursement to
+388.06
+1427.72
+355.31
+49.01
+Other financial assets
+219.99
+200.47
+65.62
+18.20
+Other financial liabilities
+1,298.19
+908.70
+243.09
+107.90
+Receivable towards security deposit given
+-
+-
+5.40
+5.40
+OLA
+Financial
+Services
+Private Limited
+Expenses incurred on behalf of
+0.02
+0.97
+25.60
+-
+Expenses reimbursement to
+10.14
+7.09
+-
+0.20
+Other financial assets
+507.32
+688.31
+36.07
+0.20
+Other financial liabilities
+103.72
+344.81
+-
+-
+OLA
+Fleet
+Technologies
+Private Limited
+Expenses incurred on behalf of
+147.13
+354.95
+63.71
+8.90
+Expenses reimbursement to
+676.03
+1,842.95
+137.47
+-
+Lease rental expense, electricity and
+maintenance charges
+-
+-
+40.35
+15.95
+Other financial assets
+492.12
+344.92
+75.08
+8.10
+Other financial liabilities
+472.14
+340.09
+157.73
+20.80
+Sale of goods & services
+449.64
+1536.91
+124.51
+-
+Purchase of services
+647.14
+1,824.26
+423.20
+-
+Trade payables
+1,180.60
+1,002.90
+468.70
+-
+Trade receivables
+925.60
+842.47
+152.20
+-
+Ola
+Stores
+Technologies
+Private Limited
+Purchase of property, plant and equipment
+-
+0.17
+-
+-
+Purchase of raw material and components
+-
+0.05
+-
+-
+Ola USA Inc.
+Expenses reimbursement to
+-
+21.15
+17.64
+27.47
+Interest on Loan
+0.79
+2.84
+1.22
+1.70
+Expenses incurred on behalf of
+0.18
+-
+-
+-
+Loan received
+-
+-
+17.20
+30.07
+Other financial liabilities
+159.89
+160.07
+138.92
+121.30
+Current borrowings
+69.16
+69.41
+65.48
+48.30
+Interest payable on current borrowings
+7.14
+6.36
+3.09
+1.90
+Pisces E Services Private
+Limited
+Expenses incurred on behalf of
+-
+1.11
+2.20
+0.03
+Expenses reimbursement to
+-
+0.22
+0.03
+-
+Other financial assets
+3.28
+3.28
+2.18
+-
+Other financial liabilities
+0.26
+0.23
+0.06
+-
+Remuneration
+paid
+to
+directors & executive officers
+Share-based payment
+27.15
+380.20
+258.09
+214.00
+Short-term employee benefits
+10.88
+47.42
+118.36
+45.40
+Remuneration to non-executive director
+82.60
+29.90
+-
+-
+For details of the related party transactions, see “Restated Consolidated Financial Information – Notes forming part of the
+Restated Consolidated Financial Information – Note 35: Related Parties” on page 293.
+
+--- Page 21 ---
+17
+Weighted average price at which the Equity Shares were acquired by the Promoter and Selling Shareholders of our
+Company
+The weighted average price at which the Equity Shares were acquired by the Promoter and Selling Shareholders, in the
+preceding one year:
+Name of the Promoter / Selling
+Shareholders
+Number of Equity Shares acquired in
+the preceding one year#
+Weighted average price per Equity
+Share (₹)*
+Promoter (also the Promoter Selling Shareholder)
+Bhavish Aggarwal
+Nil
+N.A.
+Promoter Group (also the Promoter Group Selling Shareholder)
+Indus Trust
+Nil
+N.A.
+Investor Selling Shareholders
+Ab Initio Capital, L.P.
+10,037,028
+111.51
+Alpha Wave Ventures II, LP
+128,503,423
+62.38
+Alpine Opportunity Fund VI, L.P.
+21,412,329
+111.51
+Ashna Advisors LLP
+601,828
+71.15
+Barry S. Sternlicht
+17,479,629
+66.24
+DIG Investment IV AB
+35,018,499
+87.90
+Internet Fund III Pte Ltd
+222,436,381
+11.70
+MacRitchie Investments Pte. Ltd.
+29,294,237
+63.40
+Matrix Partners India III AIF Trust
+3,023,308
+8.22
+Matrix Partners India Investments III, LLC
+126,623,262
+8.22
+Nuvama Private Investments Trust-Nuvama
+Crossover Opportunities Fund – Series III
+12,168,907
+71.15
+Nuvama Private Investments Trust-Nuvama
+Crossover Opportunities Fund – Series III A
+9,464,591
+71.15
+Nuvama Private Investments Trust-Nuvama
+Crossover Opportunities Fund – Series III B
+9,465,448
+74.06
+Sarin Family India LLC
+8,714,241
+8.22
+SVF II Ostrich (DE) LLC
+810,424,447
+50.94
+Tekne Private Ventures XV, Ltd.
+36,319,597
+113.12
+#
+Assuming conversion of CCPS. For details of the CCPS, see “Capital Structure” beginning on page 79.
+*
+As certified by B.B. & Associates, Chartered Accountants pursuant to their certificate dated December 22, 2023.
+Weighted average cost of acquisition of the Promoter and the Selling Shareholders
+The weighted average cost of acquisition for the Equity Shares transacted by our Promoter and Selling Shareholders in the one
+year, eighteen months and three years preceding the date of this Draft Red Herring Prospectus is as follows:
+(a)  Weighted average cost of acquisition at which Equity Shares were acquired by our Promoter and Selling Shareholders in
+the one year preceding the date of this Draft Red Herring Prospectus:
+Name of the Promoter / Selling
+Shareholders
+Number of Equity Shares acquired in
+last one year#
+Weighted average cost of acquisition
+per Equity Share (in ₹)*
+Pre-CCPS
+Conversion
+Post-CCPS
+Conversion
+Post-CCPS Conversion
+Promoter (also the Promoter Selling Shareholder)
+Bhavish Aggarwal
+Nil
+Nil
+N.A.
+Promoter Group (also the Promoter Group Selling Shareholder)
+Indus Trust
+Nil
+Nil
+N.A.
+Investor Selling Shareholders
+Ab Initio Capital, L.P.
+Nil
+10,037,028
+111.51
+Alpha Wave Ventures II, LP
+Nil
+128,503,423
+62.38
+Alpine Opportunity Fund VI, L.P.
+Nil
+21,412,329
+111.51
+Ashna Advisors LLP
+Nil
+601,828
+71.15
+Barry S. Sternlicht
+Nil
+17,479,629
+66.24
+DIG Investment IV AB
+Nil
+35,018,499
+87.90
+Internet Fund III Pte Ltd
+Nil
+222,436,381
+11.70
+MacRitchie Investments Pte. Ltd.
+Nil
+29,294,237
+63.40
+Matrix Partners India III AIF Trust
+Nil
+3,023,308
+8.22
+Matrix Partners India Investments III, LLC
+Nil
+126,623,262
+8.22
+Nuvama Private Investments Trust-Nuvama
+Crossover Opportunities Fund – Series III
+Nil
+12,168,907
+71.15
+Nuvama Private Investments Trust-Nuvama
+Crossover Opportunities Fund – Series III A
+Nil
+9,464,591
+71.15
+Nuvama Private Investments Trust-Nuvama
+Crossover Opportunities Fund – Series III B
+Nil
+9,465,448
+74.06
+Sarin Family India LLC
+Nil
+8,714,241
+8.22

@@ -1,0 +1,17 @@
+Model,Brand,Segment,Price_Ex_Showroom_INR,Battery_kWh,Range_Km,Top_Speed_Kmph,Motor_kW,Charging_Time_Hr,Warranty_Vehicle_Yr,Warranty_Battery_Yr,Boot_Space_L,Weight_Kg,Key_USP,Key_Weakness
+S1 Pro+,Ola Electric,Premium,199000,5.3,320,141,11,3.5,3,8,34,123,Best range and speed in class,Service reputation; trust deficit
+S1 Pro,Ola Electric,Premium,135000,3.97,170,116,8.5,5,3,8,34,119,High performance per rupee,Service reliability concerns
+S1 X (3kWh),Ola Electric,Mass,89999,3,115,90,4.5,5.5,3,3,34,99,Cheapest EV scooter in India,Basic features; service access
+S1 X (2kWh),Ola Electric,Entry,69999,2,75,70,3,4,3,3,34,93,Sub-70K price point,Very limited range
+Gen 3 S1,Ola Electric,Next-gen,89000,3.97,150,116,8.5,4,3,8,34,110,New platform; improved build,Unproven reliability
+iQube ST,TVS Motor,Premium,171000,5.3,250,82,6,5,3,5,36,119,Best storage + comfort,Moderate speed
+iQube S,TVS Motor,Mid,128000,3.4,170,82,4.5,5,3,5,36,117,Trusted brand; reliable service,Not the fastest
+iQube (Base),TVS Motor,Entry,115000,2.2,100,78,3,4.5,3,3,36,113,Lowest-priced iQube,Limited range
+Chetak 3201,Bajaj Auto,Premium,140000,3.5,149,73,4.1,5,3,3,N/A,126,Metal body; retro style; lowest service cost,Lower speed; heavier
+Chetak 2901,Bajaj Auto,Mid,115000,2.9,123,73,4.1,5,3,3,N/A,124,Reliable; excellent resale value,Basic tech; no touchscreen
+Chetak (Base),Bajaj Auto,Entry,91000,2.5,100,63,3,5,3,3,N/A,120,Sub-1L Bajaj reliability,Slowest in comparison
+450X,Ather Energy,Premium,177000,3.7,150,90,6.4,5.5,3,8,22,113,Best handling; premium software,Expensive; limited boot space
+450S,Ather Energy,Mid,148000,2.9,115,90,5.4,5,3,5,22,108,Affordable Ather experience,Lower range than 450X
+Rizta,Ather Energy,Family,109000,2.9,123,80,3.7,5.5,3,5,56,126,Family scooter; largest boot,Not sporty
+Vida V1 Pro,Hero MotoCorp,Mid,149000,3.9,165,80,6,5.5,5,5,N/A,119,Swappable battery; 5-year warranty,Late entrant; limited models
+Vida V1 Plus,Hero MotoCorp,Entry,99000,3.4,143,80,6,5.5,5,5,N/A,117,Removable battery; value pricing,Brand perception in EVs still building

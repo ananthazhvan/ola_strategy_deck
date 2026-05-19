@@ -1,0 +1,12 @@
+Date,Milestone,Capacity_GWh,Chemistry,Cells_Produced,BOM_Reduction_Pct,Battery_Cost_Per_kWh_USD,Notes
+Mar-2024,DRHP filing - Gigafactory plan announced,0,NMC 4680 (planned),0,0,135,Construction phase
+Sep-2024,First pilot cells produced,0.5,NMC 4680,~2000,0,130,Engineering validation
+Dec-2024,Pilot line operational,1.0,NMC 4680,~8000,5,125,First cells in test vehicles
+Mar-2025,Commercial production begins,2.0,NMC 4680,~10000,10,115,Cells entering production scooters
+Jun-2025,Q1 FY26 production ramp,2.5,NMC 4680,~15000,15,110,Replacing imported cells in S1 X
+Sep-2025,Q2 FY26 production,2.5,NMC 4680,36000,20,105,Full NMC commercial production
+Dec-2025,Q3 FY26 - doubled QoQ,2.5,NMC 4680,72418,25,100,Record production quarter
+Mar-2026,FY26 end - capacity expanded,5.9,NMC + LFP pilot,~100000,28,90,LFP 46100 cells enter pilot production
+Apr-2026,LFP 46100 cell announced,6.0,LFP 46100,N/A,30,80,New chemistry commercially ready
+Jul-2027,Phase 2 expansion target,12.0,LFP 46100,N/A,35,75,Target capacity
+Mar-2028,Full build-out target,20.0,LFP 46100,N/A,40,70,Long-term target

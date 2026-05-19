@@ -1,0 +1,13 @@
+Date,Event_Category,Event_Description,Complaints_Count,Regulatory_Body,Market_Share_At_Time,Sales_Impact,Resolution_Status
+Q1-FY24,Emerging,Early social media complaints about repair delays and battery range,~500,None,47%,None visible,Unaddressed
+Q3-FY24,Emerging,Complaints accelerate on Twitter/YouTube - viral negative reviews,~2000,None,44%,Minor,Partially addressed
+Q1-FY25,Escalating,Volume hits 100K+ quarterly - service infrastructure overwhelmed,~5000,None,40%,Slow decline begins,Acknowledged internally
+Aug-2024,Public,IPO listing - service issues discussed in DRHP risk factors,189 (court cases disclosed),SEBI (DRHP),40%,None (IPO hype),Disclosed but minimized
+Oct-2024,CRITICAL,CCPA issues show-cause notice to Ola Electric,10000+,CCPA,26%,Rapid decline,Under investigation
+Oct-2024,CRITICAL,MHI asks ARAI to investigate subsidy eligibility violations,N/A,MHI + ARAI,26%,Subsidy risk,Investigation ongoing
+Q3-FY25,Legal,Consumer court rulings ordering full refunds + compensation,500+ cases,District Consumer Forums,22%,Accelerating decline,Multiple adverse rulings
+Q4-FY25,Legal,Reports of bailable warrants over unresolved consumer summons,N/A,High Court,19%,Continued decline,Escalated
+Nov-2024,Response,Project Vistaar launched - network transformation,N/A,Internal,24%,Stabilization attempt,In progress
+Q1-FY26,Response,Hyperservice deployed - 1000 service vans + AI diagnostics,N/A,Internal,17%,Not yet visible,50% backlog reduction claimed
+Q3-FY26,Improving,Service backlog reduced 50% - 80% same-day resolution claimed,N/A,Internal,9%,Volume still declining,Operational improvement
+Q4-FY26,Improving,Gen 3 + improved service driving slight recovery,N/A,Internal,16%,Slight uptick,Partial trust recovery

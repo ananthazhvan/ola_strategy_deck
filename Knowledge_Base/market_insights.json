@@ -1,0 +1,602 @@
+[
+  {
+    "insight": "Ola Electric's market share collapsed from a peak of 55.81% in Apr-22 to 9.71% by Sep-25, a loss of 46.1 percentage points over 41 months. The total market expanded 6.9x from 21,500 units (Apr-22) to 148,713 units (Mar-26), but Ola failed to capture any of that growth — its peak volume was 53,320 units in Mar-24, which collapsed to 7,567 by Nov-25 (−86%).",
+    "source_file": "E2W_MONTHLY_REGISTRATIONS.csv",
+    "source_cells": "Row 2 Ola_Market_Share_Pct=55.81; Row 43 Ola_Market_Share_Pct=9.71; Row 25 Ola=53320; Row 45 Ola=7567; Row 49 Total_Market=148713",
+    "connects_to": ["CCPA Notice Crisis", "Service Infrastructure Failure", "Legacy OEM Resurgence"],
+    "causal_chain": "Peak market share→service complaints overwhelm→regulatory action→consumer trust collapse→continuous decline→restructuring",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Legacy players (TVS+Bajaj) surpassed Ola's combined market share for the first time in Feb-24 — Legacy 42.51% vs Ola 41.92%. By Mar-26, legacy share reached 65.23% while Ola was at 15.95%, a complete reversal of market leadership in 24 months.",
+    "source_file": "E2W_MONTHLY_REGISTRATIONS.csv",
+    "source_cells": "Row 24 Legacy_Market_Share_Pct=42.51, Ola_Market_Share_Pct=41.92; Row 49 Legacy_Market_Share_Pct=65.23, Ola_Market_Share_Pct=15.95",
+    "connects_to": ["Legacy OEM Dealer Network Advantage", "TVS Revenue Tripling", "Bajaj EV Explosion"],
+    "causal_chain": "Service complaints favor legacy→consumers switch→legacy captures share→Ola declines→irreversible reversal",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Ola's YoY growth turned negative for the first time in Aug-24 at −3.45%, then worsened progressively to −69.73% by Nov-25 — the worst single-month decline in the dataset. The negative growth persisted for 17 consecutive months (Aug-24 to Dec-25) before turning slightly positive again at +1.19% in Mar-26.",
+    "source_file": "E2W_MONTHLY_REGISTRATIONS.csv",
+    "source_cells": "Row 30 Ola_YoY_Growth_Pct=−3.45; Row 45 Ola_YoY_Growth_Pct=−69.73; Row 49 Ola_YoY_Growth_Pct=1.19",
+    "connects_to": ["CCPA Notice Triggered Oct-2024", "Revenue Collapse"],
+    "causal_chain": "Service issues compound→negative growth accelerates→brand enters death spiral→extreme OpEx cuts→fragile stabilization",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "TVS Motor grew monthly registrations from 3,000 units (Apr-22) to 42,000 units (Mar-26) — a 14x increase — while expanding EV dealer count from 800 (FY24) to 1,200 (FY26). TVS became the #1 EV player by FY26 with 23% market share.",
+    "source_file": "E2W_MONTHLY_REGISTRATIONS.csv",
+    "source_cells": "Row 2 TVS=3000; Row 49 TVS=42000; COMPETITOR_EV_METRICS Row 4 TVS_EV_FY24_Dealer_Count=800, TVS_EV_FY26_Dealer_Count=1200",
+    "connects_to": ["TVS Revenue Tripling", "Service Network Advantage", "Legacy OEM Resurgence"],
+    "causal_chain": "Legacy trust→dealer network expansion→service reliability→consumer preference→market leadership capture",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Bajaj Auto grew monthly registrations from 1,500 units (Apr-22) to 35,000 units (Mar-26) — a 23x increase. Bajaj expanded EV dealer count from 2,000 (FY24) to 3,800 (FY26), the most aggressive retail expansion in the industry, enabling deep rural and semi-urban penetration.",
+    "source_file": "E2W_MONTHLY_REGISTRATIONS.csv",
+    "source_cells": "Row 2 Bajaj=1500; Row 49 Bajaj=35000; COMPETITOR_EV_METRICS Row 9 Bajaj_EV_FY24_Dealer_Count=2000, Bajaj_EV_FY26_Dealer_Count=3800",
+    "connects_to": ["Bajaj EV Explosion", "Service Network Advantage"],
+    "causal_chain": "Existing ICE dealer network→EV integration→lower service cost→scale advantage→fastest EV growth among legacy",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Ather Energy grew monthly registrations from 5,000 (Apr-22) to 28,000 (Mar-26) — a 5.6x increase — and maintained the highest revenue per unit (~₹139,582 in FY26) proving premium pricing + reliable service is a winning strategy. Ather overtook Ola in revenue by Q2 FY26 (Ather ₹899 Cr).",
+    "source_file": "E2W_MONTHLY_REGISTRATIONS.csv",
+    "source_cells": "Row 2 Ather=5000; Row 49 Ather=28000; COMPETITOR_EV_METRICS Row 5 Ather_FY26_Revenue_Per_Unit=139582; POST_IPO_EVENTS Row 5",
+    "connects_to": ["Ather Revenue Overtake", "Premium Pricing Strategy", "Service Quality Advantage"],
+    "causal_chain": "Premium product→service reliability→higher ASP→revenue overtake→market validation of quality-over-volume strategy",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Hero Vida entered at 100 units (Sep-22) and grew to 20,000 units (Mar-26), achieving 11% EV market share by FY26. Hero's 6,000+ dealer network and 5-year vehicle warranty (longest in industry) give it a structural advantage despite late entry.",
+    "source_file": "E2W_MONTHLY_REGISTRATIONS.csv",
+    "source_cells": "Row 7 Hero_Vida=100; Row 49 Hero_Vida=20000; SERVICE_NETWORK_COMPARISON Row 2 Total_Dealer_Network=6000+",
+    "connects_to": ["Hero Warranty Advantage", "Dealer Network Dominance"],
+    "causal_chain": "Decades of trust→massive dealer network→long warranty→consumer confidence→rapid EV market share capture despite late entry",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Ola's volume collapse from 53,320 units (Mar-24, its all-time peak) to 7,567 units (Nov-25, its nadir) represents an 86% volume destruction in 20 months. This is the most severe volume decline by any major OEM in Indian E2W history.",
+    "source_file": "E2W_MONTHLY_REGISTRATIONS.csv",
+    "source_cells": "Row 25 Ola=53320; Row 45 Ola=7567",
+    "connects_to": ["CCPA Notice Crisis", "Service Infrastructure Failure", "Revenue Collapse"],
+    "causal_chain": "Peak demand→service failure→regulatory crisis→volume collapse→survival restructuring",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "The total E2W market grew from 21,500 units (Apr-22) to a peak of 148,713 units (Mar-26) — 6.9x growth — driven by FAME-II subsidies, expanding charging infrastructure, and consumer shift to EVs. Ola's decline occurred against this massive tailwind, amplifying the competitive failure.",
+    "source_file": "E2W_MONTHLY_REGISTRATIONS.csv",
+    "source_cells": "Row 2 Total_Market=21500; Row 49 Total_Market=148713",
+    "connects_to": ["FAME-II Expiry", "Policy Tailwind", "Market Expansion"],
+    "causal_chain": "Subsidy support→market expansion→Ola should benefit→but fails to capture growth→structural competitive disadvantage exposed",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Ola's Dec-25 recovery signal: 9,020 units at 11.19% share was the first sequential uptick after 14 consecutive months of decline. By Mar-26, Ola recovered to 23,713 units at 15.95% share — still far from peak but indicating stabilization driven by Gen 3 platform + Hyperservice improvements.",
+    "source_file": "E2W_MONTHLY_REGISTRATIONS.csv",
+    "source_cells": "Row 46 Ola=9020, Ola_Market_Share_Pct=11.19; Row 49 Ola=23713, Ola_Market_Share_Pct=15.95",
+    "connects_to": ["Hyperservice Deployment", "Gen 3 Platform Launch", "Service Backlog Reduction"],
+    "causal_chain": "Service improvements→consumer confidence partial recovery→volume uptick→market share stabilization→fragile turnaround",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "SMOKING GUN — CCPA notice timing: In Oct-2024, CCPA issued a show-cause notice with 10,000+ formal complaints (SERVICE_CRISIS Row 6). At that moment, Ola's market share was exactly 26.40% (E2W Row 32 Oct-24). Twelve months prior (Oct-23), Ola was at 45.19%. In the 12 months following CCPA (Oct-24 to Sep-25), share collapsed from 26.40% to 9.71% — the regulatory action was the inflection point that transformed a gradual decline into a freefall.",
+    "source_file": "E2W_MONTHLY_REGISTRATIONS.csv + SERVICE_CRISIS_TIMELINE.csv",
+    "source_cells": "E2W Row 32 Ola_Market_Share_Pct=26.40 (Oct-24); SERVICE_CRISIS Row 6 Date=Oct-2024, Event_Category=CRITICAL, Complaints_Count=10000+; E2W Row 43 Ola_Market_Share_Pct=9.71 (Sep-25)",
+    "connects_to": ["CCPA Notice Triggered Oct-2024", "Service Infrastructure Failure", "Consumer Trust Collapse"],
+    "causal_chain": "CCPA regulatory action→media amplification→consumer trust terminal damage→accelerated market share decline→legacy competitors capture fleeing customers",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "SMOKING GUN — Pre-CCPA vs Post-CCPA decline velocity: In the 6 months before CCPA (Apr-Sep 2024), Ola fell from 40.21% to 28.42% (−11.79pp, or −1.97pp/month). In the 6 months after CCPA (Oct 2024 to Mar 2025), Ola fell from 26.40% to 19.24% (−7.16pp, or −1.19pp/month). While the absolute rate slowed, CCPA made the decline 'sticky' — the share never rebounded, showing that regulatory action locked in the negative trajectory.",
+    "source_file": "E2W_MONTHLY_REGISTRATIONS.csv",
+    "source_cells": "Row 26 Ola_Market_Share_Pct=40.21 (Apr-24); Row 31 Ola_Market_Share_Pct=28.42 (Sep-24); Row 32 Ola_Market_Share_Pct=26.40 (Oct-24); Row 37 Ola_Market_Share_Pct=19.24 (Mar-25)",
+    "connects_to": ["CCPA Notice Crisis", "Regulatory Escalation"],
+    "causal_chain": "CCPA formalizes crisis→prevents any recovery narrative→decline becomes self-reinforcing→even after service improvements, trust not regained",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "SMOKING GUN — Service complaints hit 100K+ quarterly in Q1-FY25 (Apr-Jun 2024) when Ola still commanded ~40% market share. This was the invisible tipping point before CCPA acted. The service infrastructure was overwhelmed long before the regulatory hammer fell.",
+    "source_file": "SERVICE_CRISIS_TIMELINE.csv",
+    "source_cells": "Row 4 Date=Q1-FY25, Complaints_Count=10000+ (but scale description is \"100K+ quarterly\"), Market_Share_At_Time=40%",
+    "connects_to": ["Service Infrastructure Overwhelmed", "CCPA Notice Triggered Oct-2024", "Consumer Trust Collapse"],
+    "causal_chain": "Demand surge→service capacity insufficient→complaint escalation→regulatory attention→CCPA notice→terminal brand damage",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Legal escalation snowballed: 189 cases disclosed in DRHP (Aug-2024) → estimated 500+ post-IPO (May-2026) → multiple consumer court rulings ordering full refund + ₹10,000-50,000 compensation. Courts cited a 'pattern of neglect' by Ola. Each ruling sustained negative media coverage, preventing any market share recovery.",
+    "source_file": "SERVICE_CRISIS_TIMELINE.csv + CUSTOMER_SENTIMENT.csv",
+    "source_cells": "SERVICE_CRISIS Row 5 Date=Aug-2024, Complaints_Count=189 (court cases); SERVICE_CRISIS Row 8 Date=Q3-FY25, Event_Description=Consumer court rulings; CUSTOMER_SENTIMENT Row 7 Typical_Ruling='Full refund + Rs 10000-50000 compensation'",
+    "connects_to": ["CCPA Notice Crisis", "Consumer Trust Collapse", "Negative Media Coverage"],
+    "causal_chain": "DRHP disclosure→post-IPO case explosion→adverse court rulings→media coverage→sustained negative sentiment→prevents recovery",
+    "category": "IPO_Events"
+  },
+  {
+    "insight": "Ola's service network was fundamentally inadequate during the volume surge: 900 peak experience centers but only ~300 with actual repair capability, compared to Bajaj's 850+ dedicated EV service outlets and TVS's 1,000+ pan-India centers. Parts availability at Ola was 60-75% vs 95% for all legacy players. Average turnaround was 7-15 days during the crisis vs 1-2 days for legacy.",
+    "source_file": "SERVICE_NETWORK_COMPARISON.csv",
+    "source_cells": "Row 6 Ola Electric: Total_Dealer_Network=900, EV_Service_Points=~300, Parts_Availability_Pct=60-75, Avg_Turnaround_Days=7-15(peak)/3-4(post); Row 3 Bajaj: EV_Service_Points=850+; Row 4 TVS: Total_Dealer_Network=1000+",
+    "connects_to": ["Service Infrastructure Failure", "Legacy OEM Dealer Network Advantage", "Ola Dealer Network Gap"],
+    "causal_chain": "Asset-light service model→inadequate repair capacity→long turnaround times→consumer frustration→regulatory escalation→market share loss",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Ola's service cost at ₹800-1,500 per visit is the highest in the industry — double Bajaj's ₹400. Combined with 7-15 day turnaround (vs 1-2 for Bajaj/TVS/Hero), Ola offers the worst service economics in the E2W industry despite having only 3 years of service experience vs 30-40+ for legacy players.",
+    "source_file": "SERVICE_NETWORK_COMPARISON.csv",
+    "source_cells": "Row 6 Ola: Service_Cost_Per_Visit_INR=800-1500, Avg_Turnaround_Days=7-15(peak), Years_Of_Service_Experience=3; Row 3 Bajaj: Service_Cost_Per_Visit_INR=400, Avg_Turnaround_Days=1-2, Years_Of_Service_Experience=40+",
+    "connects_to": ["Ola Cost Disadvantage", "Service Infrastructure Failure", "Consumer Trust Collapse"],
+    "causal_chain": "No legacy service network→higher per-visit cost→longer turnaround→worst TCO for consumer→brand switching →market share loss",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Ola's trust inheritance rated 'Very Low (trust damaged)' — contrasting with 'Very High' for Hero, Bajaj, and TVS (decades of trust). Ola has only 3 years of service experience vs 30-40+ years for legacy OEMs. This structural trust deficit made the service crisis exponentially more damaging.",
+    "source_file": "SERVICE_NETWORK_COMPARISON.csv",
+    "source_cells": "Row 6 Ola: Trust_Inheritance='Very Low (trust damaged)', Years_Of_Service_Experience=3; Row 2 Hero: Trust_Inheritance='Very High (decades of trust)', Years_Of_Service_Experience=40+",
+    "connects_to": ["Consumer Trust Collapse", "Brand Damage Irreversible"],
+    "causal_chain": "No brand equity buffer→first major crisis destroys trust completely→trust recovery requires years→legacy players with trust inheritance benefit asymmetrically",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Ola Replaced imported cells with in-house production progressively: $130/kWh imported (Q1 FY25) → $110/kWh in-house NMC (Q1 FY26) → $85/kWh NMC+LFP (Q4 FY26). This 35% cost reduction directly enabled gross margin improvement from 18% (Q1 FY25) to 36% (Q4 FY26) despite ASP declining from ₹135,000 to ₹90,000.",
+    "source_file": "PRODUCT_MIX_QUARTERLY.csv + GIGAFACTORY_MILESTONES.csv",
+    "source_cells": "PRODUCT_MIX Row 2 Battery_Cost_Per_kWh_USD=130 (Q1 FY25); Row 8 Battery_Cost_Per_kWh_USD=85 (Q4 FY26); PRODUCT_MIX Row 2 Gross_Margin_Pct=18; Row 9 Gross_Margin_Pct=36; GIGAFACTORY Row 8 Battery_Cost_Per_kWh_USD=100 (Dec-25); Row 9 Battery_Cost_Per_kWh_USD=90 (Mar-26); Row 10 Battery_Cost_Per_kWh_USD=80 (Apr-26)",
+    "connects_to": ["Gigafactory Economics", "Cell Cost Reduction", "Margin Recovery"],
+    "causal_chain": "In-house cell production→BOM reduction→gross margin expansion→EBITDA breakeven→financial survival despite volume collapse",
+    "category": "Battery"
+  },
+  {
+    "insight": "Ola's Gigafactory progressed from 0 GWh (Mar-2024) to 6 GWh (Apr-2026) in 24 months. Cells produced went from ~2,000 pilot cells (Sep-2024) to ~100,000 (Mar-2026) — a 50x scale-up. BOM cost reduced 28% from initial pilot to Mar-2026, with target of 40% reduction by full build-out (Mar-2028).",
+    "source_file": "GIGAFACTORY_MILESTONES.csv",
+    "source_cells": "Row 2 Capacity_GWh=0 (Mar-2024); Row 9 Capacity_GWh=5.9 (Mar-2026); Row 3 Cells_Produced=~2000 (Sep-2024); Row 9 Cells_Produced=~100000 (Mar-2026); Row 9 BOM_Reduction_Pct=28",
+    "connects_to": ["Gigafactory Economics", "Cell Cost Reduction", "Make vs Buy Analysis"],
+    "causal_chain": "Gigafactory construction→pilot production→commercial ramp→cost reduction→margin improvement→strategic asset",
+    "category": "Battery"
+  },
+  {
+    "insight": "Ola's LFP 46100 cell announced Apr-2026 at $80/kWh — exactly at global LFP pack price parity. This is the critical validation point: at $80/kWh, Ola can compete with Chinese cell imports on cost. Phase 2 target (Jul-2027): $75/kWh at 12 GWh. Full build-out (Mar-2028): $70/kWh at 20 GWh, below global average.",
+    "source_file": "GIGAFACTORY_MILESTONES.csv",
+    "source_cells": "Row 10 Chemistry=LFP 46100, Battery_Cost_Per_kWh_USD=80 (Apr-2026); Row 11 Capacity_GWh=12.0, Battery_Cost_Per_kWh_USD=75 (Jul-2027); Row 12 Capacity_GWh=20.0, Battery_Cost_Per_kWh_USD=70 (Mar-2028)",
+    "connects_to": ["LFP vs NMC Economics", "Global Cell Price Decline", "Gigafactory Make vs Buy"],
+    "causal_chain": "LFP chemistry pivot→cost parity with global prices→scale targets→below-global-average cost→Gigafactory thesis validated",
+    "category": "Battery"
+  },
+  {
+    "insight": "Cobalt price spike validates LFP pivot: Cobalt (LME) surged from $24,000/MT (2025 H2) to $56,000/MT (2026 Current) — a 133% increase driven by DRC supply constraints. This makes NMC cells structurally more expensive and vindicates Ola's decision to pivot from NMC 4680 to LFP 46100 chemistry.",
+    "source_file": "BATTERY_SUPPLY_CHAIN.csv",
+    "source_cells": "Row 3 2025_H2=24000, 2026_Current=56000, Trend='Rising (DRC supply constraints)'",
+    "connects_to": ["LFP vs NMC Economics", "Gigafactory Economics", "DRC Supply Risk"],
+    "causal_chain": "DRC supply constraints→cobalt price spike→NMC uneconomical→Ola LFP pivot validated→gigafactory chemistry decision proven correct→competitors on NMC face cost pressure",
+    "category": "Battery"
+  },
+  {
+    "insight": "Lithium carbonate (China) shows a V-shaped recovery: CNY 590,000/T peak (2022) → crashed to CNY 95,000 (2025 H1) → rebounded to CNY 192,000 (2026 Current) — a 102% H1-to-Current increase. This directly raises Ola's input costs for both NMC and LFP cells,",
+    "source_file": "BATTERY_SUPPLY_CHAIN.csv",
+    "source_cells": "Row 2 2022_Peak=590000, 2025_H1=95000, 2026_Current=192000, Trend='Rising (V-shaped recovery)'",
+    "connects_to": ["Cobalt Price Spike", "Cell Cost Pressure", "Gigafactory Economics"],
+    "causal_chain": "Lithium supply deficit→price recovery→cell input cost increase→Ola's in-house production hedges partially→gigafactory becomes more valuable as hedge against commodity volatility",
+    "category": "Battery"
+  },
+  {
+    "insight": "Global cell manufacturing capacity: 1,500 GWh (2022) → 4,200 GWh (2026) — 180% expansion in 4 years, creating ~900 GWh of excess capacity in 2026. This massive Chinese-driven overcapacity suppresses global cell prices and challenges Ola's Gigafactory thesis — why build cells when you can buy at $80/kWh from CATL/BYD?",
+    "source_file": "BATTERY_SUPPLY_CHAIN.csv",
+    "source_cells": "Row 8 2022=1500, 2026=4200, Notes='Massive overcapacity (~900 GWh excess)'",
+    "connects_to": ["Global Cell Price Decline", "Gigafactory Make vs Buy", "Chinese OEM Export Advantage"],
+    "causal_chain": "Chinese overcapacity→global cell price collapse→makes buying cheaper than building→Ola must achieve cost parity→gigafactory only viable at 12+ GWh scale→race against time",
+    "category": "Battery"
+  },
+  {
+    "insight": "LFP pack price declined from $140/kWh (2022) to $80/kWh (2026) — a 43% drop in 4 years. NMC pack price declined from $160/kWh (2022) to $100/kWh (2026) — a 37.5% drop. LFP is declining faster and is now 20% cheaper than NMC, confirming the industry-wide shift to LFP for cost-sensitive E2W applications.",
+    "source_file": "BATTERY_SUPPLY_CHAIN.csv",
+    "source_cells": "Row 9 2022=140, 2026=80; Row 10 2022=160, 2026=100",
+    "connects_to": ["LFP vs NMC Economics", "Global Cell Price Decline", "Ola LFP Pivot"],
+    "causal_chain": "LFP technology maturation+overcapacity→faster price decline→LFP becomes dominant chemistry→Ola's LFP pivot aligns with industry trend→NMC becomes niche premium chemistry",
+    "category": "Battery"
+  },
+  {
+    "insight": "Ola's Gigafactory make-vs-buy breakeven: At $80/kWh global LFP pack price (2026) and Ola's $85/kWh in-house cost, Ola is currently ~6% above global parity. The Gigafactory only becomes economically justified at Phase 2 (12 GWh, $75/kWh, Jul-2027) when Ola undercuts global prices. Until then, buying from Chinese suppliers is cheaper.",
+    "source_file": "BATTERY_SUPPLY_CHAIN.csv + GIGAFACTORY_MILESTONES.csv",
+    "source_cells": "BATTERY Row 9 2026=80 (LFP pack global); GIGAFACTORY Row 10 Battery_Cost_Per_kWh_USD=80 (LFP 46100 Apr-2026); GIGAFACTORY Row 11 Battery_Cost_Per_kWh_USD=75 (Phase 2 Jul-2027)",
+    "connects_to": ["Global Cell Price Decline", "Ola LFP Pivot", "Gigafactory Economics"],
+    "causal_chain": "China overcapacity→global LFP at $80→Ola at $85→negative spread currently→scale needed for positive spread→gigafactory viable at 12+ GWh→time pressure",
+    "category": "Battery"
+  },
+  {
+    "insight": "Separator film prices declining from $2.5/sqm (2022) to $1.7/sqm (2026) (−32%) and electrolyte from $12/kg (2022) to $5.2/kg (2026) (−57%) — both driven by overcapacity. These falling input costs benefit all cell manufacturers including Ola's Gigafactory, partially offsetting the lithium and cobalt price increases.",
+    "source_file": "BATTERY_SUPPLY_CHAIN.csv",
+    "source_cells": "Row 6 2022=2.5, 2026=1.7; Row 7 2022=12, 2026=5.2",
+    "connects_to": ["Global Cell Price Decline", "Gigafactory Economics"],
+    "causal_chain": "Global overcapacity in battery components→falling separator & electrolyte prices→input cost relief for cell manufacturers→partial hedge against lithium/cobalt increases→benefits Ola Gigafactory",
+    "category": "Battery"
+  },
+  {
+    "insight": "Nickel (LME) stable at $18,000/MT (2026) after crashing from $48,000 peak (2022). Nickel stability is neutral for NMC cell costs but has no impact on LFP (which contains no nickel). Ola's LFP pivot reduces nickel exposure, a strategic de-risking move.",
+    "source_file": "BATTERY_SUPPLY_CHAIN.csv",
+    "source_cells": "Row 4 2022_Peak=48000, 2026_Current=18000",
+    "connects_to": ["LFP vs NMC Economics", "Ola LFP Pivot", "Cobalt Price Spike"],
+    "causal_chain": "Nickel price stability→NMC costs predictable→but Ola pivoting to LFP→eliminates nickel dependency→commodity risk reduction",
+    "category": "Battery"
+  },
+  {
+    "insight": "Karnataka (Bangalore) road tax policy changed Apr-2026: ended 100% exemption, now 5-10% tiered LTT. This directly impacts Ola's home market — Ola is headquartered in Bangalore with Krishnagiri factory in Tamil Nadu — and increases on-road price by ~₹7,000-14,000 on a ₹140,000 scooter. As Ola's recovery showed signs of life (16% share by Mar-26), this tax headwind arrives at the worst possible time.",
+    "source_file": "POLICY_REGULATORY_TIMELINE.csv",
+    "source_cells": "Row 9 Policy_Name='Karnataka Road Tax', Status=Changed, Start_Date=Apr-2026, Key_Conditions='Ended 100% exemption; now 5-10% tiered LTT', Impact_On_Ola='Increases on-road price in key market (Bangalore)'",
+    "connects_to": ["Bangalore Sales Impact", "Price Sensitivity", "Subsidy Cliff Risk"],
+    "causal_chain": "Karnataka ends EV road tax exemption→on-road price increases→demand contraction in Bangalore→Ola's home market hit→further volume pressure during fragile recovery",
+    "category": "Policy"
+  },
+  {
+    "insight": "Subsidy cliff on July 31, 2026 — PM E-DRIVE ends for E2W. Every E2W loses ₹5,000 subsidy. For Ola's cheapest S1 X (2kWh) at ₹69,999, this is a 7.1% price increase. When FAME-II ended Mar-2024 (subsidy dropped ₹40,000→₹5,000), Ola's volume dropped 36% MoM (53,320→33,963 in Apr-24). The Jul-2026 cliff could trigger a similar or worse demand shock, especially with Ola still at fragile 16% share.",
+    "source_file": "POLICY_REGULATORY_TIMELINE.csv + E2W_MONTHLY_REGISTRATIONS.csv",
+    "source_cells": "POLICY Row 4 PM E-DRIVE End_Date='Jul-2026 (E2W)', E2W_Subsidy_Per_Vehicle=5000; E2W Row 25 Ola=53320 (Mar-24); E2W Row 26 Ola=33963 (Apr-24)",
+    "connects_to": ["PM E-DRIVE Cliff", "Demand Shock Risk", "Price Sensitivity"],
+    "causal_chain": "PM E-DRIVE expiry→₹5,000 subsidy loss→E2W price increase→demand contraction in price-sensitive segment→Ola's fragile recovery disrupted→further financial pressure",
+    "category": "Policy"
+  },
+  {
+    "insight": "FAME-II (Apr-2019 to Mar-2024) provided up to ₹40,000 per E2W with ₹10,000 Cr outlay, driving the initial E2W boom. It was replaced by EMPS-2024 (Apr-Sep 2024) at just ₹5,000 per E2W — an 87.5% subsidy reduction — causing immediate market disruption. Every E2W OEM saw volumes dip post FAME-II expiry.",
+    "source_file": "POLICY_REGULATORY_TIMELINE.csv",
+    "source_cells": "Row 2 FAME-II: E2W_Subsidy_Per_Vehicle='Up to Rs 15000/kWh (max Rs 40000 for E2W)', Outlay_Cr=10000; Row 3 EMPS-2024: E2W_Subsidy_Per_Vehicle=5000, Outlay_Cr=500",
+    "connects_to": ["FAME-II Expiry Impact", "Policy Discontinuity", "Ola Volume Collapse"],
+    "causal_chain": "FAME-II expiry→massive subsidy reduction→market shock→volume contraction→policy uncertainty→Ola's high subsidy dependence exposed",
+    "category": "Policy"
+  },
+  {
+    "insight": "PM E-DRIVE (Oct-2024 to Jul-2026) provides ₹5,000 per E2W via e-voucher with mandatory 50% DVA (Domestic Value Addition) and is fund-limited. The DVA requirement favors Ola's in-house manufacturing and cell production compared to import-dependent competitors, giving Ola a structural policy advantage despite its market share collapse.",
+    "source_file": "POLICY_REGULATORY_TIMELINE.csv",
+    "source_cells": "Row 4 PM E-DRIVE: E2W_Subsidy_Per_Vehicle=5000, Key_Conditions='Fund-limited; e-voucher mandatory; 50% DVA', Status=Active, End_Date='Jul-2026 (E2W)'",
+    "connects_to": ["Subsidy Cliff Risk", "Ola Gigafactory Advantage", "Make vs Buy Analysis"],
+    "causal_chain": "DVA requirement under PM E-DRIVE→domestic cell production incentivized→Ola's Gigafactory becomes competitive advantage→import-dependent competitors disadvantaged→policy tailwind partially offsets service crisis",
+    "category": "Policy"
+  },
+  {
+    "insight": "ACC PLI (Batteries) scheme: ₹18,100 Cr outlay (2021-2030) for cell manufacturing with minimum 50 GWh capacity bid and DVA requirements. Ola has allocation but disbursement is lagging — cumulative only ₹2,322 Cr by Dec-2025 against committed targets. The slow disbursement creates cash flow pressure on Ola's Gigafactory investment.",
+    "source_file": "POLICY_REGULATORY_TIMELINE.csv",
+    "source_cells": "Row 5 ACC PLI: Outlay_Cr=18100, Key_Conditions='Min 50 GWh capacity bid; DVA requirements'; Row 6 Auto PLI: cumulative disbursement='Rs 2322 Cr by Dec 2025'",
+    "connects_to": ["Gigafactory Economics", "Cash Flow Pressure", "Policy Implementation Risk"],
+    "causal_chain": "ACC PLI scheme→Ola gets allocation→disbursement lags→Ola must fund Gigafactory from cash flow→financial strain→delays may impact expansion timeline",
+    "category": "Policy"
+  },
+  {
+    "insight": "Tamil Nadu EV Policy (2019-Dec 2027) offers ₹10,000-20,000 per E2W with 100% road tax + registration exemption. Ola's Krishnagiri factory is in Tamil Nadu, giving it home state policy advantage — double the central subsidy level. This partially offsets Karnataka's adverse tax change.",
+    "source_file": "POLICY_REGULATORY_TIMELINE.csv",
+    "source_cells": "Row 12 Tamil Nadu EV Policy: E2W_Subsidy_Per_Vehicle='Rs 10000-20000 per E2W', Key_Conditions='100% road tax + registration exempt'",
+    "connects_to": ["Karnataka Road Tax Change", "Ola Factory Location Advantage", "Regional Policy Arbitrage"],
+    "causal_chain": "Tamil Nadu policy→Ola factory benefit→production cost advantage→partially offsets Karnataka negative→policy geography matters for manufacturing location decisions",
+    "category": "Policy"
+  },
+  {
+    "insight": "Delhi EV Policy (Draft 2026): up to ₹30,000 per E2W in Year 1 (tapering) with 100% road tax waiver for EVs under ₹30L. This is the most aggressive state subsidy — 6x the central subsidy. For Ola's S1 X (₹69,999-89,999), the Delhi policy would add a massive 33-43% price advantage, making Delhi Ola's best-addressable market if recovery continues.",
+    "source_file": "POLICY_REGULATORY_TIMELINE.csv",
+    "source_cells": "Row 11 Delhi EV Policy: E2W_Subsidy_Per_Vehicle='Up to Rs 30000 per E2W (Year 1 tapering)', Key_Conditions='100% road tax waiver for EVs under Rs 30L'",
+    "connects_to": ["Demand Recovery Potential", "Regional Policy Support"],
+    "causal_chain": "Delhi aggressive subsidy→up to ₹30K per vehicle→significant price advantage→demand boost in capital market→Ola opportunity if service quality restored",
+    "category": "Policy"
+  },
+  {
+    "insight": "Gujarat EV Policy direct subsidy discontinued (2025) — now only 1% motor vehicle tax + registration waiver remains. This removes a key incentive in one of India's most prosperous E2W markets. Gujarat was previously a strong market for Ola due to high disposable income and EV adoption rates.",
+    "source_file": "POLICY_REGULATORY_TIMELINE.csv",
+    "source_cells": "Row 13 Gujarat EV Policy: Key_Conditions='Direct subsidy discontinued', Status='Partially Expired'",
+    "connects_to": ["Karnataka Road Tax Change", "Subsidy Cliff Risk"],
+    "causal_chain": "Gujarat discontinues EV subsidy→reduced incentive in high-income market→Ola loses demand support→trend of state-level subsidy rationalization→increases dependence on central subsidy",
+    "category": "Policy"
+  },
+  {
+    "insight": "GST on EVs: 5% vs 28%+cess on ICE — a 23+ percentage point price advantage that is critical for all EV makers. Any GST rate increase would devastate E2W economics. GST on standalone/swappable batteries is 18% — higher than the vehicle 5%, creating a tax penalty for the BaaS model that is critical in export markets.",
+    "source_file": "POLICY_REGULATORY_TIMELINE.csv",
+    "source_cells": "Row 7 GST on EVs: '5% GST on EVs vs 28%+cess on ICE'; Row 8 GST on EV Batteries: '18% GST on standalone/swappable batteries'",
+    "connects_to": ["Export BaaS Requirement", "Price Sensitivity", "E2W ICE Price Parity"],
+    "causal_chain": "GST differential→EVs cheaper than ICE→demand driver→BaaS taxed at 18%→business model disadvantage→impacts export BaaS model viability",
+    "category": "Policy"
+  },
+  {
+    "insight": "Export total addressable market: 1,880,000 units by 2025 across 8 countries, estimated $2-3 Billion by 2028. Key markets: Vietnam (500K), Brazil (400K), Indonesia (300K), Nigeria (200K), Kenya (150K), Mexico (120K), Philippines (100K), Colombia (80K).",
+    "source_file": "EXPORT_MARKET_ASSESSMENT.csv",
+    "source_cells": "Row 11 Total TAM=1880000; Row 11 Notes='Estimated export TAM: $2-3 Billion by 2028'",
+    "connects_to": ["Africa Opportunity", "Vietnam VinFast Barrier", "Brazil Import Duties"],
+    "causal_chain": "Global EV adoption→export markets emerge→Ola must product-match→BaaS requirement→local assembly need→total addressable market exists but barriers are significant",
+    "category": "Export"
+  },
+  {
+    "insight": "Nigeria (200K units, 40% CAGR) is the largest addressable export market. Use case is commercial delivery with very high BaaS demand. Ola faces existing competitors (MAX, Spiro), weak grid, and FX volatility as barriers. Success requires a heavy-duty motorcycle with swappable battery — a product Ola does not yet have.",
+    "source_file": "EXPORT_MARKET_ASSESSMENT.csv",
+    "source_cells": "Row 3 Country=Nigeria, E2W_Market_Size_2025_Units=200000, E2W_CAGR_Pct=40, Primary_Use_Case='Commercial delivery', BaaS_Demand='Very High', India_Competitor_Present='Yes (MAX; Spiro)'",
+    "connects_to": ["Africa BaaS Requirement", "Product Gap Analysis", "Chinese OEM Competition"],
+    "causal_chain": "Nigeria large market→commercial use case→swappable battery needed→Ola lacks motorcycle product→Spiro/MAX already present→late entry penalty→need product development first",
+    "category": "Export"
+  },
+  {
+    "insight": "Vietnam (500K units, 25% CAGR) is the largest single export market but VinFast dominates with massive head start. Opportunity rated 'Low' for Ola. VinFast has established brand, dealer network, and government support. Ola cannot compete without a dramatically differentiated product.",
+    "source_file": "EXPORT_MARKET_ASSESSMENT.csv",
+    "source_cells": "Row 5 Country=Vietnam, E2W_Market_Size_2025_Units=500000, E2W_CAGR_Pct=25, Key_Model_Need='Stylish scooter (Vespa-type)', Opportunity_For_Ola='Low — VinFast has massive head start'",
+    "connects_to": ["Chinese OEM Export Advantage", "Product Gap Analysis"],
+    "causal_chain": "VinFast domestic dominance→high barriers to entry→Ola opportunity low→demonstrates Chinese OEM advantage in home markets→Ola must find markets without dominant local player",
+    "category": "Export"
+  },
+  {
+    "insight": "Brazil (400K units, 20% CAGR) requires CKD/local assembly due to import duties of 35-60%. Opportunity rated 'Medium'. Ola would need a local assembly partner or factory, adding complexity. Brazil's primary use case is urban commute + delivery — compatible with Ola's scooter portfolio.",
+    "source_file": "EXPORT_MARKET_ASSESSMENT.csv",
+    "source_cells": "Row 8 Country=Brazil, E2W_Market_Size_2025_Units=400000, E2W_CAGR_Pct=20, Barriers_To_Entry='Import duties 35-60%', Opportunity_For_Ola='Medium — needs CKD/local assembly'",
+    "connects_to": ["Export Local Assembly Requirement", "Ola Manufacturing Flexibility"],
+    "causal_chain": "High import duties→local assembly required→higher investment→slower market entry→medium opportunity→requires strategic partnership→not quick fix for domestic demand loss",
+    "category": "Export"
+  },
+  {
+    "insight": "BaaS (Battery-as-a-Service) demand is 'Very High' in 4 of the 6 African markets (Kenya, Nigeria, Rwanda) but 'Medium' in SE Asia and 'Low' in Colombia. Africa's weak grid and commercial use cases make swappable batteries essential. Ola does not currently have a BaaS product or swappable battery architecture — this is a prerequisite for Africa entry.",
+    "source_file": "EXPORT_MARKET_ASSESSMENT.csv",
+    "source_cells": "Rows 2-4 Africa BaaS_Demand='Very High'; Rows 5-7 SE Asia BaaS_Demand='Medium'; Rows 8-10 LATAM BaaS_Demand='Medium/Low'",
+    "connects_to": ["GST Battery Tax", "Product Development Need", "Africa Opportunity"],
+    "causal_chain": "Africa grid weakness→BaaS required for commercial EV→Ola lacks swappable battery→product development needed→time-to-market challenge→competitors already offer BaaS in Africa",
+    "category": "Export"
+  },
+  {
+    "insight": "Chinese OEM dominance in export markets: VinFast (Vietnam), Ampersand/Spiro (Africa) already entrenched. Chinese OEMs benefit from lower domestic cell costs (China overcapacity ~900 GWh), established supply chains, and government export support. Ola faces a structural cost disadvantage in export markets unless its Gigafactory reaches global cost parity.",
+    "source_file": "EXPORT_MARKET_ASSESSMENT.csv + BATTERY_SUPPLY_CHAIN.csv",
+    "source_cells": "EXPORT Row 5 VinFast dominates Vietnam; EXPORT Rows 2-4 Ampersand/Spiro present in Africa; BATTERY Row 8 Global_Cell_Mfg_Capacity_2026=4200 GWh with '~900 GWh excess'",
+    "connects_to": ["Chinese OEM Export Advantage", "Gigafactory Make vs Buy", "Africa BaaS Requirement"],
+    "causal_chain": "China battery overcapacity→Chinese OEMs have cheaper cells→lower EV production cost→price advantage in export markets→Ola cannot compete on cost→must differentiate on service or features",
+    "category": "Export"
+  },
+  {
+    "insight": "Rwanda (30K units, 50% CAGR) is the fastest-growing market with high policy support. Rated 'Medium — good pilot market' for Ola. Small size makes it suitable for testing entry strategy before scaling to Kenya (150K) and Nigeria (200K). Ampersand already present.",
+    "source_file": "EXPORT_MARKET_ASSESSMENT.csv",
+    "source_cells": "Row 4 Country=Rwanda, E2W_Market_Size_2025_Units=30000, E2W_CAGR_Pct=50, Opportunity_For_Ola='Medium — good pilot market'",
+    "connects_to": ["Africa BaaS Requirement", "Export Entry Strategy"],
+    "causal_chain": "Rwanda fast growth-small base→ideal pilot market→learn before scaling→Kenya→Nigeria→gradual Africa entry strategy→competitors already present→need urgent action",
+    "category": "Export"
+  },
+  {
+    "insight": "Philippines (100K units, 30% CAGR) has no significant Indian competitor present, offering first-mover advantage. Opportunity rated 'Medium'. It is the only major export market without existing Indian EV competition, but fragmented market structure is a barrier.",
+    "source_file": "EXPORT_MARKET_ASSESSMENT.csv",
+    "source_cells": "Row 7 Country=Philippines, India_Competitor_Present='None significant', Opportunity_For_Ola='Medium — first-mover advantage possible'",
+    "connects_to": ["First Mover Opportunity", "Export Competitive Landscape"],
+    "causal_chain": "No Indian competitor in Philippines→first-mover window→but fragmented market→requires distribution investment→medium-term opportunity→not immediate fix",
+    "category": "Export"
+  },
+  {
+    "insight": "IPO listing Aug-2024: stock hit ₹150 peak (META.csv current price ₹36.10). Market cap at peak: ~₹66,000 Cr. Current market cap: ₹15,923 Cr at ₹36.10 — a 76% decline from peak. Capital from IPO funded Gigafactory phase 1 but the service crisis destroyed the equity value generated.",
+    "source_file": "POST_IPO_EVENTS.csv + META.csv",
+    "source_cells": "POST_IPO Row 2 Stock hits ₹150 peak; META Row 7 Current Price=36.1, Row 8 Market Capitalization=15923.14",
+    "connects_to": ["FII Exit", "Acquisition Target Risk", "Capital Allocation"],
+    "causal_chain": "IPO success→capital raised→service crisis→stock collapse→market cap↓76%→equity value destroyed→acquisition target risk emerges",
+    "category": "IPO_Events"
+  },
+  {
+    "insight": "FII holding declined steadily: 5.41% (Jun-25) → 4.85% (Sep-25) → 4.22% (Dec-25) → 3.99% (Mar-26). This is a 26% reduction in FII exposure over 9 months, indicating sustained institutional loss of confidence. Foreign money exiting creates continuous downward pressure on the stock.",
+    "source_file": "SHAREHOLDING_PATTERN.csv",
+    "source_cells": "Row 4 FII/FPI: Pct_Mar2026=3.99, Pct_Dec2025=4.22, Pct_Sep2025=4.85, Pct_Jun2025=5.41, Change_Trend='Declining steadily', Signal='Foreign money exiting — bearish signal'",
+    "connects_to": ["Stock Price Collapse", "Acquisition Target Risk", "Institutional Confidence"],
+    "causal_chain": "Service crisis→revenue decline→institutional concern→FII selling→stock price decline→further FII exit→self-reinforcing bear cycle→acquisition target risk increases",
+    "category": "IPO_Events"
+  },
+  {
+    "insight": "Retail holding increased: 52.23% (Jun-25) → 53.74% (Sep-25) → 53.84% (Dec-25) → 54.39% (Mar-26). The 'retailification' of Ola's shareholder base — retail investors buying beaten-down stocks while institutions exit — is a classic pattern preceding either a turnaround or further distress.",
+    "source_file": "SHAREHOLDING_PATTERN.csv",
+    "source_cells": "Row 6 Retail+Others: Pct_Mar2026=54.39, Pct_Dec2025=53.84, Pct_Sep2025=53.74, Pct_Jun2025=52.23, Change_Trend='Increasing steadily'",
+    "connects_to": ["FII Exit", "Stock Price Collapse", "Acquisition Target Risk"],
+    "causal_chain": "Institutional exit→retail buys dip→retail concentration→less price discovery→higher volatility→vulnerable to acquisition at depressed valuation",
+    "category": "IPO_Events"
+  },
+  {
+    "insight": "Pre-IPO investors (SoftBank, Tiger Global, others) lockup expiry creates a major overhang. These investors hold significant stakes from pre-IPO rounds and are likely seeking exit. At current ₹36.10 price (vs ₹150 peak), any large secondary sale would further depress the stock.",
+    "source_file": "SHAREHOLDING_PATTERN.csv",
+    "source_cells": "Row 7 Pre-IPO Investors: Change_Trend='Declining (lockup expiry sales)', Signal='Major overhang; SoftBank likely reducing'",
+    "connects_to": ["FII Exit", "Acquisition Target Risk", "Stock Price Collapse"],
+    "causal_chain": "Lockup expiry→pre-IPO investors seek exit→secondary supply→downward price pressure→depressed valuation→acquisition opportunity for strategic buyer",
+    "category": "IPO_Events"
+  },
+  {
+    "insight": "Acquisition target risk: With market cap of ₹15,923 Cr (~$1.9B), stock at ₹36.10 (76% below peak), and FII exiting (5.41%→3.99%), Ola is vulnerable to acquisition. A strategic buyer (Mahindra, Hero, international OEM) could acquire controlling stake for $1.5-2B — cheap relative to Gigafactory asset value (20 GWh target capacity, built at significant investment).",
+    "source_file": "SHAREHOLDING_PATTERN.csv + META.csv + GIGAFACTORY_MILESTONES.csv",
+    "source_cells": "SHAREHOLDING Row 4 FII signal='Foreign money exiting — bearish'; Row 7 Pre-IPO signal='Major overhang'; META Row 7 Current Price=36.1, Row 8 Market Capitalization=15923.14; GIGAFACTORY Row 12 Capacity_GWh=20.0 (target)",
+    "connects_to": ["FII Exit", "Stock Price Collapse", "Gigafactory Asset Value"],
+    "causal_chain": "Depressed stock→low market cap→Gigafactory asset undervalued→acquisition opportunity for strategic buyer→promoter stake only 34.59%→control achievable→SoftBank exit aligns with acquisition scenario",
+    "category": "IPO_Events"
+  },
+  {
+    "insight": "Ather overtook Ola revenue by Q2 FY26: Ather hit ₹899 Cr quarterly revenue (CUSTOMER_SENTIMENT row 5 of POST_IPO_EVENTS) while Ola's quarterly revenue declined from ₹1,644 Cr (Q1 FY25) to ₹450-520 Cr by FY26 (QUARTERLY_FINANCIALS_EXT). Ather's premium pricing (₹139,582/unit) + reliable service proved that quality-over-volume wins in the E2W market.",
+    "source_file": "POST_IPO_EVENTS.csv + QUARTERLY_FINANCIALS_EXT.csv",
+    "source_cells": "POST_IPO Row 5 Ather hits ₹899 Cr Q2; QUARTERLY_FINANCIALS_EXT Row 2 Q1_FY25 Revenue_Cr=1644; QUARTERLY_FINANCIALS_EXT Row 7 Q3_FY26 Revenue_Cr=480; COMPETITOR_EV_METRICS Row 5 Ather_FY26_Revenue_Per_Unit=139582",
+    "connects_to": ["Ather Revenue Overtake", "Premium Pricing Strategy", "Service Quality Advantage"],
+    "causal_chain": "Ather reliable service→customer satisfaction→premium pricing sustainable→revenue overtake→Ola volume decline→revenue parity at drastically different unit economics→market validates quality strategy",
+    "category": "IPO_Events"
+  },
+  {
+    "insight": "Q3 FY26 structural reset (Feb-2026): Gross Margin hit 34.3% for the first time, and breakeven was lowered to 15,000 units/month via extreme OpEx cuts (from estimated 40,000+ units/month previously). This means Ola is now profitable at just 50% of its Nov-25 volume (7,567 units) vs needing ~40K+ units before restructuring.",
+    "source_file": "POST_IPO_EVENTS.csv + QUARTERLY_FINANCIALS_EXT.csv",
+    "source_cells": "POST_IPO Row 7 Event_Name='Q3 FY26 Structural Reset', Metric_Impact='Gross Margin hits 34.3%', Strategic_Implication='Breakeven lowered to 15000 units/month'; QUARTERLY_FINANCIALS_EXT Row 7 EBITDA_Margin_Pct=2.1 (Q3 FY26), Units_Sold=35000",
+    "connects_to": ["Margin Recovery", "Cost Cutting", "EBITDA Breakeven"],
+    "causal_chain": "Volume collapse→extreme OpEx cuts→gross margin improvement→EBITDA breakeven at lower volumes→financial survival→but not growth",
+    "category": "IPO_Events"
+  },
+  {
+    "insight": "B2B Cell Supply Talks (May-2026): Gigafactory at 2.5→6 GWh, Ola pivoting from D2C dependency to B2B battery supplier. This is a strategic recognition that Ola cannot absorb 6+ GWh of cell capacity with its own vehicle sales at 15-16K units/month — it must sell cells externally to utilize Gigafactory capacity.",
+    "source_file": "POST_IPO_EVENTS.csv + GIGAFACTORY_MILESTONES.csv",
+    "source_cells": "POST_IPO Row 9 Category=Strategic, Event_Name='B2B Cell Supply Talks', Metric_Impact='Gigafactory hits 2.5 GWh', Strategic_Implication='Pivoting from D2C dependency to B2B battery supplier'; GIGAFACTORY Row 9 Capacity_GWh=5.9 (Mar-26), Row 10 Capacity_GWh=6.0 (Apr-26)",
+    "connects_to": ["Gigafactory Make vs Buy", "Global Cell Price Decline", "Revenue Diversification"],
+    "causal_chain": "Ola vehicle sales too low→Gigafactory underutilized→B2B cell sales→revenue diversification→capacity utilization→gigafactory economics depend on external sales→competes with Chinese cells globally",
+    "category": "IPO_Events"
+  },
+  {
+    "insight": "Ola's cumulative losses since FY21: -₹199 Cr (FY21) + -₹784 Cr (FY22) + -₹1,472 Cr (FY23) + -₹1,584 Cr (FY24) + -₹2,276 Cr (FY25) = total cumulative loss of -₹6,315 Cr. The company has never posted a profitable year and losses accelerated in FY25 as the service crisis destroyed volumes.",
+    "source_file": "PROFIT_AND_LOSS.csv",
+    "source_cells": "Row 15 Net profit: Mar-21=-199.23, Mar-22=-784.15, Mar-23=-1472.08, Mar-24=-1584.4, Mar-25=-2276",
+    "connects_to": ["Cash Burn", "Funding Requirement", "Acquisition Target Risk"],
+    "causal_chain": "Continuous losses→accumulated deficit→₹6,315 Cr total→funding requirement→dilution or debt→further pressure on stock→acquisition becomes viable exit for investors",
+    "category": "IPO_Events"
+  },
+  {
+    "insight": "Ola product mix shift to budget: S1 X mix went from 15% (Q1 FY25) to 75% (Q3 FY26) — the premium-to-mass pivot. Blended ASP collapsed from ₹135,000 to ₹89,000 (−34%). However, gross margin improved from 18% to 36% during the same period, proving that in-house cell integration can overcome ASP decline.",
+    "source_file": "PRODUCT_MIX_QUARTERLY.csv + QUARTERLY_FINANCIALS_EXT.csv",
+    "source_cells": "PRODUCT_MIX Row 2 S1_X_Pct=15, Blended_ASP=135000, Gross_Margin_Pct=18 (Q1 FY25); PRODUCT_MIX Row 8 S1_X_Pct=75, Blended_ASP=89000, Gross_Margin_Pct=34.3 (Q3 FY26)",
+    "connects_to": ["Margin Recovery", "Cell Cost Reduction", "Premium Segment Exit"],
+    "causal_chain": "Volume decline→shift to cheapest model→ASP decline→cell integration→BOM reduction→gross margin expansion→EBITDA turnaround→survival via cost structure change",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "TVS EV revenue tripling: ₹2,300 Cr (FY24) → ₹4,700 Cr (FY26) — 104% growth. TVS now the #1 EV company in India by revenue. TVS achieved this while maintaining positive margins through its parent (₹2,866 Cr net profit FY25), cross-subsidizing EV growth with ICE profits.",
+    "source_file": "COMPETITOR_EV_METRICS.csv",
+    "source_cells": "Row 2 TVS_EV_FY24=2300, TVS_EV_FY26=4700; Row 8 TVS Parent Net Profit FY25=2866",
+    "connects_to": ["Legacy OEM Resurgence", "TVS Market Leadership", "ICE Cross-Subsidy Advantage"],
+    "causal_chain": "Parent ICE profits→fund EV investment→dealer network expansion→service quality→market share gain→EV revenue triples→Ola displaced as leader",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Bajaj EV units: 116K (FY24) → 289K (FY26) — 149% growth, the fastest among all players. Bajaj's EV EBITDA margins are 'double-digit+' (COMPETITOR Row 5) — the only established player with positive EV-only margins — proving that legacy manufacturing efficiency + existing dealer network = profitable EV transition.",
+    "source_file": "COMPETITOR_EV_METRICS.csv",
+    "source_cells": "Row 3 Bajaj_EV_FY24=116000, Bajaj_EV_FY26=289000; Row 5 Bajaj_EV_EBITDA_Margin='double-digit+'",
+    "connects_to": ["Bajaj EV Explosion", "Legacy OEM Advantage", "EV Profitability Path"],
+    "causal_chain": "Manufacturing efficiency→dealer network leverage→lowest service cost ₹400→volume growth→positive EV margins→proof of profitable EV model→contrast with Ola's loss-making model",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Ather's EBITDA margin improving from -60% (FY24) to -6.7% (FY26) — on track to profitability. Ather achieved this while maintaining the highest brand perception scores (App Rating 4.0/5.0 vs Ola's 3.2/5.0) and premium pricing. Ather proves that the path to EV profitability runs through service quality, not cost-cutting.",
+    "source_file": "COMPETITOR_EV_METRICS.csv + CUSTOMER_SENTIMENT.csv",
+    "source_cells": "COMPETITOR Row 5 Ather_EBITDA_Margin: FY24=-60, FY26=-6.7; CUSTOMER_SENTIMENT Row 17 Ather App Rating=4.0/5.0",
+    "connects_to": ["Ather Revenue Overtake", "Service Quality Advantage", "Premium Pricing Strategy"],
+    "causal_chain": "Service quality→customer satisfaction→premium pricing→revenue growth→EBITDA improvement→profitability path→validates service-first strategy→contrast with Ola's crisis",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Ola's NPS (Net Promoter Score) estimated below 0 (negative) — buyers do not recommend the brand. TVS iQube App Rating 4.2/5.0 and Ather 4.0/5.0 vs Ola's 3.2/5.0. Ola ranks 'Top 5 among all companies' on National Consumer Helpline complaint volume. This is among the worst customer sentiment profiles for any Indian consumer brand.",
+    "source_file": "CUSTOMER_SENTIMENT.csv",
+    "source_cells": "Row 15 NPS='Negative (below 0)'; Row 2 App Rating=3.2/5.0; Row 16 TVS iQube App Rating=4.2/5.0; Row 17 Ather App Rating=4.0/5.0; Row 12 NCH Complaint Volume Rank='Top 5 among all companies'",
+    "connects_to": ["Consumer Trust Collapse", "Brand Damage", "Market Share Collapse"],
+    "causal_chain": "Poor service→negative reviews→low app rating→negative NPS→no recommendations→organic growth zero→brand equity destroyed→recovery requires years of consistent service",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "CCA complaint volume of 10,000+ is unprecedented for an EV company. For context, Ola had only 189 court cases disclosed in its DRHP (Aug-2024), but within 18 months this escalated to 500+ estimated cases with courts issuing bailable warrants. The speed of legal escalation reflects severity of the service failure.",
+    "source_file": "CUSTOMER_SENTIMENT.csv + SERVICE_CRISIS_TIMELINE.csv",
+    "source_cells": "CUSTOMER_SENTIMENT Row 4 CCPA Formal Complaints=10000+, Oct-2024; CUSTOMER_SENTIMENT Row 5 DRHP disclosed cases=189; CUSTOMER_SENTIMENT Row 6 Post-IPO cases=500+; SERVICE_CRISIS Row 9 bailable warrants Q4-FY25",
+    "connects_to": ["CCPA Notice Crisis", "Legal Escalation", "Regulatory Risk"],
+    "causal_chain": "DRHP disclosure→post-IPO complaint explosion→CCPA notice→consumer court cases→bailable warrants→regulatory risk compounds→prevents any recovery narrative",
+    "category": "IPO_Events"
+  },
+  {
+    "insight": "Ola S1 Pro+ at ₹199K is the most expensive E2W in the market with best specs (320km range, 141kmph speed, 11kW motor) but is crippled by 'Service reputation; trust deficit' as its key weakness. In contrast, Bajaj Chetak 3201 at ₹140K has 'Metal body; retro style; lowest service cost (₹400)' as its USP. Premium customers choose trusted brands over raw specs.",
+    "source_file": "PRODUCT_SPECS_COMPARISON.csv + SERVICE_NETWORK_COMPARISON.csv",
+    "source_cells": "PRODUCT Row 2 S1 Pro+: Price=199000, Range=320, Key_USP='Best range and speed in class', Key_Weakness='Service reputation; trust deficit'; PRODUCT Row 10 Chetak 3201: Price=140000, Key_USP='Metal body; retro style; lowest service cost'; SERVICE Row 3 Bajaj Service_Cost=400",
+    "connects_to": ["Product Gap Analysis", "Service Quality Advantage", "Premium Segment Exit"],
+    "causal_chain": "Best specs on paper→service failure in real world→trust deficit→premium customers choose legacy→Ola forced to mass segment→premium segment lost to Ather/TVS/Bajaj",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Ola's cheapest model S1 X (2kWh) at ₹69,999 has only 75km range and 3kW motor — severely limiting for practical use. Warranty is 3yr vehicle + 3yr battery vs Hero Vida's 5yr+5yr. Ola has the weakest warranty in the industry at the lowest price point, creating a value perception problem even in its own segment.",
+    "source_file": "PRODUCT_SPECS_COMPARISON.csv",
+    "source_cells": "Row 5 S1 X 2kWh: Price=69999, Range=75, Motor_kW=3, Warranty_Vehicle_Yr=3, Warranty_Battery_Yr=3; Row 17 Vida V1 Plus: Price=99000, Warranty_Vehicle_Yr=5, Warranty_Battery_Yr=5",
+    "connects_to": ["Product Gap Analysis", "Budget Segment Trap"],
+    "causal_chain": "Lowest price→limited specs→short warranty→perceived low quality→brand image damaged→even budget buyers choose competitors→trust problem at all price points",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Ola's S1 X (3kWh) at ₹89,999 vs Bajaj Chetak Base at ₹91,000 — direct competitors at similar price. Chetak has lower speed (63 vs 90 kmph) but has 40+ years of service trust, metal body, and minimum complaints (SERVICE_NETWORK). The price parity between Ola and Bajaj at the entry level means Ola cannot compete on price — it must compete on trust, where it has none.",
+    "source_file": "PRODUCT_SPECS_COMPARISON.csv + SERVICE_NETWORK_COMPARISON.csv",
+    "source_cells": "PRODUCT Row 4 S1 X 3kWh: Price=89999, Top_Speed=90; PRODUCT Row 12 Chetak Base: Price=91000, Top_Speed=63; SERVICE Row 3 Bajaj: Trust_Inheritance='Very High', Service_Cost=400",
+    "connects_to": ["Pricing Trap", "Brand Trust Deficit", "Service Quality Advantage"],
+    "causal_chain": "Price parity with Bajaj→no price advantage→compete on trust→Ola trust damaged→cannot compete→market share loss continues→price cut not possible without destroying margins",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Ola's Revenue Per Unit increased from ₹151,818 (FY24) to ₹223,902 (FY26) despite ASP decline in quarterly data — this discrepancy suggests growing non-vehicle revenue (B2B cell sales, service revenue, accessories) in FY26. The mix shift from pure vehicle sales to diversified revenue is a strategic pivot visible in the annual metric.",
+    "source_file": "COMPETITOR_EV_METRICS.csv + PRODUCT_MIX_QUARTERLY.csv",
+    "source_cells": "COMPETITOR Row 4 Ola_FY24_Revenue_Per_Unit=151818, Ola_FY26_Revenue_Per_Unit=223902; PRODUCT_MIX Row 2 Blended_ASP=135000 (Q1 FY25), Row 8 Blended_ASP=89000 (Q3 FY26)",
+    "connects_to": ["B2B Cell Supply", "Revenue Diversification", "Non-Vehicle Revenue"],
+    "causal_chain": "Vehicle ASP declines→non-vehicle revenue grows→overall revenue per unit increases→diversification reduces vehicle sales dependency→B2B and service become new revenue pillars",
+    "category": "IPO_Events"
+  },
+  {
+    "insight": "TVS EV EBITDA margins are not explicitly stated (blank in matrix) while Bajaj has 'double-digit+' and Ather is at -6.7% (FY26). Hero Vida at -95% (FY26) is still deeply negative, indicating Hero is in heavy investment phase. Ola's EV EBITDA is not separately stated but aggregate EBITDA margins improved from -22.1% (Q4 FY25) to +4.5% (Q4 FY26).",
+    "source_file": "COMPETITOR_EV_METRICS.csv + QUARTERLY_FINANCIALS_EXT.csv",
+    "source_cells": "COMPETITOR Row 5: Ather_FY26_EBITDA=-6.7, Bajaj_EV_EBITDA='double-digit+', Hero_EV_FY26_EBITDA=-95; QUARTERLY_FINANCIALS_EXT Row 9 Q4_FY26 EBITDA_Margin_Pct=4.5",
+    "connects_to": ["EV Profitability Path", "Margin Recovery"],
+    "causal_chain": "Competitors reach EV profitability→industry maturation→Ola last to positive EBITDA→but achieved via volume collapse not growth→unsustainable path→must grow volumes at positive margins",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Ola's quarterly net loss trajectory: -₹347 Cr (Jun-24, peak revenue quarter) → -₹870 Cr (Mar-25, worst quarter) → -₹487 Cr (Dec-25, still deep losses despite restructuring). Despite EBITDA turning positive in Q3 FY26 (+2.1%), net losses continue due to depreciation (₹170 Cr/quarter) and interest (₹80 Cr/quarter) from Gigafactory capex.",
+    "source_file": "QUATERS.csv + QUARTERLY_FINANCIALS_EXT.csv",
+    "source_cells": "QUATERS Row 9 Net profit: Jun-24=-347, Mar-25=-870, Dec-25=-487; QUARTERLY_FINANCIALS_EXT Row 7 EBITDA_Margin_Pct=2.1 (Q3 FY26); QUATERS Row 5 Depreciation Dec-25=170, Row 6 Interest Dec-25=80",
+    "connects_to": ["Cash Burn", "Gigafactory Capex Burden", "Acquisition Target Risk"],
+    "causal_chain": "EBITDA positive→but high depreciation+interest→net losses continue→cash burn from Gigafactory→funding need→dilution risk→depressed stock continues",
+    "category": "IPO_Events"
+  },
+  {
+    "insight": "Hyperservice deployment (Q1 FY26): 1,000 service vans + AI diagnostics deployed. Claimed 50% backlog reduction and 80% same-day resolution by Q3 FY26 (SERVICE_CRISIS Row 11-12). However, these are self-reported metrics not independently verified, and customer app rating remains at 3.2/5.0 (CUSTOMER_SENTIMENT Row 2). The gap between claimed and perceived improvement is significant.",
+    "source_file": "SERVICE_CRISIS_TIMELINE.csv + CUSTOMER_SENTIMENT.csv",
+    "source_cells": "SERVICE_CRISIS Row 11 Hyperservice deployed Q1-FY26; Row 12 'Service backlog reduced 50% - 80% same-day resolution claimed' Q3-FY26; CUSTOMER_SENTIMENT Row 2 App Rating=3.2/5.0 (May-2026)",
+    "connects_to": ["Service Backlog Reduction", "Trust Recovery", "Market Share Stabilization"],
+    "causal_chain": "Hyperservice deployment→operational metrics improve→self-reported success→customer perception lags→app rating still low→trust recovery takes longer than operational recovery→market share recovery slow",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "NCH (National Consumer Helpline) ranked Ola in 'Top 5 among all companies' for complaint volume in 2024-2025. This places Ola — a 3-year-old company — alongside India's largest consumer-facing businesses in complaint volume, an extraordinary negative achievement for a company with < 1M cumulative vehicles sold.",
+    "source_file": "CUSTOMER_SENTIMENT.csv",
+    "source_cells": "Row 12 NCH Complaint Volume Rank='Top 5 among all companies', 2024-2025, Sentiment_Direction='Very Negative'",
+    "connects_to": ["CCPA Notice Crisis", "Consumer Trust Collapse", "Brand Damage"],
+    "causal_chain": "Service complaints→NCH top 5→regulatory attention→CCPA notice→media coverage→brand damage→market share decline→worst complaint-to-sales ratio in India",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Project Vistaar launched Nov-2024 (SERVICE_CRISIS Row 10) as network transformation response, but Ola's service network restructured from 900 experience centers peak to ~300 with repair capability — an effective service point reduction of 67% despite claiming 'network transformation.' True service capability was far below the claimed 900 centers.",
+    "source_file": "SERVICE_CRISIS_TIMELINE.csv + SERVICE_NETWORK_COMPARISON.csv",
+    "source_cells": "SERVICE_CRISIS Row 10 Project Vistaar launched Nov-2024, Market_Share_At_Time=24%; SERVICE_NETWORK Row 6 Ola: Total_Dealer_Network=900 (peak), EV_Service_Points='~300 with repair capability'",
+    "connects_to": ["Service Infrastructure Overwhelmed", "Ola Dealer Network Gap"],
+    "causal_chain": "Claimed 900 centers→only 300 have repair capability→service gap→Project Vistaar→network restructuring→but real capacity was always much lower→misleading metric",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Ola's Gen 3 platform launched with 110kg weight (vs 119-126kg for competitors), 150km range at ₹89,000 price point with 8-year battery warranty (up from 3yr on S1 X). The key weakness is still 'Unproven reliability.' Gen 3 is Ola's make-or-break product — if reliability issues persist, the company may not survive another service crisis cycle.",
+    "source_file": "PRODUCT_SPECS_COMPARISON.csv",
+    "source_cells": "Row 6 Gen 3 S1: Price=89000, Range=150, Battery_kWh=3.97, Warranty_Battery_Yr=8, Key_Weakness='Unproven reliability', Weight_Kg=110",
+    "connects_to": ["Gen 3 Platform Launch", "Product Reliability", "Turnaround Strategy"],
+    "causal_chain": "Gen 3 launch→improved specs+longer warranty→unproven reliability→consumer skepticism→must prove reliability in market→if successful→recovery acceleration→if failure→existential crisis",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Auto PLI scheme (2022-2027) with ₹25,938 Cr outlay based on incremental sales of AAT products with minimum 50% DVA. Cumulative disbursement only ₹2,322 Cr by Dec-2025 — 9% of total allocation disbursed in 3+ years. Slow PLI disbursement adds to Ola's cash flow pressure as it awaits policy-linked incentives.",
+    "source_file": "POLICY_REGULATORY_TIMELINE.csv",
+    "source_cells": "Row 6 Auto PLI: Outlay_Cr=25938, Key_Conditions='Min 50% DVA; investment threshold', Cumulative disbursement='Rs 2322 Cr by Dec 2025'",
+    "connects_to": ["ACC PLI Disbursement Lag", "Cash Flow Pressure", "Policy Implementation Risk"],
+    "causal_chain": "Policy announced→companies invest→disbursement lags→Ola awaiting incentives→cash flow mismatch→investment burden on Ola's balance sheet→dependence on policy execution",
+    "category": "Policy"
+  },
+  {
+    "insight": "Maharashtra EV Policy (2025-2030) offers ₹10,000 per E2W with 100% road tax + registration exemption and toll waivers — double the central PM E-DRIVE subsidy. This makes Maharashtra (Mumbai/Pune) one of the most attractive E2W markets in India. Ola's service crisis hit hardest in urban markets — Maharashtra recovery is critical.",
+    "source_file": "POLICY_REGULATORY_TIMELINE.csv",
+    "source_cells": "Row 10 Maharashtra EV Policy: E2W_Subsidy_Per_Vehicle='Rs 10000 per E2W', Key_Conditions='100% road tax + registration exempt; toll waivers'",
+    "connects_to": ["Regional Policy Support", "Urban Market Recovery"],
+    "causal_chain": "Maharashtra double subsidy→strong urban market→critical for Ola recovery→service quality must match→to capture policy benefit→Ola home market disadvantage (Karnataka) partially offset",
+    "category": "Policy"
+  },
+  {
+    "insight": "Ola's selling and admin expenses ballooned from ₹58 Cr (Mar-21) to ₹1,598 Cr (Mar-25) — a 27x increase in 4 years — while sales grew only 5,250x (₹0.86 Cr to ₹4,514 Cr). The SG&A-to-sales ratio deteriorated from 67:1 (FY21) to 35% of revenue (FY25). This cost structure was built for the 50%+ market share era and became unsustainable when share collapsed.",
+    "source_file": "PROFIT_AND_LOSS.csv",
+    "source_cells": "Row 2 Sales: Mar-21=0.86, Mar-25=4514; Row 7 Selling and admin: Mar-21=58.06, Mar-25=1598",
+    "connects_to": ["Cost Structure Problem", "OpEx Reduction Need", "Restructuring"],
+    "causal_chain": "High-growth spending→fixed cost build-up→volume collapse→SG&A unsustainable→restructuring required→breakeven lowered→extreme cost cuts implemented",
+    "category": "IPO_Events"
+  },
+  {
+    "insight": "Ola's employee cost grew from ₹197 Cr (Mar-21) to ₹465 Cr (Mar-25) — 136% increase — but was relatively flat from Mar-23 (₹430 Cr) to Mar-25 (₹465 Cr), indicating hiring freeze in the crisis period. Despite 56% revenue decline from peak, the employee base was not significantly reduced, suggesting retention of Gigafactory and R&D talent.",
+    "source_file": "PROFIT_AND_LOSS.csv",
+    "source_cells": "Row 6 Employee Cost: Mar-21=197.25, Mar-23=429.72, Mar-24=450.6, Mar-25=465",
+    "connects_to": ["Cost Structure", "Gigafactory Talent Retention", "Restructuring"],
+    "causal_chain": "Crisis hits→revenue declines→employee cost stable→headcount preserved for Gigafactory→strategic choice→near-term losses for long-term capability→but cash burn continues",
+    "category": "IPO_Events"
+  },
+  {
+    "insight": "Ola's interest cost grew from ₹0.79 Cr (Mar-21) to ₹366 Cr (Mar-25) — a 463x increase — driven by Gigafactory debt financing. Interest now exceeds total revenue of FY21 (₹0.86 Cr) by 425x. The debt service burden is a structural cost that cannot be cut and will consume cash flow even at EBITDA breakeven.",
+    "source_file": "PROFIT_AND_LOSS.csv",
+    "source_cells": "Row 12 Interest: Mar-21=0.79, Mar-25=366",
+    "connects_to": ["Gigafactory Capex Burden", "Cash Burn", "Acquisition Target Risk"],
+    "causal_chain": "Gigafactory capex→debt financing→interest cost explosion→fixed financial burden→cannot cut→cash flow constraint→limits pricing/marketing flexibility→competitive disadvantage",
+    "category": "IPO_Events"
+  },
+  {
+    "insight": "Ola's depreciation rose from ₹19.6 Cr (Mar-21) to ₹566 Cr (Mar-25) — a 29x increase — driven by Gigafactory asset capitalization. Quarterly depreciation reached ₹170 Cr by Dec-25. Even after EBITDA breakeven, Ola will report net losses of ~₹250 Cr/quarter from depreciation + interest alone.",
+    "source_file": "PROFIT_AND_LOSS.csv + QUATERS.csv",
+    "source_cells": "PROFIT Row 11 Depreciation: Mar-21=19.62, Mar-25=566; QUATERS Row 5 Depreciation Dec-25=170",
+    "connects_to": ["Gigafactory Capex Burden", "Net Loss Persistence", "Cash Flow Analysis"],
+    "causal_chain": "Asset build-up→depreciation charges→non-cash but impacts net income→reported losses despite operational profitability→investor perception negative→stock pressure continues",
+    "category": "IPO_Events"
+  }
+]

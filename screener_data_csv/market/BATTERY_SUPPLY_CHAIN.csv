@@ -1,0 +1,10 @@
+Commodity,Unit,2022_Peak,2023_Avg,2024_Avg,2025_H1,2025_H2,2026_Current,Trend,Impact_On_Ola_Gigafactory
+Lithium Carbonate (China),CNY/T,590000,180000,110000,95000,135000,192000,Rising (V-shaped recovery),Higher input costs; but in-house LFP partially hedges
+Cobalt (LME),USD/MT,82000,33000,28000,25000,24000,56000,Rising (DRC supply constraints),NMC cells more expensive; validates LFP pivot
+Nickel (LME),USD/MT,48000,22000,17000,15500,16000,18000,Stable-to-rising,NMC cells affected; LFP unaffected
+Graphite (Natural Flake),USD/T,1200,800,650,600,580,620,Stable,Affects both NMC and LFP; minor cost component
+Separator Film,USD/sqm,2.5,2.2,2.0,1.9,1.8,1.7,Declining (overcapacity),Favorable for all cell manufacturing
+Electrolyte,USD/kg,12,8,6,5.5,5.0,5.2,Stable-low,Favorable for cell manufacturing
+Global Cell Mfg Capacity,GWh,1500,2200,3000,3500,3800,4200,Massive overcapacity (~900 GWh excess),Pressure on cell prices; good for Ola if buying; bad if selling B2B
+Cell Price (LFP Pack),USD/kWh,140,120,100,90,85,80,Declining,Validates make-vs-buy; Ola must beat $80/kWh to justify Gigafactory
+Cell Price (NMC Pack),USD/kWh,160,140,120,110,105,100,Declining but slower than LFP,LFP increasingly dominant for cost-sensitive applications

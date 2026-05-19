@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ola Electric: From Crisis to Category King</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@300;400;500;600&family=Noto+Serif+SC:wght@300;400;500;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0a0a0b;
+    --ink-rgb:10,10,11;
+    --paper:#f1efea;
+    --paper-rgb:241,239,234;
+    --paper-tint:#e8e5de;
+    --ink-tint:#18181a;
+    --mono:"IBM Plex Mono",ui-monospace,monospace;
+    --serif-en:"Playfair Display","Source Serif 4",Georgia,serif;
+    --serif-body-en:"Source Serif 4",Georgia,serif;
+    --serif-zh:"Noto Serif SC",source-han-serif-sc,serif;
+    --sans-zh:"Noto Sans SC",source-han-sans-sc,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:100%;height:100%;overflow:hidden;background:var(--ink);color:var(--paper);font-family:var(--sans-zh);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  canvas.bg{position:fixed;inset:0;width:100vw;height:100vh;z-index:0;display:block;transition:opacity 1.2s ease}
+  canvas#bg-light{opacity:0}
+  canvas#bg-dark{opacity:1}
+  body.light-bg canvas#bg-light{opacity:1}
+  body.light-bg canvas#bg-dark{opacity:0}
+  #deck{position:fixed;inset:0;width:10000vw;height:100vh;display:flex;flex-wrap:nowrap;transition:transform .9s cubic-bezier(.77,0,.175,1);z-index:10;will-change:transform}
+  .slide{width:100vw;height:100vh;flex:0 0 100vw;position:relative;padding:6vh 6vw 10vh 6vw;display:flex;flex-direction:column;overflow:hidden}
+  .slide.light{color:var(--ink)}
+  .slide.dark{color:var(--paper)}
+  .slide::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;transition:background .7s ease}
+  .slide.light::before{background:rgba(var(--paper-rgb),.78);backdrop-filter:blur(3px)}
+  .slide.dark::before{background:rgba(var(--ink-rgb),.78);backdrop-filter:blur(3px)}
+  .slide.hero.light::before{background:rgba(var(--paper-rgb),.16);backdrop-filter:none}
+  .slide.hero.dark::before{background:rgba(var(--ink-rgb),.12);backdrop-filter:none}
+  .slide.hero::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none}
+  .slide.hero.light::after{background:linear-gradient(180deg,rgba(var(--paper-rgb),.28) 0%,rgba(var(--paper-rgb),0) 14%,rgba(var(--paper-rgb),0) 86%,rgba(var(--paper-rgb),.28) 100%)}
+  .slide.hero.dark::after{background:linear-gradient(180deg,rgba(var(--ink-rgb),.32) 0%,rgba(var(--ink-rgb),0) 14%,rgba(var(--ink-rgb),0) 86%,rgba(var(--ink-rgb),.32) 100%)}
+  .chrome{display:flex;justify-content:space-between;align-items:flex-start;font-family:var(--mono);font-size:12px;letter-spacing:.18em;text-transform:uppercase;opacity:.7}
+  .chrome .left,.chrome .right{display:flex;gap:2.4em;align-items:center}
+  .chrome .sep{width:40px;height:1px;background:currentColor;opacity:.4}
+  .foot{margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;opacity:.55}
+  .foot .title{font-family:var(--serif-zh);font-weight:400;letter-spacing:.05em;text-transform:none;opacity:.75;font-size:13px}
+  .tag{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.24em;text-transform:uppercase;padding:6px 14px;border:1px solid currentColor;opacity:.85}
+  .rule{width:100%;height:1px;background:currentColor;opacity:.25;margin:3vh 0}
+  .rule.v{width:1px;height:100%;margin:0}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.3em;text-transform:uppercase;opacity:.6;margin-bottom:2.6vh}
+  .display{font-family:var(--serif-en);font-weight:700;font-size:11vw;line-height:.92;letter-spacing:-.025em}
+  .display-zh{font-family:var(--serif-zh);font-weight:700;font-size:7.8vw;line-height:1.04;letter-spacing:-.005em}
+  .h1-zh{font-family:var(--serif-zh);font-weight:700;font-size:4.6vw;line-height:1.12;letter-spacing:-.005em}
+  .h2-zh{font-family:var(--serif-zh);font-weight:600;font-size:3.2vw;line-height:1.2;letter-spacing:0}
+  .h3-zh{font-family:var(--serif-zh);font-weight:500;font-size:1.9vw;line-height:1.35}
+  .body-zh{font-family:var(--sans-zh);font-weight:400;font-size:max(15px,1.22vw);line-height:1.75;opacity:.82;letter-spacing:.01em}
+  .body-serif{font-family:var(--serif-zh);font-weight:400;font-size:max(15px,1.3vw);line-height:1.65;opacity:.88}
+  .lead{font-family:var(--serif-zh);font-weight:400;font-size:1.9vw;line-height:1.4;opacity:.85}
+  .meta{font-family:var(--mono);font-size:max(11px,.88vw);letter-spacing:.16em;text-transform:uppercase;opacity:.6}
+  .big-num{font-family:var(--serif-en);font-weight:800;font-size:10vw;line-height:.85;letter-spacing:-.03em;font-feature-settings:"tnum"}
+  .mid-num{font-family:var(--serif-en);font-weight:700;font-size:5.5vw;line-height:.88;letter-spacing:-.02em;font-feature-settings:"tnum"}
+  .ghost{font-family:var(--serif-en);font-weight:900;font-size:34vw;line-height:.8;opacity:.06;letter-spacing:-.04em;position:absolute;font-feature-settings:"tnum"}
+  em{font-style:italic;font-family:var(--serif-en)}
+  .en{font-family:var(--serif-en);font-style:italic;font-weight:500}
+  .col{display:flex;flex-direction:column;gap:2.4vh}
+  .row{display:flex;align-items:center;gap:3vw}
+  .grid-6{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);gap:4vw 6vw;flex:1;align-content:center;padding:2vh 0}
+  .grid-9{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(3,1fr);gap:3vh 4vw;flex:1;align-content:center}
+  .grid-4{display:grid;grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(2,1fr);gap:4vh 6vw;flex:1;align-content:center}
+  .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:4vw;flex:1;align-content:center}
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:4vw;flex:1;align-items:center}
+  .split-55{display:grid;grid-template-columns:55fr 45fr;gap:5vw;flex:1;align-items:stretch}
+  .fill{flex:1}
+  .center{align-items:center;justify-content:center;text-align:center}
+  .bottom-left{position:absolute;left:6vw;bottom:9vh;max-width:50vw}
+  .bottom-right{position:absolute;right:6vw;bottom:9vh;max-width:50vw;text-align:right}
+  .top-right{position:absolute;right:6vw;top:6vh;text-align:right}
+  .stat{display:flex;flex-direction:column;gap:1vh;align-items:flex-start}
+  .stat .n{font-family:var(--serif-en);font-weight:800;font-size:8vw;line-height:.88;letter-spacing:-.03em;font-feature-settings:"tnum"}
+  .stat .l{font-family:var(--sans-zh);font-size:max(13px,1.05vw);opacity:.7;margin-top:1vh;font-weight:400;line-height:1.5}
+  .stat .m{font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;opacity:.5;margin-bottom:.2vh}
+  .callout{padding:3vh 2.4vw;border-left:3px solid currentColor;position:relative;font-family:var(--serif-zh);font-size:max(15px,1.2vw);line-height:1.55;opacity:.92}
+  .slide.light .callout{background:rgba(var(--ink-rgb),.05)}
+  .slide.dark .callout{background:rgba(var(--paper-rgb),.06)}
+  .callout .cite{display:block;margin-top:1.6vh;font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;opacity:.6}
+  .callout .q-big{font-family:var(--serif-zh);font-weight:600;font-size:max(17px,1.6vw);line-height:1.42}
+  .plat{display:flex;flex-direction:column;justify-content:flex-end;padding:2vh 0;border-top:1px solid currentColor;border-color:rgba(127,127,127,.35)}
+  .plat .name{font-family:var(--serif-zh);font-weight:700;font-size:1.8vw;margin-bottom:.6vh}
+  .plat .nb{font-family:var(--serif-en);font-weight:700;font-size:3.2vw;letter-spacing:-.02em;line-height:1;font-feature-settings:"tnum"}
+  .plat .sub{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;opacity:.55;margin-top:.6vh}
+  .plat .fill{font-family:var(--sans-zh);font-weight:300;font-size:2.4vw;opacity:.28;letter-spacing:-.01em;line-height:1}
+  .rowline{display:grid;grid-template-columns:1fr 2fr 1fr;gap:2vw;padding:2.2vh 0;border-top:1px solid currentColor;align-items:center;border-color:rgba(127,127,127,.25)}
+  .rowline:last-child{border-bottom:1px solid currentColor;border-color:rgba(127,127,127,.25)}
+  .rowline .k{font-family:var(--serif-zh);font-weight:700;font-size:1.7vw}
+  .rowline .v{font-family:var(--sans-zh);font-weight:400;font-size:max(14px,1.2vw);opacity:.85;line-height:1.55}
+  .rowline .m{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;opacity:.6;justify-self:end}
+  .pillar{display:flex;flex-direction:column;gap:1.8vh}
+  .pillar .ic{font-family:var(--serif-en);font-style:italic;font-size:2.6vw;opacity:.45;font-weight:400}
+  .pillar .ic svg{width:2.8vw;height:2.8vw;stroke-width:1.2;opacity:.7}
+  .pillar .t{font-family:var(--serif-zh);font-weight:700;font-size:2.4vw;line-height:1.1}
+  .pillar .d{font-family:var(--sans-zh);font-weight:400;font-size:max(14px,1.1vw);opacity:.76;line-height:1.6}
+  .sign{font-family:var(--serif-en);font-style:italic;font-weight:500;font-size:2vw;opacity:.7}
+  .hi{position:relative;display:inline}
+  .slide.dark .hi::after{content:"";position:absolute;left:-.1em;right:-.1em;bottom:-.05em;height:.28em;background:rgba(var(--paper-rgb),.15);z-index:-1}
+  .slide.light .hi::after{content:"";position:absolute;left:-.1em;right:-.1em;bottom:-.05em;height:.28em;background:rgba(var(--ink-rgb),.08);z-index:-1}
+  .ico{width:1em;height:1em;display:inline-block;vertical-align:-.12em;stroke:currentColor;fill:none;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+  .ico-lg,.ico-md,.ico-sm{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round}
+  .ico-lg{width:2.6vw;height:2.6vw;stroke-width:1.2;display:inline-block}
+  .ico-md{width:1.8vw;height:1.8vw;stroke-width:1.3;display:inline-block;vertical-align:-.4em}
+  .ico-sm{width:1.1vw;height:1.1vw;stroke-width:1.4;display:inline-block;vertical-align:-.15em;opacity:.7}
+  .img-slot{border:1.5px dashed rgba(127,127,127,.4);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:1vh;padding:2vh 2vw;font-family:var(--mono);font-size:10px;letter-spacing:.28em;text-transform:uppercase;opacity:.55;position:relative;aspect-ratio:16/9;width:100%;max-height:56vh;margin-inline:auto;box-sizing:border-box}
+  .img-slot::before{content:"";position:absolute;inset:8px;border:1px solid currentColor;opacity:.2}
+  .img-slot .plus{font-size:2vw;font-weight:300;opacity:.5;letter-spacing:0}
+  .img-slot .label{position:relative;z-index:2;text-align:center}
+  .img-slot.r-4x3{aspect-ratio:4/3}
+  .img-slot.r-3x2{aspect-ratio:3/2}
+  .img-slot.r-1x1{aspect-ratio:1/1}
+  .frame-img{overflow:hidden;position:relative;background:rgba(0,0,0,.04);box-sizing:border-box;width:100%;border-radius:4px}
+  .slide.dark .frame-img{background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.12)}
+  .frame-img > img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block}
+  .frame-cap{display:flex;justify-content:space-between;align-items:baseline;gap:1vw;margin-top:.8vh;font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;opacity:.72}
+  .frame-cap .pf{font-family:var(--serif-zh);font-weight:600;font-size:max(13px,1vw);letter-spacing:.04em;text-transform:none;opacity:.94}
+  .frame-cap .nb{font-family:var(--serif-en);font-style:italic;font-size:max(15px,1.2vw);letter-spacing:.02em;text-transform:none;opacity:.88}
+  .frame-cap .idx{font-family:var(--mono);opacity:.5}
+  figure.tile{display:flex;flex-direction:column;margin:0;min-width:0}
+  figure.tile > .frame-img{flex:0 0 auto}
+  #nav{position:fixed;left:50%;bottom:2.6vh;transform:translateX(-50%);z-index:30;display:flex;gap:10px;padding:8px 14px;border-radius:999px;background:rgba(0,0,0,.18);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+  #nav .dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.3);cursor:pointer;transition:all .3s ease;border:0;padding:0}
+  #nav .dot:hover{background:rgba(255,255,255,.5);transform:scale(1.15)}
+  #nav .dot.active{background:rgba(255,255,255,.95);width:22px;border-radius:999px}
+  body.light-bg #nav{background:rgba(255,255,255,.25)}
+  body.light-bg #nav .dot{background:rgba(var(--ink-rgb),.25)}
+  body.light-bg #nav .dot.active{background:rgba(var(--ink-rgb),.9)}
+  #hint{position:fixed;bottom:3vh;right:3vw;z-index:30;font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;opacity:.4;mix-blend-mode:difference;color:#aaa}
+  #pdf-btn{position:fixed;top:2vh;right:2vw;z-index:50;font-family:var(--mono);font-size:10px;letter-spacing:.15em;text-transform:uppercase;padding:6px 14px;border:1px solid rgba(var(--paper-rgb),.3);border-radius:4px;background:rgba(var(--ink-rgb),.5);color:var(--paper);cursor:pointer;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);transition:all .2s}
+  #pdf-btn:hover{background:rgba(var(--paper-rgb),.15);border-color:rgba(var(--paper-rgb),.6)}
+  body.light-bg #pdf-btn{background:rgba(var(--paper-rgb),.5);color:var(--ink);border-color:rgba(var(--ink-rgb),.2)}
+  body.light-bg #pdf-btn:hover{background:rgba(var(--ink-rgb),.08);border-color:rgba(var(--ink-rgb),.5)}
+  @media print{
+    *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    html,body{width:100%;height:auto;overflow:visible;background:#fff}
+    canvas.bg,#nav,#pdf-btn,#hint,#overview{display:none!important}
+    #deck{position:static;width:100%!important;height:auto!important;transform:none!important;display:block!important}
+    .slide{width:100%!important;height:100vh!important;flex:0 0 auto!important;page-break-after:always;position:relative!important;transform:none!important}
+    .slide.light::before{background:rgba(var(--paper-rgb),1)!important;backdrop-filter:none!important}
+    .slide.dark::before{background:rgba(var(--ink-rgb),1)!important;backdrop-filter:none!important}
+    .slide.hero::after{display:none!important}
+  }
+  .frame{flex:1;display:flex;flex-direction:column;min-height:0}
+  .frame.grid-2-7-5,.frame.grid-2-6-6,.frame.grid-2-8-4,.frame.grid-3-3,.frame.grid-6{display:grid}
+  .h-hero{font-family:var(--serif-zh);font-weight:900;font-size:10vw;line-height:.96;letter-spacing:-.02em}
+  .h-xl{font-family:var(--serif-zh);font-weight:700;font-size:6.2vw;line-height:1.08;letter-spacing:-.01em}
+  .h-sub{font-family:var(--serif-zh);font-weight:500;font-size:3.1vw;line-height:1.25;letter-spacing:0;opacity:.7}
+  .h-md{font-family:var(--serif-zh);font-weight:600;font-size:2.3vw;line-height:1.3}
+  .h-hero-en,.h-xl-en{font-family:var(--serif-en);letter-spacing:-.025em}
+  .lead{font-family:var(--serif-zh);font-weight:400;font-size:1.75vw;line-height:1.5;opacity:.86}
+  .meta-row{display:flex;gap:1.2em;align-items:baseline;flex-wrap:wrap;font-family:var(--mono);font-size:max(12px,.92vw);letter-spacing:.16em;text-transform:uppercase;opacity:.6}
+  .stat-card{display:flex;flex-direction:column;gap:.8vh;align-items:flex-start;padding-top:1.6vh;border-top:1px solid currentColor;border-color:rgba(127,127,127,.3)}
+  .stat-card .stat-label{font-family:var(--mono);font-size:max(10px,.78vw);letter-spacing:.24em;text-transform:uppercase;opacity:.55}
+  .stat-card .stat-nb{font-family:var(--serif-en);font-weight:800;font-size:5.8vw;line-height:.9;letter-spacing:-.03em;font-feature-settings:"tnum";margin-top:.4vh}
+  .stat-card .stat-nb .stat-unit{font-family:var(--serif-zh);font-weight:500;font-size:.38em;letter-spacing:0;opacity:.72;margin-left:.14em}
+  .stat-card .stat-note{font-family:var(--sans-zh);font-weight:400;font-size:max(13px,1.05vw);line-height:1.5;opacity:.72;margin-top:.6vh}
+  .grid-4 .stat-card .stat-nb{font-size:7.5vw}
+  .grid-3 .stat-card .stat-nb{font-size:6.8vw}
+  .pipeline-section{margin-top:4.4vh;padding-top:2.8vh;border-top:1px dashed rgba(127,127,127,.32)}
+  .pipeline-section:first-of-type{border-top:0;padding-top:0;margin-top:3vh}
+  .pipeline-label{font-family:var(--mono);font-size:max(11px,.85vw);letter-spacing:.24em;text-transform:uppercase;opacity:.62;margin-bottom:2.2vh}
+  .pipeline{display:grid;grid-template-columns:repeat(5,1fr);gap:1.2vw}
+  .pipeline[data-cols="3"]{grid-template-columns:repeat(3,1fr)}
+  .pipeline[data-cols="4"]{grid-template-columns:repeat(4,1fr)}
+  .pipeline[data-cols="6"]{grid-template-columns:repeat(6,1fr)}
+  .pipeline[data-cols="2"]{grid-template-columns:repeat(2,1fr)}
+  .step{display:flex;flex-direction:column;gap:.8vh;padding-top:1.4vh;border-top:1px solid currentColor;border-color:rgba(127,127,127,.35)}
+  .step-nb{font-family:var(--serif-en);font-style:italic;font-weight:500;font-size:1.15vw;opacity:.45}
+  .step-title{font-family:var(--sans-zh);font-weight:700;font-size:1.55vw;letter-spacing:.01em;line-height:1.2}
+  .step-desc{font-family:var(--sans-zh);font-weight:400;font-size:max(12px,.95vw);line-height:1.45;opacity:.72}
+  .grid-2-7-5{display:grid;grid-template-columns:7fr 5fr;gap:3vw 4vh;align-items:stretch}
+  .grid-2-6-6{display:grid;grid-template-columns:1fr 1fr;gap:3vw 4vh;align-items:start}
+  .grid-2-8-4{display:grid;grid-template-columns:8fr 4fr;gap:3vw 4vh;align-items:start}
+  .grid-3-3{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:minmax(0,1fr);gap:2.4vh 2vw}
+  figure.frame-img{margin:0;display:flex;flex-direction:column;min-width:0}
+  .img-cap{display:block;margin-top:.8vh;font-family:var(--mono);font-size:max(10px,.8vw);letter-spacing:.22em;text-transform:uppercase;opacity:.6}
+  .callout-src{display:block;margin-top:1.6vh;font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;opacity:.6}
+  .chrome{font-family:var(--mono);font-size:max(11px,.78vw);letter-spacing:.2em;text-transform:uppercase;opacity:.62}
+  .foot{font-family:var(--mono);font-size:max(11px,.78vw);letter-spacing:.18em;text-transform:uppercase;opacity:.5}
+  .phase-card{display:flex;flex-direction:column;gap:1.4vh;padding:2.8vh 2.4vw;border-left:2px solid currentColor;border-color:rgba(127,127,127,.3);flex:1}
+  .phase-card .phase-nb{font-family:var(--serif-en);font-style:italic;font-weight:500;font-size:1.1vw;opacity:.5}
+  .phase-card .phase-title{font-family:var(--serif-zh);font-weight:700;font-size:1.6vw;line-height:1.15}
+  .phase-card .phase-period{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;opacity:.5;margin-top:.4vh}
+  .phase-card .phase-body{font-family:var(--sans-zh);font-size:max(12px,.95vw);line-height:1.55;opacity:.78}
+  .phase-card .phase-target{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;opacity:.5;margin-top:auto;padding-top:1.2vh;border-top:1px solid currentColor;border-color:rgba(127,127,127,.2)}
+  .comp-card{display:flex;flex-direction:column;gap:1.2vh;padding:2vh 0;border-top:1px solid currentColor;border-color:rgba(127,127,127,.3)}
+  .comp-card .comp-name{font-family:var(--serif-zh);font-weight:700;font-size:1.6vw;line-height:1.15}
+  .comp-card .comp-tag{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;opacity:.5}
+  .comp-card .comp-stats{display:flex;flex-wrap:wrap;gap:1.2vw 2vw;margin-top:.6vh}
+  .comp-card .comp-stat{font-family:var(--sans-zh);font-size:max(12px,.92vw);line-height:1.5;opacity:.78}
+  .comp-card .comp-stat strong{font-weight:600;opacity:1}
+  .fin-card{display:flex;flex-direction:column;gap:1.2vh;padding:2.4vh 2vw;border:1px solid currentColor;border-color:rgba(127,127,127,.25)}
+  .fin-card .fin-label{font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;opacity:.55}
+  .fin-card .fin-value{font-family:var(--serif-en);font-weight:800;font-size:3.8vw;line-height:.9;letter-spacing:-.02em;font-feature-settings:"tnum"}
+  .fin-card .fin-note{font-family:var(--sans-zh);font-size:max(12px,.95vw);line-height:1.5;opacity:.72}
+  .arch-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:3vw;padding:2vh 0}
+  .arch-item{text-align:center;padding:2vh 1vw}
+  .arch-item .arch-num{font-family:var(--serif-en);font-weight:800;font-size:4.5vw;line-height:.9;letter-spacing:-.02em;font-feature-settings:"tnum"}
+  .arch-item .arch-label{font-family:var(--sans-zh);font-size:max(13px,1.1vw);line-height:1.5;opacity:.78;margin-top:1vh}
+  .arch-item .arch-detail{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;opacity:.5;margin-top:.6vh}
+  .channel-card{display:flex;flex-direction:column;gap:1.4vh;padding:2.4vh 2vw;border-left:3px solid currentColor;border-color:rgba(127,127,127,.3)}
+  .channel-card .ch-name{font-family:var(--serif-zh);font-weight:700;font-size:1.5vw;line-height:1.15}
+  .channel-card .ch-mix{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;opacity:.5}
+  .channel-card .ch-body{font-family:var(--sans-zh);font-size:max(12px,.95vw);line-height:1.55;opacity:.78}
+  .channel-card .ch-target{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;opacity:.5;margin-top:auto;padding-top:1vh;border-top:1px solid currentColor;border-color:rgba(127,127,127,.2)}
+  .mkt-pillar{display:flex;flex-direction:column;gap:1.6vh;padding:2.6vh 2.2vw;border:1px solid currentColor;border-color:rgba(127,127,127,.25)}
+  .mkt-pillar .mkt-icon{font-family:var(--serif-en);font-style:italic;font-weight:700;font-size:2.2vw;opacity:.35}
+  .mkt-pillar .mkt-name{font-family:var(--serif-zh);font-weight:700;font-size:1.5vw;line-height:1.15}
+  .mkt-pillar .mkt-body{font-family:var(--sans-zh);font-size:max(12px,.95vw);line-height:1.55;opacity:.78}
+  .mkt-pillar .mkt-channel{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;opacity:.5;margin-top:auto;padding-top:1vh;border-top:1px solid currentColor;border-color:rgba(127,127,127,.2)}
+  @media (max-width:900px){
+    .display{font-size:16vw}
+    .display-zh{font-size:12vw}
+    .h1-zh{font-size:7vw}
+    .h-hero{font-size:14vw}
+    .h-xl{font-size:9vw}
+    .pipeline{grid-template-columns:repeat(2,1fr)}
+    .grid-2-7-5,.grid-2-6-6,.grid-2-8-4{grid-template-columns:1fr}
+    .arch-row{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<canvas id="bg-dark" class="bg"></canvas>
+<canvas id="bg-light" class="bg"></canvas>
+<div id="hint">← → 翻页 · ESC 索引</div>
+
+<div id="deck">
+
+<!-- SLIDE 01 — COVER -->
+<section class="slide hero dark" data-theme="dark">
+  <div class="chrome">
+    <div>The Big Brand Theory · IIT BHU</div>
+    <div>Team Ananthazhvan</div>
+  </div>
+  <div class="frame" style="display:grid; gap:4vh; align-content:center; min-height:80vh">
+    <div class="kicker">Ola Electric</div>
+    <h1 class="h-hero" style="font-family:var(--serif-en);font-size:8vw;line-height:1.05">From Crisis<br>to <em>Category King</em></h1>
+    <p class="lead" style="max-width:58vw">
+      Repositioning India's most polarising EV brand as the nation's most reliable, aspirational, and scalable electric mobility ecosystem.
+    </p>
+    <div class="meta-row">
+      <span>Ananthazhvan</span><span>·</span><span>The Big Brand Theory · IIT BHU 2026</span>
+    </div>
+  </div>
+  <div class="foot">
+    <div>Round 1 · Strategy &amp; Planning Submission</div>
+    <div>— 2026 —</div>
+  </div>
+</section>
+
+<!-- SLIDE 02 — THE MARKET PARADOX -->
+<section class="slide light" data-theme="light">
+  <div class="chrome">
+    <div>Market Analysis</div>
+    <div>02 / 11</div>
+  </div>
+  <div class="frame" style="padding-top:6vh">
+    <div class="kicker">The Paradox</div>
+    <h2 class="h-xl" style="font-size:5.2vw">Market Grew <em style="font-family:var(--serif-en)">6.9×</em> — Ola Shrank <em style="font-family:var(--serif-en)">52%</em></h2>
+    <p class="lead" style="margin-bottom:4vh; max-width:60vw">India's E2W market exploded. Ola captured none of it — it actively lost ground.</p>
+    <div class="grid-6" style="margin-top:2vh">
+      <div class="stat-card">
+        <div class="stat-label">Market Volume</div>
+        <div class="stat-nb">6.9<span class="stat-unit">×</span></div>
+        <div class="stat-note">21.5K → 148.7K units/month</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Ola Share Lost</div>
+        <div class="stat-nb">−46<span class="stat-unit">pp</span></div>
+        <div class="stat-note">55.8% → 15.9% in 4 years</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Peak Volume</div>
+        <div class="stat-nb">53.3<span class="stat-unit">K</span></div>
+        <div class="stat-note">Mar 2024 → 23.7K today</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Legacy Share</div>
+        <div class="stat-nb">55<span class="stat-unit">%</span></div>
+        <div class="stat-note">TVS + Bajaj + Hero now lead</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Worst Month</div>
+        <div class="stat-nb">−70<span class="stat-unit">%</span></div>
+        <div class="stat-note">Nov 2025 YoY decline</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Below Peak</div>
+        <div class="stat-nb">56<span class="stat-unit">%</span></div>
+        <div class="stat-note">Still far from recovery</div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">
+    <div>The Market Paradox · Growing 6.9× While Ola Shrinks</div>
+    <div>Source: Vahan Registry, Apr 2022 – Mar 2026</div>
+  </div>
+</section>
+
+<!-- SLIDE 03 — THE TRUST COLLAPSE -->
+<section class="slide dark" data-theme="dark">
+  <div class="chrome">
+    <div>Trust &amp; Service Crisis</div>
+    <div>03 / 11</div>
+  </div>
+  <div class="frame">
+    <div class="kicker">The Inflection Point</div>
+    <h2 class="h-xl" style="font-size:5vw">The CCPA <em style="font-family:var(--serif-en)">Hammer</em></h2>
+    <p class="lead" style="margin-bottom:3vh; opacity:.7">Service infrastructure broke under its own growth. The regulatory hammer turned decline into freefall.</p>
+    <div class="pipeline-section">
+      <div class="pipeline-label">The Breakdown — What Went Wrong</div>
+      <div class="pipeline" data-cols="4">
+        <div class="step">
+          <div class="step-nb">01</div>
+          <div class="step-title">300 of 900</div>
+          <div class="step-desc">Only 32% of experience centers had actual repair capability. 600 were showrooms with no service function.</div>
+        </div>
+        <div class="step">
+          <div class="step-nb">02</div>
+          <div class="step-title">Parts: 60–75%</div>
+          <div class="step-desc">Availability vs 95% industry standard. 1 in 3 service visits couldn't be completed.</div>
+        </div>
+        <div class="step">
+          <div class="step-nb">03</div>
+          <div class="step-title">TAT: 7–15 Days</div>
+          <div class="step-desc">vs 1–2 days for Bajaj/TVS/Hero. Customers stranded for weeks.</div>
+        </div>
+        <div class="step">
+          <div class="step-nb">04</div>
+          <div class="step-title">10,000+ CCPA</div>
+          <div class="step-desc">Formal complaints. Top 5 most-complained company across ALL sectors on National Consumer Helpline.</div>
+        </div>
+      </div>
+    </div>
+    <div class="pipeline-section">
+      <div class="pipeline-label">The Consequence — Legal &amp; Market Impact</div>
+      <div class="pipeline" data-cols="3">
+        <div class="step">
+          <div class="step-nb">05</div>
+          <div class="step-title">500+ Court Cases</div>
+          <div class="step-desc">Post-IPO consumer court cases. Courts ordering full refund + ₹10K–50K compensation, citing "pattern of neglect."</div>
+        </div>
+        <div class="step">
+          <div class="step-nb">06</div>
+          <div class="step-title">Share: 26% → 10%</div>
+          <div class="step-desc">CCPA notice (Oct 2024) was the inflection. 9.71% share twelve months later.</div>
+        </div>
+        <div class="step">
+          <div class="step-nb">07</div>
+          <div class="step-title">Bailable Warrants</div>
+          <div class="step-desc">Q4 FY25 — crisis escalated from customer relations to criminal liability.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">
+    <div>The Trust Collapse · CCPA as the Inflection Point</div>
+    <div>Source: CCPA notices, DRHP disclosures, consumer court records</div>
+  </div>
+</section>
+
+<!-- SLIDE 04 — THE MARGIN PARADOX -->
+<section class="slide light" data-theme="light">
+  <div class="chrome">
+    <div>Unit Economics</div>
+    <div>04 / 11</div>
+  </div>
+  <div class="frame" style="padding-top:5vh">
+    <div class="kicker">Counterintuitive Strength</div>
+    <h2 class="h-xl" style="margin-bottom:4vh">ASP Fell <em style="font-family:var(--serif-en)">34%</em> — Margin <em style="font-family:var(--serif-en)">Doubled</em></h2>
+    <div class="grid-2-6-6" style="gap:5vw 4vh">
+      <div style="padding:3vh 2vw; border-left:3px solid currentColor; opacity:.55">
+        <div class="kicker" style="opacity:.9">Revenue Under Pressure</div>
+        <h3 class="h-md" style="margin-top:2vh">ASP Collapsed</h3>
+        <ul style="margin-top:3vh; padding-left:1.2em; display:flex; flex-direction:column; gap:1.4vh; font-family:var(--sans-zh); font-size:max(14px,1.1vw); line-height:1.55; list-style:none">
+          <li style="display:flex;gap:.6em;align-items:baseline"><span style="font-family:var(--serif-en);font-weight:700;font-size:1.4vw">₹1.35L</span> → <span style="font-family:var(--serif-en);font-weight:700;font-size:1.4vw">₹89K</span> <span style="opacity:.6">ASP drop, Q1 FY25 → Q3 FY26</span></li>
+          <li>S1 X mix: 15% → 75% of sales — premium segment abandoned</li>
+          <li>Revenue: ₹1,644 Cr → ₹450 Cr trough → ₹520 Cr stabilizing</li>
+          <li>Customers fled to cheapest model — brand premium evaporated</li>
+        </ul>
+      </div>
+      <div style="padding:3vh 2vw; border-left:3px solid currentColor">
+        <div class="kicker" style="opacity:.9">Gigafactory Effect</div>
+        <h3 class="h-md" style="margin-top:2vh">Margin Transformed</h3>
+        <ul style="margin-top:3vh; padding-left:1.2em; display:flex; flex-direction:column; gap:1.4vh; font-family:var(--sans-zh); font-size:max(14px,1.1vw); line-height:1.55; list-style:none">
+          <li style="display:flex;gap:.6em;align-items:baseline"><span style="font-family:var(--serif-en);font-weight:700;font-size:1.4vw">18%</span> → <span style="font-family:var(--serif-en);font-weight:700;font-size:1.4vw">36%</span> <span style="opacity:.6">Gross margin, 2× improvement</span></li>
+          <li>Battery cost: $130/kWh → $85/kWh — 35% reduction via Gigafactory</li>
+          <li>EBITDA: −22.1% → +4.5% — a 26.6pp swing in 4 quarters</li>
+          <li>Breakeven threshold: 40K → 15K units/month</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="foot">
+    <div>The Margin Paradox · Ola's Counterintuitive Strength</div>
+    <div>Source: Ola Electric financial filings, Q1 FY25 – Q4 FY26</div>
+  </div>
+</section>
+
+<!-- SLIDE 05 — COMPETITIVE FIREPOWER -->
+<section class="slide dark" data-theme="dark">
+  <div class="chrome">
+    <div>Competitive Landscape</div>
+    <div>05 / 11</div>
+  </div>
+  <div class="frame" style="padding-top:5vh">
+    <div class="kicker">The Pincer Trap</div>
+    <h2 class="h-xl" style="font-size:4.8vw; margin-bottom:3vh">Four Competitors. <em style="font-family:var(--serif-en)">Every</em> Metric.</h2>
+    <div class="grid-4" style="margin-top:2vh">
+      <div class="comp-card">
+        <div class="comp-name">Bajaj Auto</div>
+        <div class="comp-tag">The Profit Machine</div>
+        <div class="comp-stats">
+          <div class="comp-stat"><strong>Market Cap:</strong> ₹292K Cr (18.3× Ola)</div>
+          <div class="comp-stat"><strong>Reserves:</strong> ₹38,552 Cr (24× Ola cash)</div>
+          <div class="comp-stat"><strong>EV Growth:</strong> 116K → 289K FY26 (+149%)</div>
+          <div class="comp-stat"><strong>Service:</strong> 1,480+ dealers, 82% gold standard</div>
+          <div class="comp-stat"><strong>Chetak:</strong> Only profitable EV scooter in India</div>
+        </div>
+      </div>
+      <div class="comp-card">
+        <div class="comp-name">TVS Motor</div>
+        <div class="comp-tag">The Market Leader</div>
+        <div class="comp-stats">
+          <div class="comp-stat"><strong>EV Share:</strong> 23% — #1 position</div>
+          <div class="comp-stat"><strong>Units:</strong> 371K FY26 (2.3× Ola)</div>
+          <div class="comp-stat"><strong>EV Revenue:</strong> ₹2,300 → ₹4,700 Cr (+104%)</div>
+          <div class="comp-stat"><strong>Service:</strong> 1,000+ dealer-service centers</div>
+          <div class="comp-stat"><strong>Parent:</strong> ₹2,866 Cr net profit — can cross-subsidize</div>
+        </div>
+      </div>
+      <div class="comp-card">
+        <div class="comp-name">Hero MotoCorp</div>
+        <div class="comp-tag">The Sleeping Giant</div>
+        <div class="comp-stats">
+          <div class="comp-stat"><strong>Dealers:</strong> 6,000+ — largest in India</div>
+          <div class="comp-stat"><strong>Vida Growth:</strong> 17K → 150K (+206% YoY)</div>
+          <div class="comp-stat"><strong>Investments:</strong> ₹19,286 Cr + ₹8,315 Cr OCF</div>
+          <div class="comp-stat"><strong>Warranty:</strong> 5-year vehicle + 5-year battery</div>
+          <div class="comp-stat"><strong>Access:</strong> Any local mechanic can service Vida</div>
+        </div>
+      </div>
+      <div class="comp-card">
+        <div class="comp-name">Ather Energy</div>
+        <div class="comp-tag">The Quality Benchmark</div>
+        <div class="comp-stats">
+          <div class="comp-stat"><strong>Market Cap:</strong> ₹36K Cr (2.3× Ola)</div>
+          <div class="comp-stat"><strong>Revenue:</strong> ₹899 Cr — overtook Ola by Q2 FY26</div>
+          <div class="comp-stat"><strong>EBITDA:</strong> −60% → −6.7% — FY28 profitability</div>
+          <div class="comp-stat"><strong>OCF:</strong> +₹31.89 Cr — first positive FY26</div>
+          <div class="comp-stat"><strong>App Rating:</strong> 4.0 vs Ola's 3.2</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">
+    <div>Competitive Firepower · The Pincer Trap</div>
+    <div>Source: BSE filings, company annual reports FY25–FY26</div>
+  </div>
+</section>
+
+<!-- SLIDE 06 — THE GIGAFACTORY -->
+<section class="slide light" data-theme="light">
+  <div class="chrome">
+    <div>Strategic Asset</div>
+    <div>06 / 11</div>
+  </div>
+  <div class="frame" style="padding-top:5vh">
+    <div class="kicker">Asset or Stranded Risk?</div>
+    <h2 class="h-xl" style="margin-bottom:4vh">The Gigafactory — <em style="font-family:var(--serif-en)">Both</em></h2>
+    <div class="grid-2-6-6" style="gap:5vw 4vh">
+      <div style="padding:3vh 2vw; border-left:3px solid currentColor">
+        <div class="kicker" style="opacity:.9">The Build — Impressive Execution</div>
+        <h3 class="h-md" style="margin-top:2vh">0 → 6 GWh in 24 Months</h3>
+        <ul style="margin-top:3vh; padding-left:1.2em; display:flex; flex-direction:column; gap:1.4vh; font-family:var(--sans-zh); font-size:max(14px,1.1vw); line-height:1.55; list-style:none">
+          <li>Cells: ~2,000 pilot → ~100,000 cumulative — <strong>50× scale-up</strong></li>
+          <li>Battery cost: $130 → $85/kWh — <strong>35% reduction</strong></li>
+          <li>BOM reduction: 0% → 28% achieved, 40% target by Mar 2028</li>
+          <li>Only manufacturer qualifying for <strong>both PLI schemes</strong> (Auto + Cell)</li>
+          <li>Awarded 20 GWh under Cell PLI — highest allocation to any recipient</li>
+        </ul>
+      </div>
+      <div style="padding:3vh 2vw; border-left:3px solid currentColor; opacity:.7">
+        <div class="kicker" style="opacity:.9">The Risk — Underutilization</div>
+        <h3 class="h-md" style="margin-top:2vh">16% Utilization</h3>
+        <ul style="margin-top:3vh; padding-left:1.2em; display:flex; flex-direction:column; gap:1.4vh; font-family:var(--sans-zh); font-size:max(14px,1.1vw); line-height:1.55; list-style:none">
+          <li>1M unit capacity → sold 164K — <strong>massive excess capacity</strong></li>
+          <li>In-house $85/kWh vs global LFP $80/kWh — still <strong>6% above import parity</strong></li>
+          <li>Economically justified only at Phase 2: 12 GWh, $75/kWh (Jul 2027)</li>
+          <li>Global cell overcapacity: ~900 GWh excess — Chinese dumping suppresses prices</li>
+          <li>Cell PLI milestone risk: failure = 2× shortfall deducted from subsidy</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="foot">
+    <div>The Gigafactory · Asset or Stranded Risk?</div>
+    <div>Source: PLI scheme allocations, Ola DRHP, global cell pricing data</div>
+  </div>
+</section>
+
+<!-- SLIDE 07 — RADICAL TRANSPARENCY MARKETING CAMPAIGN -->
+<section class="slide dark" data-theme="dark">
+  <div class="chrome">
+    <div>Marketing Campaign Plan</div>
+    <div>07 / 11</div>
+  </div>
+  <div class="frame" style="padding-top:5vh">
+    <div class="kicker">₹80 Cr · Radical Transparency Campaign</div>
+    <h2 class="h-xl" style="font-size:5vw; margin-bottom:2vh">Engineers, Not <em style="font-family:var(--serif-en)">Influencers</em></h2>
+    <p class="lead" style="margin-bottom:3vh; opacity:.7; max-width:65vw">Ola's brand trust is destroyed. No ad campaign fixes that. Only radical, verifiable transparency rebuilds desire. Four pillars, one message: <em style="font-family:var(--serif-en)">"We have nothing to hide anymore."</em></p>
+    <div class="grid-4" style="margin-top:2vh">
+      <div class="mkt-pillar">
+        <div class="mkt-icon">I.</div>
+        <div class="mkt-name">Live Factory</div>
+        <div class="mkt-body">24/7 Gigafactory live stream. Public battery test data. Real-time production counter. Let the factory be the ad — no studio, no filters.</div>
+        <div class="mkt-channel">35% budget · YouTube + Owned platforms</div>
+      </div>
+      <div class="mkt-pillar">
+        <div class="mkt-icon">II.</div>
+        <div class="mkt-name">Service Dashboard</div>
+        <div class="mkt-body">Public, real-time service metrics: parts availability %, turnaround time, NPS score, recall resolution rate. Updated weekly. Anyone can check.</div>
+        <div class="mkt-channel">25% budget · Digital OOH + PR</div>
+      </div>
+      <div class="mkt-pillar">
+        <div class="mkt-icon">III.</div>
+        <div class="mkt-name">Engineers Not Influencers</div>
+        <div class="mkt-body">Ola's chief engineer hosts monthly deep-dive videos: battery chemistry, QA process, Gen 3 platform walkthrough. Technical credibility as brand building.</div>
+        <div class="mkt-channel">25% budget · YouTube + Podcasts</div>
+      </div>
+      <div class="mkt-pillar">
+        <div class="mkt-icon">IV.</div>
+        <div class="mkt-name">The Recall Promise</div>
+        <div class="mkt-body">48-hour recall guarantee with loaner scooter + ₹5,000 compensation. Advertised boldly — the guarantee itself is the campaign hook.</div>
+        <div class="mkt-channel">15% budget · Social + Referral program</div>
+      </div>
+    </div>
+    <div style="margin-top:3vh; padding-top:2vh; border-top:1px solid currentColor; border-color:rgba(127,127,127,.2)">
+      <p class="body-zh" style="font-size:max(13px,1vw); opacity:.7">
+        Success metrics: NPS from negative to +20 in 12 months. App rating 3.2 → 4.0. Service complaints down 60%. Brand sentiment shift from "unreliable" to <strong style="opacity:1; font-family:var(--serif-en)">"transparent and improving."</strong>
+      </p>
+    </div>
+  </div>
+  <div class="foot">
+    <div>Radical Transparency · The Marketing Campaign Plan</div>
+    <div>₹80 Cr Budget · 30-Month Campaign</div>
+  </div>
+</section>
+
+<!-- SLIDE 08 — GTM PHASES 1-2 -->
+<section class="slide hero light" data-theme="light">
+  <div class="chrome">
+    <div>Go-To-Market Strategy</div>
+    <div>08 / 11</div>
+  </div>
+  <div class="frame grid-2-7-5" style="gap:4vw 5vh; padding-top:5vh">
+    <div style="display:flex; flex-direction:column; gap:4vh; padding-top:2vh">
+      <div>
+        <div class="kicker">Project Horizon</div>
+        <h2 class="h-xl" style="font-size:5.5vw; line-height:1.1">Phases 1 &amp; 2:<br><em style="font-family:var(--serif-en); font-weight:400; opacity:.7">Survive &amp; Recover</em></h2>
+      </div>
+      <p class="lead" style="opacity:.7">
+        The first 12 months: hold the line on subsidy cliff, rebuild service density, then prove Ola can deliver on its promises again.
+      </p>
+      <div class="meta-row" style="margin-top:auto">
+        <span>May 2026 – Apr 2027</span><span>·</span><span>₹300 Cr Service Investment</span>
+      </div>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:4vh">
+      <div class="phase-card">
+        <div class="phase-nb">Phase 01</div>
+        <div class="phase-title">Survive — "Hold the Line"</div>
+        <div class="phase-period">May – Oct 2026</div>
+        <div class="phase-body">
+          Navigate Jul 31 subsidy cliff: ₹3K cost hardening + ₹1.5K state arbitrage + ₹500 mix optimization = full ₹5K offset. Hub &amp; Spoke: 300 Ola hubs + 2,000 certified garages = 2,300 service points. Radical Transparency campaign launch (₹80 Cr).
+        </div>
+        <div class="phase-target">Target: EBITDA ≥+2%, 15K units/mo, 16–18% share</div>
+      </div>
+      <div class="phase-card">
+        <div class="phase-nb">Phase 02</div>
+        <div class="phase-title">Recover — "Prove Reliability"</div>
+        <div class="phase-period">Nov 2026 – Apr 2027</div>
+        <div class="phase-body">
+          Gen 3 platform: 8-yr battery warranty, 110kg, 150km range at ₹89K. Captive financing live: Battery Lease (₹49,999 + ₹2,499/mo), Pay-Per-Km (₹1.50/km), Ola Care (₹499/mo) — target 40% of sales financed in-house. Zero-Tolerance QA: 100% battery testing, 500km validation, 48hr recall.
+        </div>
+        <div class="phase-target">Target: ≥18% share, NPS +20, 95% parts availability</div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">
+    <div>GTM Strategy · Phases 1–2: Survive &amp; Recover</div>
+    <div>May 2026 – Apr 2027</div>
+  </div>
+</section>
+
+<!-- SLIDE 09 — GTM PHASES 3-4 -->
+<section class="slide dark" data-theme="dark">
+  <div class="chrome">
+    <div>Go-To-Market Strategy</div>
+    <div>09 / 11</div>
+  </div>
+  <div class="frame grid-2-7-5" style="gap:4vw 5vh; padding-top:5vh">
+    <div style="display:flex; flex-direction:column; gap:4vh; padding-top:2vh">
+      <div>
+        <div class="kicker">Project Horizon</div>
+        <h2 class="h-xl" style="font-size:5.5vw; line-height:1.1">Phases 3 &amp; 4:<br><em style="font-family:var(--serif-en); font-weight:400; opacity:.7">Expand &amp; Scale</em></h2>
+      </div>
+      <p class="lead" style="opacity:.7">
+        Once trust recovers, Ola enters greenfield markets — electric motorcycles, B2B battery supply, and exports — where no competitor has scale.
+      </p>
+      <div class="meta-row" style="margin-top:auto">
+        <span>May 2027 – Oct 2028</span><span>·</span><span>Motorcycle + B2B + Export</span>
+      </div>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:4vh">
+      <div class="phase-card">
+        <div class="phase-nb">Phase 03</div>
+        <div class="phase-title">Expand — "Enter New Arenas"</div>
+        <div class="phase-period">May – Oct 2027</div>
+        <div class="phase-body">
+          Roadster electric motorcycle: 10.8M unit market, &lt;1% EV penetration — the single biggest greenfield opportunity. Ola Shakti B2B: supply cells to OEMs (Ather first target) + residential storage. Africa pilot: Rwanda 30K units, test BaaS model before Kenya/Nigeria.
+        </div>
+        <div class="phase-target">Target: ≥3% motorcycle share, ₹500 Cr B2B annualized</div>
+      </div>
+      <div class="phase-card">
+        <div class="phase-nb">Phase 04</div>
+        <div class="phase-title">Scale — "Category King"</div>
+        <div class="phase-period">Nov 2027 – Oct 2028</div>
+        <div class="phase-body">
+          Full export push: Kenya (150K), Nigeria (200K), Brazil (400K CKD). Gigafactory Phase 2: 12 GWh, $75/kWh — below global cell parity. 3-channel battery model: 40% captive, 40% B2B, 20% Ola Shakti storage. Ola re-rated as energy infrastructure, not scooter startup.
+        </div>
+        <div class="phase-target">Target: 18–20% E2W share, ₹500 Cr export, ≥40% Gigafactory utilization</div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">
+    <div>GTM Strategy · Phases 3–4: Expand &amp; Scale</div>
+    <div>May 2027 – Oct 2028</div>
+  </div>
+</section>
+
+<!-- SLIDE 10 — FINANCIAL MODEL + INVESTOR RESTORATION -->
+<section class="slide light" data-theme="light">
+  <div class="chrome">
+    <div>Financial Model &amp; Capital</div>
+    <div>10 / 11</div>
+  </div>
+  <div class="frame" style="padding-top:5vh">
+    <div class="kicker">The Numbers — Source &amp; Use</div>
+    <h2 class="h-xl" style="margin-bottom:3vh">₹830 Cr Investment → <em style="font-family:var(--serif-en)">₹6,800 Cr</em> Revenue</h2>
+    <div class="grid-2-6-6" style="gap:5vw 4vh">
+      <div>
+        <div class="kicker" style="opacity:.9">Where ₹830 Cr Comes From</div>
+        <div class="pipeline" data-cols="3" style="margin-top:2vh">
+          <div class="step">
+            <div class="step-nb">₹320 Cr</div>
+            <div class="step-title">Internal Accruals</div>
+            <div class="step-desc">EBITDA-positive operations from Q4 FY26. 15K units/mo × ₹89K ASP × 4.5% margin = self-funding runway.</div>
+          </div>
+          <div class="step">
+            <div class="step-nb">₹280 Cr</div>
+            <div class="step-title">PLI Disbursements</div>
+            <div class="step-desc">Automobile PLI + Cell PLI tranches tied to production milestones. Already awarded, not speculative.</div>
+          </div>
+          <div class="step">
+            <div class="step-nb">₹230 Cr</div>
+            <div class="step-title">Strategic Debt</div>
+            <div class="step-desc">Export pre-payments (₹80 Cr) + secured term loans against Gigafactory assets (₹150 Cr). No equity dilution.</div>
+          </div>
+        </div>
+        <div style="margin-top:3vh; padding-top:1.6vh; border-top:1px solid currentColor; border-color:rgba(127,127,127,.2)">
+          <p class="body-zh" style="font-size:max(13px,1vw); opacity:.7">
+            <strong style="opacity:1">Use of funds:</strong> Service infra ₹300 Cr · Gen 3 R&D ₹250 Cr · Marketing ₹80 Cr · Export setup ₹120 Cr · Working capital ₹80 Cr
+          </p>
+        </div>
+      </div>
+      <div>
+        <div class="kicker" style="opacity:.9">The Path to ₹29,400 Cr Valuation</div>
+        <div class="pipeline" data-cols="3" style="margin-top:2vh">
+          <div class="step">
+            <div class="step-nb">FY26</div>
+            <div class="step-title">₹520 Cr</div>
+            <div class="step-desc">Current run-rate. EBITDA +4.5%. Stock ₹29. Market values as distressed auto (1.8× revenue = ₹15,923 Cr).</div>
+          </div>
+          <div class="step">
+            <div class="step-nb">FY27</div>
+            <div class="step-title">₹3,200 Cr</div>
+            <div class="step-desc">Gen 3 launch + captive financing + motorcycle entry. EBITDA +12%. Multiple shifts to 2.5× = ₹24,000 Cr.</div>
+          </div>
+          <div class="step">
+            <div class="step-nb">FY28</div>
+            <div class="step-title">₹6,800 Cr</div>
+            <div class="step-desc">Export + B2B battery + Ola Shakti. 3-channel model active. Energy infrastructure multiple 4.3× = ₹29,400 Cr.</div>
+          </div>
+        </div>
+        <div style="margin-top:3vh; padding-top:1.6vh; border-top:1px solid currentColor; border-color:rgba(127,127,127,.2)">
+          <p class="body-zh" style="font-size:max(13px,1vw); opacity:.7">
+            <strong style="opacity:1">Investor restoration:</strong> Stabilize (2 quarters EBITDA+) → Re-engage (Gen 3 roadshow with data) → Re-rate (B2B contracts + export revenue visible).
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">
+    <div>Financial Model · Source, Use, and Valuation Bridge</div>
+    <div>Source: Ola Electric filings, PLI allocations, comparable multiples</div>
+  </div>
+</section>
+
+<!-- SLIDE 11 — THE ENDGAME -->
+<section class="slide hero dark" data-theme="dark">
+  <div class="chrome">
+    <div>The Endgame</div>
+    <div>11 / 11</div>
+  </div>
+  <div class="frame" style="display:grid; gap:6vh; align-content:center; min-height:80vh">
+    <div class="kicker">The Vision</div>
+    <h1 class="h-hero" style="font-size:7vw; line-height:1.15">
+      Not a Scooter<br>Company.<br>
+      <em style="font-family:var(--serif-en); font-weight:400; opacity:.7">An Energy</em><br>
+      Infrastructure Company.
+    </h1>
+    <p class="lead" style="max-width:50vw; opacity:.7">
+      The company that builds the batteries, powers the grid, moves the motorcycles, and earns trust through radical transparency. Not the cheapest. Not the biggest. The one India is <em style="font-family:var(--serif-en)">proud</em> to own.
+    </p>
+    <div class="meta-row">
+      <span>Ananthazhvan</span><span>·</span><span>The Big Brand Theory · IIT BHU 2026</span>
+    </div>
+  </div>
+  <div class="foot">
+    <div>From Crisis to Category King</div>
+    <div>— Thank You —</div>
+  </div>
+</section>
+
+</div>
+
+<div id="nav"></div>
+<button id="pdf-btn" onclick="window.print()">Export PDF</button>
+
+<script>
+const VS=`attribute vec2 position;void main(){gl_Position=vec4(position,0.0,1.0);}`;
+const FS_DARK=`precision highp float;
+uniform vec2 u_resolution;uniform float u_time;uniform vec2 u_mouse;
+vec3 palette(float t,vec3 a,vec3 b,vec3 c,vec3 d){return a+b*cos(6.28318*(c*t+d));}
+void main(){
+  vec2 uv=gl_FragCoord.xy/u_resolution.xy;
+  vec2 p=uv*2.0-1.0;p.x*=u_resolution.x/u_resolution.y;
+  vec2 m=u_mouse*2.0-1.0;m.x*=u_resolution.x/u_resolution.y;
+  float md=length(p-m);
+  float mr=sin(md*15.0-u_time*4.0)*exp(-md*3.0);p+=mr*0.08;
+  vec2 p0=p;
+  for(float i=1.0;i<4.0;i++){
+    p.x+=0.1/i*sin(i*3.0*p.y+u_time*0.4)+0.05;
+    p.y+=0.1/i*cos(i*2.0*p.x+u_time*0.3)-0.05;
+  }
+  float r=length(p);float ang=atan(p.y,p.x);
+  vec3 a=vec3(0.12,0.12,0.13);vec3 b=vec3(0.03,0.04,0.05);
+  vec3 c=vec3(1.0,1.0,1.0);vec3 d=vec3(0.1,0.2,0.4);
+  vec3 col=palette(r*1.5+p0.x*0.5+u_time*0.1,a,b,c,d);
+  float disp=sin(r*25.0-u_time*1.5+ang*2.0)*0.5+0.5;
+  col+=vec3(disp*0.015,disp*0.01,disp*0.02);
+  float hi=pow(sin(p.x*4.0+p.y*3.0+u_time)*0.5+0.5,8.0);
+  col+=hi*0.08;vec3 base=vec3(0.05,0.05,0.06);
+  col=mix(base,col,0.85);gl_FragColor=vec4(col,1.0);
+}`;
+const FS_LIGHT=`precision highp float;
+uniform vec2 u_resolution;uniform float u_time;uniform vec2 u_mouse;
+float hash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
+float noise(vec2 p){
+  vec2 i=floor(p),f=fract(p);
+  float a=hash(i),b=hash(i+vec2(1,0));
+  float c=hash(i+vec2(0,1)),d=hash(i+vec2(1,1));
+  vec2 u=f*f*(3.0-2.0*f);
+  return mix(a,b,u.x)+(c-a)*u.y*(1.0-u.x)+(d-b)*u.x*u.y;
+}
+float fbm(vec2 p){
+  float v=0.0,a=0.5;mat2 m=mat2(0.80,0.60,-0.60,0.80);
+  for(int i=0;i<5;i++){v+=a*noise(p);p=m*p*2.02;a*=0.5;}
+  return v;
+}
+void main(){
+  vec2 uv=gl_FragCoord.xy/u_resolution.xy;
+  vec2 p=uv;p.x*=u_resolution.x/u_resolution.y;
+  vec2 m=u_mouse;m.x*=u_resolution.x/u_resolution.y;
+  vec2 md=p-m;float dl=length(md);
+  p+=normalize(md+vec2(0.0001))*exp(-dl*5.0)*0.03;
+  vec2 q=vec2(fbm(p*1.8+u_time*0.07),fbm(p*1.8+vec2(5.2,1.3)+u_time*0.06));
+  vec2 r=vec2(fbm(p*2.0+q*1.3+vec2(1.7,9.2)+u_time*0.05),fbm(p*2.0+q*1.3+vec2(8.3,2.8)+u_time*0.04));
+  float f=fbm(p*2.2+r*1.5);
+  vec3 silverDark=vec3(0.86,0.85,0.84);vec3 paper=vec3(0.955,0.945,0.925);
+  vec3 col=mix(silverDark,paper,f);
+  float ph=r.x*2.2+u_time*0.35;
+  col+=vec3(0.78,0.62,0.92)*sin(ph)*0.055;
+  col+=vec3(0.55,0.72,0.95)*sin(ph*0.8+2.0)*0.05;
+  float hl=smoothstep(0.48,0.92,f);col+=hl*0.06;
+  gl_FragColor=vec4(col,1.0);
+}`;
+const mouse={x:0.5,y:0.5};
+addEventListener('mousemove',e=>{mouse.x=e.clientX/innerWidth;mouse.y=e.clientY/innerHeight});
+function bootGL(canvasId,fsSrc){
+  const canvas=document.getElementById(canvasId);
+  const gl=canvas.getContext('webgl',{alpha:false,antialias:true});
+  if(!gl)return()=>false;
+  const mk=(t,s)=>{const sh=gl.createShader(t);gl.shaderSource(sh,s);gl.compileShader(sh);return sh};
+  const prog=gl.createProgram();
+  gl.attachShader(prog,mk(gl.VERTEX_SHADER,VS));
+  gl.attachShader(prog,mk(gl.FRAGMENT_SHADER,fsSrc));
+  gl.linkProgram(prog);gl.useProgram(prog);
+  const buf=gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER,buf);
+  gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,-1,1,1,-1,1,1]),gl.STATIC_DRAW);
+  const pos=gl.getAttribLocation(prog,'position');
+  gl.enableVertexAttribArray(pos);gl.vertexAttribPointer(pos,2,gl.FLOAT,false,0,0);
+  const lRes=gl.getUniformLocation(prog,'u_resolution');
+  const lT=gl.getUniformLocation(prog,'u_time');
+  const lM=gl.getUniformLocation(prog,'u_mouse');
+  const resize=()=>{const d=Math.min(window.devicePixelRatio||1,2);canvas.width=innerWidth*d;canvas.height=innerHeight*d;gl.viewport(0,0,canvas.width,canvas.height);};
+  addEventListener('resize',resize);resize();
+  return(tSec)=>{gl.uniform2f(lRes,canvas.width,canvas.height);gl.uniform1f(lT,tSec);gl.uniform2f(lM,mouse.x,1-mouse.y);gl.drawArrays(gl.TRIANGLES,0,6);return true};
+}
+const drawDark=bootGL('bg-dark',FS_DARK);
+const drawLight=bootGL('bg-light',FS_LIGHT);
+const t0=Date.now();
+(function loop(){const t=(Date.now()-t0)/1000;drawDark(t);drawLight(t);requestAnimationFrame(loop)})();
+const deck=document.getElementById('deck');
+const slides=deck.querySelectorAll('.slide');
+const nav=document.getElementById('nav');
+let idx=0,total=slides.length,lock=false;
+deck.style.width=(total*100)+'vw';
+slides.forEach((s,i)=>{const b=document.createElement('button');b.className='dot';b.dataset.i=i;b.setAttribute('aria-label','Page '+(i+1));b.onclick=()=>go(i);nav.appendChild(b)});
+function go(n){if(lock)return;idx=Math.max(0,Math.min(total-1,n));deck.style.transform=`translateX(${-idx*100}vw)`;slides.forEach((s,i)=>s.classList.toggle('active',i===idx));nav.querySelectorAll('.dot').forEach((d,i)=>d.classList.toggle('active',i===idx));const el=slides[idx];const th=el.dataset.theme||(el.classList.contains('light')?'light':(el.classList.contains('dark')?'dark':'dark'));document.body.classList.toggle('light-bg',th==='light');lock=true;setTimeout(()=>lock=false,700)}
+let overviewOn=false;
+const ov=document.createElement('div');
+ov.id='overview';
+ov.style.cssText='position:fixed;inset:0;z-index:100;background:rgba(var(--ink-rgb),.92);backdrop-filter:blur(12px);display:none;overflow-y:auto;padding:4vh 4vw';
+document.body.appendChild(ov);
+function buildOverview(){
+  ov.innerHTML='';
+  const grid=document.createElement('div');
+  grid.style.cssText='display:grid;grid-template-columns:repeat(4,1fr);gap:2vh 1.6vw;max-width:90vw;margin:0 auto';
+  slides.forEach((s,i)=>{
+    const card=document.createElement('div');
+    card.style.cssText='cursor:pointer;border-radius:6px;overflow:hidden;border:2px solid '+(i===idx?'rgba(var(--paper-rgb),.8)':'rgba(var(--paper-rgb),.15)')+';transition:border-color .2s';
+    card.onmouseenter=()=>card.style.borderColor='rgba(var(--paper-rgb),.6)';
+    card.onmouseleave=()=>card.style.borderColor=i===idx?'rgba(var(--paper-rgb),.8)':'rgba(var(--paper-rgb),.15)';
+    const wrap=document.createElement('div');
+    wrap.style.cssText='width:100%;aspect-ratio:16/9;overflow:hidden;position:relative;pointer-events:none;background:'+(s.classList.contains('light')?'var(--paper)':'var(--ink)');
+    const clone=s.cloneNode(true);
+    clone.style.cssText='width:100vw;height:100vh;transform:scale('+(1/4.5)+');transform-origin:top left;position:absolute;top:0;left:0;pointer-events:none';
+    wrap.appendChild(clone);
+    const label=document.createElement('div');
+    label.style.cssText='padding:6px 10px;font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--paper);opacity:.7';
+    label.textContent=(i+1)+' / '+total;
+    card.appendChild(wrap);card.appendChild(label);
+    card.onclick=()=>{toggleOverview();go(i)};
+    grid.appendChild(card);
+  });
+  ov.appendChild(grid);
+}
+function toggleOverview(){overviewOn=!overviewOn;if(overviewOn){buildOverview();ov.style.display='block'}else{ov.style.display='none'}}
+addEventListener('keydown',e=>{
+  if(e.key==='Escape'){e.preventDefault();toggleOverview();return}
+  if(overviewOn)return;
+  if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '||e.key==='ArrowDown')go(idx+1);
+  if(e.key==='ArrowLeft'||e.key==='PageUp'||e.key==='ArrowUp')go(idx-1);
+  if(e.key==='Home')go(0);if(e.key==='End')go(total-1);
+});
+let wheelTO=null,wheelAcc=0;
+addEventListener('wheel',e=>{wheelAcc+=e.deltaY+e.deltaX;if(Math.abs(wheelAcc)>50){go(idx+(wheelAcc>0?1:-1));wheelAcc=0}clearTimeout(wheelTO);wheelTO=setTimeout(()=>wheelAcc=0,150)},{passive:true});
+let tx=0,ty=0;
+addEventListener('touchstart',e=>{tx=e.touches[0].clientX;ty=e.touches[0].clientY},{passive:true});
+addEventListener('touchend',e=>{const dx=(e.changedTouches[0].clientX-tx);const dy=(e.changedTouches[0].clientY-ty);if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy))go(idx+(dx<0?1:-1))},{passive:true});
+go(0);
+</script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script>lucide.createIcons();</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+Source,Metric,Value,Date,Sentiment_Direction,Notes
+Google Play Store,App Rating (Ola Electric),3.2/5.0,May-2026,Negative,Declining from 4.0 at launch; frequent 1-star reviews
+Google Play Store,Total Reviews,200000+,May-2026,Mixed,High volume indicates engagement but skews negative
+CCPA,Formal Complaints Filed,10000+,Oct-2024,Very Negative,Triggered show-cause notice; unprecedented for EV company
+Consumer Courts,Cases Filed (DRHP disclosed),189,Aug-2024,Negative,Pre-IPO disclosure; actual cases much higher post-IPO
+Consumer Courts,Cases Filed (Estimated Post-IPO),500+,May-2026,Negative,Multiple district forums ruling against Ola
+Consumer Courts,Typical Ruling,Full refund + Rs 10000-50000 compensation,2025-2026,Negative,Courts citing "pattern of neglect"
+Social Media (Twitter/X),Sentiment,Predominantly negative,2025-2026,Negative,Viral complaint threads; #OlaElectric trending negatively
+Social Media (YouTube),Review Sentiment,Mixed to negative,2025-2026,Mixed,Long-term ownership reviews highlight service issues
+Social Media (Reddit r/ElectricVehicles),Sentiment,Negative,2025-2026,Negative,Community recommends Ather/TVS over Ola consistently
+News Media,Coverage Tone,Negative (service focus),2024-2026,Negative,ET/Mint/BS all covered CCPA notice prominently
+NCH (National Consumer Helpline),Complaint Volume Rank,Top 5 among all companies,2024-2025,Very Negative,One of most complained-about brands on NCH
+Ola Response,Hyperservice Claims,80% same-day resolution,Q3-FY26,Improving,Self-reported; not independently verified
+Ola Response,Service Backlog Reduction,50% reduction claimed,Q3-FY26,Improving,Self-reported; actual customer experience may differ
+Net Promoter Score (Estimated),NPS,Negative (below 0),2025-2026,Very Negative,Estimated based on sentiment analysis; buyers don't recommend
+TVS iQube (Comparison),App Rating,4.2/5.0,May-2026,Positive,Higher rated; fewer service complaints
+Ather Energy (Comparison),App Rating,4.0/5.0,May-2026,Positive,Premium experience; good community sentiment
+Bajaj Chetak (Comparison),Service Satisfaction,Very High,2025-2026,Positive,Rs 400/service visit; minimal complaints

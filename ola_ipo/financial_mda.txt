@@ -1,0 +1,1690 @@
+--- Page 308 ---
+OLA Electric Mobility Limited (formerly known as OLA Electric Mobility Private Limited)
+CIN:U74999KA2017PTC099619
+Annexure VII - Notes to the Restated Consolidated Financial Statements (continued)
+All amounts are in INR Million unless otherwise stated
+49.
+Events occurring after the reporting period
+a)
+b)
+As per our report of even date attached
+for B S R & Co. LLP
+for and on behalf of the Board of Directors of
+Chartered Accountants
+Ola Electric Mobility Limited (formerly known as Ola Electric Mobility Private Limited)
+Firm's Registration No. 101248W/W-100022
+Umang Banka
+Bhavish Aggarwal
+Krishnamurthy Venugopala Tenneti
+Partner
+Director
+Director
+Membership No : 223018
+DIN : 03287473
+DIN : 01338477
+Place : Bengaluru
+Place : Bengaluru
+Place : Bengaluru
+Date : 14 December 2023
+Date : 14 December 2023
+Date : 14 December 2023
+Pramendra Tomar
+Harish Abichandani
+Company Secretary
+Chief Financial Officer
+Place : Bengaluru
+Place : Bengaluru
+Date : 14 December 2023
+Date : 14 December 2023
+On 01 July 2023, Ola Electric Technologies Private Limited "OET" (a wholly-owned subsidiary of Ola Electric Mobility Private Limited (formerly known as OLA Electric Mobility Private Limited)) acquired business from Ola Fleet
+Technologies Private Limited "OFT" (a wholly-owned subsidiary of ANI Technologies Private Limited) as per Business Transfer Agreement (BTA) effective from 1 July 2023 on a slump sale basis and as a going concern.  The set of
+activities acquired constitute a business as per Ind AS 103, Business combinations and hence will be accounted as a business combination in the books of OET.
+The Company is in the process of finalising the accounting for acquisition of OFT, including allocation of purchase consideration to identifiable assets and liabilities.
+On 14 July 2023, the Group has made an allotment of 91,300,001 fully and Compulsory Convertible Series 'E' Preference Shares having face value of INR 10 each, at a price of INR 10 amounting to INR 913.00 million. The Group
+has issued these share to utilise the funds for its general business purpose.
+On 22 September 2023, the Group has made an allotment of 1,052,324,000 fully and Compulsory Convertible Series 'E' Preference Shares having face value of INR 10 each, at a price of INR 10 amounting to INR 10,523.20
+million. The Group has issued these share to utilise the funds for its general business purpose.
+These events arose after the balance sheet date and does not reflect conditions existing at the balance sheet date and therefore do not impact the financial position as of the balance sheet date.
+304
+
+--- Page 309 ---
+305
+OTHER FINANCIAL INFORMATION
+The accounting ratios required under Clause 11 of Part A of Schedule VI of the SEBI ICDR Regulations are given below:
+Particulars
+As at and for the
+Three-months
+period ended
+June 30, 2023
+Year ended
+March 31, 2023
+Year ended
+March 31, 2022
+Year ended
+March 31, 2021
+Basic earnings per Equity Share (in ₹)
+(0.71)
+(3.91)
+(2.23)
+(0.59)
+Diluted earnings per share (in ₹)
+(0.71)
+(3.91)
+(2.23)
+(0.59)
+Loss for the period/ year (in ₹ million)
+(2,671.56)
+(14,720.79)
+(7,841.50)
+(1,992.32)
+Return on Net Worth (%)
+(12.65)
+(62.47)
+(21.42)
+(10.11)
+Net Asset Value per Equity Share (in ₹)
+5.61
+6.26
+10.43
+5.83
+EBITDA (in ₹ million)
+(1,838.11)
+(11,970.98)
+(7,175.52)
+(1,788.22)
+Notes:
+The ratios have been computed as under:
+(1)
+Basic and diluted earnings per share: Basic and diluted earnings per equity share are computed in accordance with Indian Accounting Standard 33
+notified under the Companies (Indian Accounting Standards) Rules of 2015 (as amended). Ratios for the three-months period ended June 30, 2023
+have not been annualized. Basic and diluted earnings per equity share is computed by dividing the profit for the period attributable to the shareholders
+of our Company by the weighted average number of shares outstanding during the period excluding the treasury share. The effect of dilutive equivalent
+share options and interest cost on financial liability portion of OCCPS which would be anti-dilutive has not been considered for the computation of
+diluted EPS for the year ended March 31, 2020. Accordingly, there is no variation between basic and diluted earnings per share.
+(2)
+Return on Net Worth (%) is calculated as loss for the year/period divided by the Net Worth at the end of the respective year/period.
+(3)
+Net Asset Value per Equity Share (in ₹) is computed as Net Worth at the end of the period/ year / weighted average number of equity shares outstanding
+at the end of the period/ year.
+(4)
+Earnings before interest, taxes, depreciation and amortisation, or EBITDA, is a non-GAAP measure which represents loss for the period/year, before
+tax expenses, finance costs and depreciation and amortisation expenses.
+(5)
+Accounting ratios are derived from the Restated Consolidated Financial Information.
+For reconciliation of Non-GAAP measures, see “- Reconciliation of Non-GAAP Measures” on page 305.
+Non-GAAP Financial Measures
+This section includes Certain Non-GAAP financial measures and other statistical information relating to our operations and
+financial performance (together, “Non-GAAP Measures” and each a “Non-GAAP Measure”), as presented below. These
+Non-GAAP financial measures are not required by or presented in accordance with Ind AS.
+Further, these Non-GAAP Measures are not a measurement of our financial performance or liquidity under Ind AS and should
+not be considered in isolation or construed as an alternative to cash flows, profit/ (loss) for the years/ period or any other
+measure of financial performance or as an indicator of our operating performance, liquidity, profitability or cash flows
+generated by operating, investing or financing activities derived in accordance with Ind AS. In addition, these Non-GAAP
+Measures are not standardized terms, hence a direct comparison of these Non-GAAP Measures between companies may not
+be possible. Other companies may calculate these Non-GAAP Measures differently from us, limiting its usefulness as a
+comparative measure. Although such Non-GAAP Measures are not a measure of performance calculated in accordance with
+applicable accounting standards, our Company’s management believes that they are useful to an investor in evaluating us as
+they are widely used measures to evaluate a company’s operating performance.
+Reconciliation of Non-GAAP Measures
+Reconciliation for the various Non-GAAP Financial Measures included in this Draft Red Herring Prospectus are given below.
+Reconciliation of Adjusted Gross Margin to total income
+(in ₹ million, unless otherwise stated)
+Particulars
+As at and for the three-
+months period ended
+June 30, 2023
+As at and for the
+Financial Year
+ended March 31,
+2023
+As at and for the
+Financial Year
+ended March 31,
+2022
+Total income (A)
+12,786.75
+27,826.97
+4,562.60
+Minus: Cost of materials consumed (B)
+11,135.45
+25,047.92
+5,849.34
+Minus: Purchase of stock-in-trade (C)
+193.12
+1,392.61
+561.81
+Minus: Change in inventories of finished goods, stock-in-trade and
+work-in-progress (D)
+(233.68)
+(736.44)
+(1,602.15)
+
+--- Page 310 ---
+306
+Particulars
+As at and for the three-
+months period ended
+June 30, 2023
+As at and for the
+Financial Year
+ended March 31,
+2023
+As at and for the
+Financial Year
+ended March 31,
+2022
+Adjusted Gross Margin (E) (E=A-B-C-D)
+1,691.86
+2,122.88
+(246.40)
+Adjusted Gross Margin% (F) (F=E/A)
+13.23
+7.63
+(5.40)
+Note: For the year ended March 31, 2021, as the Company does not have any sale of finished and traded goods the
+presentation of adjusted gross margin is not applicable.
+Reconciliation of EBITDA to our loss
+(in ₹ million, unless otherwise stated)
+Particulars
+As at and for the
+three-months
+period ended June
+30, 2023
+As at and for the
+Financial Year
+ended March 31,
+2023
+As at and for the
+Financial Year
+ended March 31,
+2022
+As at and for the
+Financial Year
+ended March 31,
+2021
+Loss for the period/year (A)
+(2,671.56)
+(14,720.79)
+(7,841.50)
+(1,992.32)
+Add: Tax expense (B)
+0.00
+0.00
+0.00
+0.00
+Add: Finance costs (C)
+359.30
+1,079.17
+176.18
+7.90
+Add: Depreciation and amortization
+expense (D)
+474.15
+1,670.64
+489.80
+196.20
+EBITDA (E) (E=A+B+C+D)
+(1,838.11)
+(11,970.98)
+(7,175.52)
+(1,788.22)
+Total income (F)
+12,786.75
+27,826.97
+4,562.60
+1,060.81
+EBITDA Margin %(G) (G=E/F)
+(14.38)%
+(43.02)%
+(157.27)%
+(168.57)%
+Reconciliation of Net Worth and Return on Net Worth
+(in ₹ million, unless otherwise stated)
+Particulars
+For the three-
+months period
+ended June 30,
+2023
+Financial Year
+2023
+Financial Year
+2022
+Financial Year
+2021
+Equity share capital (A)
+19,554.50
+19,554.50
+19,554.50
+0.10
+Instruments entirely equity in nature
+(B)
+18,096.97
+18,096.97
+18,041.25
+0.07
+Other equity (C)
+(16,536.42)
+(14,087.03)
+(981.23)
+19,705.98
+Net Worth (D)
+21,115.05
+23,564.44
+36,614.52
+19,706.15
+Loss for the period/year (E)
+(2,671.56)
+(14,720.79)
+(7,841.50)
+(1,992.32)
+Return on Net Worth % (F)
+(F=E/D)
+(12.65)%
+(62.47)%
+(21.42)%
+(10.11)%
+Reconciliation of Net Asset Value per Equity Share
+(in ₹ million, unless otherwise stated)
+Particulars
+As at and for the
+three-months
+period ended June
+30, 2023
+As at and for the
+Financial Year
+ended March 31,
+2023
+As at and for the
+Financial Year
+ended March 31,
+2022
+As at and for the
+Financial Year
+ended March 31,
+2021
+Net Worth (A)
+21,115.05
+23,564.44
+36,614.52
+19,706.15
+Weighted average equity shares
+considered for calculation of basic
+earning per share (B)
+3,765,145,918
+3,764,825,364
+3,511,110,172
+3,379,137,671
+Net Asset Value per Equity Share
+(C) (C=A/B)
+5.61
+6.26
+10.43
+5.83
+In accordance with the SEBI ICDR Regulations, the audited standalone financial statements of (i) our Company, our Material
+Subsidiary and Ola Electric Mobility B.V. for Financial Years 2023, 2022 and 2021 and (ii) Etergo B.V. for the Financial
+Years 2023 and 2022, and for the Financial Year 2021 for the period from May 26, 2020 to March 31, 2021 (collectively, the
+“Audited Financial Statements”) are available on our website at https://olaelectric.com/investor-relations/financials.
+Please note that Ola Electric Mobility B.V. and Etergo B.V. have been considered as material subsidiaries for the purpose of
+disclosure of their respective financial statements in accordance with the SEBI ICDR Regulations. Etergo B.V. became a
+subsidiary of our Company with effect from May 26, 2020. Our Company is providing a link to this website solely to comply
+with the requirements specified in the SEBI ICDR Regulations. The Audited Financial Statements do not constitute, (i) a part
+of this Draft Red Herring Prospectus; or (ii) a prospectus, a statement in lieu of a prospectus, an offering circular, an offering
+memorandum, an advertisement, an offer or a solicitation of any offer or an offer document or recommendation or solicitation
+
+--- Page 311 ---
+307
+to purchase or sell any securities under the Companies Act, the SEBI ICDR Regulations, or any other applicable law in India
+or elsewhere. The Audited Financial Statements should not be considered as part of information that any investor should
+consider when subscribing for or purchasing any securities of our Company and should not be relied upon or used as a basis
+for any investment decision. None of our Company or any of its advisors, nor BRLMs or any of the Selling Shareholders, nor
+any of their respective employees, directors, affiliates, agents, trustees or representatives accept any liability whatsoever for
+any loss, direct or indirect, arising from reliance placed on any information presented or contained in the Audited Financial
+Statements, or the opinions expressed therein.
+RELATED PARTY TRANSACTIONS
+For details of the related party transactions, as per the requirements under applicable Accounting Standards i.e. Ind AS 24
+‘Related Party Disclosures’ for the three-months period ended June 30, 2023 and for the Financial Years ended March 31,
+2023, March 31, 2022 and March 31, 2021, and as reported in the Restated Consolidated Financial Information, see “Restated
+Consolidated Financial Information – Notes forming part of the Restated Consolidated Financial Information – Note 35:
+Related Parties” on page 293.
+
+--- Page 312 ---
+308
+MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF
+OPERATIONS
+The following discussion is intended to convey the management’s perspective on our financial condition and results of
+operations for the three-months period ended June 30, 2023 and Fiscals 2023, 2022 and 2021. Unless otherwise stated, the
+financial information in this section has been derived from the Restated Consolidated Financial Information included in this
+Draft Red Herring Prospectus.
+Our financial year ends on March 31 of each year. Accordingly, references to “Fiscal 2023,” “Fiscal 2022” and “Fiscal
+2021” are to the 12-month period ended March 31 of the relevant year.
+Ind AS differs in certain respects from Indian GAAP, IFRS and U.S. GAAP and other accounting principles with which
+prospective investors may be familiar. Please also see “Risk Factors – Significant differences exist between Indian accounting
+standard (“Ind AS”) and other accounting principles, such as international financial reporting standards (“IFRS”) and
+United States generally accepted accounting principles (“U.S. GAAP”), which may be material to investors’ assessments of
+our financial condition” on page 58. This discussion contains certain forward-looking statements that involve risks and
+uncertainties. Our actual results may differ materially from those anticipated in these forward-looking statements as a result
+of certain factors, such as the risks set forth in the chapters entitled “Risk Factors” and “Forward-Looking Statements” on
+pages 28 and 26, respectively.
+Industry and market data used in this section have been extracted from the Redseer Report, which has been commissioned by
+our Company exclusively in connection with the Offer for the purposes of confirming our understanding of the industry in
+which we operate.
+OVERVIEW
+We are a pure electric vehicle (“EV”) player in India and are building vertically integrated technology and manufacturing
+capabilities for EVs and EV components, including cells. With our in-house R&D and technology, we design and develop
+certain core EV components in-house and new EV products internally, such as the motor and drivetrain, battery packs,
+electronics and software which operate and integrate the EV systems. We manufacture EVs and certain core EV components
+like battery packs, motors and vehicle frames at the Ola Futurefactory.
+We operate our own direct-to-customer (“D2C”) omnichannel distribution network comprising 935 experience centres
+and 414 service centres (of which 410 service centres are located within experience centres) situated across India, as of
+October 31, 2023, in addition to our Ola Electric website. Our network of experience centres was India’s largest company-
+owned network of experience centres as of September 30, 2023 according to the Redseer Report.
+Our current EV scooter Generation 2 platform is the base for the Ola S1 scooter models - Ola S1 Pro, Ola S1 Air, Ola S1 X+,
+Ola S1 X (2 kWh) and Ola S1 X (3 kWh). We commenced delivery of our first EV model, the Ola S1 Pro, in December 2021,
+followed by the Ola S1 in September 2022, the Ola S1 Air in August 2023 and the Ola S1 X+ in December 2023. Within nine
+months of delivering our first EV scooter in December 2021, we became the best-selling E2W brand in India in terms of
+monthly E2W registrations on the VAHAN Portal of Ministry of Road Transport and Highways (“VAHAN”), with a market
+share of over 31% in terms of vehicle registrations in the three-months period ended June 30, 2023, based on VAHAN,
+according to the Redseer Report. We have sold a total of 247,437 units of Ola S1 and Ola S1 Pro from inception through June
+30, 2023. On August 15, 2023, we also announced other new EV scooter models, the Ola S1 X (2 kWh) and the Ola S1 X (3
+kWh), in addition to the Ola S1 X+, as well as a line-up of motorcycles comprising four models, Diamondhead, Adventure,
+Roadster and Cruiser. We plan to begin delivering the Ola S1 X (2 kWh) and the Ola S1 X (3 kWh) by the first half of Fiscal
+2025 and the new motorcycle models in the first half of Fiscal 2026. We plan to further launch affordable mass market Ola
+S1 models, including E2Ws targeted at the personal, business to business and last-mile delivery segment by the Fiscal 2025,
+to capture a broader base of consumers across different product types and price points in the long run.
+We are building our EV hub in Krishnagiri and Dharmapuri districts in Tamil Nadu, India, which includes our Ola
+Futurefactory, our upcoming Ola Gigafactory and co-located suppliers in Krishnagiri district. At our Ola Futurefactory, we
+manufacture our EV scooters using certain EV components manufactured in-house and other components procured from third
+parties, such as cells.
+The Ola Futurefactory is the largest integrated and automated E2W manufacturing plant in India (in terms of production
+capacity) by an E2W-only OEM, as of September 30, 2023, according to the Redseer Report, with an installed capacity of
+one million units per year as of October 31, 2023. While we currently source cells from suppliers, we are in the process of
+developing cell technologies and cell manufacturing processes for use in the Ola Gigafactory. Phase 1(a) of the Ola
+Gigafactory is expected to be completed and the Ola Gigafactory is expected to be operational by March 31, 2024.
+
+--- Page 313 ---
+309
+For more details on our business, see “Our Business” on page 153.
+OUR BUSINESS MODEL
+Revenue
+We derive revenue primarily from the sale of scooters, vehicle accessories, including spare parts for vehicle repairs and
+chargers and related services.
+We commenced delivery of our first scooter, the Ola S1 Pro, in December 2021, followed by the Ola S1 in September 2022,
+the Ola S1 Air in August 2023 and the Ola S1 X+ in December 2023. We have sold a total of 247,437 units of Ola S1 and
+Ola S1 Pro from inception through June 30, 2023. Pre-booking of our newly announced scooter models, the Ola S1 X+, Ola
+S1 X (2 kWh) and the Ola S1 X (3 kWh), and motorcycles, Diamondhead, Adventure, Roadster and Cruiser, commenced in
+August 2023, following which we commenced delivery of the Ola S1 X+ in December 2023. We plan to begin delivering the
+Ola S1 X (2 kWh) and the Ola S1 X (3 kWh) by the first half of Fiscal 2025 and the new motorcycle models, Diamondhead,
+Adventure, Roadster and Cruiser, in the first half of Fiscal 2026.
+We recognise revenue from the sale of products upon delivery of the goods to the customer. Deposits received from customers
+for vehicle purchases are recorded as advances received from customers and are recognised as revenue upon the delivery of
+the scooter to and the same-day registration of vehicle title for the customer. For Fiscal 2022, we recognised revenue for Ola
+S1 Pro upon commencement of deliveries from December 2021. Our revenue from the sale of finished products in the three-
+months period ended June 30, 2023, Fiscal 2023 and Fiscal 2022 constituted 87.27%, 87.55% and 85.07%, of our revenue
+from operations for such respective periods. Finished products sold during such periods comprise the Ola S1 and Ola S1 Pro.
+Revenue is recognised exclusive of goods and services tax and net of returns and trade discounts.
+Prior to March 31, 2023, customers purchasing our scooters paid for chargers separately. From March 31, 2023 onwards,
+chargers are included with all scooter purchases.
+We recognise revenue from the provision of services to our customers, such as assisting customers with installing wall mount
+chargers in return for a service fee. Prior to August 2023, we also generated revenue from selling services related to vehicle
+performance upgrades whereby customers purchasing the Ola S1 Pro (first generation) had the option to pay for additional
+features for their scooters. In addition, we assist customers with vehicle registrations through a third-party service provider
+and pass-through service fees paid by the customer to the service provider. In Fiscal 2021, we also provided battery swapping
+services on a trial basis to EV owners who subscribed for such services, whereby we helped EV users replace discharged
+battery packs with full charged ones, and generated swapping and subscription income from providing such services.
+The following graph indicates our scooter sales volume for the periods indicated.
+Scooter Sales Volume (Units)
+
+--- Page 314 ---
+310
+The following graph indicates our total income for the periods indicated.
+Total Income (₹ million)
+Expenses
+Our major expenses include (i) cost of materials consumed, including the purchase of stock-in-trade and change in inventories
+(ii) employee benefits expense, (iii) research and development expenses, and (iv) certain other expenses such as provision for
+warranties, technology cost, selling and distribution expenses, and advertising, marketing and sales promotion.
+Cost of materials consumed
+The cost of materials consumed reflects the cost of raw materials used in the production of our scooters, and represented
+89.60%, 95.21%, 156.64% of our revenue from operations for the three-months period ended June 30, 2023 and Fiscals 2023
+and 2022, respectively. We track bill of materials (“BOM”) cost which represents the cost price of the scooter. We have
+designed most of our key components relating to electronics, cell and battery systems, software and drivetrain in-house,
+including designing an electric powertrain, which includes a modular battery pack with BMS, motors and power electronics
+module. Leveraging our manufacturing capabilities, we also manufacture the battery packs, motors (starting on August 1,
+2023) and vehicle frames in-house, and source other components, such as tires, suspension, cells and semiconductor chips,
+from third party domestic and foreign suppliers.
+We purchase chargers and other vehicle accessories, such as spare parts and wall mounts from third party suppliers, to resell
+to customers. We record the purchase cost of the chargers and vehicle accessories as purchase of stock-in-trade. Changes in
+inventories of finished goods including scooters and spare parts, stock-in-trade and work-in-progress comprise changes in the
+amount of work-in-progress scooters, spare parts and stock-in-trade in our inventory.
+Our medium to long-term plans place emphasis on backward integration for greater control over our supply chain. For
+example, while we currently source cells from suppliers, we are in the process of developing cell technologies and cell
+manufacturing processes for use in the Ola Gigafactory. Phase 1(a) of the Ola Gigafactory is expected to be completed and
+the Ola Gigafactory is expected to be operational by March 31, 2024. For raw materials and processing facilities that we do
+not currently own, we are in the process of assessing the feasibility of a variety of options, such as long-term supply agreements
+and direct or indirect ownership to secure an uninterrupted supply for our production. Such arrangements could give us greater
+control of our supply chain and production schedule and procure supplies at lower prices, thereby enabling us to price our
+products more competitively.
+R&D spend
+We have devoted significant resources towards our R&D activities, which centre around developing technology and
+manufacturing capabilities for EVs and EV components. Our R&D spend comprises research costs and development
+expenditure that we capitalised as part of the cost of the resulting intangible asset if such expenditure can be measured reliably,
+the product or process is technically and commercially feasible, future economic benefits are probable and we intend to and
+
+--- Page 315 ---
+311
+have sufficient resources to complete the development and intend to use or sell the asset. The cost capitalised includes cost of
+material, employee costs relating to our R&D team, and directly attributable overhead expenditure incurred up to the date the
+asset is available to use, such as expenses relating to our R&D activities in India, the UK and the US, which are focused on
+designing and developing core EV components and new EV products, and our BIC, which is focused on developing cell and
+battery technology and manufacturing processes.
+We expect our R&D spend to increase for the foreseeable future as we continue to invest in R&D activities to expand our
+product offerings and manufacture EVs in a cost-efficient manner.
+Our R&D spend in the three-months period ended June 30, 2023 and Fiscals 2023, 2022 and 2021 amounted to ₹ 935.53
+million (comprising research costs of ₹ 108.18 million and additions to intangible assets under development of ₹ 827.35
+million), ₹ 5,077.11 million (comprising research costs of ₹ 860.82 million and additions to intangible assets under
+development of ₹ 4,216.29 million), ₹ 1,758.40 million (comprising research costs of ₹ 156.90 million and additions to
+intangible assets under development of ₹ 1,601.50 million) and ₹ 436.06 million (comprising research costs of ₹ 69.86 million
+and additions to intangible assets under development of ₹ 366.20 million), respectively, comprising 7.32%, 18.25%, 38.54%
+and 41.11% of our total income for such periods, respectively.
+The following graph indicates our R&D spend for the periods indicated.
+R&D Spend (₹ million)
+Note: R&D spend comprises research costs and additions to intangible assets under development.
+Employee benefits expense
+Our employee benefits expense consist of salaries, wages, bonuses, gratuity, compensated absences, contributions to provident
+funds, share based payments and staff welfare expenses paid to our employees. We had 3,733 on-roll employees and 2,844
+off-roll employees as of October 31, 2023.
+Other expenses
+Our other expenses primarily include (i) selling and distribution expenses, (ii) our warranty expenses in providing repair
+services for scooters and battery packs under warranty, (iii) research cost that has been incurred, (iv) technology cost, including
+fees to purchase and license software and cloud storage fees, (v) legal and professional fees, (vi) vehicle repair services and
+(vii) advertising, marketing and sales promotion expenses in undertaking digital marketing, brand marketing and promotional
+events to promote our scooters.
+We make provisions for our warranty obligations, comprising a three-year/40,000 km warranty on our scooters and a three-
+
+--- Page 316 ---
+312
+year/unlimited km warranty on battery packs. Provisions for warranty are recognised when the product is sold to the customer
+and is based on management estimate of product failure rates which is derived from continual evaluation of tracked product
+failure rates for certain periods of time. The initial estimate of warranty-related costs is revised annually. Our provision for
+warranties were ₹ 681.56 million, ₹ 446.73 million and ₹ 128.54 million as of June 30, 2023, March 31, 2023 and March 31,
+2022, respectively.
+We also offer customers the option to extend their warranty for up to five years/60,000 km for a fee of ₹ 6,999 for the battery
+only and ₹ 8,999 for a comprehensive coverage of the battery, charger, motor and head unit as of June 30, 2023. We have
+back to back insurance cover for any liabilities arising from extended warranties sold.
+Up to June 2023, our selling and distribution expenses comprised a fee that we paid to our Group Company, Ola Fleet
+Technologies Private Limited, in relation to the operation of our experience centres and service centres. The selling and
+distribution expenses were ₹ 345.51 million, ₹ 722.63 million and ₹ 353.30 million in the three-months period ended June 30,
+2023, Fiscal 2023 and Fiscal 2022, respectively. Starting on July 1, 2023, we assumed control of the operation of our
+experience centres and service centres and will not be required to pay such fees starting from July 1, 2023.
+The following graph indicates our Adjusted Gross Margin % for the periods indicated.
+Adjusted Gross Margin (%)
+Note: Adjusted Gross Margin is a non-GAAP measure computed by deducting cost of materials consumed, purchase of stock-in-trade and change in
+inventories of finished goods, stock-in-trade and work-in-progress from total income. Adjusted Gross Margin % is defined as Adjusted Gross Margin for the
+relevant period divided by total income for such period. For reconciliation, please see “ – Summary Results of Operations – Non-GAAP Measures” on
+page 328.
+PRINCIPAL FACTORS AFFECTING OUR FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+Our results of operations and financial condition are affected by a number of important factors, including:
+Ability to access broad customer segments through our D2C model and product portfolio
+Our ability to ensure customer satisfaction and retain and expand our customer base is dependent on our ability to offer a
+seamless and satisfactory customer service. We strive to enhance the customer experience through our D2C omnichannel
+distribution model, comprising our digitally-enabled pan-India network of experience centres and service centres. Our
+
+--- Page 317 ---
+313
+customers have access to an all-digital experience throughout the sales process and after-sales service through our Ola Electric
+website, from product discovery to EV scooter ownership, including booking test rides, booking/purchasing the EV scooter
+and brand engagement, to booking and tracking the status of after-sales services at our service centres through the Ola Electric
+Companion app. We also offer customers the opportunity to see, touch and test drive our EV scooters at our experience centres
+prior to purchasing the EV scooter online. We facilitate financing for our customers through one of our Group Companies,
+Ola Financial Services Private Limited (“OFS”) and in partnership with 12 financial institutions that offer loan tenures of up
+to five years as of September 30, 2023 in order to give our customers greater access to capital to fund their EV purchase. We
+believe that our D2C omnichannel distribution model enables us to directly connect with our customers and design the
+customer experience.
+Our ability to attract new customers also depends on the scale and efficiency of our experience centres and service centres.
+We aim to expand our customer reach through the expansion of our network of experience centres and service centres across
+India. We also aim to further expand our network of charging stations across India in the near-term to provide added
+convenience to our customers in charging their scooters. See “Objects of the Offer” on page 97. In particular, our ability to
+grow our customer base significantly depends on our ability to further expand our customer reach into high density areas
+office complexes, malls and educational institutes and develop a complete EV ecosystem complete with a charging
+infrastructure.
+We commenced delivery of the Ola S1 X+ in December 2023 and plan to begin delivering the Ola S1 X (2 kWh) and the Ola
+S1 X (3 kWh) by the first half of Fiscal 2025 and the new motorcycle models, Diamondhead, Adventure, Roadster and Cruiser,
+in the first half of Fiscal 2026. We plan to further launch affordable mass market Ola S1 models, including E2Ws targeted at
+the personal, business to business and last-mile delivery segment, by Fiscal 2025, to capture a broader base of consumers
+across different product types and price points in the long run.
+Enhancing manufacturing capabilities with vertical integration and supply chain management
+We manufacture our EVs and certain core EV components, like battery packs, motors and vehicle frames, at our Ola
+Futurefactory. We are building our Ola Gigafactory for cell manufacturing.
+We have adopted a vertically integrated approach to manufacturing that combines our in-house R&D, engineering and
+manufacturing capabilities to develop our EVs while optimising costs. We plan to increasingly localise our supply sources,
+including by co-locating suppliers within our EV hub and sourcing from them, in order to lower the cost of materials
+consumed, as the cost of materials consumed in the production of vehicles comprised a significant portion of our expenses,
+representing 89.60%, 95.21%, 156.64% of our revenue from operations for the three-months period ended June 30, 2023 and
+Fiscals 2023 and 2022, respectively. Our medium to long-term plans also place emphasis on backward integration for greater
+control over our supply chain. For example, batteries for our EV scooters constituted approximately 35% of the BOM for Ola
+S1 Pro scooters as September 30, 2023. While we currently source cells from suppliers, we are in the process of developing
+cell technologies and cell manufacturing processes for use in the Ola Gigafactory, which is currently under construction within
+the EV hub and expected to be operational by March 31, 2024. For raw materials and processing facilities that we do not
+currently own, we are in the process of assessing the feasibility of a variety of options, such as long-term supply agreements
+and direct or indirect ownership to secure an uninterrupted supply for our production. Such arrangements could give us greater
+control of our supply chain and production schedule, enabling us to price our products more competitively. We expect to
+derive a significant cost advantage through control over the full value chain, which will help drive our future profitability.
+Expansion of our manufacturing capability requires us to make significant capital expenditures. The amount and timing of
+our future production capacity requirements and resulting capital expenditures, will depend on many factors, including the
+pace and results of our R&D efforts, and our ability to develop and launch new products, achieve sales and enter new markets.
+While we have laid out a blueprint for a cost-efficient capacity expansion, our expansion project could be subject to delays or
+other difficulties, which could increase our costs.
+In-house R&D, design and technology leadership
+Technology is at the core of our business model with a focus on in-house product innovation. We have invested a significant
+amount of capital into R&D to develop vertically integrated technology and manufacturing capabilities for EVs and EV
+components, including cells.
+We undertake R&D activities in India, the UK and the US, focused on designing and developing new EV products and core
+EV components. We have designed most of our core EV components relating to electronics, cell and battery systems, software
+and drivetrain in-house, including an electric powertrain, which has a modular design that incorporates key components that
+we designed in-house, such as a modular battery pack that varies in size depending on the EV model and a BMS, as well as
+motors and power electronics modules. We developed the MoveOS software that powers our scooters and built in various
+
+--- Page 318 ---
+314
+features that enhance the customer experience, such as keyless entry, cruise control and on-screen navigation. At our Ola
+Futurefactory, we manufacture our EV scooters using certain EV components manufactured in-house, such as battery packs,
+motors and vehicle frames (which we started manufacturing on August 1, 2023), and other components procured from third
+parties, such as cells. We are in the process of developing cell technologies and cell manufacturing processes for use in the
+Ola Gigafactory. Phase 1(a) of the Ola Gigafactory is expected to be completed and the Ola Gigafactory is expected to be
+operational by March 31, 2024.
+Our control over R&D, vehicle engineering and manufacturing has allowed us to develop a differentiated and integrated
+vehicle architecture that is adaptable for different EV models. We believe that building our future vehicles from a common
+platform will allow us to develop new vehicles more quickly and at lower costs. We plan to leverage the economies of scale
+generated through this platform approach to reduce our BOM cost and R&D spend. For example, our platform model enabled
+us to announce five new EV scooter models, the Ola S1, Ola S1 Air, Ola S1 X+, Ola S1 X (2 kWh) and Ola S1 X (3 kWh),
+after commencing delivery of our first product, the Ola S1 Pro, in December 2021. As of October 31, 2023, 68.85% of the
+components used in three of our EV scooter models, the Ola S1 Pro, the Ola S1 Air and the Ola S1 X+, are common across
+all three models.
+We have transitioned from our Generation 1 platform to our Generation 2 platform, which is the current base for the Ola S1
+scooter models – Ola S1 Pro, Ola S1 Air, Ola S1 X+, Ola S1 X (2 kWh) and Ola S1 X (3 kWh). We commenced the
+manufacture of scooters on our Generation 2 platform at our Futurefactory in July 2023. Our Generation 2 platform enhances
+key features of our EV scooters such as acceleration, speed, range, motor power and battery performance as compared to the
+Generation 1 platform. We also plan to replicate the platform approach for our recently announced motorcycle range which
+comprises four models – Diamondhead, Adventure, Roadster and Cruiser. The diagram below highlights the enhancements
+in certain key specifications in our Generation 2 platform compared to Generation 1 platform, based on the Ola S1 Pro model:
+Comparison of the Ola S1 Pro on the Generation 1 Platform vs Generation 2 Platform Based on the Ola S1 Pro Model
+Our R&D spend in the three-months period ended June 30, 2023 and Fiscal 2023 amounted to ₹ 935.53 million (comprising
+research costs of ₹ 108.18 million and additions to intangible assets under development of ₹ 827.35 million) and ₹ 5,077.11
+million (comprising research of costs of ₹ 860.82 million and additions to intangible assets under development of ₹ 4,216.29
+million), respectively, comprising 7.32% and 18.25% of our total income for such periods, respectively. We plan to continue
+making substantial investments in R&D for the continued enhancement of the Ola S1 scooters and future generations of our
+EVs and other products and services.
+
+--- Page 319 ---
+315
+Operating leverage and improving asset turnover
+We believe that our business benefits from operating leverage.
+Employee benefits expenses and other expenses as a percentage of total income (%)
+The increase in revenue has not resulted in a commensurate increase in key operating expenses such as employee benefits
+expenses. Consequently, our employee benefits expenses as a percentage of total income decreased from 61.91% in Fiscal
+2022 to 7.38% in the three-months period ended June 30, 2023. We have maintained a disciplined and targeted approach
+towards advertising and marketing expenses to drive our sales growth. Advertising, marketing and sales promotion expenses
+as a percentage of total income also decreased from 10.83% in Fiscal 2022 to 1.03% in the three-months period ended June
+30, 2023.
+Employee benefits expenses as a percentage of total income (%)
+
+--- Page 320 ---
+316
+Advertising, marketing and sales promotion expenses as a percentage of total income (%)
+We follow a disciplined approach in our R&D and fixed asset investments. Even as we continue to invest in R&D and
+technology, our R&D spend as a percentage of total income has decreased from 38.54% in Fiscal 2022 to 7.32% in the three-
+months period ended June 30, 2023. The economies of scale on our capital expenditure is reflected in our improving capital
+productivity, with our asset turnover ratio (i.e. revenue from operations divided by total fixed and intangible assets) improving
+from 0.34 in Fiscal 2022 to 2.68 in the three-months period ended June 30, 2023.
+R&D spend as a percentage of total income (%)
+
+--- Page 321 ---
+317
+Asset turnover
+Note: Asset turnover ratio is calculated as revenue from operations divided by total fixed and intangible assets. Asset turnover ratio for June 30, 2023 is
+presented on an annualised basis
+Capital allocation strategy
+Our capital allocation approach is to invest in R&D and technology, in order to design, engineer and manufacture core EV
+components in-house and establish an adaptable platform architecture to support our ongoing development and manufacturing
+of vehicles. Such platform generates cost efficiencies in the manufacturing of our products as we are able to adapt common
+components in assembling different EV models. Our strategy is to deploy our capital in a sequential manner. We plan to
+progress towards the production of our new motorcycle range announced in August 2023, comprising four models –
+Diamondhead, Adventure, Roadster and Cruiser, after achieving margin efficiency for our scooter portfolio. Our gradual
+buildout of the Ola Futurefactory, our modularised assembly line and our potential for manufacturing capacity expansion also
+enhance our ability to efficiently allocate capital. In line with our capital allocation approach, our cash flow used in investing
+activities for the acquisition of property, plant and equipment, acquisition of intangible assets and development expenditure
+on internally generated intangible assets for the three-months period ended June 30, 2023 and Fiscals 2023, 2022 and 2021
+was ₹ 2,374.14 million (comprising acquisition of property, plant and equipment of ₹ 1,619.80 million, acquisition of
+intangible assets of ₹ 1.00 million and development expenditure on internally generated intangible assets of ₹ 753.34 million),
+₹ 8,426.12 million (comprising acquisition of property, plant and equipment of ₹ 4,336.03 million, acquisition of intangible
+assets of ₹ 59.78 million and development expenditure on internally generated intangible assets of ₹ 4,030.31 million), ₹
+8,872.80 million (comprising acquisition of property, plant and equipment of ₹ 7,635.70 million, acquisition of intangible
+assets of ₹ 133.80 million and development expenditure on internally generated intangible assets of ₹ 1,103.30 million) and
+₹ 1,085.30 million (comprising acquisition of property, plant and equipment of ₹ 1,085.30 million), respectively. Our cash
+and cash equivalents as of June 30, 2023 were ₹ 2,317.08 million as compared to ₹ 2,429.09 million, ₹ 12,350.01 million and
+₹ 3,581.93 million as of March 31, 2023, 2022 and 2021, respectively. We will continue to focus on growing our product
+pipeline, expanding our manufacturing capacity and investing in R&D and our sales, service and charging networks.
+Government incentive packages
+India’s favourable policy environment is accelerating electrification of mobility in India, led by improved EV penetration
+across vehicle segments. The National Electric Mobility Mission Plan 2020 of GOI covers multiple incentives including
+FAME subsidies, lower GST and favourable registration fees for EVs. In 2020, the Indian government launched the PLI
+scheme to boost domestic manufacturing, reduce import dependence, encourage exports and generate employment. India’s
+automobile industry is a key beneficiary of PLI schemes related to the Automobile PLI Scheme, ACC PLI Scheme, and design
+and manufacturing of semiconductors.
+We are the only EV manufacturer in India that is a beneficiary of two Government of India PLI schemes – one relating to the
+manufacture of advanced automotive technology products (the “Automobile PLI Scheme”) and another relating to advanced
+cell chemistry batteries (the “Cell PLI Scheme”), according to the Redseer Report. Under the Cell and Automotive PLI
+Schemes, all of the advanced chemistry cells and EVs that we manufacture and sell will qualify us for a cash incentive up
+
+--- Page 322 ---
+318
+until the specified cap under the schemes.
+OET has been approved to be eligible for the Champion OEM Incentive Scheme under the Automobile PLI Scheme vide a
+letter of award dated February 22, 2022, from the Industrial Finance Corporation of India Limited, project management agency
+for PLI-Auto. Under the Automobile PLI Scheme, incentives are available for up to five consecutive financial years
+commencing from Fiscal 2023, where the incentive availed for a financial year will be disbursed in the subsequent financial
+year. The Automobile PLI Scheme requires approved applicants to apply for registration of their products as eligible advanced
+automotive technology vehicles, in respect of which pre-approval of the eligible product will be undertaken by the testing
+agency of the MHI, and a minimum 50% domestic value addition on the eligible product, that is required to be certified by
+the testing agency of MHI, for being eligible for incentives. Upon receipt of the approval certificate from the testing agencies,
+approved products would be eligible for incentive under the Automobile PLI Scheme. Under the Automobile PLI Scheme,
+the incentive amount would range between 13% and 18% of the “determined sales value” (“DSV”). We expect to become
+eligible for subsidies from the Automobile PLI Scheme from January 2024 onwards. For details, see “Key Regulations and
+Policies” beginning on page 189.
+Meanwhile, we have been awarded 20GWh capacity under the Cell PLI Scheme vide a letter of award dated March 28, 2022
+from the Ministry of Heavy Industries, Government of India, the most received by any Cell PLI recipients, according to the
+Redseer Report. The Cell PLI Scheme provides for a cash incentive to be distributed to our Company on a quarterly basis
+which is dependent on the percentage of value addition during the relevant period and actual sale of the advanced chemistry
+cells. We are eligible to receive the incentives under the Cell PLI Scheme over a five-year period from the commissioning
+date of our Ola Gigafactory, subject to fulfilment of certain conditions. Under the Cell PLI Scheme, we are required to
+manufacture cells as per the committed capacity specified in our bid. Accordingly, we are required to achieve 1GWh capacity
+in the first year, 5GWh capacity in the second year, 10GWh capacity in the third year and 20GWh capacity by the fourth year.
+If we fail to achieve the agreed upon capacity each year, the Government of India has the right to deduct twice the shortfall
+in the committed capacity from the total subsidy payable to us. Furthermore, the Government of India has the right to
+discontinue payment of any subsidy and appropriate the performance security furnished by us in case we fail to achieve the
+agreed upon milestone. See “Risk Factors – Any reduction or elimination of government incentives such as the Faster
+Adoption and Manufacturing of Electric (“FAME”) subsidy, benefits under the production linked incentive (“PLI”) scheme
+for Automobile and Auto Component Industry (“PLI Auto Scheme”), PLI Scheme for National Programme on Advanced
+Chemistry Cell Battery Storage (“PLI ACC Battery Storage Scheme”) (together “PLI Schemes”), subsidies from the
+government of Tamil Nadu, and goods and services tax concessions available to our customers or the ineligibility of any of
+our vehicles for such subsidy would increase the purchase cost of our vehicles and could adversely affect customer demand
+for our vehicles” on page 31.
+In addition, the Ola S1 and Ola S1 Pro qualify for the Government of India’s FAME subsidy, which seeks to encourage EV
+adoption and the development of the EV manufacturing ecosystem in India by providing a subsidy to customers who purchase
+EVs. We submit subsidy claims for EVs sold that meet the government’s performance and efficiency eligibility criteria and
+receive the subsidies directly. The applicable FAME subsidy is priced into the retail price of our EVs. Customers may receive
+up to ₹ 42,500 per scooter in cash subsidies from the FAME subsidy and state government incentives (which varies from state
+to state) upon the purchase of a new E2W with an ex-factory cost of less than ₹ 150,000 and a battery capacity of 2 kWh, as
+of October 31, 2023,  according to the Redseer Report. Such subsidies help in lowering the cost of ownership of our products
+and potentially improve the demand for our vehicles. See “Risk Factors – Any reduction or elimination of government
+incentives such as the Faster Adoption and Manufacturing of Electric (“FAME”) subsidy, benefits under the production
+linked incentive (“PLI”) scheme for Automobile and Auto Component Industry (“PLI Auto Scheme”), PLI Scheme for
+National Programme on Advanced Chemistry Cell Battery Storage (“PLI ACC Battery Storage Scheme”) (together “PLI
+Schemes”), subsidies from the government of Tamil Nadu, and goods and services tax concessions available to our customers
+or the ineligibility of any of our electric vehicles for such subsidy would increase the purchase cost of our electric vehicles
+and could adversely affect customer demand for our electric vehicles.” on page 31.
+Pursuant to a memorandum of understanding (“MOU”) between OET and the Government of Tamil Nadu dated February 18,
+2023, we have leased land in Krishnagiri district, Tamil Nadu, spanning approximately 417.59 acres for the operation of our
+manufacturing facilities. In relation to the establishment of our EV hub in Tamil Nadu, the Government of Tamil Nadu
+awarded us a structured package of capital and revenue assistance which seeks to supports EV and cell manufacturing, to be
+granted over time. Accordingly, in Fiscal 2023, we became eligible to receive refunds on a portion of our capital expenditures
+on our EV hub and the GST paid to the Government of Tamil Nadu on our sales in Tamil Nadu.
+OET and OCT qualify for a lower corporate income tax rate of 15% available to new manufacturing domestic companies
+under Indian income tax law.
+
+--- Page 323 ---
+319
+Growth of India’s economy and the evolving demand for EVs
+Our results of operations are dependent on the overall economic conditions in India. Changes in India’s macroeconomic
+conditions, including changes in interest rates, government policies and incentives, tax regulations, political environment or
+other developments could affect consumer demand for and willingness to adopt EVs. In particular, the automotive market in
+India is subject to market and regulatory developments that are unlike those of automotive markets in other jurisdictions. See
+“Risk Factors – Changing regulations in India could lead to new compliance requirements that are uncertain.” on page 55.
+We have benefited from the strong growth of India’s GDP and the demand for EVs in India, particularly E2Ws. E2W
+penetration in India is expected to expand from approximately 4.5% of the domestic 2W registrations reported on the VAHAN
+portal in Fiscal 2023 to 41-56% of the domestic 2W sales volume by Fiscal 2028, according to the Redseer Report.
+CRITICAL ACCOUNTING POLICIES
+A full description of our significant accounting policies adopted in the preparation of our Restated Consolidated Financial
+Information is provided in Note 3 to our Restated Consolidated Financial Information. See under “Restated Consolidated
+Financial Information Notes forming part of the Restated Consolidated Financial Information – Note 3: Significant
+Accounting Policies” on page 254. The critical accounting policies that our management believes to be the most significant
+are summarised below.
+Property, plant and equipment
+Recognition and measurement
+The cost of an item of property, plant and equipment shall be recognised as an asset if, and only if it is probable that future
+economic benefits associated with the item will flow to us and the cost of the item can be measured reliably.
+Items of property, plant and equipment are measured at cost, which includes capitalised borrowing costs, less accumulated
+depreciation and accumulated impairment losses, if any.
+Cost of an item of property, plant and equipment comprises its purchase price, including import duties and non-refundable
+purchase taxes, after deducting trade discounts and rebates, any directly attributable cost of bringing the item to its working
+condition for its intended use and estimated costs of dismantling and removing the item and restoring the site on which it is
+located.
+The cost of a self-constructed item of property, plant and equipment comprises the cost of materials and direct labour, any
+other costs directly attributable to bringing the item to working condition for its intended use, and estimated costs of
+dismantling and removing the item and restoring the site on which it is located.
+If significant parts of an item of property, plant and equipment have different useful lives, then they are accounted for as
+separate items (major components) of property, plant and equipment.
+Any gain or loss on disposal of an item of property, plant and equipment is recognised in statement of profit and loss.
+Advances paid towards the acquisition of property, plant and equipment outstanding at each balance sheet date are shown
+under as other non-current assets.
+Subsequent expenditure
+Subsequent expenditure is capitalised only if it is probable that the future economic benefits associated with the expenditure
+will flow to us and the cost of the item can be measured reliably.
+Depreciation
+Depreciation is calculated on cost of items of property, plant and equipment less their estimated residual values over their
+estimated useful lives using the straight-line method, and is generally recognised in statement of profit and loss.
+The estimated useful lives of items of property, plant and equipment for the current and comparative periods are as follows:
+Class of assets
+Management estimate of useful life in years
+Useful life in years
+Building
+3 to 30
+3 to 60
+Computer equipment
+2 to 3
+3
+Computer server
+6
+6
+Leasehold improvements
+Over the primary lease period or useful life,
+N/A
+
+--- Page 324 ---
+320
+Class of assets
+Management estimate of useful life in years
+Useful life in years
+whichever is shorter
+Office equipment
+2 to 10
+5
+Furniture and fixtures
+3 to 10
+10
+Electronic equipment
+2 to 10
+10
+Motor vehicles
+2 to 8
+8
+Plant and machinery
+2 to 20
+15 to 25
+Based on technical evaluation and consequent advice, the management believes that its estimates of useful lives as given
+above best represent the period over which management expects to use these assets, which is different, in certain cases, from
+the useful lives as prescribed under Part C of Schedule II of the Companies Act, 2013.
+Depreciation method, useful lives and residual values are reviewed at each financial year-end and adjusted if appropriate.
+Depreciation on additions/(disposals) is provided on a pro-rata basis i.e. from/ (up to) the date on which asset is ready for use/
+(disposed of).
+Goodwill and other Intangible assets
+Recognition and measurement
+Goodwill
+Goodwill is initially recognised based on the accounting policy for business combinations and is tested for impairment
+annually.
+Other intangible assets
+Intangible assets acquired separately are measured on initial recognition at historical cost. Intangibles assets have finite life
+and are subsequently carried at cost less any accumulated amortisation and accumulated impairment losses.
+Intangible assets are amortised over their respective individual estimated useful lives on a straight-line basis, commencing
+from the date the asset is available to the Group for its use and is included in depreciation and amortisation expense in
+statement of profit and loss. Amortisation method, useful lives and residual values are reviewed at each financial year-end
+and adjusted if appropriate.
+Right to use “Ola” trade name has an indefinite life. Management evaluates annually whether the business circumstances
+continue to support an indefinite useful life assessment for assets so classified. Based on such review, useful life assessment
+may change from indefinite to finite. The impact of such changes is accounted for as a change in accounting estimate. Right
+to use Ola trade name acquired is initially recognised at cost and is subsequently carried at cost less accumulated impairment
+losses.
+Internally generated intangible assets and Intangible assets under development
+Expenditure on research activities is recognised in the statement of profit or loss as incurred.
+Development expenditure is capitalised as part of cost of resulting intangible asset only if the expenditure can be measured
+reliably, the product or process is technically and commercially feasible, future economic benefits are probable and the Group
+intends to and has sufficient resources to complete development and intends to use or sell the asset. Otherwise, it is recognised
+in the statement of profit and loss as incurred. Subsequent to initial recognition, the internally generated intangible assets are
+measured at cost less accumulated amortisation and any accumulated impairment losses. Intangible assets under development
+are tested for impairment annually irrespective of whether there is any indication of impairment.
+Subsequent expenditure
+Subsequent expenditure is capitalised only when it increases the future economic benefits embodied in the specific asset to
+which it relates. All other expenditure, including expenditure on internally generated goodwill and brands, is recognised in
+profit or loss as incurred.
+
+--- Page 325 ---
+321
+Amortisation
+Other intangible assets are amortised over their respective individual estimated useful lives on a straight-line basis, from the
+date that they are available for use. The estimated useful life of an identifiable intangible asset is based on a number of factors
+including the effects of obsolescence, demand, competition, and other economic factors (such as the stability of the industry,
+and known technological advances), and the level of maintenance expenditures required to obtain the expected future cash
+flows from the asset.
+The management estimates the useful lives for its assets as follows:
+Class of assets
+Useful life estimated (years)
+Product development (Internally generated)
+5 years
+Computer software
+3 years
+Domain name
+10 years
+Goodwill
+Indefinite Life
+Ola Brand (Trade name)
+Indefinite Life
+The amortisation period and the amortisation method for finite-life intangible assets is reviewed at each financial year end
+and adjusted prospectively, if appropriate.
+For indefinite life intangible assets, the assessment of indefinite life is reviewed annually to determine whether it continues,
+if not, it is impaired or changed prospectively basis revised estimates.
+Revenue recognition
+Revenue is recognised upon transfer of control of promised products or services to customers for an amount that reflects the
+consideration which we expect to receive in exchange for those products or services. Revenue excludes taxes or duties
+collected on behalf of the government.
+•
+Revenue from sale of products are recognised when control of goods are transferred to the buyer which is generally
+on delivery for domestic sales and on delivery on local port in India for export sales; as per the terms of sale.
+•
+Service income which primarily consists of performance upgrade are recognised as per the terms of the contract on
+satisfaction of performance obligation.
+Warranty considerations as a service
+Vehicles and parts sold by us include a standard warranty to guarantee the vehicle complies with agreed-upon specifications
+for a defined period of time. Where the warranty offering to the end customer exceeds the standard market expectation for
+similar products or provides a service in excess of the assurance that the agreed-upon specification is met, we consider this to
+constitute a service to the end customer and therefore a separate performance obligation. Revenue is recognised on a straight-
+line basis over the contractual period to which the warranty service relates, up to which point it is recognised as a contract
+liability.
+Revenue is measured based on the transaction price, which is the consideration, adjusted for volume discounts, performance
+bonuses, price concessions and incentives, if any, as specified in the contract with the customer.
+A liability is recognised where payments are received from customers before transferring control of the goods being sold or
+providing services to the customer.
+Contract liabilities
+A contract liability is the obligation to transfer goods to a customer for which the Group has received consideration (or an
+amount of consideration is due) from the customer. If a customer pays consideration before the Group transfers goods or
+services to the customer, a contract liability is recognised when the payment is made, or the payment is due (whichever is
+earlier). Contract liabilities are recognised as revenue when the Group performs under the contract.
+Other operating revenue
+Other operating revenue which primarily consists of vendor handling charges are recognised as per the terms of the contract
+on satisfaction of performance obligation.
+
+--- Page 326 ---
+322
+Provision and contingent liabilities
+A provision is recognised if, as a result of a past event, we have a present legal or constructive obligation that is reasonably
+estimate, and it is probable that an outflow of economic benefits will be required to settle the obligation. If the effect of time
+value of money is material, provisions are determined by discounting the expected future cash flows at a pre-tax rate that
+reflects current market assessments of the time value of money and the risks specific to the liability.
+A provision for onerous contracts is measured at the present value of the lower of the expected cost of terminating the contract
+and the expected net cost of continuing with the contract, which is determined based on the incremental costs of fulfilling the
+obligation under the contract and an allocation of other costs directly related to fulfilling the contract. Before a provision is
+established, we recognise any impairment loss on the assets associated with that contract.
+Provisions for warranty-related costs are recognised when the product is sold to the customer. Initial recognition is based on
+management estimate of product failure rates. The initial estimate of warranty-related costs is revised annually.
+A contingent liability is a possible obligation that arises from past events whose existence will be confirmed by the occurrence
+or non-occurrence of one or more uncertain future events beyond our control or a present obligation that is not recognised
+because it is not probable that an outflow of resources will be required to settle the obligation. A contingent liability also
+arises in extremely rare cases where there is a liability that cannot be recognised because it cannot be measured reliably.
+We do not recognise a contingent liability but discloses its existence in the financial statements. Contingent assets are not
+recognised or disclosed in financial statements since this may result in the recognition of income that may never be realised.
+However, when the realisation of income is virtually certain, then the related asset is not a contingent asset and is recognised.
+Provision, contingent liabilities and contingent assets are reviewed at each balance sheet date.
+Inventories
+Inventories are valued at the lower of cost and net realizable value.
+Cost of raw materials, stores and spares, components, consumables and traded goods are ascertained on a moving weighted
+average basis. Goods-in-transit are recorded at actual cost. Cost, including fixed and variable production overheads, are
+allocated to work-in-progress and finished goods determined on a full absorption cost basis.
+Provision for obsolescence is made wherever necessary.
+Net realizable value is the estimated selling price in the ordinary course of business less estimated cost of completion and
+selling expenses.
+Materials and other supplies held for use in the production are not written down below cost if the finished products in which
+they will be incorporated are expected to be sold at or above cost. However, when a decline in the price of materials indicate
+that the cost of the finished products exceeds net realizable value, the materials are written down to net realizable value. The
+replacement cost of materials at the year-end has been considered as the best available measure of their net realizable value.
+Government grants
+Government grants are recognised where there is reasonable assurance that the grant will be received and all attached
+conditions will be complied with. When the grant relates to revenue, it is recognised in the statement of profit and loss on a
+systematic basis over the periods to which it relates. When the grant relates to an asset, it is treated as deferred income and
+recognised in the statement of profit and loss on a systematic basis over the useful life of the asset.
+Grants that compensate the Group for expenses incurred are recognised in profit or loss as reduction to expense on a systematic
+basis in the periods in which the expenses are recognised, unless the conditions for receiving the grant are met after the related
+expenses have been recognised.
+Employee Benefits
+Share-based payment transactions
+We grant eligible employees remuneration in the form of share-based payments under our ESOP Scheme, whereby employees
+render services as consideration for equity shares of our Company. We have granted stock options to certain eligible
+employees.
+
+--- Page 327 ---
+323
+The cost of equity-settled transactions is determined by the fair value at the date on which the grants are made using a Black
+Scholes model. The cost is recognised in employee benefits expense, together with a corresponding increase in share options
+outstanding account in equity, over the period in which the performance and/or service conditions are fulfilled in a gradual
+vesting manner. The amount recognised as expense is based on the estimate of the number of awards for which the related
+service are expected to be met, such that the amount ultimately recognised as an expense is based on the number of awards
+that meet the related service conditions at the vesting date.
+SUMMARY RESULTS OF OPERATIONS
+The following table sets forth select financial data from our restated consolidated statement of profit and loss for the three-
+months period ended June 30, 2023 and Fiscals 2023, 2022 and 2021, the components which are also expressed as a percentage
+of total income for such periods.
+Particulars
+Three-months period
+ended
+June 30, 2023
+Fiscal 2023
+Fiscal 2022
+Fiscal 2021
+Amount
+% of
+Total
+income
+Amount
+% of
+Total
+income
+Amount
+% of
+Total
+income
+Amount
+% of
+Total
+income
+(in ₹ million)
+Revenue from operations
+12,427.46
+97.19
+26,309.27
+94.55
+3,734.23
+81.84
+8.64
+0.81
+Other income
+359.29
+2.81
+1,517.70
+5.45
+828.37
+18.16
+1,052.17
+99.19
+Total income
+12,786.75
+100.00
+27,826.97
+100.00
+4,562.60
+100.00
+1,060.81
+100.00
+Expenses
+Cost of materials consumed
+11,135.45
+87.09
+25,047.92
+90.01
+5,849.34
+128.20
+-
+-
+Purchase of stock-in-trade
+193.12
+1.51
+1,392.61
+5.00
+561.81
+12.31
+-
+-
+Change in inventories of
+finished
+goods,
+stock-in
+trade and work-in-progress
+(233.68)
+(1.83)
+(736.44)
+(2.65)
+(1,602.15)
+(35.11)
+-
+-
+Employee benefits expense
+943.86
+7.38
+4,267.25
+15.33
+2,824.80
+61.91
+1,972.51
+185.94
+Other expenses
+2,568.40
+20.09
+8,862.41
+31.85
+4,104.32
+89.96
+876.52
+82.63
+Total expenses
+14,607.15
+114.24
+38,833.75
+139.55
+11,738.12
+257.27
+2,849.03
+268.57
+Loss before finance costs,
+depreciation, amortisation
+and tax expense
+(1,820.40)
+(14.24)
+(11,006.78)
+(39.55)
+(7,175.52)
+(157.27)
+(1,788.22)
+(168.57)
+Finance costs
+359.30
+2.81
+1,079.17
+3.88
+176.18
+3.86
+7.90
+0.74
+Depreciation
+and
+amortisation expense
+474.15
+3.71
+1,670.64
+6.00
+489.80
+10.74
+196.20
+18.50
+Loss before Exceptional
+items and tax
+(2,653.85)
+(20.75)
+(13,756.59)
+(49.44)
+(7,841.50)
+(171.86)
+(1,992.32)
+(187.81)
+Exceptional items
+17.71
+0.14
+964.20
+3.46
+-
+-
+-
+-
+Loss before tax
+(2,671.56)
+(20.89)
+(14,720.79)
+(52.90)
+(7,841.50)
+(171.86)
+(1,992.32)
+(187.81)
+Tax expense
+Current tax
+-
+-
+-
+-
+-
+-
+-
+-
+Deferred tax
+-
+-
+-
+-
+-
+-
+-
+-
+Tax expense
+-
+-
+-
+-
+-
+-
+-
+-
+Loss for the period/year
+(2,671.56)
+(20.89)
+(14,720.79)
+(52.90)
+(7,841.50)
+(171.86)
+(1,992.32)
+(187.81)
+Three-months period Ended June 30, 2023
+Income
+Our total income for the three-months period ended June 30, 2023 was ₹ 12,786.75 million, comprising revenue from
+operations of ₹ 12,427.46 million and other income of ₹ 359.29 million.
+Revenue from operations
+Our revenue from operations was ₹ 12,427.46 million for the three-months period ended June 30, 2023 primarily due to the
+sale of the Ola S1 and Ola S1 Pro scooters, spare parts, chargers and accessories. In the three-months period ended June 30,
+2023, we sold 70,238 scooters, comprising 63,271 units and 6,967 units of Ola S1 Pro and Ola S1, respectively. Prior to
+August 2023, we also generated revenue from selling services related to performance upgrades whereby customers purchasing
+the Ola S1 Pro (first generation) had the option to pay for additional features for their scooters. Revenue from performance
+upgrades for the three-months period ended June 30, 2023 was relatively high as compared to Fiscal 2023 as we offered
+
+--- Page 328 ---
+324
+significantly lower discounts on performance upgrades in the three-months period ended June 30, 2023 as compared to Fiscal
+2023. We also had other operating revenue of ₹ 204.95 million, primarily from vendor handling charges, sale of scraps and
+subscription income.
+Other income
+Our other income was ₹ 359.29 million for the three-months period ended June 30, 2023 and primarily includes interest
+income on bank deposits of ₹ 193.93 million, income on financial assets carried at fair value through profit or loss of ₹ 66.70
+million from a net gain on the disposal of mutual fund units and government incentive from the Government of the State of
+Tamil Nadu in the amount of ₹ 49.02 million. We recognised interest income on the financial asset (government grant) in the
+amount of ₹ 20.93 million. We also recognised miscellaneous income of ₹ 27.34 million primarily from the reversal of excess
+provisions for GST liability.
+Expenses
+Our total expenses were ₹ 14,607.15 million for the three-months period ended June 30, 2023. Our total expenses comprise
+cost of materials consumed, purchase of stock-in-trade, changes in inventories of finished goods, stock-in-trade and work-in-
+progress, employee benefits expense and other expenses.
+Cost of materials consumed
+Our cost of materials consumed in the production of our scooters was ₹ 11,135.45 million for the three-months period ended
+June 30, 2023.
+Purchase of stock-in-trade
+Our cost for purchase of stock-in-trade, which primarily consisted of the cost of chargers and other vehicle accessories such
+as spare parts and wall mounts, was ₹ 193.12 million for the three-months period ended June 30, 2023.
+Change in inventories of finished goods, stock-in trade and work-in-progress
+Closing inventories levels of work-in progress, finished goods, spare parts, stock in trade increased from ₹ 2,370.81 million
+as at March 31, 2023 to ₹ 2,604.49 million as at June 30, 2023, due to growth of our business. As a result, change in inventories
+of finished goods, stock-in trade and work-in-progress was ₹ 233.68 million for the three-months period ended June 30, 2023.
+Employee benefits expenses
+Our employee benefits expense on a consolidated basis was ₹ 943.86 million for the three-months period ended June 30, 2023
+primarily comprising salaries, wages and bonus of ₹ 599.12 million, equity settled share based payments of ₹ 231.06 million
+and staff welfare expenses of ₹ 59.52 million.
+Other expenses
+Our other expenses on a consolidated basis was ₹ 2,568.40 million for the three-months period ended June 30, 2023 primarily
+comprising technology cost, research cost, and selling and distribution expenses. Our research costs in the three-months period
+ended June 30, 2023 was ₹ 108.18 million.
+Finance Costs
+Our finance costs on a consolidated basis was ₹ 359.30 million for the three-months period ended June 30, 2023 primarily
+due to interest on borrowings amounting to ₹ 337.19 million. We had other borrowing costs of ₹ 18.48 million arising from
+bank charges and letter of credit issuance charges.
+Depreciation and amortisation expense
+Our depreciation and amortisation expense was ₹ 474.15 million for the three-months period ended June 30, 2023, comprising
+depreciation of property, plant and equipment of ₹ 338.55 million, amortisation of intangible assets of ₹ 133.35 million and
+depreciation of right-of-use asset of ₹ 2.25 million.
+Exceptional items
+We recognised exceptional items amounting to ₹ 17.71 million for the three-months period ended June 30, 2023, arising from
+our decision to fully refund customers who purchased Ola S1 Pro scooters prior to March 31, 2023, the cost of the chargers
+
+--- Page 329 ---
+325
+they had purchased together with the Ola S1 Pro scooter prior to March 31, 2023. As of October 31, 2023, we have processed
+refunds to more than 90% of eligible customers.
+Loss for the period
+As a result of the foregoing factors, our loss for the period on a consolidated basis was ₹ 2,671.56 million in the three-months
+period ended June 30, 2023.
+Fiscal 2023 compared to Fiscal 2022
+We commenced delivery of our first scooter, Ola S1 Pro, in December 2021. Our revenue from operations in Fiscal 2022 was
+recognised only from December 2021 to March 31, 2023 compared to the full year in Fiscal 2023. Accordingly, our results
+of operations for Fiscal 2022 are not strictly comparable to Fiscal 2023.
+Revenue from operations
+Our revenue from operations increased to ₹ 26,309.27 million in Fiscal 2023 from ₹ 3,734.23 million in Fiscal 2022 primarily
+due to an increase in the sale of the Ola S1 Pro scooters and commencement of sale of Ola S1 scooters in September 2022,
+spare parts and chargers and the sale of services relating to performance upgrades. In Fiscal 2023, we sold 156,251 scooters,
+comprising 98,199 units and 58,052 units of Ola S1 Pro and Ola S1, respectively, compared to 20,948 and nil units in Fiscal
+2022, respectively. We experienced higher demand for our EVs and higher sales volumes, partly owing to the FAME subsidy
+available to our customers which helped to lower the cost of ownership of our products.
+Other income
+Our other income increased to ₹ 1,517.70 million in Fiscal 2023 from ₹ 828.37 million in Fiscal 2022 primarily due to an
+increase in interest income on bank deposits to ₹ 920.36 million in Fiscal 2023 from ₹ 578.52 million in Fiscal 2022. Pursuant
+to an MOU between OET and the Government of Tamil Nadu, the Government of Tamil Nadu awarded us a structured
+package of capital and revenue assistance to set up our EV hub in Tamil Nadu, subject to certain conditions, which is to be
+granted over time. In Fiscal 2023, we became eligible for the capital and revenue assistance pursuant to the terms of the MOU.
+As such, OET recognised government incentives in the amount of ₹ 204.64 million in Fiscal 2023, and interest income on
+such financial asset (government grant) of ₹ 69.20 million for the same period.
+Expenses
+Out total expenses increased to ₹ 38,833.75 million in Fiscal 2023 from ₹ 11,738.12 million in Fiscal 2022 primarily due to
+an increase in cost of materials consumed in the production of our scooters, employee benefits expenses, purchase of stock-
+in-trade and other expenses, in line with the growth in sales of our scooters. As a percentage of total income, our total expenses
+was 139.55% in Fiscal 2023 compared to 257.27% in Fiscal 2022.
+Cost of materials consumed
+Our cost of materials consumed increased to ₹ 25,047.92 million in Fiscal 2023 from ₹ 5,849.34 million in Fiscal 2022 in line
+with the increase in the production and sale of our scooters. The cost of materials consumed reflects the cost of raw materials
+used in the production of our scooters, and represented 90.01% and 128.20% of our total income for Fiscals 2023 and 2022,
+respectively.
+Purchase of stock-in-trade
+Our purchase of stock-in-trade increased to ₹ 1,392.61 million in Fiscal 2023 from ₹ 561.81 million in Fiscal 2022 due to an
+increase in our purchase of spare parts, chargers and wall-mounts to support the growth of our business.
+Change in inventories of finished goods, stock-in trade and work-in-progress
+Closing stock levels of work-in progress, finished goods, spare parts, stock in trade increased to ₹ 2,370.81 million in Fiscal
+2023 from ₹ 1,634.37 million in Fiscal 2022 due to growth of our business. As a result, change in inventories of finished
+goods, stock-in trade and work-in-progress changed to a decrease of expense of ₹ 736.44 million in Fiscal 2023 from a
+decrease of ₹ 1,602.15 million in Fiscal 2022.
+
+--- Page 330 ---
+326
+Employee benefits expense
+Our employee benefits expense increased to ₹ 4,267.25 million in Fiscal 2023 from ₹ 2,824.80 million in Fiscal 2022 due to
+an increase in the size of our workforce to support the growth in sales of our scooter and an increase in the salaries paid to our
+employees, in addition to the share options granted to certain of our employees. In relation to the granting of equity stock
+options to our employees, we recognised equity settled share based payments of ₹ 1,100.52 million in Fiscal 2023, an increase
+from ₹ 195.37 million in Fiscal 2022.
+Other expenses
+Our other expenses increased to ₹ 8,862.41 million in Fiscal 2023 from ₹ 4,104.32 million in Fiscal 2022 due to an increase
+in the provision for warranties, selling and distribution expenses and vehicle repair services, attributable to the increase in sale
+of scooters. We also recognised an increase in research costs to ₹ 860.82 million in Fiscal 2023 from ₹ 156.90 million in
+Fiscal 2022 as we continued to invest in R&D and grow our business.
+Finance Costs
+Our finance costs increased to ₹ 1,079.17 million in Fiscal 2023 from ₹ 176.18 million in Fiscal 2022 due to an increase in
+borrowings from financial institutions to finance our business operations.
+Depreciation and amortisation expense
+Our depreciation and amortisation expense increased to ₹ 1,670.64 million in Fiscal 2023 from ₹ 489.80 million in Fiscal
+2022. The increase in depreciation and amortisation expense aligns with the ramp-up of our business operations and revenue
+as we commenced delivery of our first scooter in December 2021 and were in operation for the full year in Fiscal 2023.
+Exceptional items
+We recognised exceptional items amounting to ₹ 964.20 million in Fiscal 2023 arising from our decision to fully refund
+customers who purchased Ola S1 Pro scooters prior to March 31, 2023, the cost of the chargers they had purchased together
+with the Ola S1 Pro scooter. As of October 31, 2023, we have processed refunds to more than 90% of eligible customers.
+Loss for the period/year
+As a result of the foregoing factors, our loss for the period/year increased to ₹ 14,720.79 million in Fiscal 2023 from a loss of
+₹ 7,841.50 million in Fiscal 2022.
+Fiscal 2022 compared to Fiscal 2021
+Revenue from operations
+Our revenue from operations increased to ₹ 3,734.23 million in Fiscal 2022 from ₹ 8.64 million in Fiscal 2021 as we
+commenced sales and delivery of the Ola S1 Pro scooters in December 2021 which was complemented by sales of spare parts,
+chargers and wall mounts and sale of services, mainly performance upgrades. During Fiscal 2021, we provided battery
+swapping services on a trial basis to EV owners and received subscription income in relation to such services. During Fiscal
+2022, we sold 20,948 units of Ola S1 Pro scooters.
+Other income
+There was a decrease in other income to ₹ 828.37 million in Fiscal 2022 from ₹ 1,052.17 million in Fiscal 2021 mainly
+attributable to the withdrawal of bank deposits to finance our business operations, resulting in a decrease in interest income
+on bank deposits.
+Expenses
+Out total expenses increased to ₹ 11,738.12 million in Fiscal 2022 from ₹ 2,849.03 million in Fiscal 2021 primarily due to an
+increase in cost of materials consumed in line with an increase in production and sale of scooters. As a percentage of total
+income, our total expenses was 257.27% in Fiscal 2022 compared to 268.57% in Fiscal 2021.
+Cost of materials consumed
+Our cost of materials consumed increased to ₹ 5,849.34 million in Fiscal 2022 from nil in Fiscal 2021 in line with the
+commencement of scooter sales in Fiscal 2022.
+
+--- Page 331 ---
+327
+Purchase of stock-in-trade
+Our purchase of stock-in-trade increased to ₹ 561.81 million in Fiscal 2022 from nil in Fiscal 2021 as we stocked up on more
+spare parts, chargers and wall mounts to sell to customers.
+Change in inventories of finished goods, stock-in trade and work-in-progress
+Our change in inventories of finished goods, stock-in trade and work-in-progress was a decrease of ₹ 1,602.15 million in
+Fiscal 2022 as compared to nil in Fiscal 2021 as closing stock levels of work-in progress, finished goods, spare parts, stock
+in trade increased to ₹ 1,634.37 million in Fiscal 2022 from ₹ 32.22 million in Fiscal 2021 due to growth of our business.
+Employee benefits expense
+Our employee benefits expense increased to ₹ 2,824.80 million in Fiscal 2022 from ₹ 1,972.51 million in Fiscal 2021 due to
+an increase in the size of our workforce to support our sales and operations. In relation to the granting of equity stock options
+to our employees, we recognised equity settled share based payments of ₹ 195.37 million and ₹ 434.74 million in Fiscal 2022
+and Fiscal 2021 respectively.
+Other expenses
+Our other expenses increased to ₹ 4,104.32 million in Fiscal 2022 from ₹ 876.52 million in Fiscal 2021 due to the recognition
+of provision for warranties in relation to the commencement of scooter sales, expenses incurred in advertising, marketing and
+sales promotion to promote the Ola S1 Pro and Ola S1 models and selling and distribution of expenses. Research costs
+increased to ₹ 156.90 million in Fiscal 2022 from ₹ 69.86 million in Fiscal 2021. We also recorded a significant increase in
+repairs and maintenance as we delivered our first batch of scooters.
+Finance Costs
+Our finance costs increased to ₹ 176.18 million in Fiscal 2022 from ₹ 7.90 million in Fiscal 2021 due to an increase in
+borrowings from financial institutions and the interest expense thereon.
+Depreciation and amortisation expense
+Our depreciation and amortisation expense increased to ₹ 489.80 million in Fiscal 2022 from ₹ 196.20 million in Fiscal 2021
+due to the commencement of manufacturing activities in Fiscal 2022.
+Loss for the period/year
+As a result of the foregoing factors, our loss for the period/year increased to ₹ 7,841.50 million in Fiscal 2022 from a loss of
+₹ 1,992.32 million in Fiscal 2021.
+Key Performance Indicators
+In evaluating our business, we consider and use certain KPIs, as presented below, as a supplemental measure to review and
+assess our financial and operating performance. The presentation of these KPIs is not intended to be considered in isolation
+or as a substitute for the Restated Consolidated Financial Information. We present these KPIs because we use them to evaluate
+our financial and operating performance. These KPIs have limitations as analytical tools. Further, these KPIs may differ from
+the similar information used by other companies, including peer companies, and hence their comparability may be limited.
+Although these KPIs are not a measure of performance calculated in accordance with applicable accounting standards, our
+Company’s management believes that they provide an additional tool for investors to use in evaluating our ongoing operating
+results and trends and in comparing our financial results with other companies in our industry because they provide
+consistency and comparability with past financial performance, when taken collectively with financial measures prepared in
+accordance with Ind AS.
+Three-months period ended June 30,
+2023
+Fiscal 2023
+Fiscal 2022
+Particulars
+(in ₹ million, except as indicated otherwise)
+Deliveries (in thousands)
+70
+156
+21
+Revenue from operations
+12,427.46
+26,309.27
+3,734.23
+Adjusted Gross Margin % (1)*
+13.23%
+7.63%
+(5.40)%
+(1) As the Company did not have any sale of finished and traded goods in Fiscal 2021, the presentation of the relevant KPIs is not applicable for such period.
+*
+Adjusted Gross Margin is computed by deducting cost of materials consumed, purchase of stock-in-trade and change in inventories of finished goods, stock-in-trade and
+work-in-progress from total income. Adjusted Gross Margin % is defined as Adjusted Gross Margin for the relevant period divided by total income for such period.
+
+--- Page 332 ---
+328
+Non-GAAP Measures
+Certain non-GAAP financial measures relating to our financial performance, namely Net Worth, Return on Net Worth, Net
+Asset Value per Equity Share, EBITDA, EBITDA Margin %, Adjusted Gross Margin and Adjusted Gross Margin %  have
+been included in this Draft Red Herring Prospectus and are a supplemental measure of our performance and liquidity that are
+not required by, or presented in accordance with, Ind AS, IFRS or US GAAP. These non-GAAP financial measures and other
+information relating to financial performance may not be computed on the basis of any standard methodology that is applicable
+across the industry and, therefore a comparison of similarly titled non-GAAP measures or other information relating to
+operations and financial performance between companies may not be possible. Other companies may calculate these non-
+GAAP measures differently from us, limiting their usefulness as a comparative measure. The principal limitation of these
+non-GAAP measures is that they exclude significant expenses that are required by Ind AS to be recorded in our financial
+statements, as further detailed below. A reconciliation is provided below for each non-GAAP measure to the most directly
+comparable GAAP measure. Investors are encouraged to review the related GAAP measures and the reconciliation of non-
+GAAP measures to their most directly comparable GAAP measure included below and to not rely on any single financial
+measure to evaluate our business.
+Investors are encouraged to review the related Ind AS financial measures and the reconciliation of the non-GAAP measures
+to their most directly comparable Ind AS financial measures and to not rely on any single financial measure to evaluate our
+business. See “Risk Factors – Significant differences exist between Indian accounting standard (“Ind AS”) and other
+accounting principles, such as international financial reporting standards (“IFRS”) and United States generally accepted
+accounting principles (“U.S. GAAP”), which may be material to investors’ assessments of our financial condition.” on page
+58.
+Three-months period ended
+June 30, 2023
+Fiscal 2023
+Fiscal 2022
+Particulars
+(in ₹ million, except as indicated otherwise)
+Other income
+359.29
+1,517.70
+828.37
+Total income
+12,786.75
+27,826.97
+4,562.60
+Loss before tax for the period/year
+(2,671.56)
+(14,720.79)
+(7,841.50)
+Loss before tax % (1)
+(20.89)%
+(52.90)%
+(171.86)%
+Adjusted Gross Margin (2)
+1,691.86
+2,122.88
+(246.40)
+EBITDA(3)
+(1,838.11)
+(11,970.98)
+(7,175.52)
+EBITDA Margin % (3)
+(14.38)%
+(43.02)%
+(157.27)%
+Notes:
+(1) Loss before tax % is defined as profit/loss before tax divided by total income.
+(2) Adjusted Gross Margin is a non-GAAP measure. We define Adjusted Gross Margin as total income minus the sum of cost of materials consumed,
+purchase of stock-in-trade and change in inventories of finished goods, stock-in-trade and work-in-progress. Adjusted Gross Margin % is defined as
+Adjusted Gross Margin divided by total income.
+(3) Earnings before interest, taxes, depreciation and amortisation, or EBITDA, is a non-GAAP measure which represents loss for the period/year, before
+tax expenses, finance costs and depreciation and amortisation expenses. EBITDA Margin % is defined as EBITDA divided by total income.
+The following table reconciles Adjusted Gross Margin to total income for the periods presented:
+(in ₹ million, unless otherwise stated)
+Particulars
+As at and for the three-
+months period ended
+June 30, 2023
+As at and for the
+Financial Year
+ended March 31,
+2023
+As at and for the
+Financial Year
+ended March 31,
+2022
+Total income (A)
+12,786.75
+27,826.97
+4,562.60
+Minus: Cost of materials consumed (B)
+11,135.45
+25,047.92
+5,849.34
+Minus: Purchase of stock-in-trade (C)
+193.12
+1,392.61
+561.81
+Minus: Change in inventories of finished goods, stock-in-trade and
+work-in-progress (D)
+(233.68)
+(736.44)
+(1,602.15)
+Adjusted Gross Margin (E) (E=A-B-C-D)
+1,691.86
+2,122.88
+(246.40)
+Adjusted Gross Margin% (F) (F=E/A)
+13.23
+7.63
+(5.40)
+Note: For the year ended March 31, 2021, as the Company does not have any sale of finished and traded goods the presentation of adjusted gross margin is
+not applicable.
+
+--- Page 333 ---
+329
+The following table reconciles EBITDA to our loss for the periods/years presented:
+(in ₹ million, unless otherwise stated)
+Particulars
+As at and for the
+three-months
+period ended June
+30, 2023
+As at and for the
+Financial Year
+ended March 31,
+2023
+As at and for the
+Financial Year
+ended March 31,
+2022
+As at and for the
+Financial Year
+ended March 31,
+2021
+Loss for the period/year (A)
+(2,671.56)
+(14,720.79)
+(7,841.50)
+(1,992.32)
+Add: Tax expense (B)
+0.00
+0.00
+0.00
+0.00
+Add: Finance costs (C)
+359.30
+1,079.17
+176.18
+7.90
+Add: Depreciation and amortization
+expense (D)
+474.15
+1,670.64
+489.80
+196.20
+EBITDA (E) (E=A+B+C+D)
+(1,838.11)
+(11,970.98)
+(7,175.52)
+(1,788.22)
+Total income (F)
+12,786.75
+27,826.97
+4,562.60
+1,060.81
+EBITDA Margin %(G) (G=E/F)
+(14.38)%
+(43.02)%
+(157.27)%
+(168.57)%
+Selected Restated Consolidated Statement of Assets and Liabilities
+The table below sets forth the principal components of our total assets, equity and liabilities as at the periods indicated in the
+table below:
+As of June 30, 2023
+As of March 31, 2023
+As of March 31,
+2022
+As of March 31,
+2021
+Particulars
+(in ₹ million)
+Total non-current assets
+23,264.89
+21,235.35
+13,323.32
+2,429.42
+Total current assets
+33,846.27
+34,496.34
+40,635.31
+18,696.98
+Total assets
+57,111.16
+55,731.69
+53,958.63
+21,126.40
+Total equity
+21,115.05
+23,564.44
+36,614.52
+19,706.15
+Total non-current liabilities
+8,728.80
+8,658.21
+5,779.00
+43.10
+Total current liabilities
+27,267.31
+23,509.04
+11,565.11
+1,377.15
+Total liabilities
+35,996.11
+32,167.25
+17,344.11
+1,420.25
+Total equity and liabilities
+57,111.16
+55,731.69
+53,958.63
+21,126.40
+Our total non-current assets were ₹ 2,429.42 million as at March 31, 2021, increasing by 448.42% to ₹ 13,323.32 million as
+at March 31, 2022 and further increasing by 59.38% to ₹ 21,235.35 million as at March 31, 2023 and increasing to ₹ 23,264.89
+million as at June 30, 2023. The increase in our non-current assets was primarily due to increase in our investments made in
+manufacturing facilities and development expenditure incurred on internally generated intangible assets, namely (i) property,
+plant and equipment, (ii) capital work-in-progress, (iii) other intangible assets and (iv) intangible assets under development.
+Our total current assets were ₹ 18,696.98 million as at March 31, 2021, increasing by 117.34% to ₹ 40,635.31 million as at
+March 31, 2022 and decreasing by 15.11% to ₹ 34,496.34 million as at March 31, 2023 and further decreasing to ₹ 33,846.27
+million as at June 30, 2023. The decrease as at June 30, 2023 and March 31, 2023 was primarily due to reduction in cash and
+cash equivalents which were used for business operations while the increase as at March 31, 2022 was primarily due to
+proceeds from issue of compulsorily convertible preference shares.
+Our total equity increased from ₹ 19,706.15 million as at March 31, 2021 to ₹ 36,614.52 million as at March 31, 2022 primarily
+due to the issue of compulsorily convertible preference shares, and decreased to ₹ 23,564.44 million as at March 31, 2023 and
+to ₹ 21,115.05 million as at June 30, 2023, primarily due to loss for the period/year.
+Our total non-current liabilities increased from ₹ 43.10 million as at March 31, 2021 to ₹ 5,779.00 million as at March 31,
+2022 to ₹ 8,658.21 million as at March 31, 2023 and closed at ₹ 8,728.80 million as at June 30, 2023. This increase was
+primarily due to the term loan availed for setting up of manufacturing facility.
+Our total current liabilities increased from ₹ 1,377.15 million as at March 31, 2021 to ₹ 11,565.11 million as at March 31,
+2022 and increased to ₹ 23,509.04 million as at March 31, 2023 and to ₹ 27,267.31 million as at June, 30 2023. The increase
+was primarily due to availing short term credit facilities to meet the working capital requirements and outstanding dues of
+creditors and payments to related parties.
+Liquidity and Capital Resources
+Historically, our primary liquidity requirements have been to finance our working capital needs for our operations and capital
+expenditures. We have met these requirements through cash flows from operations and borrowings and the issuance of
+compulsorily convertible preference shares. As of June 30, 2023, we had ₹ 2,317.08 million in cash and cash equivalents, ₹
+9,084.80 million as bank balances other than cash and cash equivalents, ₹ 7,017.36 million in non-current borrowings and ₹
+
+--- Page 334 ---
+330
+9,148.37 million in current borrowings. We believe that, after taking into account the expected cash to be generated from our
+operations, our borrowings and the proceeds from the Offer, we will have sufficient liquidity for our present requirements and
+anticipated requirements for capital expenditure and working capital for the next 12 months.
+Cash Flows
+The table below summarises the statement of cash flows, as per our restated consolidated cash flow statements, for the periods
+indicated:
+Three-months period ended
+June 30, 2023
+Fiscal
+2023
+2022
+2021
+(in ₹ million)
+Net cash used in operating activities
+(972.37)
+(15,072.71)
+(8,849.54)
+(2,520.25)
+Net cash generated/(used in) from
+investing activities
+1,546.19
+(3,185.50)
+(13,218.25)
+5,489.40
+Net cash flow (used in)/generated
+from financing activities
+(295.22)
+6,587.04
+30,848.27
+31.50
+Net Increase/ (decrease) in cash
+and cash equivalents
+278.60
+(11,671.17)
+8,780.48
+3,000.65
+Operating Activities
+Net cash used in operating activities for the three-months period ended June 30, 2023 was ₹ 972.37 million, while our
+operating loss before working capital changes was ₹ 1,873.22 million. The difference was primarily attributable to an increase
+in trade payables of ₹ 3,500.80 million and an increase in other financial liabilities of ₹ 485.47 million, which was partially
+offset by an increase in other financial assets of ₹ 1,926.97 million, increase in other assets of ₹ 629.10 million and increase
+in inventories of ₹ 597.41 million.
+Net cash used in operating activities for Fiscal 2023 was ₹ 15,072.71 million, while our operating loss before working capital
+changes was ₹ 12,027.57 million. The difference was primarily attributable to an increase in inventory of ₹ 2,996.70 million
+and other financial assets of ₹ 5,206.90 million due to growth of our business, which was partially offset by an increase in
+trade payables of ₹ 3,380.72 million and an increase in other financial liabilities of ₹ 2,789.22 million.
+Net cash used in operating activities for Fiscal 2022 was ₹ 8,849.54 million, while our operating loss before working capital
+changes was ₹ 7,510.72 million. The difference was primarily attributable to an increase in inventory of ₹ 2,810.57 million
+and other assets of ₹ 5,518.43 million due to commencement of commercial production and sales of scooters in Fiscal 2022,
+which was partially offset by an increase in trade payables of ₹ 3,136.01 million and an increase in other liabilities and
+provisions of ₹ 3,911.69 million.
+Net cash used in operating activities for Fiscal 2021 was ₹ 2,520.25 million, while our operating loss before working capital
+changes was ₹ 2,345.02 million. The difference was primarily attributable to an increase in other assets of ₹ 287.20 million,
+an increase in other financial assets of ₹ 71.70 million and a decrease in trade payables of ₹ 278.57 million, partially offset by
+an increase in other financial liabilities of ₹ 481.79 million.
+Investing Activities
+Net cash generated from investing activities for the three-months period ended June 30, 2023 was ₹ 1,546.19 million, and
+primarily included net proceeds from interest bearing deposits amounting to ₹ 4,505.30 million. This was partially offset by
+acquisition of property, plant and equipment of ₹ 1,619.80 million, investment in interest bearing deposits of ₹ 786.70 million
+and development expenditure on internally generated intangible assets of ₹ 753.34 million.
+Net cash used in investing activities for Fiscal 2023 was ₹ 3,185.50 million, and primarily included acquisition of property,
+plant and equipment of ₹ 4,336.03 million and acquisition of intangible assets of ₹ 59.78 million. This was partially offset by
+proceeds from interest bearing deposits of ₹ 34,120.44 million, interest received of ₹ 1,072.93 million and proceeds from sale
+of mutual fund units of ₹ 8,828.77 million.
+Net cash used in investing activities for Fiscal 2022 was ₹ 13,218.25 million, and primarily included acquisition of property,
+plant and equipment of ₹ 7,635.70 million, purchase of mutual fund units of ₹ 23,456.89 million and acquisition of intangible
+assets of ₹ 133.80 million, partially offset by proceeds from interest bearing deposits of ₹ 104,865.63 million and interest
+received of ₹ 637.44 million.
+Net cash generated from investing activities for Fiscal 2021 was ₹ 5,489.40 million, and primarily included proceeds from

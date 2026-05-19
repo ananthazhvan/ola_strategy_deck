@@ -1,0 +1,490 @@
+[
+  {
+    "insight": "Bajaj Auto has the highest market capitalization among competitors at Rs 292,133 Cr, which is 18.3x Ola Electric's market cap of Rs 15,923 Cr. This valuation disparity reflects the market's confidence in Bajaj's diversified ICE+EV business model versus Ola's pure-play EV losses.",
+    "source_file": "bajaj/META.csv",
+    "source_cells": "Row 8, Col B = 292132.53",
+    "connects_to": ["Bajaj_Financial_Firepower", "Ola_Financial_Vulnerability", "Market_Cap_Hierarchy"],
+    "causal_chain": "Higher market cap enables cheaper access to capital markets for EV expansion, while Ola's lower market cap limits fundraising ability and increases dilution risk",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "TVS Motor is valued at Rs 163,501 Cr market cap, 10.3x Ola's market cap of Rs 15,923 Cr, despite TVS having the lowest net profit margin (5.4%) among legacy players. Its premium reflects the market's expectation of EV-led growth.",
+    "source_file": "tvs/META.csv",
+    "source_cells": "Row 8, Col B = 163501.2",
+    "connects_to": ["TVS_Scale", "Market_Cap_Hierarchy", "EV_Growth_Premium"],
+    "causal_chain": "TVS's 23% EV market share leader position commands a growth premium despite lower absolute profitability, showing markets reward EV transition progress",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Hero MotoCorp has a market cap of Rs 102,294 Cr at Rs 5,112 per share with FY26 net profit of Rs 5,742 Cr (12.1% net margin). Its market cap is 6.4x Ola's, but lowest among legacy players, reflecting investor skepticism about Hero's late EV entry.",
+    "source_file": "hero/META.csv",
+    "source_cells": "Row 8, Col B = 102294.47",
+    "connects_to": ["Hero_Financial_Firepower", "Hero_Late_EV_Entry", "Market_Cap_Hierarchy"],
+    "causal_chain": "Hero's massive 6000+ dealer network and 40+ year trust advantage not fully priced in due to Vida's slow start and deeply negative EV EBITDA (-95%)",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Ather Energy's market cap of Rs 36,012 Cr (at Rs 940/share) is 2.3x Ola's market cap despite Ather having comparable FY26 EV revenue (Rs 3,672 Cr vs Ola's Rs 3,672 Cr). The premium reflects Ather's superior brand perception and improving path to profitability.",
+    "source_file": "ather/META.csv",
+    "source_cells": "Row 8, Col B = 36011.85",
+    "connects_to": ["Ather_Premium_Positioning", "Market_Cap_Hierarchy", "EV_Profitability_Path"],
+    "causal_chain": "Markets reward Ather's narrowing losses (from -812 Cr to -517 Cr) and -6.7% EBITDA trajectory vs Ola's deeply negative unknown EBITDA, creating a valuation premium for the same revenue",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Ola Electric's market cap stands at just Rs 15,923 Cr with share price Rs 36.1, down significantly from its IPO. With 54.39% retail ownership and declining FII (3.99% and falling), the stock has weak institutional support and pre-IPO investor overhang (SoftBank, Tiger Global lockup expiry).",
+    "source_file": "ola/META.csv",
+    "source_cells": "Row 7 = Price 36.1, Row 8 = MCap 15923.14; SHAREHOLDING_PATTERN.csv Row 3 FII 3.99%, Row 8 Retail 54.39%",
+    "connects_to": ["Ola_Financial_Vulnerability", "Market_Cap_Hierarchy", "Investor_Confidence"],
+    "causal_chain": "The service crisis destroyed investor confidence, causing FII exodus and retail accumulation (typical of beaten-down stocks), limiting Ola's ability to raise follow-on equity without massive dilution",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Bajaj Auto's FY26 net profit of Rs 10,744 Cr alone exceeds Ola Electric's entire lifetime revenue. With 17.1% net profit margin on Rs 62,905 Cr revenue, Bajaj generates more profit every quarter than Ola's total quarterly sales at peak.",
+    "source_file": "bajaj/PROFIT_AND_LOSS.csv",
+    "source_cells": "Row 15, Col J (Mar-26) = 10744.21; Row 2, Col J (Mar-26) = 62905",
+    "connects_to": ["Bajaj_Financial_Firepower", "Ola_Financial_Vulnerability", "Profit_Moat"],
+    "causal_chain": "Bajaj's massive profit pool funds R&D, dealer expansion, and EV price wars indefinitely, while Ola burns cash with no timeline to profitability",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Bajaj's EV segment is already EBITDA-positive at double-digit margins (estimated 10-15%), while Ola and Ather remain deeply negative. Bajaj's Chetak is the only profitable electric scooter line in India currently.",
+    "source_file": "market/EV_SEGMENT_COMPARISON.csv",
+    "source_cells": "Row 7, Col Bajaj_EV = 'Double-Digit Positive'; Row 11, Col Bajaj_EV = 'Already profitable'",
+    "connects_to": ["Bajaj_EV_Profitability", "Bajaj_Cost_Advantage", "EV_Profitability_Path"],
+    "causal_chain": "Bajaj's 40+ years of lean manufacturing expertise (lowest service cost at Rs 400/visit, TPM-certified dealers) translates EV production cost advantages that pure-play EV makers cannot replicate quickly",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Ola Electric's cash runway is critically short: Rs 3,516 Cr cash at FY25-end, burning Rs 2,391 Cr annually from operations. At this rate, Ola has approximately 1.5 years of runway before needing emergency funding, without additional financing.",
+    "source_file": "ola/BALANCE_SHEET.csv",
+    "source_cells": "Row 14, Col F (Mar-25) = 3516; CASH_FLOW Row 2, Col F (Mar-25) = -2391",
+    "connects_to": ["Ola_Financial_Vulnerability", "EV_Profitability_Path", "Funding_Runway"],
+    "causal_chain": "Ola's negative operating cash flow of Rs 2,391 Cr in FY25, combined with Rs 3,516 Cr cash, means the company needs either dramatic margin improvement or another major fundraising round within 18 months",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Bajaj Auto's reserves of Rs 38,552 Cr (FY26) are 24x Ola's total cash of Rs 3,516 Cr. Even if Bajaj's EV business lost Rs 500 Cr/year (which it doesn't - it's profitable), it could absorb losses for 77+ years from reserves alone.",
+    "source_file": "bajaj/BALANCE_SHEET.csv",
+    "source_cells": "Row 3, Col J (Mar-26) = 38552.49",
+    "connects_to": ["Bajaj_Financial_Firepower", "Subsidy_Moat", "Profit_Moat"],
+    "causal_chain": "Reserves this massive mean Bajaj can undercut pricing, invest in R&D, and expand EV capacity without any external funding, creating a subsidy moat no pure-play EV can match",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "TVS Motor has the highest EV-specific revenue at Rs 4,700 Cr (FY26), exceeding both Ola and Ather at Rs 3,672 Cr each. TVS sold 371,000 EV units vs Ola's 164,000 - a 2.3x volume advantage.",
+    "source_file": "market/COMPETITOR_EV_METRICS.csv",
+    "source_cells": "Row 2, Col TVS_EV_FY26 = 4700; Row 3, Col TVS_EV_FY26 = 371000; Row 2, Col Ola_FY26 = 3672; Row 3, Col Ola_FY26 = 164000",
+    "connects_to": ["TVS_Market_Share_Lead", "TVS_Scale", "EV_Volume_Leadership"],
+    "causal_chain": "TVS's higher EV volume (371K units) creates scale advantages in procurement, supply chain, and per-unit fixed cost absorption that Ola (164K units) cannot match until volumes recover",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Ola's quarterly revenue collapsed from Rs 1,644 Cr (Q1 FY25) to Rs 470 Cr (Q3 FY26) - a 71% decline in 7 quarters. Meanwhile, unit sales dropped from 108,000 to 35,000 per quarter (68% decline), driven by the service crisis and trust erosion.",
+    "source_file": "ola/QUATERS.csv",
+    "source_cells": "Row 2 Col Jun-24 = 1644, Row 2 Col Dec-25 = 470; PRODUCT_MIX Row 2 Units_Sold = 108000, Row 8 Units_Sold = 35000",
+    "connects_to": ["Ola_Revenue_Collapse", "Service_Crisis_Impact", "Trust_Erosion"],
+    "causal_chain": "The service crisis (CCPA notice Oct-2024, 10,000+ complaints, 7-15 day turnarounds) directly caused customers to switch to Ather/TVS/Bajaj, triggering a revenue death spiral",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Ather Energy grew quarterly sales from Rs 361 Cr (Jun-24) to Rs 1,175 Cr (Mar-26) - 3.3x growth in 7 quarters. This directly captured market share from Ola's collapse, with Ather reaching 16% EV market share (tied with Ola).",
+    "source_file": "ather/QUATERS.csv",
+    "source_cells": "Row 2 Col Jun-24 = 360.5, Row 2 Col Mar-26 = 1174.66",
+    "connects_to": ["Ather_Growth_Trajectory", "Market_Share_Shift", "Ola_Decline_Beneficiary"],
+    "causal_chain": "Ather's premium brand perception and purpose-built EV service network (700 centers, Ather Grid) positioned it as the primary alternative for Ola customers seeking better quality",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Ola's EV market share fell from ~47% (early FY24) to 15.9% (FY26) - a 66% share loss in 2 years. The CCPA show-cause notice in Oct-2024 (10,000+ complaints) marked the inflection point where share dropped from 26% to 16%.",
+    "source_file": "ola/SERVICE_CRISIS_TIMELINE.csv",
+    "source_cells": "Row 2 = 47% (Q1-FY24), Row 6 = 26% (Oct-2024), Row 13 = 16% (Q4-FY26)",
+    "connects_to": ["Ola_Revenue_Collapse", "Service_Crisis_Impact", "Trust_Erosion", "Market_Share_Shift"],
+    "causal_chain": "Each service crisis escalation (CCPA notice, consumer court rulings, bailable warrants) triggered another wave of customer defection, compounding the market share decline",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "TVS leads EV market share at 23% (FY26) followed by Bajaj at 21%, Ather at 16%, Ola at 15.9%, and Hero Vida at 11%. Legacy players (TVS+Bajaj+Hero) collectively control 55% of the EV scooter market, up from near-zero 3 years ago.",
+    "source_file": "market/EV_SEGMENT_COMPARISON.csv",
+    "source_cells": "Row 7: Ola=15.9%, Ather=16.0%, TVS=23.0%, Bajaj=21.0%, Hero=11.0%",
+    "connects_to": ["Legacy_Dominance", "Market_Share_Shift", "EV_Market_Structure"],
+    "causal_chain": "Legacy OEMs leveraged existing dealer networks and manufacturing expertise to rapidly scale EV production, overwhelming Ola's first-mover advantage through superior service infrastructure",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Hero Vida grew EV units 206% YoY (FY26), the highest growth rate, though from a small base (17,000 to 150,000 units). Ather grew 75% YoY. Ola declined 52% YoY. Hero's 6000+ dealer network gives Vida the fastest potential scale-up trajectory.",
+    "source_file": "market/COMPETITOR_EV_METRICS.csv",
+    "source_cells": "Row 3: Hero_EV_FY24=17000, Hero_EV_FY26=150000; Ola_FY25=340000, Ola_FY26=164000",
+    "connects_to": ["Hero_Growth_Potential", "Hero_Dealer_Network_Moat", "Market_Share_Shift"],
+    "causal_chain": "Hero's 206% growth from near-zero demonstrates that legacy dealer networks can rapidly drive EV adoption when management commits, threatening Ola's long-term volume recovery",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Ather turned operating cash flow positive for the first time in FY26 (Rs 31.89 Cr), a critical milestone after years of losses. This compares to Ola's operating cash outflow of Rs 2,391 Cr in FY25 and Ather's own outflow of Rs 721 Cr in FY25.",
+    "source_file": "ather/CASH_FLOW_AND_DERIVED.csv",
+    "source_cells": "Row 2, Col G (Mar-26) = 31.89; Row 2, Col F (Mar-25) = -720.7",
+    "connects_to": ["Ather_Profitability_Path", "EV_Profitability_Path", "Ather_Financial_Discipline"],
+    "causal_chain": "Ather's operating cash flow breakeven signals that the -6.7% EBITDA margin in FY26 is approaching positive territory, validating that premium EV-only model can be viable at scale",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Ather's net loss narrowed from Rs 812 Cr (FY25) to Rs 517 Cr (FY26) even as revenue grew 63% from Rs 2,255 Cr to Rs 3,672 Cr. Loss-to-sales ratio improved from -36% to -14%, showing strong operating leverage.",
+    "source_file": "ather/PROFIT_AND_LOSS.csv",
+    "source_cells": "Row 15, Col F (Mar-25) = -812.3, Col G (Mar-26) = -517.17; Row 2, Col F = 2255, Col G = 3671.76",
+    "connects_to": ["Ather_Profitability_Path", "Operating_Leverage", "EV_Unit_Economics"],
+    "causal_chain": "As Ather scales, fixed costs (R&D, employee, depreciation) are spread over larger revenue base, naturally improving margins without requiring price increases",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Ola's gross margin improved dramatically from 12% (Q4 FY25) to 36% (Q4 FY26), driven by in-house NMC 4680 cell production reducing battery cost from $130/kWh to $85/kWh. However, this was offset by ASP declining from Rs 135,000 to Rs 90,000 as product mix shifted to low-end S1 X.",
+    "source_file": "ola/PRODUCT_MIX_QUARTERLY.csv",
+    "source_cells": "Row 5 Gross_Margin=12, Row 9 Gross_Margin=36; Row 5 Battery_Cost=125, Row 9 Battery_Cost=85; Row 5 ASP=98000, Row 2 ASP=135000; Row 5 S1_X_Pct=60, Row 8 S1_X_Pct=75",
+    "connects_to": ["Ola_Gross_Margin_Improvement", "Ola_Product_Mix_Shift", "Vertical_Integration_Benefit", "Battery_Cost_Reduction"],
+    "causal_chain": "In-house cell production cuts battery cost by 35% ($130 to $85/kWh), directly boosting gross margins, but the service crisis forced Ola to discount and sell more low-end S1 X models, destroying ASP",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Bajaj Auto's interest expense jumped from Rs 60 Cr (FY24) to Rs 389 Cr (FY25) to Rs 1,169 Cr (FY26), a 19x increase in 2 years, as borrowings ballooned from Rs 1,912 Cr to Rs 22,713 Cr. This reflects massive debt-funded EV and E3W capacity expansion.",
+    "source_file": "bajaj/PROFIT_AND_LOSS.csv",
+    "source_cells": "Row 12, Col H (Mar-24) = 60.36, Col J (Mar-26) = 1168.59; BALANCE_SHEET Row 4, Col H (Mar-24) = 1911.74, Col J (Mar-26) = 22713.15",
+    "connects_to": ["Bajaj_Debt_Funded_Expansion", "Bajaj_Financial_Firepower", "EV_Capacity_Build"],
+    "causal_chain": "Bajaj is aggressively borrowing to build EV manufacturing capacity, accepting higher interest costs now because its operating profit (Rs 13,952 Cr PBT) easily covers the Rs 1,169 Cr interest bill",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Hero MotoCorp is the most cash-generative legacy operator with Rs 8,315 Cr operating cash flow in FY26, and net cash positive with only Rs 779 Cr borrowings against Rs 767 Cr cash plus Rs 19,286 Cr in investments. Zero financial stress.",
+    "source_file": "hero/CASH_FLOW_AND_DERIVED.csv",
+    "source_cells": "Row 2, Col J (Mar-26) = 8314.62; BALANCE_SHEET Row 4 Col J = 778.61, Row 14 Col J = 766.7, Row 9 Col J = 19286.38",
+    "connects_to": ["Hero_Financial_Firepower", "Hero_Conservative_Finances", "Profit_Moat"],
+    "causal_chain": "Hero's massive cash generation without debt means it can fund EV losses of Rs 500-1000 Cr/year for 20+ years without any external financing, while Ola must raise dilutive equity",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "TVS Motor's borrowings of Rs 32,791 Cr (FY26) are the highest among all competitors. Interest expense of Rs 2,230 Cr consumes 74% of operating profit (PBT Rs 4,822 Cr + Interest Rs 2,230 Cr), making TVS the most leveraged player.",
+    "source_file": "tvs/BALANCE_SHEET.csv",
+    "source_cells": "Row 4, Col J (Mar-26) = 32791.01; PROFIT_AND_LOSS Row 12 Col J = 2229.82, Row 13 Col J = 4821.74",
+    "connects_to": ["TVS_Leverage", "TVS_Financial_Risk", "Debt_Service_Burden"],
+    "causal_chain": "TVS's high debt load means its EV expansion must generate returns quickly to avoid financial strain, contrasting with Bajaj and Hero who can fund EV growth from reserves",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Ola's net loss of Rs 2,276 Cr in FY25 was the largest ever for an Indian auto company, exceeding Ather's cumulative losses. Ola's expense-to-revenue ratio was 138.5% - spending Rs 1.39 for every Rs 1 earned.",
+    "source_file": "ola/PROFIT_AND_LOSS.csv",
+    "source_cells": "Row 13, Col F (Mar-25) = -2276; Row 2, Col F = 4514; QUATERS Row 3 total FY25 expenses = 1849+1593+1505+1306 = 6253",
+    "connects_to": ["Ola_Financial_Vulnerability", "Loss_Scale", "Burn_Rate"],
+    "causal_chain": "The massive loss reflects both operating inefficiency (service crisis driving support costs) and competitive pressure (price cuts to maintain volume against legacy entrants)",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Ather raised Rs 2,497 Cr in financing in FY26 (equity/convertibles), with cash & bank jumping from Rs 370 Cr to Rs 823 Cr. Total assets surged from Rs 2,101 Cr to Rs 4,722 Cr, funding the Ather Grid expansion and new 450X/Rizta launches.",
+    "source_file": "ather/CASH_FLOW_AND_DERIVED.csv",
+    "source_cells": "Row 4, Col G (Mar-26) = 2496.53; BALANCE_SHEET Row 14 Col F = 370.4, Col G = 823.15; Row 6 Col F = 2100.6, Col G = 4721.51",
+    "connects_to": ["Ather_Funding", "Ather_Grid_Expansion", "EV_Infrastructure_Investment"],
+    "causal_chain": "Ather is investing its IPO/funding proceeds into expanding the Ather Grid (2000+ points) and experience centers (700), building a proprietary charging moat that Ola lacks",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Bajaj's 'Parent Can Subsidize EV for 15+ years' (EV_SEGMENT_COMPARISON) combined with Rs 38,552 Cr reserves means Bajaj can sustain EV price wars indefinitely. Chetak is already double-digit EBITDA positive, so no subsidy required.",
+    "source_file": "market/EV_SEGMENT_COMPARISON.csv",
+    "source_cells": "Row 10, Col Bajaj_EV = '15+'; Row 11, Col Bajaj_EV = 'Already profitable'",
+    "connects_to": ["Bajaj_Financial_Firepower", "Subsidy_Moat", "EV_Price_War_Capability"],
+    "causal_chain": "Bajaj can keep Chetak prices low to gain market share even if margins compress, while loss-making Ola cannot sustain price competition - this is Bajaj's ultimate unfair advantage",
+    "category": "Unfair_Advantage"
+  },
+  {
+    "insight": "Hero's total dealer network of 6,000+ is the largest in India, with 500+ dedicated Vida EV service points and 3,600+ fast-charging stations being deployed. This is 6.7x Ola's peak center count and provides Hero unrivaled rural and semi-urban reach.",
+    "source_file": "market/SERVICE_NETWORK_COMPARISON.csv",
+    "source_cells": "Row 2 (Hero): Total_Dealer_Network = 6000+, EV_Service_Points = 500+, Charging_Infrastructure = 3600+",
+    "connects_to": ["Hero_Dealer_Network_Moat", "Service_Network_Moat", "Rural_Reach"],
+    "causal_chain": "Hero's 6,000+ dealers give Vida instant distribution in towns where Ola has zero presence. Independent hybrid mechanics (Yes) mean Hero customers can get Vida serviced at any local mechanic, not just dedicated centers",
+    "category": "Unfair_Advantage"
+  },
+  {
+    "insight": "Bajaj's service cost of Rs 400 per visit is the lowest in the EV industry - 50% cheaper than Ather (Rs 800-1,200) and up to 73% cheaper than Ola (Rs 800-1,500). Over 5 years of ownership, this represents a Rs 20,000-30,000 total cost advantage.",
+    "source_file": "market/SERVICE_NETWORK_COMPARISON.csv",
+    "source_cells": "Row 3 (Bajaj): Service_Cost_Per_Visit_INR = 400; Row 5 (Ather): 800-1200; Row 6 (Ola): 800-1500",
+    "connects_to": ["Bajaj_Cost_Advantage", "Service_Network_Moat", "Total_Cost_Of_Ownership"],
+    "causal_chain": "Lower service cost reduces total cost of ownership, making Bajaj Chetak more economical than Ola scooters over 5 years despite higher initial price, critical for India's price-sensitive EV buyers",
+    "category": "Service_Network"
+  },
+  {
+    "insight": "Only 300 of Ola's 900 peak experience centers have actual repair capability. This means 600 centers (67%) are pure sales/showroom outlets with no service function, forcing customers to travel long distances for repairs.",
+    "source_file": "market/SERVICE_NETWORK_COMPARISON.csv",
+    "source_cells": "Row 6 (Ola): Total_Dealer_Network = 900 experience centers (peak), ~300 with repair capability",
+    "connects_to": ["Ola_Service_Gap", "Service_Network_Moat", "Trust_Erosion"],
+    "causal_chain": "Service center density directly determines turnaround time. Ola's 300 repair-capable centers for 1M+ vehicles on road creates inevitable bottlenecks vs Bajaj's 1480+ dealers all capable of service",
+    "category": "Service_Network"
+  },
+  {
+    "insight": "Ola's parts availability at 60-75% is catastrophic versus the 95% industry standard maintained by Bajaj, TVS, and Hero. This means 1 in 3 Ola service visits cannot be completed due to parts unavailability, directly causing the 7-15 day turnaround times.",
+    "source_file": "market/SERVICE_NETWORK_COMPARISON.csv",
+    "source_cells": "Row 6 (Ola): Parts_Availability_Pct = 60-75, Avg_Turnaround_Days = 7-15; Row 2-4 (Hero/Bajaj/TVS): Parts_Availability = 95, Avg_Turnaround = 1-2",
+    "connects_to": ["Ola_Service_Gap", "Service_Network_Moat", "Trust_Erosion", "Parts_Supply_Chain"],
+    "causal_chain": "Without vertically integrated parts distribution, Ola depends on third-party suppliers for spares. Legacy players with 30-40 year parts supply chains maintain 95% availability through established vendor relationships",
+    "category": "Service_Network"
+  },
+  {
+    "insight": "Legacy players (Hero, Bajaj, TVS) all offer hybrid mechanic access, meaning customers can get their EVs serviced at any independent local mechanic. Ola and Ather use proprietary service networks, creating a coverage disadvantage in smaller towns.",
+    "source_file": "market/SERVICE_NETWORK_COMPARISON.csv",
+    "source_cells": "Row 2-4 (Hero/Bajaj/TVS): Independent_Mechanic_Access = Yes (hybrid); Row 5-6 (Ather/Ola): Independent_Mechanic_Access = No (proprietary)",
+    "connects_to": ["Service_Network_Moat", "Rural_Reach", "Legacy_Infrastructure_Advantage"],
+    "causal_chain": "India's 2-wheeler market depends on 50,000+ independent mechanics for service. Legacy OEMs leverage decades of mechanic training networks. Pure-play EVs lack this ecosystem, limiting reach to Tier 3+ towns",
+    "category": "Service_Network"
+  },
+  {
+    "insight": "Ola's trust inheritance is rated 'Very Low (trust damaged)' with only 3 years of service experience, versus 'Very High' for Hero, Bajaj (40+ years each), and TVS (30+ years). This trust deficit is Ola's single greatest competitive disadvantage.",
+    "source_file": "market/SERVICE_NETWORK_COMPARISON.csv",
+    "source_cells": "Row 6 (Ola): Trust_Inheritance = Very Low (trust damaged), Years_Of_Service_Experience = 3; Row 2-4: Very High, 40+/30+",
+    "connects_to": ["Trust_Erosion", "Service_Network_Moat", "Ola_Reputation_Crisis"],
+    "causal_chain": "An EV purchase is a 5-8 year commitment. Customers trust Hero/Bajaj/TVS based on decades of family experience. Ola's 3 years of service history with highly publicized failures makes trust-building extremely difficult",
+    "category": "Unfair_Advantage"
+  },
+  {
+    "insight": "Ola's post-Hyperservice turnaround time of 3-4 days is still 2-3x worse than the 1-2 day standard across all legacy players. At peak crisis, Ola's 7-15 day turnaround meant customers waited 2 weeks for basic repairs.",
+    "source_file": "market/SERVICE_NETWORK_COMPARISON.csv",
+    "source_cells": "Row 6 (Ola): Avg_Turnaround_Days = 7-15 (peak) / 3-4 (post-Hyperservice); Row 2-4: 1-2",
+    "connects_to": ["Ola_Service_Gap", "Hyperservice_Impact", "Service_Network_Moat"],
+    "causal_chain": "Even after Hyperservice improvements, Ola still cannot match the 1-2 day standard because the fundamental constraint is parts availability (60-75%) and insufficient service points (~300)",
+    "category": "Service_Network"
+  },
+  {
+    "insight": "Ather Energy operates 700 experience centers with purpose-built EV service infrastructure and the Ather Grid (2,000+ charging points). While smaller than legacy networks, Ather's network is purpose-built for EVs, not adapted from ICE service centers.",
+    "source_file": "market/SERVICE_NETWORK_COMPARISON.csv",
+    "source_cells": "Row 5 (Ather): Total_Dealer_Network = 700 experience centers, Charging_Infrastructure = Ather Grid (2000+ points)",
+    "connects_to": ["Ather_Service_Network", "Ather_Grid", "Purpose_Built_EV_Infra"],
+    "causal_chain": "Purpose-built EV service eliminates the training gap seen when ICE mechanics handle high-voltage EV systems. Ather's 2-3 day turnaround (better than Ola's 3-15 but worse than legacy's 1-2) reflects this trade-off",
+    "category": "Service_Network"
+  },
+  {
+    "insight": "Hero Vida offers 5-year vehicle warranty and 5-year battery warranty on V1 Pro, significantly exceeding the 3-year vehicle and 3-8 year battery warranty offered by Ola, Ather, TVS, and Bajaj. This is a direct trust-building mechanism.",
+    "source_file": "market/PRODUCT_SPECS_COMPARISON.csv",
+    "source_cells": "Row 17 (Vida V1 Pro): Warranty_Vehicle_Yr = 5, Warranty_Battery_Yr = 5; Row 2-16 (all others): Warranty_Vehicle = 3",
+    "connects_to": ["Hero_Warranty_Advantage", "Trust_Building", "Hero_Product_Strategy"],
+    "causal_chain": "Extended warranty signals product confidence and reduces buyer risk perception. For a brand (Hero Vida) entering EV market late, this is a critical trust-building tool that legacy incumbents can afford due to robust financials",
+    "category": "Product_Positioning"
+  },
+  {
+    "insight": "Ola S1 Pro+ at Rs 199,000 (ex-showroom) is the most expensive EV scooter in India, with class-leading 320 km range, 141 kmph top speed, and 11 kW motor. However, it competes directly with TVS iQube ST (Rs 171,000) and Ather 450X (Rs 177,000) at lower prices.",
+    "source_file": "market/PRODUCT_SPECS_COMPARISON.csv",
+    "source_cells": "Row 2 (S1 Pro+): Price=199000, Range=320km, Speed=141kmph, Motor=11kW; Row 7 (iQube ST): 171000, 250km, 82kmph, 6kW; Row 13 (450X): 177000, 150km, 90kmph, 6.4kW",
+    "connects_to": ["Ola_Premium_Positioning", "Price_Band_Map", "Product_Specs_War"],
+    "causal_chain": "Ola's performance leadership (320km range, 141kmph) justifies premium pricing, but TVS and Ather undercut on price while offering comparable real-world utility, since Indian speed limits cap real usage well below 141kmph",
+    "category": "Product_Positioning"
+  },
+  {
+    "insight": "Ola has the widest price band covering Rs 69,999 (S1 X 2kWh) to Rs 199,000 (S1 Pro+) - a Rs 129,001 range. No competitor covers this full spectrum: TVS (Rs 115K-171K), Bajaj (Rs 91K-140K), Ather (Rs 109K-177K), Hero (Rs 99K-149K).",
+    "source_file": "market/PRODUCT_SPECS_COMPARISON.csv",
+    "source_cells": "Row 5 (S1 X 2kWh): Price=69999; Row 2 (S1 Pro+): Price=199000; Row 8-9 (iQube): 115000-171000; Row 11-12 (Chetak): 91000-140000; Row 14-15 (450): 148000-177000; Row 16-17 (Vida): 99000-149000",
+    "connects_to": ["Ola_Price_Band_Breadth", "Product_Portfolio_Depth", "Market_Segment_Coverage"],
+    "causal_chain": "Ola's 5-model lineup covers entry, mass, mid, premium, and next-gen segments with a single platform (S1), achieving manufacturing complexity that competitors with separate platforms struggle to match",
+    "category": "Product_Positioning"
+  },
+  {
+    "insight": "Ola S1 X 2kWh at Rs 69,999 is the cheapest EV scooter in India, undercutting Bajaj Chetak Base (Rs 91,000) by 23%. This gives Ola a unique entry-level EV proposition, but the 75 km range and 70 kmph top speed severely limit utility.",
+    "source_file": "market/PRODUCT_SPECS_COMPARISON.csv",
+    "source_cells": "Row 5 (S1 X 2kWh): Price=69999, Range=75km, Speed=70kmph; Row 12 (Chetak Base): Price=91000, Range=100km",
+    "connects_to": ["Ola_Entry_Level_Strategy", "Price_Band_Map", "EV_Accessibility"],
+    "causal_chain": "The Rs 69,999 price point makes EVs accessible to first-time scooter buyers, but the limited range and speed mean these customers experience poor EV impression, potentially damaging long-term brand perception",
+    "category": "Product_Positioning"
+  },
+  {
+    "insight": "Ather Rizta at Rs 109,000 defines a new 'Family EV Scooter' category with 56L boot space (largest in EV scooters), 2.9kWh battery, and 123 km range. No competitor directly matches this family-focused positioning.",
+    "source_file": "market/PRODUCT_SPECS_COMPARISON.csv",
+    "source_cells": "Row 15 (Rizta): Price=109000, Battery=2.9kWh, Range=123km, Boot_Space=56L",
+    "connects_to": ["Ather_Product_Differentiation", "Ather_Family_Positioning", "Segment_Innovation"],
+    "causal_chain": "Ather identified that families need storage space (56L boot fits two helmets) more than speed, creating a differentiated position that competitors (focused on performance) have not addressed",
+    "category": "Product_Positioning"
+  },
+  {
+    "insight": "Bajaj Chetak 3201 at Rs 140,000 features a full metal body construction (unique among plastic-body EV scooters), delivering premium feel and durability perception. However, it is the heaviest in its class (126 kg) and slowest at 73 kmph top speed.",
+    "source_file": "market/PRODUCT_SPECS_COMPARISON.csv",
+    "source_cells": "Row 10 (Chetak 3201): Price=140000, Speed=73kmph, Weight=126kg; Row 11 (Chetak 2901): Weight=124kg; all other models 93-123kg",
+    "connects_to": ["Bajaj_Product_Differentiation", "Bajaj_Metal_Body_Advantage", "Product_Specs_Tradeoff"],
+    "causal_chain": "Metal body signals durability and premium quality (aligned with Bajaj's brand trust), but adds 20-33 kg vs competitors, reducing range and performance - a deliberate tradeoff prioritizing build quality over specs",
+    "category": "Product_Positioning"
+  },
+  {
+    "insight": "Ola's product mix shifted dramatically from 35% premium S1 Pro (Q1 FY25) to 75% low-end S1 X (Q3 FY26), destroying blended ASP from Rs 135,000 to Rs 89,000 (-34%). This was a defensive move to maintain volume as premium buyers fled due to service concerns.",
+    "source_file": "ola/PRODUCT_MIX_QUARTERLY.csv",
+    "source_cells": "Row 2: S1_Pro_Pct=35, S1_X_Pct=15, ASP=135000; Row 8: S1_Pro_Pct=6, S1_X_Pct=75, ASP=89000",
+    "connects_to": ["Ola_Product_Mix_Shift", "Ola_Revenue_Collapse", "ASP_Deterioration", "Service_Crisis_Impact"],
+    "causal_chain": "As premium customers (S1 Pro buyers) abandoned Ola due to service complaints, Ola was forced to sell more low-end S1 X models to budget-conscious customers, creating a self-reinforcing revenue decline and brand devaluation",
+    "category": "Product_Positioning"
+  },
+  {
+    "insight": "TVS has the most coherent EV lineup with three iQube models covering Rs 115,000 (Base) to Rs 171,000 (ST), all sharing the same platform and maintaining consistent 4.5 kWh-ish battery range. This platform consolidation delivers manufacturing cost advantages.",
+    "source_file": "market/PRODUCT_SPECS_COMPARISON.csv",
+    "source_cells": "Row 7-9 (iQube ST/S/Base): Price=171000/128000/115000, Battery=5.3/3.4/2.2, Range=250/170/100",
+    "connects_to": ["TVS_Platform_Strategy", "TVS_Product_Portfolio", "Manufacturing_Efficiency"],
+    "causal_chain": "TVS's 3-model iQube family on shared architecture achieves economies of scale that Ola's 5 separate S1 variants cannot match, giving TVS better cost structure despite lower per-unit prices",
+    "category": "Product_Positioning"
+  },
+  {
+    "insight": "Ola's blended revenue per unit in FY26 at Rs 223,902 is misleadingly high because it reflects the sharp volume decline (164K units, -52% YoY) as low-end models were discontinued. In reality, product mix shifted to lower ASPs during the year (Q4 FY26 ASP Rs 90,000).",
+    "source_file": "market/COMPETITOR_EV_METRICS.csv",
+    "source_cells": "Row 4: Ola_FY26 = 223902; Row 3: Ola_FY26 Units = 164000, Ola_FY25 Units = 340000",
+    "connects_to": ["Ola_Revenue_Per_Unit", "Revenue_Quality", "ASP_Misinterpretation"],
+    "causal_chain": "The high FY26 blended ASP reflects a partial year of premium inventory clearance and discontinued low-end models, not genuine premium positioning strength - competitors like Ather (Rs 139,582/unit) have more sustainable mix",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Ather's -6.7% EV EBITDA margin in FY26 is dramatically better than Ola's deeply negative (estimated -30%+), proving the pure-play EV model can approach profitability. Ather targets full profitability by FY28, becoming the first pure-play EV profitable company.",
+    "source_file": "market/EV_SEGMENT_COMPARISON.csv",
+    "source_cells": "Row 7, Col Ather = -6.7%; Row 11, Col Ather = 'FY28 (target)'; Row 7, Col Ola = 'Deep Negative'",
+    "connects_to": ["Ather_Profitability_Path", "EV_Profitability_Path", "Ather_Financial_Discipline"],
+    "causal_chain": "Ather's controlled expansion (700 centers vs Ola's 900+), focus on premium segment, and software revenue from Ather Grid are creating a viable unit economics model that Ola's volume-at-any-cost approach failed to achieve",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Bajaj's FY26 standalone EBITDA margin was 20.5%, the highest among all competitors, reflecting its legendary cost efficiency (TPM-certified manufacturing). TVS at 12.9% and Hero at 14.7% are also strong, but Bajaj's margin leadership is structural.",
+    "source_file": "market/COMPETITOR_EV_METRICS.csv",
+    "source_cells": "Row 9: Bajaj_FY26=20.5, TVS_FY26=12.9, Hero_FY26=14.7",
+    "connects_to": ["Bajaj_Cost_Advantage", "Bajaj_Manufacturing_Excellence", "Profit_Moat"],
+    "causal_chain": "Bajaj's 20.5% EBITDA margin means it can absorb EV losses or fund price wars indefinitely. Even if Chetak EV margins were 0%, the ICE business generates massive surplus to fund EV transition",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Ola's quarterly losses stabilized at Rs 400-500 Cr range through FY26, significantly improved from the Rs 870 Cr loss in Q4 FY25. With Rs 828 Cr (Jun-25) dropping to Rs 470 Cr (Dec-25) quarterly sales, however, loss-per-rupee-revenue remains extremely high.",
+    "source_file": "ola/QUATERS.csv",
+    "source_cells": "Row 7, Col Mar-25 = -870, Row 7 Col Jun-25 = -428, Row 7 Col Sep-25 = -418, Row 7 Col Dec-25 = -487",
+    "connects_to": ["Ola_Financial_Vulnerability", "Loss_Trend", "Cost_Structure"],
+    "causal_chain": "Ola's cost base (Rs 741 Cr expenses on Rs 470 Cr revenue in Dec-25) is too high for the current scale. The company needs either 2x volume or 50% cost reduction to approach breakeven at current ASPs",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "The CCPA received 10,000+ formal complaints against Ola Electric, making it one of the top 5 most complained-about companies across all sectors on the National Consumer Helpline. This is unprecedented for an automotive company in India.",
+    "source_file": "ola/CUSTOMER_SENTIMENT.csv",
+    "source_cells": "Row 4: Formal Complaints = 10000+ (Oct-2024); Row 12: Complaint Volume Rank = Top 5 among all companies",
+    "connects_to": ["Service_Crisis_Impact", "Trust_Erosion", "Regulatory_Risk", "Ola_Reputation_Crisis"],
+    "causal_chain": "10,000+ formal complaints triggered a CCPA show-cause notice, which triggered MHI subsidy investigation, which created media coverage that drove market share from 26% to 16% - a cascading regulatory and reputational crisis",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Ola's Net Promoter Score is estimated to be negative (below 0), meaning more customers are detractors than promoters. TVS iQube app rating is 4.2/5, Ather 4.0/5, Ola Electric 3.2/5 - a 1-point gap that translates to dramatically different word-of-mouth.",
+    "source_file": "ola/CUSTOMER_SENTIMENT.csv",
+    "source_cells": "Row 15: NPS = Negative (below 0); Row 2: Ola App Rating = 3.2/5.0; Row 16: TVS iQube = 4.2/5.0; Row 17: Ather = 4.0/5.0",
+    "connects_to": ["Trust_Erosion", "Customer_Sentiment", "Brand_Equity_Destruction"],
+    "causal_chain": "Negative NPS creates a self-reinforcing cycle: unhappy customers don't recommend, new buyers choose competitors, volumes decline, service infrastructure becomes underutilized, further degrading service quality",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Reddit community r/ElectricVehicles consistently recommends Ather and TVS over Ola. This peer influence has outsized impact on first-time EV buyers who research online before purchasing, directly driving Ola's market share erosion among informed buyers.",
+    "source_file": "ola/CUSTOMER_SENTIMENT.csv",
+    "source_cells": "Row 10: Reddit Sentiment = Negative; 'Community recommends Ather/TVS over Ola consistently'",
+    "connects_to": ["Trust_Erosion", "Online_Reputation", "Purchase_Influence"],
+    "causal_chain": "First-time EV buyers heavily rely on online communities. When a critical mass of community members recommends against Ola, it creates a structural demand barrier that price cuts alone cannot overcome",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Consumer courts have consistently ruled against Ola Electric, ordering full refunds plus Rs 10,000-50,000 compensation per case. Courts cited 'pattern of neglect' in their rulings. With 500+ estimated post-IPO cases, total liability could exceed Rs 25 Cr in compensation alone.",
+    "source_file": "ola/CUSTOMER_SENTIMENT.csv",
+    "source_cells": "Row 6: Cases Filed Estimated Post-IPO = 500+; Row 7: Typical Ruling = Full refund + Rs 10000-50000 compensation; Row 7 Notes = 'pattern of neglect'",
+    "connects_to": ["Legal_Risk", "Trust_Erosion", "Financial_Liability", "Service_Crisis_Impact"],
+    "causal_chain": "Adverse legal rulings compound reputational damage - each court case becomes a news item that reaches potential buyers, making them question Ola's reliability and customer commitment",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Ola's Hyperservice initiative (1000+ service vans + AI diagnostics launched Q1 FY26) claimed 50% backlog reduction and 80% same-day resolution by Q3 FY26. However, these are self-reported and unverified, and market share only recovered to 16% from 9% trough.",
+    "source_file": "ola/SERVICE_CRISIS_TIMELINE.csv",
+    "source_cells": "Row 11: Hyperservice deployed Q1-FY26; Row 12: 50% backlog reduction, 80% same-day resolution claimed; Row 12: Market share 9%, Row 13: recovered to 16%",
+    "connects_to": ["Hyperservice_Impact", "Service_Recovery", "Trust_Rebuilding"],
+    "causal_chain": "While Hyperservice improved operational metrics, trust recovery lags actual service improvement by 6-12 months because customers only trust consistent positive experiences over multiple service visits",
+    "category": "Service_Network"
+  },
+  {
+    "insight": "Ola's sales trajectory shows stabilization in Q4 FY26 (39,000 units, Rs 520 Cr) compared to Q2 FY26 trough (32,000 units, Rs 450 Cr). The Gen 3 S1 launch and service improvements are showing early signs of volume recovery, but at 39K/quarter vs 108K/quarter peak.",
+    "source_file": "ola/PRODUCT_MIX_QUARTERLY.csv",
+    "source_cells": "Row 7 (Q2_FY26): Units=32000, Revenue=450; Row 9 (Q4_FY26): Units=39000, Revenue=520; Row 2 (Q1_FY25): Units=108000, Revenue=1644",
+    "connects_to": ["Ola_Recovery_Signs", "Gen_3_Impact", "Volume_Trajectory"],
+    "causal_chain": "Q4 FY26 stabilization (39K units) suggests Ola may have found a floor, but at 36% of peak quarterly volume (108K), the company needs to nearly 3x current sales to return to FY25-level revenue",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Ola's outstanding shares increased from 195.54 Cr (Mar-24) to 441.08 Cr (Mar-25) - a 126% dilution in one year. This was driven by the IPO and follow-on fundraising. The pre-IPO investor overhang (SoftBank, Tiger Global) threatens further dilution as lockup expires.",
+    "source_file": "ola/BALANCE_SHEET.csv",
+    "source_cells": "Row 2, Col D (Mar-24) = 1955.45 (x10 = 195.54 Cr shares), Col F (Mar-25) = 4411 (x10 = 441.08 Cr shares); SHAREHOLDING_PATTERN Row 7: SoftBank+Tiger Global lockup expiry",
+    "connects_to": ["Ola_Financial_Vulnerability", "Share_Dilution", "Funding_Runway", "Investor_Confidence"],
+    "causal_chain": "Massive dilution means even if Ola recovers revenue, per-share earnings will be significantly lower. Every new fundraising round further dilutes existing shareholders, creating a downward pressure on stock price",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Ather's EV EBITDA at -6.7% in FY26 is rapidly approaching breakeven, improving from -24% in FY25 and -60% in FY24. At current trajectory, Ather would reach positive EBITDA in FY27-28, becoming the first profitable pure-play EV company in India.",
+    "source_file": "market/COMPETITOR_EV_METRICS.csv",
+    "source_cells": "Row 5 (EV EBITDA Margin): Ather_FY24=-60, Ather_FY25=-24, Ather_FY26=-6.7",
+    "connects_to": ["Ather_Profitability_Path", "EV_Profitability_Path", "Operating_Leverage"],
+    "causal_chain": "Ather's 53 percentage point EBITDA improvement over 3 years (-60% to -6.7%) demonstrates a clear path to profitability through scale-led fixed cost absorption, unlike Ola where path to breakeven remains unclear",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Bajaj Auto's FY26 operating cash flow turned positive at Rs 2,597 Cr after a negative Rs 1,406 Cr in FY25 (caused by EV inventory build-up). The recovery demonstrates Bajaj's ability to manage EV transition without sacrificing cash generation.",
+    "source_file": "bajaj/CASH_FLOW_AND_DERIVED.csv",
+    "source_cells": "Row 2, Col I (Mar-25) = -1405.57, Col J (Mar-26) = 2596.6",
+    "connects_to": ["Bajaj_Financial_Firepower", "Bajaj_Cash_Generation", "EV_Transition_Management"],
+    "causal_chain": "Bajaj's negative FY25 operating cash flow was a temporary EV inventory buildup, not a structural problem. The quick return to positive Rs 2,597 Cr shows strong working capital management and underlying business health",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "TVS EV Market share at 23% (FY26) is the highest in the segment. Combined with Bajaj at 21%, these two legacy players now control 44% of the EV scooter market. In FY23, their combined EV share was near zero - a remarkable 2-year transformation.",
+    "source_file": "market/EV_SEGMENT_COMPARISON.csv",
+    "source_cells": "Row 7: TVS=23.0%, Bajaj=21.0%; market/COMPETITOR_EV_METRICS.csv Row 3: TVS_EV_FY24=190000 units (vs 330000 Ola suggests ~20% share for TVS in FY24)",
+    "connects_to": ["Legacy_Dominance", "Market_Share_Shift", "TVS_Market_Share_Lead"],
+    "causal_chain": "Legacy OEMs initially dismissed EVs, allowing Ola to capture 47% share. In FY24-26, they leveraged manufacturing muscle and dealer networks to rapidly gain share, demonstrating that in EV transition, incumbency advantages compound over time",
+    "category": "Market_Share"
+  },
+  {
+    "insight": "Hero Vida's deeply negative EV EBITDA (estimated -95%) means Hero is likely spending Rs 900+ for every Rs 100 of Vida revenue. However, Hero's Rs 19,286 Cr in investments and Rs 8,315 Cr annual operating cash flow can sustain this for many years.",
+    "source_file": "market/COMPETITOR_EV_METRICS.csv",
+    "source_cells": "Row 5: Hero_EV_FY26 EBITDA = 'double-digit+'... Row 5 actually shows '-95' for Hero_EV_FY26; Row 9: Hero Parent EBITDA margin = 14.7%",
+    "connects_to": ["Hero_EV_Investment", "Hero_Financial_Firepower", "EV_Profitability_Path"],
+    "causal_chain": "Hero is treating Vida as a long-term strategic investment, accepting 95%+ EBITDA losses to build market share (206% YoY growth to 150K units). This is a viable strategy only because of Hero's massive cash reserves",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Ola's battery cost reduced from $130/kWh (imported cells, FY25) to $85/kWh (in-house NMC 4680, Q4 FY26) - a 35% reduction directly enabling gross margin expansion from 12% to 36%. This is Ola's most significant competitive advantage.",
+    "source_file": "ola/PRODUCT_MIX_QUARTERLY.csv",
+    "source_cells": "Row 2 (Q1_FY25): Battery_Cost=130, Cell_Source=Imported; Row 9 (Q4_FY26): Battery_Cost=85, Cell_Source='Mixed (NMC + LFP 46100 pilot)'; Row 2 Gross_Margin=18, Row 9 Gross_Margin=36",
+    "connects_to": ["Ola_Vertical_Integration", "Battery_Cost_Reduction", "Gross_Margin_Improvement", "Ola_Cell_Manufacturing"],
+    "causal_chain": "In-house cell manufacturing at the Gigafactory gives Ola a structural cost advantage that competitors buying cells from LG/CATL cannot match, potentially enabling profitable pricing below competitor cost base once volumes recover",
+    "category": "Unfair_Advantage"
+  },
+  {
+    "insight": "Ather's revenue per unit at Rs 139,582 (FY26) is higher than TVS (Rs 126,686) and Hero (Rs 100,000), but lower than Ola's blended Rs 223,902 (distorted by mix). Ather maintains consistent premium positioning without extreme price cuts.",
+    "source_file": "market/COMPETITOR_EV_METRICS.csv",
+    "source_cells": "Row 4: Ather_FY26=139582, TVS_EV_FY26=126686, Hero_EV_FY26=100000, Bajaj_EV_FY26=138408",
+    "connects_to": ["Ather_Premium_Positioning", "Pricing_Discipline", "Brand_Equity"],
+    "causal_chain": "Ather's consistent Rs 140K ASP without deep discounting proves that premium EV positioning is viable at scale, unlike Ola's strategy of undercutting on entry price which destroyed brand value",
+    "category": "Product_Positioning"
+  },
+  {
+    "insight": "Ola's S1 Pro (Rs 135,000) directly competes with Ather 450S (Rs 148,000), Bajaj Chetak 3201 (Rs 140,000), and TVS iQube S (Rs 128,000) in the hotly contested mid-premium segment (Rs 120K-150K). This is the most competitive price band with 4 competitors.",
+    "source_file": "market/PRODUCT_SPECS_COMPARISON.csv",
+    "source_cells": "Row 3 (S1 Pro): 135000; Row 14 (450S): 148000; Row 10 (Chetak 3201): 140000; Row 8 (iQube S): 128000",
+    "connects_to": ["Price_Band_Map", "Mid_Premium_Segment", "Competitive_Intensity"],
+    "causal_chain": "The Rs 120K-150K band is the EV industry's battleground - it's where margin meets volume. The winner in this band will dominate the Indian EV scooter market long-term",
+    "category": "Product_Positioning"
+  },
+  {
+    "insight": "Ather has the most aggressive EV profitability target (FY28), compared to Bajaj already profitable, and Hero targeting FY28+ (at 25-30K/month volume). Ola has no disclosed profitability timeline, reflecting fundamental uncertainty about its path.",
+    "source_file": "market/EV_SEGMENT_COMPARISON.csv",
+    "source_cells": "Row 11: Ather='FY28 (target)', Bajaj='Already profitable', Hero='FY28+ (target 25-30K/month)', Ola='Unknown'",
+    "connects_to": ["EV_Profitability_Path", "Ather_Financial_Discipline", "Ola_Strategic_Uncertainty"],
+    "causal_chain": "A clear profitability timeline (FY28) gives Ather better access to capital markets. Ola's 'Unknown' timeline signals to investors that management lacks visibility on when the company will be self-sustaining",
+    "category": "Competitor_Financial"
+  },
+  {
+    "insight": "Bajaj's TPM-certified dealer network (1,217 out of 1,480+ dealers) means 82% of Bajaj dealers meet the global gold standard for service quality. This is the most professionally managed dealer network among all competitors, directly explaining the Rs 400 lowest service cost.",
+    "source_file": "market/SERVICE_NETWORK_COMPARISON.csv",
+    "source_cells": "Row 3 (Bajaj): Total_Dealer_Network = 1480+ dealers (1217 TPM-certified); Service_Cost_Per_Visit_INR = 400",
+    "connects_to": ["Bajaj_Service_Quality", "Bajaj_Cost_Advantage", "TPM_Excellence", "Service_Network_Moat"],
+    "causal_chain": "TPM (Total Productive Maintenance) certification standardizes service processes across 1,217 dealers, enabling consistent low-cost, fast service that pure-play EV companies cannot match due to smaller, less standardized networks",
+    "category": "Service_Network"
+  },
+  {
+    "insight": "Ola's FY26 EV unit decline of -52% (340K to 164K) is the steepest annual decline for any major automotive brand in India, surpassing even COVID-era drops. For context, the entire EV segment grew ~30% in FY26, meaning Ola lost massive market share.",
+    "source_file": "market/COMPETITOR_EV_METRICS.csv",
+    "source_cells": "Row 3: Ola_FY25=340000, Ola_FY26=164000 (-52%); EV_SEGMENT Row 8: Ather +75%, TVS +33%, Bajaj +25%, Hero +206% YoY",
+    "connects_to": ["Ola_Revenue_Collapse", "Market_Share_Shift", "Service_Crisis_Impact"],
+    "causal_chain": "While the entire EV scooter market expanded ~30%, Ola's 52% volume decline means it didn't just lose relative share - it lost absolute customers who permanently switched to competitors",
+    "category": "Market_Share"
+  }
+]
